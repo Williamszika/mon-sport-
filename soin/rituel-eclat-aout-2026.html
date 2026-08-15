@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rituel Éclat · Août 2026 — Planning &amp; Mode d'emploi</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --porcelain:#FBF3EF;--card:#FFFDFB;--plum:#43222E;--plum-soft:#7A5561;
+    --line:#EBDDD6;--honey:#DBA043;--honey-tint:#FBEED6;
+    --rose:#C4718A;--rose-tint:#F6E1E7;--sage:#7B9A82;--sage-tint:#E1EBE1;
+    --peel:#8E7CC3;--peel-tint:#ECE6F5;
+    --shadow:0 1px 2px rgba(67,34,46,.04),0 12px 32px rgba(67,34,46,.06);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{font-family:"Nunito Sans",system-ui,sans-serif;color:var(--plum);background:var(--porcelain);
+    line-height:1.55;padding:32px 20px 56px}
+  .wrap{max-width:880px;margin:0 auto}
+
+  /* Header */
+  header{position:relative;text-align:center;padding:34px 16px 28px;overflow:hidden;margin-bottom:22px}
+  .glow{position:absolute;inset:auto 0 -60% 0;height:200%;
+    background:radial-gradient(60% 55% at 50% 22%,rgba(219,160,67,.30),rgba(196,113,138,.14) 45%,transparent 70%);
+    pointer-events:none;z-index:0}
+  header>*{position:relative;z-index:1}
+  .eyebrow{font-size:.72rem;letter-spacing:.32em;text-transform:uppercase;font-weight:700;color:var(--plum-soft);margin-bottom:13px}
+  h1{font-family:"Fraunces",serif;font-weight:500;font-size:clamp(2.3rem,7vw,3.4rem);line-height:1.03;letter-spacing:-.01em}
+  h1 em{font-style:italic;color:var(--honey)}
+  .tagline{margin-top:12px;color:var(--plum-soft);font-size:1.02rem}
+  .tagline b{color:var(--plum);font-weight:700}
+
+  /* Divider heading */
+  .divider{text-align:center;margin:38px 0 20px;position:relative}
+  .divider::before{content:"";position:absolute;top:50%;left:0;right:0;height:1px;background:var(--line)}
+  .divider span{position:relative;background:var(--porcelain);padding:0 18px;
+    font-family:"Fraunces",serif;font-weight:500;font-size:1.5rem}
+
+  /* Calendar */
+  .cal-head{display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:14px;padding:0 4px}
+  .cal-head h2{font-family:"Fraunces",serif;font-weight:500;font-size:1.7rem}
+  .legend{display:flex;gap:16px;flex-wrap:wrap;font-size:.8rem;color:var(--plum-soft)}
+  .legend span{display:inline-flex;align-items:center;gap:7px}
+  .dot{width:11px;height:11px;border-radius:50%;flex:0 0 auto;print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .dot.ret{background:var(--rose)}.dot.gom{background:var(--sage)}.dot.peel{background:var(--peel)}
+  .cal-grid{background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;box-shadow:var(--shadow)}
+  .dow{display:grid;grid-template-columns:repeat(7,1fr);background:#F5E9E2}
+  .dow div{text-align:center;padding:9px 2px;font-size:.72rem;font-weight:800;letter-spacing:.08em;
+    text-transform:uppercase;color:var(--plum-soft);print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .weeks{display:grid;grid-template-columns:repeat(7,1fr)}
+  .day{min-height:74px;border-top:1px solid var(--line);border-left:1px solid var(--line);
+    padding:6px 6px 7px;position:relative;display:flex;flex-direction:column;gap:5px}
+  .day:nth-child(7n+1){border-left:none}
+  .day.empty{background:#FCF7F3}
+  .date{font-weight:800;font-size:.9rem;color:var(--plum)}
+  .day.today{background:var(--honey-tint);print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .day.today .date{color:#B67C22}
+  .today-badge{position:absolute;top:6px;right:6px;font-size:.56rem;font-weight:800;letter-spacing:.04em;
+    text-transform:uppercase;color:#B67C22;background:#fff;border:1px solid var(--honey);border-radius:999px;
+    padding:1px 6px;print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .tags{display:flex;flex-direction:column;gap:4px;margin-top:auto}
+  .tag{display:inline-flex;align-items:center;gap:6px;font-size:.68rem;font-weight:700;padding:2px 7px;
+    border-radius:6px;line-height:1.35;print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .tag.ret{background:var(--rose-tint);color:#9E4A64}.tag.gom{background:var(--sage-tint);color:#4E6E57}.tag.peel{background:var(--peel-tint);color:#6B559E}
+  .tag .tdot{width:7px;height:7px;border-radius:50%;flex:0 0 auto}
+  .tag.ret .tdot{background:var(--rose)}.tag.gom .tdot{background:var(--sage)}.tag.peel .tdot{background:var(--peel)}
+
+  /* Usage sections */
+  .section{margin-top:26px}
+  .sec-head{display:flex;align-items:center;gap:11px;margin-bottom:6px}
+  .sec-head .ico{font-size:1.4rem;line-height:1}
+  .sec-head h2{font-family:"Fraunces",serif;font-weight:500;font-size:1.65rem}
+  .sec-intro{color:var(--plum-soft);font-size:.92rem;margin:0 0 16px 51px}
+  @media(max-width:480px){.sec-intro{margin-left:0}}
+  .subhead{display:inline-flex;align-items:center;gap:8px;font-size:.74rem;font-weight:800;letter-spacing:.06em;
+    text-transform:uppercase;padding:5px 12px;border-radius:999px;margin:6px 0 12px;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .subhead.rose{background:var(--rose-tint);color:#9E4A64}.subhead.calm{background:var(--sage-tint);color:#4E6E57}.subhead.peel{background:var(--peel-tint);color:#6B559E}
+
+  .step-card{display:flex;background:var(--card);border:1px solid var(--line);border-radius:16px;
+    box-shadow:var(--shadow);overflow:hidden;margin-bottom:12px}
+  .rail{flex:0 0 54px;display:flex;justify-content:center;padding-top:20px;background:#FCF6F2;border-right:1px solid var(--line)}
+  .badge{width:34px;height:34px;border-radius:50%;background:var(--honey-tint);color:var(--honey);font-weight:800;
+    font-size:.95rem;display:flex;align-items:center;justify-content:center;print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .badge.rose{background:var(--rose-tint);color:#9E4A64}.badge.calm{background:var(--sage-tint);color:#4E6E57}.badge.peel{background:var(--peel-tint);color:#6B559E}
+  .step-body{flex:1;padding:16px 18px}
+  .top{display:flex;align-items:baseline;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:6px}
+  .top h3{font-size:1.08rem;font-weight:800;letter-spacing:-.01em}
+  .dose{flex:0 0 auto;font-size:.72rem;font-weight:800;letter-spacing:.02em;padding:3px 10px;border-radius:999px;
+    background:var(--honey-tint);color:#B67C22;white-space:nowrap;print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .dose.rose{background:var(--rose-tint);color:#9E4A64}.dose.calm{background:var(--sage-tint);color:#4E6E57}.dose.peel{background:var(--peel-tint);color:#6B559E}
+  .how{font-size:.95rem;color:var(--plum)}.how b{font-weight:800}
+  .tip{margin-top:9px;font-size:.86rem;color:var(--plum-soft);display:flex;gap:8px;padding-top:9px;border-top:1px dashed var(--line)}
+  .tip .lab{flex:0 0 auto;font-weight:800;color:var(--honey);text-transform:uppercase;letter-spacing:.05em;font-size:.72rem;padding-top:1px}
+  .tip.warn .lab{color:#B24A4A}
+
+  /* Timing chip */
+  .wait{margin-top:9px;display:inline-flex;align-items:flex-start;gap:6px;font-size:.82rem;font-weight:700;
+    color:#B67C22;background:var(--honey-tint);padding:5px 11px;border-radius:9px;line-height:1.4;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+
+  /* Layering flows */
+  .flow-title{font-weight:800;font-size:.98rem;margin:16px 0 9px;display:flex;align-items:center;gap:9px;flex-wrap:wrap}
+  .flow-title .pill{font-size:.66rem;font-weight:800;letter-spacing:.05em;text-transform:uppercase;padding:3px 10px;
+    border-radius:999px;print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .flow-title .pill.am{background:var(--honey-tint);color:#B67C22}
+  .flow-title .pill.pm{background:var(--rose-tint);color:#9E4A64}
+  .flow-title .pill.calm{background:var(--sage-tint);color:#4E6E57}
+  .flow{display:flex;flex-direction:column;align-items:flex-start;margin:2px 0 12px}
+  .fnode{background:#fff;border:1px solid var(--line);border-left:3px solid var(--honey);border-radius:10px;
+    padding:8px 14px;font-weight:800;font-size:.9rem}
+  .fnode small{display:block;font-weight:600;font-size:.74rem;color:var(--plum-soft);margin-top:1px}
+  .flow.pm .fnode{border-left-color:var(--rose)}
+  .fwait{margin-left:20px;padding:6px 0 6px 16px;position:relative;font-size:.78rem;font-weight:700;color:#B67C22}
+  .fwait::before{content:"";position:absolute;left:0;top:0;bottom:0;width:2px;background:var(--honey);opacity:.45}
+
+  /* Compatibilities */
+  .combo{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:18px}
+  .combo .box{border:1px solid var(--line);border-radius:14px;padding:16px 18px;background:var(--card);box-shadow:var(--shadow)}
+  .combo h4{font-size:1rem;font-weight:800;margin-bottom:11px}
+  .combo .yes h4{color:#4E6E57}
+  .combo .no h4{color:#B24A4A}
+  .combo ul{list-style:none;display:grid;gap:9px}
+  .combo li{font-size:.88rem;display:flex;gap:8px;align-items:flex-start;color:var(--plum)}
+  .combo li .mk{flex:0 0 auto;font-weight:800}
+  .combo .yes li .mk{color:#5B8465}
+  .combo .no li .mk{color:#C25A5A}
+
+  /* Recap */
+  .recap{margin-top:34px;background:var(--plum);border-radius:18px;padding:26px 26px 22px;color:#F7ECEC}
+  .recap h2{font-family:"Fraunces",serif;font-weight:500;font-size:1.45rem;color:#fff;margin-bottom:15px}
+  .recap ul{list-style:none;display:grid;gap:11px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+  .recap li{display:flex;gap:11px;font-size:.92rem;align-items:flex-start}
+  .recap li::before{content:"";flex:0 0 8px;height:8px;border-radius:50%;background:var(--honey);margin-top:8px;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .recap li b{color:#fff}
+
+  footer{text-align:center;margin-top:26px;font-size:.78rem;color:var(--plum-soft)}
+
+  @media(max-width:560px){
+    body{padding:20px 12px 40px}
+    .day{min-height:60px;padding:5px 4px 6px}
+    .tag span.txt{display:none}
+    .tag{padding:3px;border-radius:50%}
+    .tag .tdot{width:9px;height:9px}
+    .today-badge{display:none}
+    .combo{grid-template-columns:1fr}
+  }
+  @media print{
+    body{background:#fff;padding:0;font-size:12px}
+    .glow{display:none}
+    .cal-grid,.step-card,.recap,.combo .box,.fnode{box-shadow:none;break-inside:avoid}
+    .recap{background:#fff;color:var(--plum);border:1px solid var(--line)}
+    .recap h2,.recap li b{color:var(--plum)}
+    .divider span{background:#fff}
+    header{padding:14px 0 8px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="glow"></div>
+    <div class="eyebrow">Visage &amp; corps · Balea</div>
+    <h1>Rituel <em>Éclat</em><br>Août 2026</h1>
+    <p class="tagline">Le guide complet pour un teint <b>lumineux, chaud et uniforme</b> — gestes, temps de pause &amp; combinaisons.</p>
+  </header>
+
+  <!-- CALENDRIER -->
+  <section>
+    <div class="cal-head">
+      <h2>Le calendrier</h2>
+      <div class="legend">
+        <span><i class="dot ret"></i> Rétinol (soir)</span>
+        <span><i class="dot gom"></i> Gommage corps</span>
+        <span><i class="dot peel"></i> Peeling visage (1×/sem.)</span>
+      </div>
+    </div>
+    <div class="cal-grid">
+      <div class="dow"><div>Lun</div><div>Mar</div><div>Mer</div><div>Jeu</div><div>Ven</div><div>Sam</div><div>Dim</div></div>
+      <div class="weeks">
+        <div class="day empty"></div>
+        <div class="day empty"></div>
+        <div class="day empty"></div>
+        <div class="day empty"></div>
+        <div class="day empty"></div>
+        <div class="day"><span class="date">1</span></div>
+        <div class="day"><span class="date">2</span><div class="tags"><span class="tag gom" title="Gommage corps"><i class="tdot"></i><span class="txt">Gommage</span></span><span class="tag peel" title="Peeling visage"><i class="tdot"></i><span class="txt">Peeling</span></span></div></div>
+        <div class="day"><span class="date">3</span></div>
+        <div class="day"><span class="date">4</span><div class="tags"><span class="tag ret" title="Rétinol"><i class="tdot"></i><span class="txt">Rétinol</span></span></div></div>
+        <div class="day"><span class="date">5</span><div class="tags"><span class="tag gom" title="Gommage corps"><i class="tdot"></i><span class="txt">Gommage</span></span></div></div>
+        <div class="day"><span class="date">6</span></div>
+        <div class="day"><span class="date">7</span><div class="tags"><span class="tag ret" title="Rétinol"><i class="tdot"></i><span class="txt">Rétinol</span></span></div></div>
+        <div class="day"><span class="date">8</span></div>
+        <div class="day"><span class="date">9</span><div class="tags"><span class="tag gom" title="Gommage corps"><i class="tdot"></i><span class="txt">Gommage</span></span><span class="tag peel" title="Peeling visage"><i class="tdot"></i><span class="txt">Peeling</span></span></div></div>
+        <div class="day"><span class="date">10</span></div>
+        <div class="day"><span class="date">11</span><div class="tags"><span class="tag ret" title="Rétinol"><i class="tdot"></i><span class="txt">Rétinol</span></span></div></div>
+        <div class="day"><span class="date">12</span><div class="tags"><span class="tag gom" title="Gommage corps"><i class="tdot"></i><span class="txt">Gommage</span></span></div></div>
+        <div class="day"><span class="date">13</span></div>
+        <div class="day"><span class="date">14</span><div class="tags"><span class="tag ret" title="Rétinol"><i class="tdot"></i><span class="txt">Rétinol</span></span></div></div>
+        <div class="day"><span class="date">15</span></div>
+        <div class="day"><span class="date">16</span><div class="tags"><span class="tag gom" title="Gommage corps"><i class="tdot"></i><span class="txt">Gommage</span></span><span class="tag peel" title="Peeling visage"><i class="tdot"></i><span class="txt">Peeling</span></span></div></div>
+        <div class="day"><span class="date">17</span></div>
+        <div class="day"><span class="date">18</span><div class="tags"><span class="tag ret" title="Rétinol"><i class="tdot"></i><span class="txt">Rétinol</span></span></div></div>
+        <div class="day"><span class="date">19</span><div class="tags"><span class="tag gom" title="Gommage corps"><i class="tdot"></i><span class="txt">Gommage</span></span></div></div>
+        <div class="day"><span class="date">20</span></div>
+        <div class="day"><span class="date">21</span><div class="tags"><span class="tag ret" title="Rétinol"><i class="tdot"></i><span class="txt">Rétinol</span></span></div></div>
+        <div class="day"><span class="date">22</span></div>
+        <div class="day"><span class="date">23</span><div class="tags"><span class="tag gom" title="Gommage corps"><i class="tdot"></i><span class="txt">Gommage</span></span><span class="tag peel" title="Peeling visage"><i class="tdot"></i><span class="txt">Peeling</span></span></div></div>
+        <div class="day"><span class="date">24</span></div>
+        <div class="day"><span class="date">25</span><div class="tags"><span class="tag ret" title="Rétinol"><i class="tdot"></i><span class="txt">Rétinol</span></span></div></div>
+        <div class="day"><span class="date">26</span><div class="tags"><span class="tag gom" title="Gommage corps"><i class="tdot"></i><span class="txt">Gommage</span></span></div></div>
+        <div class="day"><span class="date">27</span></div>
+        <div class="day"><span class="date">28</span><div class="tags"><span class="tag ret" title="Rétinol"><i class="tdot"></i><span class="txt">Rétinol</span></span></div></div>
+        <div class="day"><span class="date">29</span></div>
+        <div class="day"><span class="date">30</span><div class="tags"><span class="tag gom" title="Gommage corps"><i class="tdot"></i><span class="txt">Gommage</span></span><span class="tag peel" title="Peeling visage"><i class="tdot"></i><span class="txt">Peeling</span></span></div></div>
+        <div class="day"><span class="date">31</span></div>
+        <div class="day empty"></div>
+        <div class="day empty"></div>
+        <div class="day empty"></div>
+        <div class="day empty"></div>
+        <div class="day empty"></div>
+        <div class="day empty"></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider"><span>Comment utiliser mes produits</span></div>
+
+  <!-- MATIN -->
+  <section class="section">
+    <div class="sec-head"><span class="ico">☀️</span><h2>Le matin</h2></div>
+    <p class="sec-intro">Du plus léger au plus riche. On laisse chaque couche pénétrer avant la suivante.</p>
+
+    <div class="step-card">
+      <div class="rail"><span class="badge">💧</span></div>
+      <div class="step-body">
+        <div class="top"><h3>Nettoyage</h3><span class="dose">Waschgel</span></div>
+        <p class="how">Ton nettoyant de tous les jours, c'est le <b>Waschgel</b> (le gel vert, peau normale à mixte). Mouille le visage, masse une noisette en mousse légère, rince à l'eau tiède, puis sèche en tamponnant.</p>
+        <p class="tip"><span class="lab">Astuce</span><span>Le matin, ça retire le sébum de la nuit. Si ta peau tiraille, l'eau micellaire ou un simple rinçage à l'eau tiède suffit.</span></p>
+      </div>
+    </div>
+
+    <div class="step-card">
+      <div class="rail"><span class="badge">1</span></div>
+      <div class="step-body">
+        <div class="top"><h3>Sérum Vitamine C</h3><span class="dose">3–4 gouttes</span></div>
+        <p class="how">Sur peau <b>propre et sèche</b>. Chauffe les gouttes entre les doigts, puis presse doucement sur le visage et le cou (sans frotter).</p>
+        <p class="wait">⏱ Attends ~1 min que ça pénètre avant la crème.</p>
+        <p class="tip"><span class="lab">Astuce</span><span>C'est ton soin éclat : il agit mieux sur peau nue, donc en premier. Évite le contour des yeux.</span></p>
+      </div>
+    </div>
+
+    <div class="step-card">
+      <div class="rail"><span class="badge">2</span></div>
+      <div class="step-body">
+        <div class="top"><h3>Crème Niacinamide SPF 30</h3><span class="dose">Règle des 2 doigts</span></div>
+        <p class="how">Une fois le sérum absorbé, dépose des points sur le front, les joues, le nez et le menton, puis étale uniformément sur le visage et le cou.</p>
+        <p class="wait">⏱ ~2 min avant d'ajouter le SPF 50 (si tu en mets).</p>
+        <p class="tip"><span class="lab">Astuce</span><span>C'est ta crème de jour <b>et</b> ta protection de base : mets-en assez, sinon le SPF ne protège pas vraiment. La niacinamide régule la zone T et estompe les marques.</span></p>
+      </div>
+    </div>
+
+    <div class="step-card">
+      <div class="rail"><span class="badge">+</span></div>
+      <div class="step-body">
+        <div class="top"><h3>SunDance Fluide SPF 50</h3><span class="dose">Si exposition prolongée</span></div>
+        <p class="how">En <b>dernier</b>, quand tu restes longtemps dehors ou en plein soleil. Étale généreusement sur visage et cou, puis renouvelle toutes les 2 h.</p>
+        <p class="wait">⏱ Attends ~15 min avant de t'exposer au soleil.</p>
+        <p class="tip"><span class="lab">Astuce</span><span>Les jours ordinaires, la crème SPF 30 suffit. Le SPF 50 est pour la plage, les longues balades, le grand soleil.</span></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOIR -->
+  <section class="section">
+    <div class="sec-head"><span class="ico">🌙</span><h2>Le soir</h2></div>
+    <p class="sec-intro">On nettoie d'abord, puis on traite ou on hydrate — deux versions selon le jour.</p>
+
+    <div class="step-card">
+      <div class="rail"><span class="badge">💧</span></div>
+      <div class="step-body">
+        <div class="top"><h3>Nettoyage</h3><span class="dose">Double · chaque soir</span></div>
+        <p class="how"><b>1.</b> Passe l'<b>eau micellaire Garnier</b> (Hyaluron) sur un coton pour retirer le SPF et le maquillage — yeux compris. <b>2.</b> Nettoie ensuite au <b>Waschgel</b>, puis sèche bien la peau.</p>
+        <p class="tip"><span class="lab">Astuce</span><span>Après le sport, un coton d'eau micellaire suffit pour retirer la transpiration si tu ne peux pas te laver tout de suite. Le dimanche soir, remplace le Waschgel par le <b>Peeling Cleanser</b> (l'eau micellaire en premier reste possible).</span></p>
+      </div>
+    </div>
+
+    <span class="subhead rose">● Mardi &amp; Vendredi — soir rétinol</span>
+    <div class="step-card">
+      <div class="rail"><span class="badge rose">R</span></div>
+      <div class="step-body">
+        <div class="top"><h3>Sérum Collagène Rétinol</h3><span class="dose rose">1 petit pois</span></div>
+        <p class="how">Sur peau <b>bien sèche</b>. Répartis en fine couche. Évite le contour des yeux, les ailes du nez et les lèvres.</p>
+        <p class="wait">⏱ Peau bien sèche : ~10 min après le nettoyage.</p>
+        <p class="tip warn"><span class="lab">Attention</span><span>Le rétinol renouvelle la peau et lisse le grain, mais il peut irriter — d'où <b>2 soirs/semaine seulement</b>. Si ça tiraille, applique ta crème Aloe par-dessus pour apaiser.</span></p>
+      </div>
+    </div>
+
+    <span class="subhead calm">● Les autres soirs</span>
+    <div class="step-card">
+      <div class="rail"><span class="badge calm">A</span></div>
+      <div class="step-body">
+        <div class="top"><h3>Crème Aloe Vera</h3><span class="dose calm">1 noisette</span></div>
+        <p class="how">Masse doucement sur le visage et le cou.</p>
+        <p class="tip"><span class="lab">Astuce</span><span>Elle apaise, hydrate et répare pendant la nuit — parfaite pour laisser la peau se reposer entre deux soirs de rétinol.</span></p>
+      </div>
+    </div>
+
+    <span class="subhead peel">● 1×/semaine — dimanche soir · exfoliation</span>
+    <div class="step-card">
+      <div class="rail"><span class="badge peel">P</span></div>
+      <div class="step-body">
+        <div class="top"><h3>Peeling Cleanser (AHA + PHA)</h3><span class="dose peel">1×/semaine</span></div>
+        <p class="how">C'est un <b>exfoliant chimique</b>, pas un nettoyant de tous les jours. Le dimanche soir, utilise-le à la place du Waschgel : masse ~30 s–1 min sur peau humide, puis rince. Évite le contour des yeux.</p>
+        <p class="wait">⏱ Ensuite, juste ta crème Aloe pour apaiser — pas de rétinol ce soir-là.</p>
+        <p class="tip warn"><span class="lab">Attention</span><span><b>Jamais</b> les soirs de rétinol (mardi &amp; vendredi) : acides + rétinol, c'est trop pour ta peau — risque de rougeurs et de taches. Il rend aussi la peau plus sensible au soleil : SPF le lendemain sans faute. Commence à <b>1×/semaine</b> ; passe à 2× seulement si ta peau le tolère bien. Si ça tiraille, espace davantage.</span></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CORPS -->
+  <section class="section">
+    <div class="sec-head"><span class="ico">🌸</span><h2>Le corps</h2></div>
+    <p class="sec-intro">On lave, on exfolie, on hydrate, puis on fait briller — dans cet ordre.</p>
+
+    <div class="step-card">
+      <div class="rail"><span class="badge">💧</span></div>
+      <div class="step-body">
+        <div class="top"><h3>Nettoyage corps</h3><span class="dose">Chaque jour</span></div>
+        <p class="how">Sous la douche, avec un gel douche doux. Le gommage vient s'ajouter 2×/semaine (le soir) — il ne remplace pas le lavage quotidien.</p>
+      </div>
+    </div>
+
+    <div class="step-card">
+      <div class="rail"><span class="badge calm">G</span></div>
+      <div class="step-body">
+        <div class="top"><h3>Gommage</h3><span class="dose calm">Le soir · Mer. &amp; Dim.</span></div>
+        <p class="how"><b>Le soir, sous la douche</b>, sur peau humide. Masse en petits cercles, insiste sur les zones rugueuses (coudes, genoux), puis rince.</p>
+        <p class="tip"><span class="lab">Le bon moment</span><span>Le soir de préférence : tu appliques ton lait et ton huile juste après, la peau les absorbe toute la nuit et tu te réveilles douce et éclatante. Le matin marche aussi si tu veux un glow immédiat — par exemple avant le shimmer pour une occasion. 2×/semaine maximum.</span></p>
+      </div>
+    </div>
+
+    <div class="step-card">
+      <div class="rail"><span class="badge">L</span></div>
+      <div class="step-body">
+        <div class="top"><h3>Lait corps</h3><span class="dose">Chaque jour</span></div>
+        <p class="how">Sur peau encore légèrement humide en sortant de la douche, pour retenir l'hydratation. Les soirs de gommage, applique-le juste après.</p>
+      </div>
+    </div>
+
+    <div class="step-card">
+      <div class="rail"><span class="badge">H</span></div>
+      <div class="step-body">
+        <div class="top"><h3>Huile Body Beauty</h3><span class="dose">Pour le glow</span></div>
+        <p class="how">Quelques gouttes, seule ou par-dessus le lait, sur les jambes et le décolleté.</p>
+        <p class="tip"><span class="lab">Astuce</span><span>Idéale après le gommage du soir : elle nourrit en profondeur et laisse une jolie lumière sur la peau.</span></p>
+      </div>
+    </div>
+
+    <div class="step-card">
+      <div class="rail"><span class="badge">S</span></div>
+      <div class="step-body">
+        <div class="top"><h3>Fluide shimmer</h3><span class="dose">Occasions</span></div>
+        <p class="how">Une fine couche sur les zones exposées — jambes, épaules, clavicules — pour les grandes occasions.</p>
+        <p class="tip"><span class="lab">Astuce</span><span>Encore plus joli sur une peau fraîchement gommée et hydratée. À appliquer en dernier, juste avant de sortir.</span></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SUPERPOSER & COMBINER -->
+  <section class="section">
+    <div class="sec-head"><span class="ico">🧴</span><h2>Superposer &amp; combiner</h2></div>
+    <p class="sec-intro">Dans quel ordre, combien de temps attendre, et ce qui va — ou non — ensemble.</p>
+
+    <div class="flow-title"><span class="pill am">Matin</span> L'ordre &amp; les temps de pause</div>
+    <div class="flow am">
+      <div class="fnode">Nettoyage<small>peau propre &amp; sèche</small></div>
+      <div class="fwait">↓</div>
+      <div class="fnode">1 · Sérum Vitamine C<small>sur peau propre</small></div>
+      <div class="fwait">⏱ ~1 min — laisse pénétrer</div>
+      <div class="fnode">2 · Crème Niacinamide SPF 30<small>ta protection de base</small></div>
+      <div class="fwait">⏱ ~2 min (si tu ajoutes le SPF 50)</div>
+      <div class="fnode">+ · SunDance SPF 50<small>seulement si soleil prolongé</small></div>
+      <div class="fwait">⏱ ~15 min avant l'exposition · réapplique toutes les 2 h</div>
+    </div>
+
+    <div class="flow-title"><span class="pill pm">Soir · mar. &amp; ven.</span> Rétinol</div>
+    <div class="flow pm">
+      <div class="fnode">Nettoyage<small>puis on sèche bien la peau</small></div>
+      <div class="fwait">⏱ ~10 min — peau parfaitement sèche</div>
+      <div class="fnode">Sérum Collagène Rétinol<small>1 petit pois</small></div>
+      <div class="fwait">↓ si besoin — tout de suite</div>
+      <div class="fnode">Crème Aloe Vera<small>par-dessus, pour apaiser</small></div>
+    </div>
+
+    <div class="flow-title"><span class="pill calm">Soir · autres jours</span></div>
+    <div class="flow pm">
+      <div class="fnode">Nettoyage</div>
+      <div class="fwait">↓</div>
+      <div class="fnode">Crème Aloe Vera<small>1 noisette</small></div>
+    </div>
+
+    <div class="combo">
+      <div class="box yes">
+        <h4>✓ Ça va bien ensemble</h4>
+        <ul>
+          <li><span class="mk">✓</span><span><b>Vitamine C + Niacinamide</b> — le matin, aucun souci (le mythe qu'ils s'annulent est faux).</span></li>
+          <li><span class="mk">✓</span><span><b>Rétinol + Aloe</b> — l'Aloe apaise, parfaite par-dessus le rétinol.</span></li>
+          <li><span class="mk">✓</span><span><b>Le SPF par-dessus tout</b> — toujours la dernière couche du matin.</span></li>
+        </ul>
+      </div>
+      <div class="box no">
+        <h4>✕ À ne jamais mélanger</h4>
+        <ul>
+          <li><span class="mk">✕</span><span><b>Vitamine C + Rétinol</b> dans la même routine — d'où Vit. C le matin, Rétinol le soir.</span></li>
+          <li><span class="mk">✕</span><span><b>Deux actifs forts le même soir</b> — on alterne, on n'accumule pas.</span></li>
+          <li><span class="mk">✕</span><span><b>Peeling Cleanser + Rétinol</b> le même soir — les deux exfolient, garde le peeling pour le dimanche.</span></li>
+          <li><span class="mk">✕</span><span><b>Rétinol + gommage</b> sur la même zone le même jour — trop agressif (tes jours sont déjà séparés).</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- À RETENIR -->
+  <section class="recap">
+    <h2>À retenir</h2>
+    <ul>
+      <li><span><b>Toujours sur peau propre</b> — on nettoie visage et corps avant d'appliquer.</span></li>
+      <li><span><b>Du plus léger au plus riche</b> — sérum, puis crème, puis huile.</span></li>
+      <li><span><b>Laisse chaque couche pénétrer</b> (~1 min) avant la suivante, surtout avant le SPF.</span></li>
+      <li><span><b>Vitamine C le matin, Rétinol le soir</b> — jamais les deux ensemble.</span></li>
+      <li><span><b>Rétinol 2 soirs/semaine</b> seulement (mardi &amp; vendredi), sur peau bien sèche.</span></li>
+      <li><span><b>SPF chaque jour</b>, non négociable — surtout les lendemains de rétinol.</span></li>
+      <li><span><b>Chaque nettoyant a son rôle</b> : eau micellaire pour démaquiller/retirer le SPF le soir ; Waschgel tous les jours ; Peeling Cleanser 1×/semaine (jamais un soir de rétinol).</span></li>
+      <li><span><b>Gommage 2×/semaine max</b>, pour ne pas sensibiliser la peau.</span></li>
+      <li><span><b>On tapote, on ne frotte pas.</b> Ta peau marque facilement : la douceur avant tout.</span></li>
+    </ul>
+  </section>
+
+  <footer>Balea (dm) · SunDance SPF 50 — planning &amp; mode d'emploi imprimable</footer>
+
+</div>
+</body>
+</html>

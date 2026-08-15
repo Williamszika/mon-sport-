@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Programme Forme · Débutant 3 jours</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --porcelain:#FBF3EF;--card:#FFFDFB;--plum:#43222E;--plum-soft:#7A5561;
+    --line:#EBDDD6;--honey:#DBA043;--honey-tint:#FBEED6;
+    --rose:#C4718A;--rose-tint:#F6E1E7;--sage:#7B9A82;--sage-tint:#E1EBE1;
+    --shadow:0 1px 2px rgba(67,34,46,.04),0 12px 32px rgba(67,34,46,.06);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{font-family:"Nunito Sans",system-ui,sans-serif;color:var(--plum);background:var(--porcelain);
+    line-height:1.55;padding:32px 20px 56px}
+  .wrap{max-width:820px;margin:0 auto}
+
+  /* Header */
+  header{position:relative;text-align:center;padding:34px 16px 26px;overflow:hidden;margin-bottom:20px}
+  .glow{position:absolute;inset:auto 0 -60% 0;height:200%;
+    background:radial-gradient(60% 55% at 50% 22%,rgba(219,160,67,.32),rgba(196,113,138,.14) 45%,transparent 70%);
+    pointer-events:none;z-index:0}
+  header>*{position:relative;z-index:1}
+  .eyebrow{font-size:.72rem;letter-spacing:.32em;text-transform:uppercase;font-weight:700;color:var(--plum-soft);margin-bottom:13px}
+  h1{font-family:"Fraunces",serif;font-weight:500;font-size:clamp(2.3rem,7vw,3.4rem);line-height:1.03;letter-spacing:-.01em}
+  h1 em{font-style:italic;color:var(--honey)}
+  .tagline{margin-top:12px;color:var(--plum-soft);font-size:1.02rem}
+  .tagline b{color:var(--plum);font-weight:700}
+
+  /* Week strip */
+  .week-h{display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:13px;padding:0 4px}
+  .week-h h2{font-family:"Fraunces",serif;font-weight:500;font-size:1.55rem}
+  .legend{display:flex;gap:15px;flex-wrap:wrap;font-size:.8rem;color:var(--plum-soft)}
+  .legend span{display:inline-flex;align-items:center;gap:7px}
+  .dot{width:11px;height:11px;border-radius:50%;flex:0 0 auto;print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .dot.a{background:var(--honey)}.dot.b{background:var(--sage)}
+  .week{display:grid;grid-template-columns:repeat(7,1fr);gap:8px}
+  .wday{background:var(--card);border:1px solid var(--line);border-radius:13px;padding:11px 4px 12px;text-align:center;
+    box-shadow:var(--shadow);min-height:82px;display:flex;flex-direction:column;justify-content:flex-start;gap:8px}
+  .wd{font-size:.7rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--plum-soft)}
+  .wpill{font-size:.72rem;font-weight:800;padding:4px 2px;border-radius:8px;margin-top:auto;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .wday.a .wpill{background:var(--honey-tint);color:#B67C22}
+  .wday.b .wpill{background:var(--sage-tint);color:#4E6E57}
+  .wday.rest .wpill{background:#F3ECE7;color:var(--plum-soft)}
+  .kegel-banner{margin-top:10px;background:var(--rose-tint);color:#9E4A64;border-radius:11px;padding:9px 14px;
+    font-size:.86rem;font-weight:700;display:flex;align-items:center;gap:8px;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+
+  /* Session cards */
+  .sess{background:var(--card);border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow);
+    padding:20px 22px 18px;margin-top:16px;border-top:4px solid var(--honey)}
+  .sess.b{border-top-color:var(--sage)}
+  .sess-head{display:flex;align-items:center;gap:11px;flex-wrap:wrap;margin-bottom:14px}
+  .sess-tag{font-size:.68rem;font-weight:800;letter-spacing:.05em;text-transform:uppercase;padding:3px 11px;border-radius:999px;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .sess-tag.a{background:var(--honey-tint);color:#B67C22}.sess-tag.b{background:var(--sage-tint);color:#4E6E57}
+  .sess-head h3{font-family:"Fraunces",serif;font-weight:500;font-size:1.4rem}
+  .sess-days{font-size:.78rem;font-weight:700;color:var(--plum-soft);margin-left:auto}
+  .ex{display:flex;align-items:baseline;justify-content:space-between;gap:12px;padding:9px 0;border-top:1px solid var(--line)}
+  .ex:first-of-type{border-top:none}
+  .ex-name{font-size:.95rem;font-weight:600}
+  .ex-name b{font-weight:800}
+  .reps{flex:0 0 auto;font-size:.74rem;font-weight:800;padding:2px 10px;border-radius:999px;background:#F3ECE7;color:var(--plum-soft);white-space:nowrap;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .sess-note{margin-top:12px;font-size:.86rem;color:var(--plum-soft);display:flex;gap:8px;padding-top:11px;border-top:1px dashed var(--line)}
+  .sess-note .lab{flex:0 0 auto;font-weight:800;color:var(--honey);text-transform:uppercase;letter-spacing:.05em;font-size:.72rem;padding-top:1px}
+  .sess.b .sess-note .lab{color:#4E6E57}
+
+  /* Shift scheduling */
+  .shift-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+  .shift{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:15px 16px;box-shadow:var(--shadow);border-top:4px solid var(--honey)}
+  .shift.s{border-top-color:var(--sage)}
+  .shift.rest{border-top-color:#D9C9BF}
+  .shift-top{display:flex;align-items:baseline;justify-content:space-between;gap:8px;margin-bottom:9px;flex-wrap:wrap}
+  .stag{font-size:.7rem;font-weight:800;letter-spacing:.04em;text-transform:uppercase;padding:3px 10px;border-radius:999px;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .stag.f{background:var(--honey-tint);color:#B67C22}.stag.s{background:var(--sage-tint);color:#4E6E57}.stag.rest{background:#F3ECE7;color:var(--plum-soft)}
+  .shours{font-size:.74rem;font-weight:700;color:var(--plum-soft)}
+  .shift p{font-size:.89rem;color:var(--plum)}
+  .shift p b{font-weight:800}
+  .sched-note{margin-top:13px;font-size:.88rem;color:var(--plum-soft);text-align:center;padding:0 6px}
+  .sched-note b{color:var(--plum);font-weight:700}
+
+  /* Kegels highlight card */
+  .kegel{margin-top:16px;background:var(--rose-tint);border:1px solid #EBC9D4;border-radius:18px;padding:20px 22px;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .kegel h3{font-family:"Fraunces",serif;font-weight:500;font-size:1.35rem;color:#9E4A64;display:flex;align-items:center;gap:9px;margin-bottom:8px}
+  .kegel .badge{font-size:.66rem;font-weight:800;letter-spacing:.05em;text-transform:uppercase;background:#fff;color:#9E4A64;padding:3px 10px;border-radius:999px}
+  .kegel p{font-size:.93rem;color:var(--plum)}
+  .kegel b{font-weight:800}
+
+  /* Recap */
+  .recap{margin-top:30px;background:var(--plum);border-radius:18px;padding:26px 26px 22px;color:#F7ECEC}
+  .recap h2{font-family:"Fraunces",serif;font-weight:500;font-size:1.45rem;color:#fff;margin-bottom:15px}
+  .recap ul{list-style:none;display:grid;gap:11px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+  .recap li{display:flex;gap:11px;font-size:.92rem;align-items:flex-start}
+  .recap li::before{content:"";flex:0 0 8px;height:8px;border-radius:50%;background:var(--honey);margin-top:8px;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .recap li b{color:#fff}
+
+  footer{text-align:center;margin-top:26px;font-size:.78rem;color:var(--plum-soft)}
+
+  @media(max-width:560px){
+    body{padding:20px 12px 40px}
+    .week{gap:5px}
+    .wday{min-height:70px;padding:9px 2px 10px;border-radius:10px}
+    .wpill{font-size:.62rem}
+  }
+  @media print{
+    body{background:#fff;padding:0;font-size:12px}
+    .glow{display:none}
+    .wday,.sess,.kegel,.recap{box-shadow:none;break-inside:avoid}
+    .recap{background:#fff;color:var(--plum);border:1px solid var(--line)}
+    .recap h2,.recap li b{color:var(--plum)}
+    header{padding:14px 0 8px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="glow"></div>
+    <div class="eyebrow">FitX Aachen · Débutant</div>
+    <h1>Programme <em>Forme</em></h1>
+    <p class="tagline">3 séances / semaine — objectif <b>santé &amp; endurance</b>.</p>
+  </header>
+
+  <!-- QUAND S'ENTRAÎNER -->
+  <section>
+    <div class="week-h">
+      <h2>Quand t'entraîner</h2>
+      <div class="legend">
+        <span><i class="dot a"></i> Séance A — corps entier</span>
+        <span><i class="dot b"></i> Séance B — cardio + bas du corps</span>
+      </div>
+    </div>
+    <div class="shift-grid">
+      <div class="shift f">
+        <div class="shift-top"><span class="stag f">F · matin</span><span class="shours">06:30–14:30</span></div>
+        <p><b>Salle : l'après-midi</b>, après le travail (tu rentres ~15:15). 👍 Le meilleur jour pour t'entraîner.</p>
+      </div>
+      <div class="shift s">
+        <div class="shift-top"><span class="stag s">S · soir</span><span class="shours">13:30–21:00</span></div>
+        <p><b>Salle : le matin</b> avant le travail (départ ~12:45) — sinon repos (tu rentres ~21:45, trop tard).</p>
+      </div>
+      <div class="shift rest">
+        <div class="shift-top"><span class="stag rest">Repos</span></div>
+        <p><b>Salle : quand tu veux.</b> Idéal pour une séance tranquille.</p>
+      </div>
+    </div>
+    <p class="sched-note"><b>3 séances/semaine</b> — alterne A / B / A, garde si possible <b>un jour de repos entre deux séances</b>, et ne t'entraîne pas juste avant un shift S sans le temps de rentrer + te doucher.</p>
+    <div class="kegel-banner">🔁 Kegels (périnée) — tous les jours, même les jours de travail et de repos.</div>
+  </section>
+
+  <!-- SÉANCE A -->
+  <div class="sess a">
+    <div class="sess-head">
+      <span class="sess-tag a">Séance A</span>
+      <h3>Corps entier</h3>
+      <span class="sess-days">Lundi &amp; Vendredi</span>
+    </div>
+    <div class="ex"><span class="ex-name">Échauffement — vélo ou tapis</span><span class="reps">5–10 min</span></div>
+    <div class="ex"><span class="ex-name">Cardio — modéré + 4–5 accélérations d'1 min</span><span class="reps">15–20 min</span></div>
+    <div class="ex"><span class="ex-name">Presse à cuisses <b>(leg press)</b></span><span class="reps">3 × 12</span></div>
+    <div class="ex"><span class="ex-name">Développé poitrine <b>(chest press)</b></span><span class="reps">3 × 12</span></div>
+    <div class="ex"><span class="ex-name">Tirage dos <b>(lat pulldown)</b></span><span class="reps">3 × 12</span></div>
+    <div class="ex"><span class="ex-name">Rowing assis <b>(seated row)</b></span><span class="reps">2 × 12</span></div>
+    <div class="ex"><span class="ex-name">Gainage — planche</span><span class="reps">3 × 20–30 s</span></div>
+    <div class="ex"><span class="ex-name">Étirements</span><span class="reps">5 min</span></div>
+    <p class="sess-note"><span class="lab">Note</span><span>Poids léger au début : tu dois finir chaque série sans forcer à l'extrême. Repos 60–90 s entre les séries.</span></p>
+  </div>
+
+  <!-- SÉANCE B -->
+  <div class="sess b">
+    <div class="sess-head">
+      <span class="sess-tag b">Séance B</span>
+      <h3>Cardio + bas du corps</h3>
+      <span class="sess-days">Mercredi</span>
+    </div>
+    <div class="ex"><span class="ex-name">Échauffement — vélo ou tapis</span><span class="reps">5–10 min</span></div>
+    <div class="ex"><span class="ex-name">Cardio régulier <b>(vélo, tapis, elliptique ou rameur)</b></span><span class="reps">25–30 min</span></div>
+    <div class="ex"><span class="ex-name">Squats (ou goblet squats)</span><span class="reps">3 × 12</span></div>
+    <div class="ex"><span class="ex-name">Fentes <b>(par jambe)</b></span><span class="reps">2 × 10</span></div>
+    <div class="ex"><span class="ex-name">Hip thrust / pont fessier</span><span class="reps">3 × 12</span></div>
+    <div class="ex"><span class="ex-name">Mollets <b>(calf raises)</b></span><span class="reps">3 × 15</span></div>
+    <div class="ex"><span class="ex-name">Gainage latéral <b>(par côté)</b></span><span class="reps">2 × 20 s</span></div>
+    <div class="ex"><span class="ex-name">Étirements — surtout les hanches</span><span class="reps">5 min</span></div>
+    <p class="sess-note"><span class="lab">Note</span><span>Le cardio régulier construit ton endurance : garde un rythme où tu peux parler, mais avec effort.</span></p>
+  </div>
+
+  <!-- KEGELS -->
+  <div class="kegel">
+    <h3><span class="badge">Chaque jour</span> Le périnée (Kegels)</h3>
+    <p>Contracte les muscles comme pour te retenir d'uriner, tiens <b>5 s</b>, relâche <b>5 s</b>. <b>10 répétitions, 2–3 fois par jour</b>, partout (assis, debout). C'est le muscle clé pour le contrôle et l'endurance.</p>
+  </div>
+
+  <!-- À RETENIR -->
+  <section class="recap">
+    <h2>À retenir</h2>
+    <ul>
+      <li><span><b>Commence léger</b>, ajoute un peu de poids ou de temps chaque semaine (surcharge progressive).</span></li>
+      <li><span><b>Régularité &gt; intensité</b> — 3 séances tenues valent mieux qu'une séance épuisante.</span></li>
+      <li><span><b>Apprends la bonne position</b> — l'appli FitX ou demande au staff.</span></li>
+      <li><span><b>Échauffe-toi avant, étire-toi après</b> — moins de courbatures, moins de blessures.</span></li>
+      <li><span><b>Le repos fait partie du plan</b> — le muscle se construit les jours off.</span></li>
+      <li><span><b>Hors salle</b> : sommeil, hydratation, pas de cigarette, gestion du stress — ça booste l'endurance.</span></li>
+      <li><span><b>Après la séance</b> : douche + lait corps ; si tu ne peux pas, un coton d'eau micellaire sur le visage.</span></li>
+    </ul>
+  </section>
+
+  <footer>Débutant · FitX Aachen — programme forme imprimable</footer>
+
+</div>
+</body>
+</html>

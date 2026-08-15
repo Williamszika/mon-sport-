@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rituel Éclat · Juillet 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --porcelain:#FBF3EF;
+    --card:#FFFDFB;
+    --plum:#43222E;
+    --plum-soft:#7A5561;
+    --line:#EBDDD6;
+    --honey:#DBA043;
+    --honey-tint:#FBEED6;
+    --rose:#C4718A;
+    --rose-tint:#F6E1E7;
+    --sage:#7B9A82;
+    --sage-tint:#E1EBE1;
+    --shadow:0 1px 2px rgba(67,34,46,.04),0 12px 32px rgba(67,34,46,.06);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    font-family:"Nunito Sans",system-ui,sans-serif;
+    color:var(--plum);
+    background:var(--porcelain);
+    line-height:1.5;
+    padding:32px 20px 56px;
+  }
+  .wrap{max-width:940px;margin:0 auto}
+
+  /* ---------- Header ---------- */
+  header{position:relative;text-align:center;padding:34px 16px 30px;overflow:hidden;margin-bottom:26px}
+  .glow{
+    position:absolute;inset:auto 0 -60% 0;height:200%;
+    background:radial-gradient(60% 55% at 50% 22%,rgba(219,160,67,.30),rgba(196,113,138,.14) 45%,transparent 70%);
+    pointer-events:none;z-index:0;
+  }
+  header>*{position:relative;z-index:1}
+  .eyebrow{
+    font-size:.72rem;letter-spacing:.32em;text-transform:uppercase;
+    font-weight:700;color:var(--plum-soft);margin-bottom:14px;
+  }
+  h1{
+    font-family:"Fraunces",serif;font-weight:500;
+    font-size:clamp(2.4rem,7vw,3.6rem);line-height:1.02;letter-spacing:-.01em;
+  }
+  h1 em{font-style:italic;color:var(--honey)}
+  .tagline{margin-top:12px;color:var(--plum-soft);font-size:1.02rem}
+  .tagline b{color:var(--plum);font-weight:700}
+
+  /* ---------- Cards ---------- */
+  .grid{display:grid;gap:16px}
+  .cols-3{grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+  .card{
+    background:var(--card);border:1px solid var(--line);border-radius:18px;
+    padding:22px 22px 20px;box-shadow:var(--shadow);
+  }
+  .card h2{
+    font-family:"Fraunces",serif;font-weight:500;font-size:1.35rem;
+    display:flex;align-items:center;gap:9px;margin-bottom:4px;
+  }
+  .card .ico{font-size:1.1rem;line-height:1}
+  .card .sub{font-size:.78rem;color:var(--plum-soft);letter-spacing:.02em;margin-bottom:15px}
+
+  .step{display:flex;gap:12px;padding:9px 0;border-top:1px solid var(--line)}
+  .step:first-of-type{border-top:none}
+  .num{
+    flex:0 0 22px;height:22px;border-radius:50%;background:var(--honey-tint);
+    color:var(--honey);font-weight:800;font-size:.72rem;
+    display:flex;align-items:center;justify-content:center;margin-top:1px;
+  }
+  .step .name{font-weight:700;font-size:.95rem}
+  .step .meta{font-size:.8rem;color:var(--plum-soft)}
+  .when{
+    display:inline-block;font-size:.7rem;font-weight:700;letter-spacing:.02em;
+    padding:1px 8px;border-radius:999px;margin-top:3px;
+  }
+  .when.rose{background:var(--rose-tint);color:#9E4A64}
+  .when.plum{background:#efe3e7;color:var(--plum-soft)}
+  .when.sage{background:var(--sage-tint);color:#4E6E57}
+
+  /* ---------- Calendar ---------- */
+  .cal{margin-top:26px}
+  .cal-head{display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:14px;padding:0 4px}
+  .cal-head h2{font-family:"Fraunces",serif;font-weight:500;font-size:1.6rem}
+  .legend{display:flex;gap:16px;flex-wrap:wrap;font-size:.8rem;color:var(--plum-soft)}
+  .legend span{display:inline-flex;align-items:center;gap:7px}
+  .dot{width:11px;height:11px;border-radius:50%;flex:0 0 auto;print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .dot.ret{background:var(--rose)}
+  .dot.gom{background:var(--sage)}
+
+  .cal-grid{background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden;box-shadow:var(--shadow)}
+  .dow{display:grid;grid-template-columns:repeat(7,1fr);background:#F5E9E2}
+  .dow div{
+    text-align:center;padding:9px 2px;font-size:.72rem;font-weight:800;
+    letter-spacing:.08em;text-transform:uppercase;color:var(--plum-soft);
+    print-color-adjust:exact;-webkit-print-color-adjust:exact;
+  }
+  .weeks{display:grid;grid-template-columns:repeat(7,1fr)}
+  .day{
+    min-height:74px;border-top:1px solid var(--line);border-left:1px solid var(--line);
+    padding:6px 6px 7px;position:relative;display:flex;flex-direction:column;gap:5px;
+  }
+  .day:nth-child(7n+1){border-left:none}
+  .day.empty{background:#FCF7F3}
+  .date{font-weight:800;font-size:.9rem;color:var(--plum)}
+  .day.today{background:var(--honey-tint);print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .day.today .date{color:#B67C22}
+  .today-badge{
+    position:absolute;top:6px;right:6px;font-size:.56rem;font-weight:800;
+    letter-spacing:.04em;text-transform:uppercase;color:#B67C22;
+    background:#fff;border:1px solid var(--honey);border-radius:999px;padding:1px 6px;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact;
+  }
+  .tags{display:flex;flex-direction:column;gap:4px;margin-top:auto}
+  .tag{
+    display:inline-flex;align-items:center;gap:6px;font-size:.68rem;font-weight:700;
+    padding:2px 7px;border-radius:6px;line-height:1.35;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact;
+  }
+  .tag.ret{background:var(--rose-tint);color:#9E4A64}
+  .tag.gom{background:var(--sage-tint);color:#4E6E57}
+  .tag .tdot{width:7px;height:7px;border-radius:50%;flex:0 0 auto}
+  .tag.ret .tdot{background:var(--rose)}
+  .tag.gom .tdot{background:var(--sage)}
+
+  /* ---------- Rules ---------- */
+  .rules{margin-top:26px;background:var(--plum);border-radius:18px;padding:26px 26px 24px;color:#F7ECEC}
+  .rules h2{font-family:"Fraunces",serif;font-weight:500;font-size:1.5rem;color:#fff;margin-bottom:16px}
+  .rules ol{list-style:none;display:grid;gap:13px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));counter-reset:r}
+  .rules li{counter-increment:r;display:flex;gap:12px;font-size:.92rem}
+  .rules li::before{
+    content:counter(r);flex:0 0 26px;height:26px;border-radius:50%;
+    background:rgba(219,160,67,.22);color:var(--honey);font-weight:800;font-size:.8rem;
+    display:flex;align-items:center;justify-content:center;
+  }
+  .rules li b{color:#fff}
+
+  footer{text-align:center;margin-top:26px;font-size:.78rem;color:var(--plum-soft)}
+
+  /* ---------- Responsive ---------- */
+  @media(max-width:560px){
+    body{padding:20px 12px 40px}
+    .day{min-height:60px;padding:5px 4px 6px}
+    .tag span.txt{display:none}
+    .tag{padding:3px;border-radius:50%}
+    .tag .tdot{width:9px;height:9px}
+    .today-badge{display:none}
+  }
+
+  /* ---------- Print ---------- */
+  @media print{
+    body{background:#fff;padding:0;font-size:12px}
+    .glow{display:none}
+    .card,.cal-grid,.rules{box-shadow:none;break-inside:avoid}
+    .rules{background:#fff;color:var(--plum);border:1px solid var(--line)}
+    .rules h2,.rules li b{color:var(--plum)}
+    header{padding:14px 0 10px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="glow"></div>
+    <div class="eyebrow">Visage &amp; corps · Balea</div>
+    <h1>Rituel <em>Éclat</em><br>Juillet 2026</h1>
+    <p class="tagline">Pour un teint <b>lumineux, chaud et uniforme</b> — en douceur.</p>
+  </header>
+
+  <section class="grid cols-3">
+
+    <div class="card">
+      <h2><span class="ico">☀️</span>Le matin</h2>
+      <p class="sub">Chaque jour</p>
+      <div class="step">
+        <span class="num">1</span>
+        <span><span class="name">Sérum Vitamine C</span><br><span class="meta">Éclat &amp; antioxydant</span></span>
+      </div>
+      <div class="step">
+        <span class="num">2</span>
+        <span><span class="name">Crème Niacinamide SPF 30</span><br><span class="meta">Hydrate &amp; protège</span></span>
+      </div>
+      <div class="step">
+        <span class="num">+</span>
+        <span><span class="name">SunDance Fluide SPF 50</span><br><span class="meta">Exposition solaire prolongée</span></span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2><span class="ico">🌙</span>Le soir</h2>
+      <p class="sub">Selon le jour</p>
+      <div class="step">
+        <span class="num">R</span>
+        <span><span class="name">Sérum Collagène Rétinol</span><br><span class="when rose">Mardi &amp; Vendredi</span></span>
+      </div>
+      <div class="step">
+        <span class="num">A</span>
+        <span><span class="name">Crème Aloe Vera</span><br><span class="when plum">Les autres soirs</span></span>
+      </div>
+    </div>
+
+    <div class="card">
+      <h2><span class="ico">🌸</span>Le corps</h2>
+      <p class="sub">Rythme hebdo</p>
+      <div class="step">
+        <span class="num">G</span>
+        <span><span class="name">Gommage</span><br><span class="when sage">Mercredi &amp; Dimanche</span></span>
+      </div>
+      <div class="step">
+        <span class="num">L</span>
+        <span><span class="name">Lait corps</span><br><span class="meta">Chaque jour</span></span>
+      </div>
+      <div class="step">
+        <span class="num">✦</span>
+        <span><span class="name">Huile Body Beauty</span><br><span class="meta">Pour le glow · shimmer aux occasions</span></span>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="cal">
+    <div class="cal-head">
+      <h2>Calendrier</h2>
+      <div class="legend">
+        <span><i class="dot ret"></i> Rétinol (soir)</span>
+        <span><i class="dot gom"></i> Gommage corps</span>
+      </div>
+    </div>
+
+    <div class="cal-grid">
+      <div class="dow">
+        <div>Lun</div><div>Mar</div><div>Mer</div><div>Jeu</div><div>Ven</div><div>Sam</div><div>Dim</div>
+      </div>
+      <div class="weeks">
+        <!-- semaine 1 -->
+        <div class="day empty"></div>
+        <div class="day empty"></div>
+        <div class="day"><span class="date">1</span><div class="tags"><span class="tag gom" title="Gommage"><i class="tdot"></i><span class="txt">Gommage</span></span></div></div>
+        <div class="day"><span class="date">2</span></div>
+        <div class="day"><span class="date">3</span><div class="tags"><span class="tag ret" title="Rétinol"><i class="tdot"></i><span class="txt">Rétinol</span></span></div></div>
+        <div class="day"><span class="date">4</span></div>
+        <div class="day"><span class="date">5</span><div class="tags"><span class="tag gom" title="Gommage"><i class="tdot"></i><span class="txt">Gommage</span></span></div></div>
+        <!-- semaine 2 -->
+        <div class="day"><span class="date">6</span></div>
+        <div class="day today"><span class="date">7</span><span class="today-badge">Aujourd'hui</span><div class="tags"><span class="tag ret" title="Rétinol"><i class="tdot"></i><span class="txt">Rétinol</span></span></div></div>
+        <div class="day"><span class="date">8</span><div class="tags"><span class="tag gom" title="Gommage"><i class="tdot"></i><span class="txt">Gommage</span></span></div></div>
+        <div class="day"><span class="date">9</span></div>
+        <div class="day"><span class="date">10</span><div class="tags"><span class="tag ret" title="Rétinol"><i class="tdot"></i><span class="txt">Rétinol</span></span></div></div>
+        <div class="day"><span class="date">11</span></div>
+        <div class="day"><span class="date">12</span><div class="tags"><span class="tag gom" title="Gommage"><i class="tdot"></i><span class="txt">Gommage</span></span></div></div>
+        <!-- semaine 3 -->
+        <div class="day"><span class="date">13</span></div>
+        <div class="day"><span class="date">14</span><div class="tags"><span class="tag ret" title="Rétinol"><i class="tdot"></i><span class="txt">Rétinol</span></span></div></div>
+        <div class="day"><span class="date">15</span><div class="tags"><span class="tag gom" title="Gommage"><i class="tdot"></i><span class="txt">Gommage</span></span></div></div>
+        <div class="day"><span class="date">16</span></div>
+        <div class="day"><span class="date">17</span><div class="tags"><span class="tag ret" title="Rétinol"><i class="tdot"></i><span class="txt">Rétinol</span></span></div></div>
+        <div class="day"><span class="date">18</span></div>
+        <div class="day"><span class="date">19</span><div class="tags"><span class="tag gom" title="Gommage"><i class="tdot"></i><span class="txt">Gommage</span></span></div></div>
+        <!-- semaine 4 -->
+        <div class="day"><span class="date">20</span></div>
+        <div class="day"><span class="date">21</span><div class="tags"><span class="tag ret" title="Rétinol"><i class="tdot"></i><span class="txt">Rétinol</span></span></div></div>
+        <div class="day"><span class="date">22</span><div class="tags"><span class="tag gom" title="Gommage"><i class="tdot"></i><span class="txt">Gommage</span></span></div></div>
+        <div class="day"><span class="date">23</span></div>
+        <div class="day"><span class="date">24</span><div class="tags"><span class="tag ret" title="Rétinol"><i class="tdot"></i><span class="txt">Rétinol</span></span></div></div>
+        <div class="day"><span class="date">25</span></div>
+        <div class="day"><span class="date">26</span><div class="tags"><span class="tag gom" title="Gommage"><i class="tdot"></i><span class="txt">Gommage</span></span></div></div>
+        <!-- semaine 5 -->
+        <div class="day"><span class="date">27</span></div>
+        <div class="day"><span class="date">28</span><div class="tags"><span class="tag ret" title="Rétinol"><i class="tdot"></i><span class="txt">Rétinol</span></span></div></div>
+        <div class="day"><span class="date">29</span><div class="tags"><span class="tag gom" title="Gommage"><i class="tdot"></i><span class="txt">Gommage</span></span></div></div>
+        <div class="day"><span class="date">30</span></div>
+        <div class="day"><span class="date">31</span><div class="tags"><span class="tag ret" title="Rétinol"><i class="tdot"></i><span class="txt">Rétinol</span></span></div></div>
+        <div class="day empty"></div>
+        <div class="day empty"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="rules">
+    <h2>Les règles d'or</h2>
+    <ol>
+      <li><span><b>Vitamine C le matin.</b> Éclat et protection antioxydante pour la journée.</span></li>
+      <li><span><b>Rétinol 2 soirs / semaine</b> seulement (mardi &amp; vendredi) pour éviter l'irritation.</span></li>
+      <li><span><b>SPF tous les jours</b>, non négociable — SPF 50 dès que le soleil s'installe.</span></li>
+      <li><span><b>Gommage 2× / semaine max</b> pour ne pas sensibiliser la peau.</span></li>
+      <li><span><b>La douceur d'abord.</b> La peau marque facilement : on évite tout ce qui agresse.</span></li>
+    </ol>
+  </section>
+
+  <footer>Balea (dm) · SunDance SPF 50 — planning mensuel imprimable</footer>
+
+</div>
+</body>
+</html>

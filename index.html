@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mon Sport &amp; Mon Soin · Sommaire</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --porcelain:#FBF3EF;--card:#FFFDFB;--plum:#43222E;--plum-soft:#7A5561;
+    --line:#EBDDD6;--honey:#DBA043;--honey-tint:#FBEED6;
+    --rose:#C4718A;--rose-tint:#F6E1E7;--sage:#7B9A82;--sage-tint:#E1EBE1;
+    --shadow:0 1px 2px rgba(67,34,46,.04),0 12px 32px rgba(67,34,46,.06);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{font-family:"Nunito Sans",system-ui,sans-serif;color:var(--plum);background:var(--porcelain);
+    line-height:1.55;padding:32px 20px 56px}
+  .wrap{max-width:860px;margin:0 auto}
+
+  header{position:relative;text-align:center;padding:40px 16px 28px;overflow:hidden;margin-bottom:8px}
+  .glow{position:absolute;inset:auto 0 -60% 0;height:200%;
+    background:radial-gradient(60% 55% at 50% 22%,rgba(219,160,67,.32),rgba(196,113,138,.14) 45%,transparent 70%);
+    pointer-events:none;z-index:0}
+  header>*{position:relative;z-index:1}
+  .eyebrow{font-size:.72rem;letter-spacing:.32em;text-transform:uppercase;font-weight:700;color:var(--plum-soft);margin-bottom:13px}
+  h1{font-family:"Fraunces",serif;font-weight:500;font-size:clamp(2.2rem,7vw,3.2rem);line-height:1.03;letter-spacing:-.01em}
+  h1 em{font-style:italic;color:var(--honey)}
+  .tagline{margin-top:12px;color:var(--plum-soft);font-size:1.02rem}
+
+  /* --- carte journal, mise en avant --- */
+  a.hero{display:block;text-decoration:none;color:inherit;background:var(--plum);border-radius:20px;
+    padding:26px 26px 24px;margin:26px 0 34px;position:relative;overflow:hidden}
+  a.hero .sheen{position:absolute;inset:-40% -10% auto auto;width:60%;height:180%;
+    background:radial-gradient(50% 50% at 70% 30%,rgba(219,160,67,.30),transparent 70%);pointer-events:none}
+  a.hero>*{position:relative;z-index:1}
+  a.hero .k{font-size:.68rem;letter-spacing:.22em;text-transform:uppercase;font-weight:800;color:var(--honey);margin-bottom:9px}
+  a.hero h2{font-family:"Fraunces",serif;font-weight:500;font-size:1.75rem;color:#fff;margin-bottom:8px}
+  a.hero p{color:#D9C4C4;font-size:.94rem;max-width:44ch}
+  a.hero .go{display:inline-block;margin-top:15px;font-size:.8rem;font-weight:800;color:var(--honey);letter-spacing:.02em}
+
+  .sec{display:flex;align-items:center;gap:12px;margin:32px 0 16px}
+  .sec h2{font-family:"Fraunces",serif;font-weight:500;font-size:1.5rem;white-space:nowrap}
+  .sec .rule{flex:1;height:1px;background:var(--line)}
+  .sec .tag{font-size:.66rem;font-weight:800;letter-spacing:.05em;text-transform:uppercase;padding:3px 11px;border-radius:999px;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .sec .tag.sport{background:var(--sage-tint);color:#4E6E57}
+  .sec .tag.soin{background:var(--rose-tint);color:#9E4E67}
+
+  .grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}
+  a.doc{display:block;text-decoration:none;color:inherit;background:var(--card);border:1px solid var(--line);
+    border-radius:16px;padding:18px 19px 17px;box-shadow:var(--shadow);transition:transform .15s ease,border-color .15s ease}
+  a.doc:hover{transform:translateY(-2px);border-color:var(--honey)}
+  a.doc .k{font-size:.64rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:#B67C22;
+    background:var(--honey-tint);border-radius:999px;padding:2px 9px;display:inline-block;margin-bottom:10px;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  a.doc h3{font-family:"Fraunces",serif;font-weight:500;font-size:1.15rem;line-height:1.25;margin-bottom:6px}
+  a.doc p{font-size:.87rem;color:var(--plum-soft)}
+
+  .arch{margin-top:14px;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:6px 18px}
+  .arch a{display:flex;justify-content:space-between;align-items:baseline;gap:14px;text-decoration:none;color:inherit;
+    padding:12px 0;border-bottom:1px solid var(--line);font-size:.9rem}
+  .arch a:last-child{border-bottom:none}
+  .arch a b{font-weight:700}
+  .arch a span{color:var(--plum-soft);font-size:.8rem;text-align:right;flex:0 0 auto}
+  .arch a:hover b{color:var(--honey)}
+
+  footer{text-align:center;margin-top:38px;padding-top:20px;border-top:1px solid var(--line);
+    font-size:.78rem;color:var(--plum-soft)}
+
+  @media(max-width:560px){
+    body{padding:20px 12px 40px}
+    .grid{grid-template-columns:1fr}
+    .arch a{flex-direction:column;gap:2px}
+    .arch a span{text-align:left}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="glow"></div>
+    <div class="eyebrow">Soin &amp; Sport · 2026</div>
+    <h1>Mes <em>documents</em></h1>
+    <p class="tagline">Le programme, le journal et le rituel — tout au même endroit.</p>
+  </header>
+
+  <a class="hero" href="journal.html">
+    <div class="sheen"></div>
+    <div class="k">Commencer ici</div>
+    <h2>Mon journal</h2>
+    <p>Tout ce que j'ai fait depuis juillet, dans l'ordre : la routine de soin, le programme, la première séance et où j'en suis aujourd'hui.</p>
+    <span class="go">Ouvrir le journal →</span>
+  </a>
+
+  <div class="sec"><h2>Le sport</h2><div class="rule"></div><span class="tag sport">FitX Aachen</span></div>
+  <div class="grid">
+    <a class="doc" href="sport/programme-forme.html">
+      <span class="k">À jour</span>
+      <h3>Programme Forme</h3>
+      <p>Séance A haut du corps, Séance B bas du corps — 12–15 répétitions pour un physique sec et dessiné. Plus la partie nutrition.</p>
+    </a>
+    <a class="doc" href="sport/journal-progression.html">
+      <span class="k">À jour</span>
+      <h3>Journal de progression</h3>
+      <p>Les tableaux à remplir après chaque séance : durée du cardio et poids sur chaque machine. Départ lundi 17 août.</p>
+    </a>
+  </div>
+
+  <div class="sec"><h2>Le soin</h2><div class="rule"></div><span class="tag soin">Balea · dm</span></div>
+  <div class="grid">
+    <a class="doc" href="soin/rituel-eclat-aout-2026.html">
+      <span class="k">À jour</span>
+      <h3>Rituel Éclat · Août 2026</h3>
+      <p>Le guide complet : calendrier du mois, mode d'emploi de chaque produit, temps de pause et combinaisons à éviter.</p>
+    </a>
+  </div>
+
+  <div class="sec"><h2>Les archives</h2><div class="rule"></div></div>
+  <div class="arch">
+    <a href="sport/archives/planning-entrainement-3-jours.html"><b>Programme Forme · version 1</b><span>Corps entier — objectif santé &amp; endurance</span></a>
+    <a href="sport/archives/journal-entrainement.html"><b>Journal d'entraînement · version 1</b><span>Contient la séance découverte du 10/08</span></a>
+    <a href="soin/archives/rituel-eclat-juillet-2026.html"><b>Rituel Éclat · Juillet 2026</b><span>Guide complet — 8 juillet</span></a>
+    <a href="soin/archives/planning-soin-juillet-2026.html"><b>Planning de soin · Juillet 2026</b><span>Le tout premier planning — 7 juillet</span></a>
+    <a href="soin/archives/mode-emploi-produits.html"><b>Mode d'emploi des produits</b><span>Avant la fusion dans le guide complet</span></a>
+  </div>
+
+  <footer>Soin depuis juillet 2026 · Sport depuis le 10 août 2026 · Kegels tous les jours 💪</footer>
+
+</div>
+</body>
+</html>

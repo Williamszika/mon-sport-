@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Programme Forme · Physique sec &amp; athlétique</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --porcelain:#FBF3EF;--card:#FFFDFB;--plum:#43222E;--plum-soft:#7A5561;
+    --line:#EBDDD6;--honey:#DBA043;--honey-tint:#FBEED6;
+    --rose:#C4718A;--rose-tint:#F6E1E7;--sage:#7B9A82;--sage-tint:#E1EBE1;
+    --shadow:0 1px 2px rgba(67,34,46,.04),0 12px 32px rgba(67,34,46,.06);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{font-family:"Nunito Sans",system-ui,sans-serif;color:var(--plum);background:var(--porcelain);line-height:1.55;padding:32px 20px 56px}
+  .wrap{max-width:820px;margin:0 auto}
+
+  header{position:relative;text-align:center;padding:34px 16px 22px;overflow:hidden;margin-bottom:18px}
+  .glow{position:absolute;inset:auto 0 -60% 0;height:200%;
+    background:radial-gradient(60% 55% at 50% 22%,rgba(219,160,67,.32),rgba(196,113,138,.14) 45%,transparent 70%);pointer-events:none;z-index:0}
+  header>*{position:relative;z-index:1}
+  .eyebrow{font-size:.72rem;letter-spacing:.32em;text-transform:uppercase;font-weight:700;color:var(--plum-soft);margin-bottom:13px}
+  h1{font-family:"Fraunces",serif;font-weight:500;font-size:clamp(2.2rem,7vw,3.2rem);line-height:1.03;letter-spacing:-.01em}
+  h1 em{font-style:italic;color:var(--honey)}
+  .tagline{margin-top:11px;color:var(--plum-soft);font-size:1rem}
+  .tagline b{color:var(--plum);font-weight:700}
+
+  .goal{background:var(--honey-tint);border:1px solid #EED9B0;border-radius:18px;padding:22px 24px 20px;margin-bottom:16px;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .goal h2{font-family:"Fraunces",serif;font-weight:500;font-size:1.35rem;color:#8A5E1E;margin-bottom:9px}
+  .goal p{font-size:.94rem;color:var(--plum);margin-bottom:9px}
+  .goal p:last-child{margin-bottom:0}
+  .goal b{font-weight:800}
+  .goal .tip{font-size:.88rem;color:#8A5E1E;background:#fff;border-radius:10px;padding:10px 13px;font-weight:600}
+
+  .week-h{display:flex;align-items:center;gap:11px;margin:26px 0 12px}
+  .week-h h2{font-family:"Fraunces",serif;font-weight:500;font-size:1.5rem}
+
+  .shift-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+  .shift{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:15px 16px;box-shadow:var(--shadow);border-top:4px solid var(--honey)}
+  .shift.s{border-top-color:var(--sage)}.shift.rest{border-top-color:#D9C9BF}
+  .shift-top{display:flex;align-items:baseline;justify-content:space-between;gap:8px;margin-bottom:9px;flex-wrap:wrap}
+  .stag{font-size:.7rem;font-weight:800;letter-spacing:.04em;text-transform:uppercase;padding:3px 10px;border-radius:999px;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .stag.f{background:var(--honey-tint);color:#B67C22}.stag.s{background:var(--sage-tint);color:#4E6E57}.stag.rest{background:#F3ECE7;color:var(--plum-soft)}
+  .shours{font-size:.74rem;font-weight:700;color:var(--plum-soft)}
+  .shift p{font-size:.89rem;color:var(--plum)}.shift p b{font-weight:800}
+  .sched-note{margin-top:13px;font-size:.88rem;color:var(--plum-soft);text-align:center;padding:0 6px}
+  .sched-note b{color:var(--plum);font-weight:700}
+
+  .sess{background:var(--card);border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow);padding:20px 22px 18px;margin-top:16px;border-top:4px solid var(--honey)}
+  .sess.b{border-top-color:var(--sage)}
+  .sess-head{display:flex;align-items:center;gap:11px;flex-wrap:wrap;margin-bottom:6px}
+  .sess-tag{font-size:.68rem;font-weight:800;letter-spacing:.05em;text-transform:uppercase;padding:3px 11px;border-radius:999px;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .sess-tag.a{background:var(--honey-tint);color:#B67C22}.sess-tag.b{background:var(--sage-tint);color:#4E6E57}
+  .sess-head h3{font-family:"Fraunces",serif;font-weight:500;font-size:1.4rem}
+  .sess-sub{font-size:.82rem;color:var(--plum-soft);margin:0 0 8px}
+  .ex{display:flex;align-items:baseline;justify-content:space-between;gap:12px;padding:9px 0;border-top:1px solid var(--line)}
+  .ex:first-of-type{border-top:none}
+  .ex-name{font-size:.95rem;font-weight:600}.ex-name b{font-weight:800}
+  .ex-name .grp{display:block;font-size:.74rem;font-weight:600;color:var(--plum-soft)}
+  .reps{flex:0 0 auto;font-size:.74rem;font-weight:800;padding:2px 10px;border-radius:999px;background:#F3ECE7;color:var(--plum-soft);white-space:nowrap;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .sess-note{margin-top:12px;font-size:.86rem;color:var(--plum-soft);display:flex;gap:8px;padding-top:11px;border-top:1px dashed var(--line)}
+  .sess-note .lab{flex:0 0 auto;font-weight:800;color:var(--honey);text-transform:uppercase;letter-spacing:.05em;font-size:.72rem;padding-top:1px}
+  .sess.b .sess-note .lab{color:#4E6E57}
+
+  .fuel{background:var(--sage-tint);border:1px solid #CFE0CF;border-radius:18px;padding:22px 24px 20px;margin-top:26px;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .fuel h2{font-family:"Fraunces",serif;font-weight:500;font-size:1.35rem;color:#3E5E47;margin-bottom:6px}
+  .fuel .lead{font-size:.9rem;color:var(--plum-soft);margin-bottom:12px}
+  .fuel ul{list-style:none;display:grid;gap:9px}
+  .fuel li{display:flex;gap:10px;font-size:.92rem;align-items:flex-start}
+  .fuel li::before{content:"";flex:0 0 8px;height:8px;border-radius:50%;background:var(--sage);margin-top:8px;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .fuel li b{font-weight:800}
+
+  .kegel-banner{margin-top:16px;background:var(--rose-tint);color:#9E4A64;border-radius:11px;padding:9px 14px;font-size:.86rem;font-weight:700;display:flex;align-items:center;gap:8px;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+
+  .recap{margin-top:26px;background:var(--plum);border-radius:18px;padding:26px 26px 22px;color:#F7ECEC}
+  .recap h2{font-family:"Fraunces",serif;font-weight:500;font-size:1.4rem;color:#fff;margin-bottom:15px}
+  .recap ul{list-style:none;display:grid;gap:11px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+  .recap li{display:flex;gap:11px;font-size:.92rem;align-items:flex-start}
+  .recap li::before{content:"";flex:0 0 8px;height:8px;border-radius:50%;background:var(--honey);margin-top:8px;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .recap li b{color:#fff}
+
+  footer{text-align:center;margin-top:26px;font-size:.78rem;color:var(--plum-soft)}
+
+  @media(max-width:560px){body{padding:20px 12px 40px}.shift-grid{grid-template-columns:1fr}}
+  @media print{
+    body{background:#fff;padding:0;font-size:12px}
+    .glow{display:none}
+    .goal,.shift,.sess,.fuel,.recap{box-shadow:none;break-inside:avoid}
+    .recap{background:#fff;color:var(--plum);border:1px solid var(--line)}
+    .recap h2,.recap li b{color:var(--plum)}
+    header{padding:14px 0 6px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="glow"></div>
+    <div class="eyebrow">FitX Aachen · Débutant</div>
+    <h1>Programme <em>Forme</em></h1>
+    <p class="tagline">Un physique <b>sec, dessiné et athlétique</b> — sans devenir massif.</p>
+  </header>
+
+  <section class="goal">
+    <h2>Ton objectif &amp; la méthode</h2>
+    <p><b>But :</b> tonique et dessiné, avec peu de graisse — pas un physique de bodybuilder.</p>
+    <p><b>Comment :</b> du <b>cardio</b> (brûle la graisse), de la muscu <b>légère à modérée en 12–15 répétitions</b> (dessine les muscles sans les épaissir), et une alimentation équilibrée.</p>
+    <p class="tip">✓ Rassure-toi : on ne devient pas « trop musclé » par accident. Un gros volume demande des années de charges lourdes et de surplus alimentaire. Ce programme te rend sec et tonique, pas massif.</p>
+  </section>
+
+  <!-- QUAND -->
+  <div class="week-h"><h2>Quand t'entraîner</h2></div>
+  <div class="shift-grid">
+    <div class="shift f">
+      <div class="shift-top"><span class="stag f">F · matin</span><span class="shours">06:30–14:30</span></div>
+      <p><b>Salle : l'après-midi</b>, après le travail (tu rentres ~15:15). 👍</p>
+    </div>
+    <div class="shift s">
+      <div class="shift-top"><span class="stag s">S · soir</span><span class="shours">13:30–21:00</span></div>
+      <p><b>Salle : le matin</b> avant le travail — sinon repos (tu rentres ~21:45).</p>
+    </div>
+    <div class="shift rest">
+      <div class="shift-top"><span class="stag rest">Repos</span></div>
+      <p><b>Salle : quand tu veux.</b></p>
+    </div>
+  </div>
+  <p class="sched-note"><b>3 séances/semaine</b> — alterne A / B / A, garde <b>un jour de repos entre deux séances</b>. Au début, fais 4–5 exercices et ajoute-en un à chaque fois jusqu'à faire toute la séance.</p>
+  <div class="kegel-banner">🔁 Kegels (périnée) — tous les jours, même au travail et au repos.</div>
+
+  <!-- SÉANCE A -->
+  <div class="sess a">
+    <div class="sess-head"><span class="sess-tag a">Séance A</span><h3>Haut du corps</h3></div>
+    <p class="sess-sub">Poitrine, dos, épaules, bras + gainage — poids légers à modérés, 12–15 répétitions.</p>
+    <div class="ex"><span class="ex-name">Cardio — vélo/tapis + accélérations<span class="grp">échauffe &amp; brûle</span></span><span class="reps">12–15 min</span></div>
+    <div class="ex"><span class="ex-name">Développé poitrine <b>(chest press)</b><span class="grp">pectoraux</span></span><span class="reps">3 × 12</span></div>
+    <div class="ex"><span class="ex-name">Tirage vertical <b>(lat pulldown)</b><span class="grp">dos</span></span><span class="reps">3 × 12</span></div>
+    <div class="ex"><span class="ex-name">Rowing assis <b>(seated row)</b><span class="grp">dos</span></span><span class="reps">3 × 12</span></div>
+    <div class="ex"><span class="ex-name">Développé épaules <b>(shoulder press)</b><span class="grp">épaules</span></span><span class="reps">2 × 12</span></div>
+    <div class="ex"><span class="ex-name">Biceps <b>(curl)</b><span class="grp">bras avant</span></span><span class="reps">2 × 12–15</span></div>
+    <div class="ex"><span class="ex-name">Triceps <b>(extension / pushdown)</b><span class="grp">bras arrière</span></span><span class="reps">2 × 12–15</span></div>
+    <div class="ex"><span class="ex-name">Gainage — planche<span class="grp">abdos</span></span><span class="reps">3 × 20–30 s</span></div>
+    <p class="sess-note"><span class="lab">Note</span><span>Poids où tu finis tes 12–15 répétitions avec un vrai effort mais une bonne technique. Repos 45–75 s entre les séries.</span></p>
+  </div>
+
+  <!-- SÉANCE B -->
+  <div class="sess b">
+    <div class="sess-head"><span class="sess-tag b">Séance B</span><h3>Bas du corps</h3></div>
+    <p class="sess-sub">Cuisses, ischios, fessiers, mollets + abdos — plus de cardio pour rester sec.</p>
+    <div class="ex"><span class="ex-name">Cardio — vélo/tapis/elliptique<span class="grp">endurance &amp; graisse</span></span><span class="reps">15 min</span></div>
+    <div class="ex"><span class="ex-name">Presse à cuisses <b>(leg press)</b><span class="grp">cuisses / fessiers</span></span><span class="reps">3 × 12</span></div>
+    <div class="ex"><span class="ex-name">Extension des jambes <b>(leg extension)</b><span class="grp">quadriceps</span></span><span class="reps">3 × 12</span></div>
+    <div class="ex"><span class="ex-name">Ischio-jambiers <b>(leg curl)</b><span class="grp">arrière des cuisses</span></span><span class="reps">3 × 12</span></div>
+    <div class="ex"><span class="ex-name">Hip thrust / pont fessier<span class="grp">fessiers</span></span><span class="reps">3 × 12</span></div>
+    <div class="ex"><span class="ex-name">Mollets <b>(calf raise)</b><span class="grp">mollets</span></span><span class="reps">3 × 15</span></div>
+    <div class="ex"><span class="ex-name">Abdos <b>(machine ou relevé de jambes)</b><span class="grp">ventre</span></span><span class="reps">2 × 15</span></div>
+    <div class="ex"><span class="ex-name">Gainage latéral<span class="grp">taille / core</span></span><span class="reps">2 × 20 s</span></div>
+    <p class="sess-note"><span class="lab">Note</span><span>Sur une des 3 séances de la semaine, allonge le cardio à 25–30 min pour brûler plus de graisse.</span></p>
+  </div>
+
+  <!-- POUR RESTER SEC -->
+  <section class="fuel">
+    <h2>Pour rester sec (hors salle)</h2>
+    <p class="lead">Le physique se joue à ~70 % dans l'assiette. Rien de compliqué ni de privatif :</p>
+    <ul>
+      <li><span>Une part de <b>protéines</b> à chaque repas (œufs, poulet, poisson, légumineuses).</span></li>
+      <li><span>Beaucoup de <b>légumes et de fruits</b>.</span></li>
+      <li><span>Limite le <b>sucre</b>, les aliments <b>ultra-transformés</b>, l'alcool et le grignotage.</span></li>
+      <li><span><b>Bois de l'eau</b> et <b>dors bien</b> — le corps se transforme au repos.</span></li>
+      <li><span>Reste <b>actif au quotidien</b> (marche) en plus du cardio 2–3×/semaine.</span></li>
+    </ul>
+  </section>
+
+  <!-- À RETENIR -->
+  <section class="recap">
+    <h2>À retenir</h2>
+    <ul>
+      <li><span><b>12–15 répétitions, poids modéré</b> — ça dessine sans épaissir.</span></li>
+      <li><span><b>Le cardio</b> à chaque séance — c'est lui qui garde le corps sec.</span></li>
+      <li><span><b>Surcharge progressive</b> : un peu plus à chaque fois (rép. ou poids) quand tes séries passent bien.</span></li>
+      <li><span><b>Régularité &gt; intensité</b> — 3 séances tenues chaque semaine.</span></li>
+      <li><span><b>Bonne technique</b> d'abord — apprends les machines (appli FitX ou staff).</span></li>
+      <li><span><b>Le repos fait partie du plan</b> — le muscle se construit les jours off.</span></li>
+    </ul>
+  </section>
+
+  <footer>Débutant · FitX Aachen — physique sec &amp; athlétique</footer>
+
+</div>
+</body>
+</html>

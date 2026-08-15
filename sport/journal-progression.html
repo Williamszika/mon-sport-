@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Journal d'entraînement · Progression</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --porcelain:#FBF3EF;--card:#FFFDFB;--plum:#43222E;--plum-soft:#7A5561;
+    --line:#EBDDD6;--honey:#DBA043;--honey-tint:#FBEED6;
+    --rose:#C4718A;--rose-tint:#F6E1E7;--sage:#7B9A82;--sage-tint:#E1EBE1;
+    --shadow:0 1px 2px rgba(67,34,46,.04),0 12px 32px rgba(67,34,46,.06);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{font-family:"Nunito Sans",system-ui,sans-serif;color:var(--plum);background:var(--porcelain);line-height:1.55;padding:32px 20px 56px}
+  .wrap{max-width:860px;margin:0 auto}
+
+  header{position:relative;text-align:center;padding:34px 16px 22px;overflow:hidden;margin-bottom:14px}
+  .glow{position:absolute;inset:auto 0 -60% 0;height:200%;
+    background:radial-gradient(60% 55% at 50% 22%,rgba(219,160,67,.32),rgba(196,113,138,.14) 45%,transparent 70%);pointer-events:none;z-index:0}
+  header>*{position:relative;z-index:1}
+  .eyebrow{font-size:.72rem;letter-spacing:.32em;text-transform:uppercase;font-weight:700;color:var(--plum-soft);margin-bottom:13px}
+  h1{font-family:"Fraunces",serif;font-weight:500;font-size:clamp(2.1rem,6.5vw,3rem);line-height:1.03;letter-spacing:-.01em}
+  h1 em{font-style:italic;color:var(--honey)}
+  .tagline{margin-top:11px;color:var(--plum-soft);font-size:1rem}
+
+  .intro{background:var(--honey-tint);border:1px solid #EED9B0;border-radius:14px;padding:14px 16px;margin-bottom:20px;font-size:.9rem;color:#8A5E1E;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .intro b{font-weight:800}
+
+  .how{background:var(--plum);border-radius:18px;padding:22px 24px 20px;color:#F7ECEC;margin-bottom:24px}
+  .how h2{font-family:"Fraunces",serif;font-weight:500;font-size:1.3rem;color:#fff;margin-bottom:12px}
+  .how ul{list-style:none;display:grid;gap:10px}
+  .how li{display:flex;gap:11px;font-size:.91rem;align-items:flex-start}
+  .how li::before{content:"";flex:0 0 8px;height:8px;border-radius:50%;background:var(--honey);margin-top:8px;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .how li b{color:#fff}
+
+  .block-head{display:flex;align-items:center;gap:10px;margin:26px 0 12px}
+  .block-head .tag{font-size:.68rem;font-weight:800;letter-spacing:.05em;text-transform:uppercase;padding:3px 11px;border-radius:999px;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .block-head .tag.a{background:var(--honey-tint);color:#B67C22}.block-head .tag.b{background:var(--sage-tint);color:#4E6E57}
+  .block-head h3{font-family:"Fraunces",serif;font-weight:500;font-size:1.3rem}
+
+  .scroll{overflow-x:auto;border-radius:14px;box-shadow:var(--shadow);border:1px solid var(--line)}
+  table.trk{width:100%;border-collapse:collapse;background:var(--card);min-width:540px}
+  .trk th,.trk td{border-bottom:1px solid var(--line);border-right:1px solid var(--line);padding:10px 12px;text-align:center;font-size:.85rem}
+  .trk th:last-child,.trk td:last-child{border-right:none}
+  .trk tr:last-child td{border-bottom:none}
+  .trk thead th{background:#F5E9E2;font-weight:800;font-size:.76rem;letter-spacing:.02em;color:var(--plum-soft);text-transform:uppercase;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .trk thead th.s1{background:var(--honey-tint);color:#B67C22}
+  .trk .ex{text-align:left;font-weight:700;color:var(--plum);white-space:nowrap}
+  .trk .ex small{display:block;font-weight:600;font-size:.72rem;color:var(--plum-soft)}
+  .trk td.blank{color:#CDBBB0}
+
+  footer{text-align:center;margin-top:28px;font-size:.78rem;color:var(--plum-soft)}
+  @media(max-width:560px){body{padding:20px 12px 40px}}
+  @media print{
+    body{background:#fff;padding:0;font-size:12px}
+    .glow{display:none}
+    .how,.scroll,.intro{box-shadow:none;break-inside:avoid}
+    .how{background:#fff;color:var(--plum);border:1px solid var(--line)}
+    .how h2,.how li b{color:var(--plum)}
+    header{padding:14px 0 6px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="glow"></div>
+    <div class="eyebrow">FitX Aachen · Débutant</div>
+    <h1>Journal <em>d'entraînement</em></h1>
+    <p class="tagline">Ta progression, séance après séance.</p>
+  </header>
+
+  <div class="intro"><b>Séance découverte (10/08)</b> : vélo 16 min · niveau 6, presse à cuisses et développé poitrine. Le suivi structuré démarre <b>lundi 17/08</b>.</div>
+
+  <section class="how">
+    <h2>Comment progresser</h2>
+    <ul>
+      <li><span><b>12–15 répétitions, poids modéré</b> — pour un physique sec et dessiné, pas massif.</span></li>
+      <li><span><b>Surcharge progressive</b> : quand tes séries passent bien, ajoute une répétition ou monte d'un cran la fois d'après.</span></li>
+      <li><span><b>Cardio</b> à chaque séance ; allonge-le (25–30 min) une fois par semaine pour rester sec.</span></li>
+      <li><span><b>Note tes poids</b> à chaque fois (ou envoie-moi une photo) — je te dis quand monter.</span></li>
+    </ul>
+  </section>
+
+  <!-- SÉANCE A -->
+  <div class="block-head"><span class="tag a">Séance A</span><h3>Haut du corps</h3></div>
+  <div class="scroll">
+    <table class="trk">
+      <thead>
+        <tr>
+          <th class="ex" style="text-align:left">Exercice</th>
+          <th class="s1">Séance 1 · 17/08</th>
+          <th>Séance 2</th>
+          <th>Séance 3</th>
+          <th>Séance 4</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td class="ex">Cardio <small>durée</small></td><td class="blank">—</td><td class="blank">—</td><td class="blank">—</td><td class="blank">—</td></tr>
+        <tr><td class="ex">Développé poitrine <small>poids × 12</small></td><td class="blank">—</td><td class="blank">—</td><td class="blank">—</td><td class="blank">—</td></tr>
+        <tr><td class="ex">Tirage vertical <small>poids × 12</small></td><td class="blank">—</td><td class="blank">—</td><td class="blank">—</td><td class="blank">—</td></tr>
+        <tr><td class="ex">Rowing assis <small>poids × 12</small></td><td class="blank">—</td><td class="blank">—</td><td class="blank">—</td><td class="blank">—</td></tr>
+        <tr><td class="ex">Développé épaules <small>poids × 12</small></td><td class="blank">—</td><td class="blank">—</td><td class="blank">—</td><td class="blank">—</td></tr>
+        <tr><td class="ex">Biceps (curl) <small>poids × 12–15</small></td><td class="blank">—</td><td class="blank">—</td><td class="blank">—</td><td class="blank">—</td></tr>
+        <tr><td class="ex">Triceps <small>poids × 12–15</small></td><td class="blank">—</td><td class="blank">—</td><td class="blank">—</td><td class="blank">—</td></tr>
+        <tr><td class="ex">Planche <small>durée</small></td><td class="blank">—</td><td class="blank">—</td><td class="blank">—</td><td class="blank">—</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- SÉANCE B -->
+  <div class="block-head"><span class="tag b">Séance B</span><h3>Bas du corps</h3></div>
+  <div class="scroll">
+    <table class="trk">
+      <thead>
+        <tr>
+          <th class="ex" style="text-align:left">Exercice</th>
+          <th>Séance 1</th>
+          <th>Séance 2</th>
+          <th>Séance 3</th>
+          <th>Séance 4</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td class="ex">Cardio <small>durée</small></td><td class="blank">—</td><td class="blank">—</td><td class="blank">—</td><td class="blank">—</td></tr>
+        <tr><td class="ex">Presse à cuisses <small>poids × 12</small></td><td class="blank">—</td><td class="blank">—</td><td class="blank">—</td><td class="blank">—</td></tr>
+        <tr><td class="ex">Extension des jambes <small>poids × 12</small></td><td class="blank">—</td><td class="blank">—</td><td class="blank">—</td><td class="blank">—</td></tr>
+        <tr><td class="ex">Ischio (leg curl) <small>poids × 12</small></td><td class="blank">—</td><td class="blank">—</td><td class="blank">—</td><td class="blank">—</td></tr>
+        <tr><td class="ex">Hip thrust <small>poids × 12</small></td><td class="blank">—</td><td class="blank">—</td><td class="blank">—</td><td class="blank">—</td></tr>
+        <tr><td class="ex">Mollets <small>× 15</small></td><td class="blank">—</td><td class="blank">—</td><td class="blank">—</td><td class="blank">—</td></tr>
+        <tr><td class="ex">Abdos <small>× 15</small></td><td class="blank">—</td><td class="blank">—</td><td class="blank">—</td><td class="blank">—</td></tr>
+        <tr><td class="ex">Gainage latéral <small>× 20 s / côté</small></td><td class="blank">—</td><td class="blank">—</td><td class="blank">—</td><td class="blank">—</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <footer>Alterne A / B / A · un jour de repos entre deux séances · Kegels tous les jours 💪</footer>
+
+</div>
+</body>
+</html>

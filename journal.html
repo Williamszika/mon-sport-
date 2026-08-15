@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Journal · Tout ce que j'ai fait</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --porcelain:#FBF3EF;--card:#FFFDFB;--plum:#43222E;--plum-soft:#7A5561;
+    --line:#EBDDD6;--honey:#DBA043;--honey-tint:#FBEED6;
+    --rose:#C4718A;--rose-tint:#F6E1E7;--sage:#7B9A82;--sage-tint:#E1EBE1;
+    --peel:#8E7CC3;--peel-tint:#ECE6F5;
+    --shadow:0 1px 2px rgba(67,34,46,.04),0 12px 32px rgba(67,34,46,.06);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{font-family:"Nunito Sans",system-ui,sans-serif;color:var(--plum);background:var(--porcelain);
+    line-height:1.55;padding:32px 20px 56px}
+  .wrap{max-width:860px;margin:0 auto}
+
+  header{position:relative;text-align:center;padding:34px 16px 24px;overflow:hidden;margin-bottom:18px}
+  .glow{position:absolute;inset:auto 0 -60% 0;height:200%;
+    background:radial-gradient(60% 55% at 50% 22%,rgba(219,160,67,.32),rgba(196,113,138,.14) 45%,transparent 70%);
+    pointer-events:none;z-index:0}
+  header>*{position:relative;z-index:1}
+  .eyebrow{font-size:.72rem;letter-spacing:.32em;text-transform:uppercase;font-weight:700;color:var(--plum-soft);margin-bottom:13px}
+  h1{font-family:"Fraunces",serif;font-weight:500;font-size:clamp(2.1rem,6.5vw,3rem);line-height:1.03;letter-spacing:-.01em}
+  h1 em{font-style:italic;color:var(--honey)}
+  .tagline{margin-top:11px;color:var(--plum-soft);font-size:1rem}
+
+  /* --- état actuel --- */
+  .now{background:var(--plum);border-radius:18px;padding:22px 24px 20px;color:#F7ECEC;margin-bottom:30px}
+  .now h2{font-family:"Fraunces",serif;font-weight:500;font-size:1.35rem;color:#fff;margin-bottom:14px}
+  .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:16px}
+  .stat{background:rgba(255,255,255,.07);border-radius:12px;padding:12px 13px;text-align:center;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .stat b{display:block;font-family:"Fraunces",serif;font-weight:500;font-size:1.6rem;color:var(--honey);line-height:1.1}
+  .stat span{display:block;font-size:.7rem;letter-spacing:.06em;text-transform:uppercase;font-weight:700;
+    color:#D9C4C4;margin-top:5px}
+  .now ul{list-style:none;display:grid;gap:9px}
+  .now li{display:flex;gap:11px;font-size:.92rem;align-items:flex-start}
+  .now li::before{content:"";flex:0 0 8px;height:8px;border-radius:50%;background:var(--honey);margin-top:8px;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .now li b{color:#fff}
+
+  /* --- mois --- */
+  .month{display:flex;align-items:center;gap:12px;margin:34px 0 18px}
+  .month h2{font-family:"Fraunces",serif;font-weight:500;font-size:1.6rem;white-space:nowrap}
+  .month .rule{flex:1;height:1px;background:var(--line)}
+  .month .count{font-size:.68rem;font-weight:800;letter-spacing:.05em;text-transform:uppercase;
+    padding:3px 11px;border-radius:999px;background:var(--honey-tint);color:#B67C22;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+
+  /* --- timeline --- */
+  .tl{position:relative;padding-left:28px}
+  .tl::before{content:"";position:absolute;left:6px;top:8px;bottom:8px;width:2px;background:var(--line);
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .entry{position:relative;margin-bottom:18px;break-inside:avoid}
+  .entry::before{content:"";position:absolute;left:-28px;top:20px;width:14px;height:14px;border-radius:50%;
+    background:var(--card);border:2px solid var(--honey);
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .entry.soin::before{border-color:var(--rose)}
+  .entry.sport::before{border-color:var(--sage)}
+  .entry.star::before{background:var(--honey);border-color:var(--honey);box-shadow:0 0 0 4px var(--honey-tint)}
+
+  .card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 20px 17px;box-shadow:var(--shadow)}
+  .entry.star .card{border-color:var(--honey);background:linear-gradient(180deg,#FFFBF3,var(--card))}
+  .meta{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-bottom:7px}
+  .date{font-size:.72rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:var(--plum-soft)}
+  .pill{font-size:.65rem;font-weight:800;letter-spacing:.05em;text-transform:uppercase;padding:2px 9px;border-radius:999px;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .pill.soin{background:var(--rose-tint);color:#9E4E67}
+  .pill.sport{background:var(--sage-tint);color:#4E6E57}
+  .pill.cur{background:var(--honey-tint);color:#B67C22}
+  .card h3{font-family:"Fraunces",serif;font-weight:500;font-size:1.22rem;line-height:1.25;margin-bottom:8px}
+  .card p{font-size:.91rem;color:var(--plum-soft)}
+  .card p + p{margin-top:8px}
+  .card p b,.card li b{color:var(--plum);font-weight:700}
+  .card ul{list-style:none;display:grid;gap:7px;margin-top:10px}
+  .card li{display:flex;gap:10px;font-size:.89rem;color:var(--plum-soft);align-items:flex-start}
+  .card li::before{content:"";flex:0 0 5px;height:5px;border-radius:50%;background:var(--honey);margin-top:8px;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .file{display:inline-block;margin-top:12px;font-size:.74rem;font-weight:700;color:var(--plum-soft);
+    background:#F5E9E2;border-radius:7px;padding:4px 10px;font-family:ui-monospace,"SFMono-Regular",Menlo,monospace;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .file.live{background:var(--honey-tint);color:#B67C22}
+
+  /* --- mini tableau séance --- */
+  .sess{width:100%;border-collapse:collapse;margin-top:12px;border:1px solid var(--line);border-radius:10px;overflow:hidden}
+  .sess td{border-bottom:1px solid var(--line);padding:8px 12px;font-size:.86rem}
+  .sess tr:last-child td{border-bottom:none}
+  .sess td:first-child{font-weight:700;color:var(--plum)}
+  .sess td:last-child{text-align:right;color:var(--plum-soft)}
+  .sess .ok{color:#4E6E57;font-weight:700}
+  .sess .todo{color:#CDBBB0}
+
+  footer{text-align:center;margin-top:34px;padding-top:20px;border-top:1px solid var(--line);
+    font-size:.78rem;color:var(--plum-soft)}
+
+  @media(max-width:560px){
+    body{padding:20px 12px 40px}
+    .stats{grid-template-columns:1fr;gap:8px}
+    .stat{display:flex;align-items:baseline;justify-content:space-between;text-align:left}
+    .stat b{font-size:1.3rem}
+    .stat span{margin-top:0}
+    .tl{padding-left:22px}
+    .entry::before{left:-22px}
+  }
+  @media print{
+    body{background:#fff;padding:0;font-size:12px}
+    .glow{display:none}
+    .now,.card{box-shadow:none;break-inside:avoid}
+    .now{background:#fff;color:var(--plum);border:1px solid var(--line)}
+    .now h2,.now li b{color:var(--plum)}
+    .stat{background:var(--honey-tint)}
+    .stat span{color:var(--plum-soft)}
+    header{padding:14px 0 6px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="glow"></div>
+    <div class="eyebrow">Soin &amp; Sport · 2026</div>
+    <h1>Mon <em>journal</em></h1>
+    <p class="tagline">Tout ce que j'ai fait, dans l'ordre.</p>
+  </header>
+
+  <section class="now">
+    <h2>Où j'en suis — 15 août 2026</h2>
+    <div class="stats">
+      <div class="stat"><b>1</b><span>séance faite</span></div>
+      <div class="stat"><b>12</b><span>produits en rotation</span></div>
+      <div class="stat"><b>17/08</b><span>prochaine séance</span></div>
+    </div>
+    <ul>
+      <li><span><b>Soin</b> — routine complète et stable depuis juillet, calendrier d'août en cours.</span></li>
+      <li><span><b>Sport</b> — séance découverte faite le 10/08. Programme et journal refaits pour viser un physique sec et dessiné.</span></li>
+      <li><span><b>Prochaine étape</b> : lundi 17 août, Séance A — haut du corps, premier point du suivi structuré.</span></li>
+      <li><span><b>Kegels</b> — tous les jours, sans exception. 🔁</span></li>
+    </ul>
+  </section>
+
+  <!-- ═══════════ JUILLET ═══════════ -->
+  <div class="month"><h2>Juillet 2026</h2><div class="rule"></div><span class="count">Le soin</span></div>
+
+  <div class="tl">
+
+    <div class="entry soin">
+      <div class="card">
+        <div class="meta"><span class="date">Mardi 7 juillet</span><span class="pill soin">Soin</span></div>
+        <h3>Le premier planning de soin</h3>
+        <p>Point de départ : une routine visage et corps autour des produits <b>Balea (dm)</b> et du <b>SunDance SPF 50</b>. Objectif — un teint lumineux, chaud et uniforme, obtenu en douceur, parce que la peau marque facilement.</p>
+        <ul>
+          <li><span><b>☀️ Matin, chaque jour</b> — Sérum Vitamine C, puis Crème Niacinamide SPF 30, puis SunDance SPF 50 si exposition prolongée.</span></li>
+          <li><span><b>🌙 Soir</b> — Sérum Collagène Rétinol les mardis et vendredis, Crème Aloe Vera les autres soirs.</span></li>
+          <li><span><b>🌸 Corps</b> — Gommage mercredi et dimanche, lait corps chaque jour, huile Body Beauty pour le glow.</span></li>
+        </ul>
+        <p>Et les cinq règles d'or : Vitamine C le matin, rétinol 2 soirs par semaine seulement, SPF tous les jours sans négociation, gommage 2×/semaine maximum, la douceur avant tout.</p>
+        <span class="file">soin/archives/planning-soin-juillet-2026.html</span>
+      </div>
+    </div>
+
+    <div class="entry soin">
+      <div class="card">
+        <div class="meta"><span class="date">Dans la foulée</span><span class="pill soin">Soin</span></div>
+        <h3>Le mode d'emploi des produits</h3>
+        <p>Le planning disait <b>quand</b>. Il manquait le <b>comment</b> — donc un second document, produit par produit : la dose, le geste, l'astuce.</p>
+        <ul>
+          <li><span><b>Vitamine C</b> — 3–4 gouttes chauffées entre les doigts, pressées sans frotter, ~1 min de pénétration.</span></li>
+          <li><span><b>Niacinamide SPF 30</b> — règle des 2 doigts : sans quantité suffisante, le SPF ne protège pas vraiment.</span></li>
+          <li><span><b>Rétinol</b> — 1 petit pois sur peau bien sèche, loin du contour des yeux, des ailes du nez et des lèvres.</span></li>
+          <li><span><b>Aloe Vera</b> — 1 noisette, pour apaiser et réparer la nuit.</span></li>
+        </ul>
+        <span class="file">soin/archives/mode-emploi-produits.html</span>
+      </div>
+    </div>
+
+    <div class="entry soin">
+      <div class="card">
+        <div class="meta"><span class="date">Mercredi 8 juillet</span><span class="pill soin">Soin</span></div>
+        <h3>Tout réuni — et beaucoup enrichi</h3>
+        <p>Les deux documents fusionnent en un guide unique. C'est là que la routine devient vraiment complète :</p>
+        <ul>
+          <li><span><b>Le nettoyage</b>, jusque-là absent — le <b>Waschgel</b> au quotidien, et le <b>double nettoyage du soir</b> : eau micellaire Garnier Hyaluron pour retirer le SPF, puis Waschgel.</span></li>
+          <li><span><b>Le Peeling Cleanser (AHA + PHA)</b>, le dimanche soir à la place du Waschgel — jamais un soir de rétinol.</span></li>
+          <li><span><b>Les temps de pause chiffrés</b> — ~1 min après la Vitamine C, ~2 min avant le SPF 50, ~15 min avant le soleil, ~10 min de séchage avant le rétinol.</span></li>
+          <li><span><b>Un tableau de compatibilités</b> — ce qui va ensemble, et ce qui ne va jamais ensemble.</span></li>
+          <li><span><b>Le bon moment du gommage</b> — le soir, pour que le lait et l'huile travaillent toute la nuit.</span></li>
+        </ul>
+        <span class="file">soin/archives/rituel-eclat-juillet-2026.html</span>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ═══════════ AOÛT ═══════════ -->
+  <div class="month"><h2>Août 2026</h2><div class="rule"></div><span class="count">Le sport démarre</span></div>
+
+  <div class="tl">
+
+    <div class="entry soin">
+      <div class="card">
+        <div class="meta"><span class="date">Début août</span><span class="pill soin">Soin</span><span class="pill cur">En cours</span></div>
+        <h3>Le Rituel Éclat passe en août</h3>
+        <p>Le guide complet est recalé sur le calendrier d'août : mêmes règles, mêmes gestes, nouvelles dates. Rétinol les <b>4, 7, 11, 14, 18, 21, 25 et 28</b>, gommage les mercredis et dimanches, peeling visage les dimanches <b>2, 9, 16, 23 et 30</b>.</p>
+        <span class="file live">soin/rituel-eclat-aout-2026.html</span>
+      </div>
+    </div>
+
+    <div class="entry sport">
+      <div class="card">
+        <div class="meta"><span class="date">Avant la première séance</span><span class="pill sport">Sport</span></div>
+        <h3>Le premier programme — FitX Aachen</h3>
+        <p>Objectif de départ : <b>santé &amp; endurance</b>, 3 séances par semaine, en débutant. Construit autour des vraies contraintes de travail :</p>
+        <ul>
+          <li><span><b>Shift F (06:30–14:30)</b> — salle l'après-midi, retour ~15:15. Le meilleur jour.</span></li>
+          <li><span><b>Shift S (13:30–21:00)</b> — salle le matin avant le travail, sinon repos : retour ~21:45, trop tard.</span></li>
+          <li><span><b>Le découpage</b> — Séance A corps entier (lundi &amp; vendredi), Séance B cardio + bas du corps (mercredi), en alternant A / B / A.</span></li>
+          <li><span><b>La consigne de démarrage</b> — commencer par 4–5 exercices, en ajouter un à chaque fois.</span></li>
+        </ul>
+        <p>Et une constante quotidienne, jours de travail comme jours de repos : <b>🔁 les Kegels</b> — 5 s de contraction, 5 s de relâchement, 10 répétitions, 2–3 fois par jour.</p>
+        <span class="file">sport/archives/planning-entrainement-3-jours.html</span>
+      </div>
+    </div>
+
+    <div class="entry sport star">
+      <div class="card">
+        <div class="meta"><span class="date">Lundi 10 août</span><span class="pill sport">Sport</span></div>
+        <h3>Première séance à la salle 🎉</h3>
+        <p>La séance découverte — celle qui compte le plus, parce que c'est la première.</p>
+        <table class="sess">
+          <tr><td>Vélo</td><td class="ok">16 min · niveau 6</td></tr>
+          <tr><td>Presse à cuisses</td><td class="ok">fait</td></tr>
+          <tr><td>Développé poitrine</td><td class="ok">fait</td></tr>
+          <tr><td>Tirage dos</td><td class="todo">à venir</td></tr>
+          <tr><td>Rowing assis</td><td class="todo">à venir</td></tr>
+          <tr><td>Planche</td><td class="todo">à venir</td></tr>
+        </table>
+        <p>Trois blocs sur six, exactement dans l'esprit du programme : on démarre avec quelques machines et on complète séance après séance.</p>
+        <p>Un journal de suivi est créé dans la foulée, avec la séance 1 déjà remplie et le principe écrit noir sur blanc — <b>la surcharge progressive</b> : quand les 3 × 12 passent avec la dernière répétition encore faisable, on monte d'un cran ; le cardio va de 16 → 20 → 25 min ; on ajoute une machine à chaque fois.</p>
+        <span class="file">sport/archives/journal-entrainement.html</span>
+      </div>
+    </div>
+
+    <div class="entry sport">
+      <div class="card">
+        <div class="meta"><span class="date">Après la séance découverte</span><span class="pill sport">Sport</span><span class="pill cur">En cours</span></div>
+        <h3>L'objectif se précise — sec et dessiné, pas massif</h3>
+        <p>Changement de cap : l'objectif n'est plus seulement « santé &amp; endurance » mais un <b>physique sec, dessiné et athlétique — sans devenir massif</b>. Le programme est refait pour ça.</p>
+        <ul>
+          <li><span><b>Le découpage change</b> — Séance A devient le haut du corps, Séance B le bas du corps. Fini le corps entier.</span></li>
+          <li><span><b>12–15 répétitions à poids modéré</b> — la fourchette qui dessine sans épaissir.</span></li>
+          <li><span><b>Du cardio à chaque séance</b>, allongé à 25–30 min une fois par semaine — c'est lui qui garde le corps sec.</span></li>
+          <li><span><b>Le repos entre séries</b> passe à 45–75 s.</span></li>
+          <li><span><b>Une section nutrition</b> — le physique se joue à ~70 % dans l'assiette : des protéines à chaque repas, beaucoup de légumes et de fruits, moins de sucre et d'ultra-transformé, de l'eau, du sommeil, de la marche.</span></li>
+          <li><span><b>Une mise au point rassurante</b> — on ne devient pas « trop musclé » par accident : ça demande des années de charges lourdes et de surplus alimentaire.</span></li>
+        </ul>
+        <span class="file live">sport/programme-forme.html</span>
+      </div>
+    </div>
+
+    <div class="entry sport">
+      <div class="card">
+        <div class="meta"><span class="date">Dans la foulée</span><span class="pill sport">Sport</span><span class="pill cur">En cours</span></div>
+        <h3>Le journal suit le nouveau programme</h3>
+        <p>Un nouveau journal de progression, aligné sur le découpage haut / bas du corps — 8 exercices par séance. La séance découverte du 10/08 y est rappelée en introduction, et <b>le suivi structuré démarre le lundi 17 août</b>.</p>
+        <span class="file live">sport/journal-progression.html</span>
+      </div>
+    </div>
+
+    <div class="entry star">
+      <div class="card">
+        <div class="meta"><span class="date">Samedi 15 août</span><span class="pill cur">Aujourd'hui</span></div>
+        <h3>Tout est rassemblé ici</h3>
+        <p>Les huit documents sont réunis au même endroit — les versions courantes d'un côté, les archives de l'autre — avec un sommaire et ce journal.</p>
+        <p>À partir de maintenant : après chaque séance, noter la durée du cardio et le poids utilisé sur chaque machine. C'est ce qui permet de savoir quand monter d'un cran.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>Journal tenu à jour · Soin depuis juillet 2026 · Sport depuis le 10 août 2026 💪</footer>
+
+</div>
+</body>
+</html>
