@@ -207,6 +207,26 @@ découverte du 10/08 y figure déjà.
 Le `journal-progression.html` part aux archives : le carnet le remplace et couvre
 les huit semaines.
 
+### Samedi 15 août — Deuxième séance : le Zirkel 🎉
+
+Journée de travail de **13 h 30 à 20 h 30**, puis salle dans la foulée, avec la
+consigne claire de ne pas forcer.
+
+| | Réalisé |
+|---|---|
+| **Zirkel** | Tour complet du circuit, ~13 min |
+| **Bauchmaschine** (abdos) | **20 kg** |
+| Répétitions | Non comptées — le Zirkel se travaille à la minute |
+
+Découverte sur place : le Zirkel du studio d'Aachen n'utilise **pas** les machines
+à air comprimé décrites sur le site national de FitX (molette −2 à +2), mais des
+**machines Technogym à plaques, en kilos**, avec broche de sélection et un poids
+d'appoint jaune de 2,5 kg. Le principe du feu vert/rouge, lui, est bien celui
+annoncé. Les documents ont été corrigés en conséquence.
+
+**Premier poids inscrit au carnet : 20 kg.** C'est le point de départ chiffré qui
+manquait depuis la séance du 10/08.
+
 ---
 
 ## Où en est-on
@@ -217,8 +237,9 @@ Cleanser AHA + PHA, sérum Vitamine C, crème Niacinamide SPF 30, SunDance SPF 5
 sérum Collagène Rétinol, crème Aloe Vera, gommage corps, lait corps, huile Body
 Beauty, fluide shimmer.
 
-**Sport** — 1 séance réalisée (10/08, séance découverte). Programme, planning et
-carnet en place pour viser un physique sec et dessiné.
+**Sport** — 2 séances réalisées : la découverte du 10/08 et le Zirkel du 15/08
+(abdos à 20 kg). Programme, planning et carnet en place pour viser un physique
+sec et dessiné.
 
 Prochaine étape : **lundi 17 août, Séance A — haut du corps**, semaine 1 du
 planning progressif. Au programme : cardio 12–15 min, Chest Press, Vertical
