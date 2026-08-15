@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Les machines · FitX Aachen</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --porcelain:#FBF3EF;--card:#FFFDFB;--plum:#43222E;--plum-soft:#7A5561;
+    --line:#EBDDD6;--honey:#DBA043;--honey-tint:#FBEED6;
+    --rose:#C4718A;--rose-tint:#F6E1E7;--sage:#7B9A82;--sage-tint:#E1EBE1;
+    --shadow:0 1px 2px rgba(67,34,46,.04),0 12px 32px rgba(67,34,46,.06);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{font-family:"Nunito Sans",system-ui,sans-serif;color:var(--plum);background:var(--porcelain);
+    line-height:1.55;padding:32px 20px 56px}
+  .wrap{max-width:860px;margin:0 auto}
+
+  header{position:relative;text-align:center;padding:34px 16px 24px;overflow:hidden;margin-bottom:18px}
+  .glow{position:absolute;inset:auto 0 -60% 0;height:200%;
+    background:radial-gradient(60% 55% at 50% 22%,rgba(219,160,67,.32),rgba(196,113,138,.14) 45%,transparent 70%);
+    pointer-events:none;z-index:0}
+  header>*{position:relative;z-index:1}
+  .eyebrow{font-size:.72rem;letter-spacing:.32em;text-transform:uppercase;font-weight:700;color:var(--plum-soft);margin-bottom:13px}
+  h1{font-family:"Fraunces",serif;font-weight:500;font-size:clamp(2.1rem,6.5vw,3rem);line-height:1.03;letter-spacing:-.01em}
+  h1 em{font-style:italic;color:var(--honey)}
+  .tagline{margin-top:11px;color:var(--plum-soft);font-size:1rem}
+
+  .panel{background:var(--plum);border-radius:18px;padding:22px 24px 20px;color:#F7ECEC;margin-bottom:26px}
+  .panel h2{font-family:"Fraunces",serif;font-weight:500;font-size:1.35rem;color:#fff;margin-bottom:13px}
+  .panel ul{list-style:none;display:grid;gap:9px}
+  .panel li{display:flex;gap:11px;font-size:.92rem;align-items:flex-start}
+  .panel li::before{content:"";flex:0 0 8px;height:8px;border-radius:50%;background:var(--honey);margin-top:8px;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .panel li b{color:#fff}
+
+  .sec{display:flex;align-items:center;gap:12px;margin:34px 0 16px}
+  .sec h2{font-family:"Fraunces",serif;font-weight:500;font-size:1.5rem;white-space:nowrap}
+  .sec .rule{flex:1;height:1px;background:var(--line)}
+  .sec .badge{font-size:.66rem;font-weight:800;letter-spacing:.05em;text-transform:uppercase;padding:3px 11px;border-radius:999px;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .badge.a{background:var(--honey-tint);color:#B67C22}
+  .badge.b{background:var(--sage-tint);color:#4E6E57}
+
+  .zones{display:grid;grid-template-columns:repeat(auto-fit,minmax(232px,1fr));gap:13px}
+  .zone{background:var(--card);border:1px solid var(--line);border-radius:15px;padding:16px 17px 15px;box-shadow:var(--shadow);break-inside:avoid}
+  .zone .de{font-family:"Fraunces",serif;font-weight:500;font-size:1.1rem;margin-bottom:2px}
+  .zone .fr{font-size:.7rem;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:var(--honey);margin-bottom:8px}
+  .zone p{font-size:.86rem;color:var(--plum-soft)}
+
+  /* --- circuit mis en avant --- */
+  .circuit{background:linear-gradient(180deg,#FFF8EC,var(--card));border:1px solid var(--honey);border-radius:18px;
+    padding:22px 24px 20px;box-shadow:var(--shadow);break-inside:avoid;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .circuit .k{font-size:.66rem;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#B67C22;margin-bottom:8px}
+  .circuit h3{font-family:"Fraunces",serif;font-weight:500;font-size:1.4rem;margin-bottom:9px}
+  .circuit p{font-size:.92rem;color:var(--plum-soft)}
+  .circuit p + p{margin-top:9px}
+  .circuit b{color:var(--plum)}
+  .steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:11px;margin-top:15px}
+  .step{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 14px}
+  .step b{display:block;font-family:"Fraunces",serif;font-weight:500;font-size:1.5rem;color:var(--honey);line-height:1.1}
+  .step span{display:block;font-size:.82rem;color:var(--plum-soft);margin-top:3px}
+
+  /* --- tableaux machines --- */
+  .scroll{overflow-x:auto;border-radius:14px;box-shadow:var(--shadow);border:1px solid var(--line)}
+  table.mch{width:100%;border-collapse:collapse;background:var(--card);min-width:560px}
+  .mch th,.mch td{border-bottom:1px solid var(--line);padding:11px 13px;text-align:left;font-size:.86rem;vertical-align:top}
+  .mch tr:last-child td{border-bottom:none}
+  .mch thead th{background:#F5E9E2;font-weight:800;font-size:.72rem;letter-spacing:.04em;color:var(--plum-soft);
+    text-transform:uppercase;print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .mch .fr{font-weight:700;color:var(--plum);white-space:nowrap}
+  .mch .lbl{font-weight:700;color:#B67C22}
+  .mch .lbl small{display:block;font-weight:600;font-size:.74rem;color:var(--plum-soft);white-space:nowrap}
+  .mch .zn{font-size:.78rem;color:var(--plum-soft)}
+  .mch tbody tr.alt td{background:#FDF7F3;print-color-adjust:exact;-webkit-print-color-adjust:exact}
+
+  /* --- réglages --- */
+  .tips{display:grid;gap:12px;margin-top:4px}
+  .tip{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:15px 17px 14px;box-shadow:var(--shadow);
+    display:flex;gap:14px;align-items:flex-start;break-inside:avoid}
+  .tip .n{flex:0 0 30px;height:30px;border-radius:50%;background:var(--honey-tint);color:#B67C22;
+    display:flex;align-items:center;justify-content:center;font-weight:800;font-size:.9rem;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .tip h4{font-family:"Fraunces",serif;font-weight:500;font-size:1.05rem;margin-bottom:3px}
+  .tip p{font-size:.87rem;color:var(--plum-soft)}
+
+  .recap{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px 22px 18px;
+    box-shadow:var(--shadow);margin-top:16px}
+  .recap h3{font-family:"Fraunces",serif;font-weight:500;font-size:1.3rem;margin-bottom:12px}
+  .recap ul{list-style:none;display:grid;gap:9px}
+  .recap li{display:flex;gap:11px;font-size:.9rem;color:var(--plum-soft);align-items:flex-start}
+  .recap li::before{content:"";flex:0 0 6px;height:6px;border-radius:50%;background:var(--honey);margin-top:8px;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .recap li b{color:var(--plum)}
+
+  .note{background:var(--sage-tint);border-radius:12px;padding:13px 16px;font-size:.87rem;color:#3F5A47;margin-top:16px;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .note b{color:#2F4536}
+
+  footer{text-align:center;margin-top:34px;padding-top:20px;border-top:1px solid var(--line);
+    font-size:.78rem;color:var(--plum-soft)}
+
+  @media(max-width:560px){body{padding:20px 12px 40px}}
+  @media print{
+    body{background:#fff;padding:0;font-size:12px}
+    .glow{display:none}
+    .panel,.zone,.circuit,.tip,.recap,.scroll{box-shadow:none;break-inside:avoid}
+    .panel{background:#fff;color:var(--plum);border:1px solid var(--line)}
+    .panel h2,.panel li b{color:var(--plum)}
+    header{padding:14px 0 6px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="glow"></div>
+    <div class="eyebrow">FitX Aachen · Europaplatz</div>
+    <h1>Les <em>machines</em></h1>
+    <p class="tagline">Ce qu'il y a dans ta salle, et laquelle utiliser pour quoi.</p>
+  </header>
+
+  <section class="panel">
+    <h2>Ta salle en bref</h2>
+    <ul>
+      <li><span><b>Europaplatz 17, 52068 Aachen</b> — le seul FitX de la ville, ouvert <b>24 h/24, 365 jours par an</b>.</span></li>
+      <li><span><b>7 zones d'entraînement</b> et plus de 60 machines Technogym, plus les machines à disques Hammer Strength.</span></li>
+      <li><span><b>Des entraîneurs sur place de 9 h à 21 h</b> — inclus dans l'abonnement. N'hésite pas : demande-leur de te régler une machine, c'est leur travail.</span></li>
+      <li><span><b>Un plan d'entraînement gratuit</b> est compris dans l'abonnement, ainsi que l'appli FitX, les boissons à la X-Bar, les douches et le parking.</span></li>
+    </ul>
+  </section>
+
+  <!-- ═══════ LES ZONES ═══════ -->
+  <div class="sec"><h2>Les 7 zones</h2><div class="rule"></div></div>
+  <div class="zones">
+
+    <div class="zone">
+      <div class="de">Cardio</div>
+      <div class="fr">Endurance</div>
+      <p>Tapis de course (<i>Laufband</i>), vélos elliptiques (<i>Crosstrainer</i>), rameurs (<i>Rudergerät</i>), escaliers (<i>Stairclimber</i>) et vélos. C'est là que tu commences chaque séance.</p>
+    </div>
+
+    <div class="zone">
+      <div class="de">Geräte</div>
+      <div class="fr">Machines guidées</div>
+      <p>Les machines à sélection de poids — celles avec la broche à enfoncer dans la pile. Le mouvement est guidé : c'est la zone la plus sûre pour apprendre. <b>C'est ta zone principale.</b></p>
+    </div>
+
+    <div class="zone">
+      <div class="de">Zirkel</div>
+      <div class="fr">Le circuit</div>
+      <p>Des machines en cercle, 1 minute chacune, un feu vert/rouge qui donne le rythme. 13 minutes pour tout le corps. Idéal les jours pressés.</p>
+    </div>
+
+    <div class="zone">
+      <div class="de">Freihantel</div>
+      <div class="fr">Haltères libres</div>
+      <p>Haltères jusqu'à 60 kg, barres, poulies (<i>Kabelturm</i>), bancs et machines à disques Hammer Strength. C'est ici que tu feras le hip thrust. À aborder plus tard.</p>
+    </div>
+
+    <div class="zone">
+      <div class="de">Functional</div>
+      <div class="fr">Zone libre</div>
+      <p>Kettlebells, medicine balls, sandbags, battle ropes et tapis. C'est là que tu fais ta planche et ton gainage latéral.</p>
+    </div>
+
+    <div class="zone">
+      <div class="de">Lady Gym</div>
+      <div class="fr">Espace femmes</div>
+      <p>Un espace fermé avec tapis, bancs, haltères et barres. Utile si tu préfères t'entraîner au calme, surtout aux heures pleines.</p>
+    </div>
+
+    <div class="zone">
+      <div class="de">Kursraum</div>
+      <div class="fr">Salle de cours</div>
+      <p>37 cours par semaine, compris dans l'abonnement. <i>Fatburn x</i>, <i>backworx</i>, <i>body x</i>, <i>booty x</i>, <i>sixpack</i>… Une bonne façon de remplacer un cardio.</p>
+    </div>
+
+  </div>
+
+  <!-- ═══════ LE ZIRKEL ═══════ -->
+  <div class="sec"><h2>Le Zirkel</h2><div class="rule"></div><span class="badge a">Ton filet de sécurité</span></div>
+  <div class="circuit">
+    <div class="k">13 minutes · tout le corps</div>
+    <h3>Le circuit, quand tu n'as pas le temps</h3>
+    <p>Des machines disposées en cercle. Un feu passe au vert : tu fais l'exercice pendant <b>une minute</b>. Il passe au rouge : tu souffles et tu passes à la machine suivante, dans le sens des aiguilles d'une montre. Au bout du cercle, c'est fini.</p>
+    <p>Les machines se règlent simplement, de <b>−2 (léger)</b> à <b>+2 (lourd)</b> — pas de poids à choisir, pas de réglage compliqué.</p>
+    <div class="steps">
+      <div class="step"><b>6–9</b><span>machines</span></div>
+      <div class="step"><b>1 min</b><span>par machine</span></div>
+      <div class="step"><b>13 min</b><span>en tout</span></div>
+    </div>
+    <p><i>Le site de FitX annonce 6 machines sur la page du studio d'Aachen et 9 sur sa page consacrée au Zirkel — tu verras le compte exact sur place. Ce qui ne change pas : une minute par machine, 13 minutes en tout.</i></p>
+    <p><b>Quand l'utiliser :</b> un jour où tu rentres tard, où la salle est pleine, ou où tu n'as pas la tête à ta séance. Un Zirkel fait, c'est infiniment mieux qu'une séance sautée — et ça compte comme une séance de la semaine.</p>
+  </div>
+
+  <!-- ═══════ SÉANCE A ═══════ -->
+  <div class="sec"><h2>Séance A — haut du corps</h2><div class="rule"></div><span class="badge a">Machines</span></div>
+  <div class="scroll">
+    <table class="mch">
+      <thead>
+        <tr><th>Ton exercice</th><th>La machine à chercher</th><th>Ce qu'elle travaille</th><th>Zone</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="fr">Développé poitrine</td>
+          <td class="lbl">Chest Press<small>Brustpresse</small></td>
+          <td>Pectoraux, épaules avant, triceps</td>
+          <td class="zn">Geräte</td>
+        </tr>
+        <tr class="alt">
+          <td class="fr">Tirage vertical</td>
+          <td class="lbl">Vertical Traction<small>Latzug</small></td>
+          <td>Grand dorsal — la largeur du dos</td>
+          <td class="zn">Geräte</td>
+        </tr>
+        <tr>
+          <td class="fr">Rowing assis</td>
+          <td class="lbl">Low Row<small>Rudern sitzend</small></td>
+          <td>Milieu du dos, posture</td>
+          <td class="zn">Geräte</td>
+        </tr>
+        <tr class="alt">
+          <td class="fr">Développé épaules</td>
+          <td class="lbl">Shoulder Press<small>Schulterpresse</small></td>
+          <td>Épaules — la ligne qui dessine la silhouette</td>
+          <td class="zn">Geräte</td>
+        </tr>
+        <tr>
+          <td class="fr">Biceps</td>
+          <td class="lbl">Arm Curl<small>Bizepsmaschine · ou Kabelzug</small></td>
+          <td>Avant du bras</td>
+          <td class="zn">Geräte</td>
+        </tr>
+        <tr class="alt">
+          <td class="fr">Triceps</td>
+          <td class="lbl">Arm Extension<small>Trizepsdrücken am Kabel</small></td>
+          <td>Arrière du bras</td>
+          <td class="zn">Geräte / Kabelturm</td>
+        </tr>
+        <tr>
+          <td class="fr">Planche</td>
+          <td class="lbl">—<small>sur un tapis (Matte)</small></td>
+          <td>Gainage, ventre profond</td>
+          <td class="zn">Functional</td>
+        </tr>
+        <tr class="alt">
+          <td class="fr">Cardio</td>
+          <td class="lbl">Laufband · Crosstrainer<small>tapis · elliptique</small></td>
+          <td>Échauffement et dépense</td>
+          <td class="zn">Cardio</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- ═══════ SÉANCE B ═══════ -->
+  <div class="sec"><h2>Séance B — bas du corps</h2><div class="rule"></div><span class="badge b">Machines</span></div>
+  <div class="scroll">
+    <table class="mch">
+      <thead>
+        <tr><th>Ton exercice</th><th>La machine à chercher</th><th>Ce qu'elle travaille</th><th>Zone</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="fr">Presse à cuisses</td>
+          <td class="lbl">Leg Press<small>Beinpresse</small></td>
+          <td>Cuisses et fessiers — le gros mouvement</td>
+          <td class="zn">Geräte</td>
+        </tr>
+        <tr class="alt">
+          <td class="fr">Extension des jambes</td>
+          <td class="lbl">Leg Extension<small>Beinstrecker</small></td>
+          <td>Avant de la cuisse (quadriceps)</td>
+          <td class="zn">Geräte</td>
+        </tr>
+        <tr>
+          <td class="fr">Ischio-jambiers</td>
+          <td class="lbl">Leg Curl<small>Beinbeuger</small></td>
+          <td>Arrière de la cuisse</td>
+          <td class="zn">Geräte</td>
+        </tr>
+        <tr class="alt">
+          <td class="fr">Hip thrust</td>
+          <td class="lbl">banc + barre<small>ou Abduktor en attendant</small></td>
+          <td>Fessiers</td>
+          <td class="zn">Freihantel</td>
+        </tr>
+        <tr>
+          <td class="fr">Mollets</td>
+          <td class="lbl">Calf Raise<small>Wadenheben</small></td>
+          <td>Mollets</td>
+          <td class="zn">Geräte</td>
+        </tr>
+        <tr class="alt">
+          <td class="fr">Abdos</td>
+          <td class="lbl">Abdominal Crunch<small>Bauchmaschine</small></td>
+          <td>Ventre</td>
+          <td class="zn">Geräte</td>
+        </tr>
+        <tr>
+          <td class="fr">Gainage latéral</td>
+          <td class="lbl">—<small>sur un tapis (Matte)</small></td>
+          <td>Taille, ceinture abdominale</td>
+          <td class="zn">Functional</td>
+        </tr>
+        <tr class="alt">
+          <td class="fr">Cardio</td>
+          <td class="lbl">Rudergerät · Stairclimber<small>rameur · escaliers</small></td>
+          <td>Endurance, dépense</td>
+          <td class="zn">Cardio</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="note"><b>Bon à savoir :</b> les machines Technogym portent leur nom en anglais sur l'appareil (<i>Chest Press</i>, <i>Leg Press</i>), tandis que le personnel et les panneaux emploient souvent le mot allemand. Les deux te sont donnés ci-dessus. Si tu ne trouves pas une machine, montre cette page à un entraîneur — il te la désignera en dix secondes.</div>
+
+  <!-- ═══════ RÉGLAGES ═══════ -->
+  <div class="sec"><h2>Régler une machine</h2><div class="rule"></div></div>
+  <div class="tips">
+
+    <div class="tip">
+      <div class="n">1</div>
+      <div>
+        <h4>Le siège d'abord</h4>
+        <p>Presque toutes les machines ont une manette ou une goupille pour la hauteur du siège. Règle-la pour que l'articulation qui travaille (épaule, genou) soit alignée avec l'axe de rotation de la machine. Une fois trouvé, <b>note le numéro du siège</b> — tu le retrouveras en trois secondes la prochaine fois.</p>
+      </div>
+    </div>
+
+    <div class="tip">
+      <div class="n">2</div>
+      <div>
+        <h4>Le poids ensuite</h4>
+        <p>Enfonce la broche dans la pile, à la valeur voulue. Pour trouver ton poids de départ : commence <b>volontairement trop léger</b>, fais 12 répétitions, et monte d'un cran jusqu'à ce que les deux ou trois dernières deviennent difficiles — sans jamais casser la position.</p>
+      </div>
+    </div>
+
+    <div class="tip">
+      <div class="n">3</div>
+      <div>
+        <h4>Le mouvement, lent et complet</h4>
+        <p>Deux secondes pour pousser, deux secondes pour revenir. Amplitude complète, sans à-coups et sans lâcher les poids d'un coup. C'est le contrôle qui dessine le muscle, pas la charge.</p>
+      </div>
+    </div>
+
+    <div class="tip">
+      <div class="n">4</div>
+      <div>
+        <h4>La respiration</h4>
+        <p>Tu souffles pendant l'effort (quand tu pousses ou tu tires), tu inspires au retour. Ne bloque jamais ta respiration.</p>
+      </div>
+    </div>
+
+    <div class="tip">
+      <div class="n">5</div>
+      <div>
+        <h4>Après chaque série</h4>
+        <p>45 à 75 secondes de repos, puis on recommence. Et surtout : <b>note le poids et le numéro de siège</b> dans ton carnet, tout de suite. C'est ça qui rend la progression possible.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="recap">
+    <h3>À retenir</h3>
+    <ul>
+      <li><span>La zone <b>Geräte</b> est ta zone principale : mouvement guidé, réglage simple, risque minimal.</span></li>
+      <li><span>Le <b>Zirkel</b> est ton filet de sécurité les jours courts — 13 minutes, tout le corps, aucune décision à prendre.</span></li>
+      <li><span><b>Trop léger vaut mieux que trop lourd</b> les premières semaines : tu apprends le geste, le poids viendra tout seul.</span></li>
+      <li><span>Les entraîneurs sont <b>inclus dans ton abonnement</b>, de 9 h à 21 h. Demande-leur de vérifier ta position sur les machines : c'est gratuit et ça évite des mois de mauvaise habitude.</span></li>
+      <li><span>Une <b>brûlure musculaire</b> pendant l'effort, c'est normal. Une <b>douleur vive</b> dans une articulation, non — dans ce cas tu arrêtes l'exercice et tu demandes au personnel.</span></li>
+      <li><span>Note le <b>numéro de siège</b> autant que le poids. C'est le détail qui fait gagner du temps à chaque séance.</span></li>
+    </ul>
+  </div>
+
+  <footer>FitX Aachen-Europaplatz · Europaplatz 17 · ouvert 24 h/24</footer>
+
+</div>
+</body>
+</html>

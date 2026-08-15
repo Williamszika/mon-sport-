@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mon carnet · Suivi des séances</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --porcelain:#FBF3EF;--card:#FFFDFB;--plum:#43222E;--plum-soft:#7A5561;
+    --line:#EBDDD6;--honey:#DBA043;--honey-tint:#FBEED6;
+    --rose:#C4718A;--rose-tint:#F6E1E7;--sage:#7B9A82;--sage-tint:#E1EBE1;
+    --shadow:0 1px 2px rgba(67,34,46,.04),0 12px 32px rgba(67,34,46,.06);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{font-family:"Nunito Sans",system-ui,sans-serif;color:var(--plum);background:var(--porcelain);
+    line-height:1.55;padding:32px 20px 56px}
+  .wrap{max-width:900px;margin:0 auto}
+
+  header{position:relative;text-align:center;padding:34px 16px 24px;overflow:hidden;margin-bottom:18px}
+  .glow{position:absolute;inset:auto 0 -60% 0;height:200%;
+    background:radial-gradient(60% 55% at 50% 22%,rgba(219,160,67,.32),rgba(196,113,138,.14) 45%,transparent 70%);
+    pointer-events:none;z-index:0}
+  header>*{position:relative;z-index:1}
+  .eyebrow{font-size:.72rem;letter-spacing:.32em;text-transform:uppercase;font-weight:700;color:var(--plum-soft);margin-bottom:13px}
+  h1{font-family:"Fraunces",serif;font-weight:500;font-size:clamp(2.1rem,6.5vw,3rem);line-height:1.03;letter-spacing:-.01em}
+  h1 em{font-style:italic;color:var(--honey)}
+  .tagline{margin-top:11px;color:var(--plum-soft);font-size:1rem}
+
+  .panel{background:var(--plum);border-radius:18px;padding:22px 24px 20px;color:#F7ECEC;margin-bottom:26px}
+  .panel h2{font-family:"Fraunces",serif;font-weight:500;font-size:1.35rem;color:#fff;margin-bottom:13px}
+  .panel ul{list-style:none;display:grid;gap:9px}
+  .panel li{display:flex;gap:11px;font-size:.92rem;align-items:flex-start}
+  .panel li::before{content:"";flex:0 0 8px;height:8px;border-radius:50%;background:var(--honey);margin-top:8px;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .panel li b{color:#fff}
+
+  .sec{display:flex;align-items:center;gap:12px;margin:34px 0 8px}
+  .sec h2{font-family:"Fraunces",serif;font-weight:500;font-size:1.5rem;white-space:nowrap}
+  .sec .rule{flex:1;height:1px;background:var(--line)}
+  .sec .tag{font-size:.66rem;font-weight:800;letter-spacing:.05em;text-transform:uppercase;padding:3px 11px;border-radius:999px;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .tag.ta{background:var(--honey-tint);color:#B67C22}
+  .tag.tb{background:var(--sage-tint);color:#4E6E57}
+  .sec-note{font-size:.88rem;color:var(--plum-soft);margin-bottom:14px;max-width:64ch}
+
+  /* --- séance déjà faite --- */
+  .done{background:linear-gradient(180deg,#FFFBF3,var(--card));border:1px solid var(--honey);border-radius:18px;
+    padding:20px 22px 18px;box-shadow:var(--shadow);margin-bottom:8px;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .done .k{font-size:.66rem;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#B67C22;margin-bottom:7px}
+  .done h3{font-family:"Fraunces",serif;font-weight:500;font-size:1.3rem;margin-bottom:11px}
+  .done table{width:100%;border-collapse:collapse;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--card)}
+  .done td{border-bottom:1px solid var(--line);padding:8px 12px;font-size:.87rem}
+  .done tr:last-child td{border-bottom:none}
+  .done td:first-child{font-weight:700}
+  .done td:last-child{text-align:right;color:var(--plum-soft)}
+  .done .ok{color:#4E6E57;font-weight:700}
+  .done .na{color:#CDBBB0}
+  .done p{font-size:.87rem;color:var(--plum-soft);margin-top:11px}
+
+  /* --- tableau de suivi --- */
+  .scroll{overflow-x:auto;border-radius:14px;box-shadow:var(--shadow);border:1px solid var(--line)}
+  table.trk{width:100%;border-collapse:collapse;background:var(--card);min-width:720px}
+  .trk th,.trk td{border-bottom:1px solid var(--line);border-right:1px solid var(--line);padding:10px 8px;
+    text-align:center;font-size:.82rem}
+  .trk th:last-child,.trk td:last-child{border-right:none}
+  .trk tr:last-child td{border-bottom:none}
+  .trk thead th{background:#F5E9E2;font-weight:800;font-size:.7rem;letter-spacing:.02em;color:var(--plum-soft);
+    text-transform:uppercase;print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .trk thead th.head-a{background:var(--honey-tint);color:#B67C22}
+  .trk thead th.head-b{background:var(--sage-tint);color:#4E6E57}
+  .trk .ex{text-align:left;font-weight:700;color:var(--plum);white-space:nowrap;min-width:172px}
+  .trk .ex small{display:block;font-weight:600;font-size:.71rem;color:var(--plum-soft)}
+  .trk td.fill{color:#D6C4B9;font-size:.9rem}
+  .trk tr.cardio td{background:#FDF7F3;print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .trk tr.late .ex{color:var(--plum-soft)}
+  .trk tr.late .ex small{color:#B49C90}
+
+  /* --- fiche de séance --- */
+  .sheet{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px 22px 18px;
+    box-shadow:var(--shadow);break-inside:avoid}
+  .sheet-top{display:flex;gap:14px;flex-wrap:wrap;padding-bottom:13px;margin-bottom:13px;border-bottom:1px solid var(--line)}
+  .fld{flex:1 1 150px}
+  .fld span{display:block;font-size:.66rem;font-weight:800;letter-spacing:.07em;text-transform:uppercase;color:var(--plum-soft);margin-bottom:5px}
+  .fld .box{border-bottom:1.5px dotted var(--line);height:26px}
+  table.blank{width:100%;border-collapse:collapse}
+  .blank th,.blank td{border:1px solid var(--line);padding:9px 10px;font-size:.82rem;text-align:center;height:34px}
+  .blank thead th{background:#F5E9E2;font-weight:800;font-size:.68rem;letter-spacing:.03em;color:var(--plum-soft);
+    text-transform:uppercase;print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .blank td.lft{text-align:left;color:#D6C4B9}
+
+  /* --- repères --- */
+  .marks{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:13px}
+  .mark{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:15px 17px 14px;box-shadow:var(--shadow)}
+  .mark h4{font-family:"Fraunces",serif;font-weight:500;font-size:1.05rem;margin-bottom:5px}
+  .mark p{font-size:.85rem;color:var(--plum-soft)}
+
+  .recap{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px 22px 18px;
+    box-shadow:var(--shadow);margin-top:16px}
+  .recap h3{font-family:"Fraunces",serif;font-weight:500;font-size:1.3rem;margin-bottom:12px}
+  .recap ul{list-style:none;display:grid;gap:9px}
+  .recap li{display:flex;gap:11px;font-size:.9rem;color:var(--plum-soft);align-items:flex-start}
+  .recap li::before{content:"";flex:0 0 6px;height:6px;border-radius:50%;background:var(--honey);margin-top:8px;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .recap li b{color:var(--plum)}
+
+  footer{text-align:center;margin-top:34px;padding-top:20px;border-top:1px solid var(--line);
+    font-size:.78rem;color:var(--plum-soft)}
+
+  @media(max-width:560px){body{padding:20px 12px 40px}}
+  @media print{
+    body{background:#fff;padding:0;font-size:11px}
+    .glow{display:none}
+    .panel,.done,.sheet,.mark,.recap,.scroll{box-shadow:none;break-inside:avoid}
+    .panel{background:#fff;color:var(--plum);border:1px solid var(--line)}
+    .panel h2,.panel li b{color:var(--plum)}
+    header{padding:14px 0 6px}
+    .scroll{overflow:visible}
+    table.trk{min-width:0}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="glow"></div>
+    <div class="eyebrow">FitX Aachen · Suivi</div>
+    <h1>Mon <em>carnet</em></h1>
+    <p class="tagline">Ce que je fais, séance après séance — pour voir la progression noir sur blanc.</p>
+  </header>
+
+  <section class="panel">
+    <h2>Comment s'en servir</h2>
+    <ul>
+      <li><span><b>Une case par semaine, par machine.</b> Tu y écris le poids que tu as utilisé — par exemple <i>25 kg</i>. Si le poids a changé en cours de semaine, note celui de la dernière séance.</span></li>
+      <li><span><b>Note aussi le numéro de siège</b> à côté du poids la première fois : <i>25 · s4</i>. Tu gagneras une minute à chaque séance.</span></li>
+      <li><span><b>Remplis-le à la salle</b>, machine par machine — pas le soir de mémoire. Une photo de la page suffit si tu préfères le téléphone.</span></li>
+      <li><span><b>Une ligne qui ne bouge pas pendant trois semaines</b>, c'est le signal qu'il faut monter d'un cran ou demander à un entraîneur de vérifier ta position.</span></li>
+      <li><span><b>Les lignes grisées</b> n'entrent en jeu qu'à partir de la semaine indiquée — c'est normal qu'elles restent vides au début.</span></li>
+    </ul>
+  </section>
+
+  <!-- ════════ DÉJÀ FAIT ════════ -->
+  <div class="sec"><h2>Déjà fait</h2><div class="rule"></div></div>
+  <div class="done">
+    <div class="k">Séance découverte</div>
+    <h3>Lundi 10 août 2026</h3>
+    <table>
+      <tr><td>Vélo</td><td class="ok">16 min · niveau 6</td></tr>
+      <tr><td>Presse à cuisses <i>(Leg Press)</i></td><td class="ok">fait · poids non noté</td></tr>
+      <tr><td>Développé poitrine <i>(Chest Press)</i></td><td class="ok">fait · poids non noté</td></tr>
+      <tr><td>Tirage dos</td><td class="na">pas fait</td></tr>
+      <tr><td>Rowing assis</td><td class="na">pas fait</td></tr>
+      <tr><td>Planche</td><td class="na">pas fait</td></tr>
+    </table>
+    <p>Trois blocs sur six pour une première fois — exactement ce qu'il fallait. Seul manque : les poids, qui n'ont pas été notés. C'est précisément ce que le carnet vient corriger à partir de maintenant.</p>
+  </div>
+
+  <!-- ════════ SÉANCE A ════════ -->
+  <div class="sec"><h2>Séance A — haut du corps</h2><div class="rule"></div><span class="tag ta">Poids utilisés</span></div>
+  <p class="sec-note">Une colonne par semaine du planning, avec la date de chaque séance A de cette semaine — certaines semaines en comptent deux, d'autres une seule, puisque A et B alternent. Écris le poids en kilos ; pour la planche et le cardio, la durée. Si le poids monte entre deux séances de la même semaine, note le dernier.</p>
+  <div class="scroll">
+    <table class="trk">
+      <thead>
+        <tr>
+          <th class="ex" style="text-align:left">Exercice</th>
+          <th class="head-a">S1<br>17 · 21/08</th>
+          <th class="head-a">S2<br>26/08</th>
+          <th class="head-a">S3<br>31/08 · 4/09</th>
+          <th class="head-a">S4<br>09/09</th>
+          <th class="head-a">S5<br>14 · 18/09</th>
+          <th class="head-a">S6<br>23/09</th>
+          <th class="head-a">S7<br>28/09 · 2/10</th>
+          <th class="head-a">S8<br>07/10</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="cardio"><td class="ex">Cardio <small>durée · niveau</small></td>
+          <td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td></tr>
+        <tr><td class="ex">Chest Press <small>développé poitrine</small></td>
+          <td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td></tr>
+        <tr><td class="ex">Vertical Traction <small>tirage vertical</small></td>
+          <td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td></tr>
+        <tr><td class="ex">Low Row <small>rowing assis</small></td>
+          <td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td></tr>
+        <tr class="late"><td class="ex">Shoulder Press <small>épaules · dès S2</small></td>
+          <td></td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td></tr>
+        <tr class="late"><td class="ex">Arm Curl <small>biceps · dès S3</small></td>
+          <td></td><td></td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td></tr>
+        <tr class="late"><td class="ex">Arm Extension <small>triceps · dès S4</small></td>
+          <td></td><td></td><td></td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td></tr>
+        <tr><td class="ex">Planche <small>durée</small></td>
+          <td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- ════════ SÉANCE B ════════ -->
+  <div class="sec"><h2>Séance B — bas du corps</h2><div class="rule"></div><span class="tag tb">Poids utilisés</span></div>
+  <div class="scroll">
+    <table class="trk">
+      <thead>
+        <tr>
+          <th class="ex" style="text-align:left">Exercice</th>
+          <th class="head-b">S1<br>19/08</th>
+          <th class="head-b">S2<br>24 · 28/08</th>
+          <th class="head-b">S3<br>02/09</th>
+          <th class="head-b">S4<br>07 · 11/09</th>
+          <th class="head-b">S5<br>16/09</th>
+          <th class="head-b">S6<br>21 · 25/09</th>
+          <th class="head-b">S7<br>30/09</th>
+          <th class="head-b">S8<br>05 · 09/10</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="cardio"><td class="ex">Cardio <small>durée · niveau</small></td>
+          <td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td></tr>
+        <tr><td class="ex">Leg Press <small>presse à cuisses</small></td>
+          <td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td></tr>
+        <tr><td class="ex">Leg Extension <small>extension jambes</small></td>
+          <td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td></tr>
+        <tr><td class="ex">Leg Curl <small>ischio-jambiers</small></td>
+          <td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td></tr>
+        <tr class="late"><td class="ex">Abdominal Crunch <small>abdos · dès S2</small></td>
+          <td></td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td></tr>
+        <tr class="late"><td class="ex">Calf Raise <small>mollets · dès S3</small></td>
+          <td></td><td></td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td></tr>
+        <tr class="late"><td class="ex">Hip thrust <small>fessiers · dès S4</small></td>
+          <td></td><td></td><td></td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td></tr>
+        <tr><td class="ex">Gainage latéral <small>durée / côté</small></td>
+          <td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- ════════ FICHE VIERGE ════════ -->
+  <div class="sec"><h2>Fiche de séance</h2><div class="rule"></div></div>
+  <p class="sec-note">À imprimer autant de fois que nécessaire, pour les séances où tu veux tout détailler — série par série, avec ce que tu as ressenti.</p>
+  <div class="sheet">
+    <div class="sheet-top">
+      <div class="fld"><span>Date</span><div class="box"></div></div>
+      <div class="fld"><span>Séance (A / B / Zirkel)</span><div class="box"></div></div>
+      <div class="fld"><span>Cardio — appareil &amp; durée</span><div class="box"></div></div>
+    </div>
+    <table class="blank">
+      <thead>
+        <tr><th style="width:34%">Machine</th><th>Siège</th><th>Poids</th><th>Série 1</th><th>Série 2</th><th>Série 3</th><th style="width:20%">Ressenti</th></tr>
+      </thead>
+      <tbody>
+        <tr><td class="lft">·</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="lft">·</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="lft">·</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="lft">·</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="lft">·</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="lft">·</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="lft">·</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+        <tr><td class="lft">·</td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- ════════ REPÈRES ════════ -->
+  <div class="sec"><h2>Les repères, une fois par mois</h2><div class="rule"></div></div>
+  <p class="sec-note">Le premier de chaque mois — <b>1<sup>er</sup> septembre</b>, <b>1<sup>er</sup> octobre</b>, <b>1<sup>er</sup> novembre</b>. Pas plus souvent : le corps met des semaines à changer, et se peser tous les jours ne dit rien d'utile.</p>
+  <div class="marks">
+    <div class="mark">
+      <h4>Les poids soulevés</h4>
+      <p>Le meilleur indicateur, et le plus fiable. Compare simplement ta colonne du mois avec celle du mois d'avant, dans les tableaux ci-dessus.</p>
+    </div>
+    <div class="mark">
+      <h4>Le tour de taille</h4>
+      <p>Un mètre ruban, au niveau du nombril, le matin. Bien plus parlant que la balance quand l'objectif est un physique sec.</p>
+    </div>
+    <div class="mark">
+      <h4>Les vêtements</h4>
+      <p>Un jean ou une chemise repère : comment il tombe, ce mois-ci. Aucun chiffre ne remplace ça.</p>
+    </div>
+    <div class="mark">
+      <h4>Le quotidien</h4>
+      <p>Les escaliers, les courses, la fatigue du soir, le sommeil. C'est souvent là que les premiers progrès se voient.</p>
+    </div>
+  </div>
+
+  <div class="recap">
+    <h3>À retenir</h3>
+    <ul>
+      <li><span><b>Note le poids tout de suite</b>, sur la machine — pas le soir de mémoire.</span></li>
+      <li><span><b>Le numéro de siège compte autant que le poids.</b> C'est lui qui garantit que tu refais le même mouvement.</span></li>
+      <li><span><b>Une case vide n'est pas un échec</b> : les exercices arrivent progressivement, selon le planning.</span></li>
+      <li><span><b>Les repères une fois par mois seulement.</b> Les poids soulevés progressent bien avant que le miroir ne bouge.</span></li>
+      <li><span><b>Le Zirkel se note aussi</b> — écris simplement « Zirkel » dans la case de la semaine. Une séance faite est une séance qui compte.</span></li>
+    </ul>
+  </div>
+
+  <footer>Carnet de suivi · démarré le 17 août 2026 · FitX Aachen-Europaplatz 💪</footer>
+
+</div>
+</body>
+</html>

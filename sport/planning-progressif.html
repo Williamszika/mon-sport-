@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Planning progressif · 8 semaines</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --porcelain:#FBF3EF;--card:#FFFDFB;--plum:#43222E;--plum-soft:#7A5561;
+    --line:#EBDDD6;--honey:#DBA043;--honey-tint:#FBEED6;
+    --rose:#C4718A;--rose-tint:#F6E1E7;--sage:#7B9A82;--sage-tint:#E1EBE1;
+    --shadow:0 1px 2px rgba(67,34,46,.04),0 12px 32px rgba(67,34,46,.06);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{font-family:"Nunito Sans",system-ui,sans-serif;color:var(--plum);background:var(--porcelain);
+    line-height:1.55;padding:32px 20px 56px}
+  .wrap{max-width:860px;margin:0 auto}
+
+  header{position:relative;text-align:center;padding:34px 16px 24px;overflow:hidden;margin-bottom:18px}
+  .glow{position:absolute;inset:auto 0 -60% 0;height:200%;
+    background:radial-gradient(60% 55% at 50% 22%,rgba(219,160,67,.32),rgba(196,113,138,.14) 45%,transparent 70%);
+    pointer-events:none;z-index:0}
+  header>*{position:relative;z-index:1}
+  .eyebrow{font-size:.72rem;letter-spacing:.32em;text-transform:uppercase;font-weight:700;color:var(--plum-soft);margin-bottom:13px}
+  h1{font-family:"Fraunces",serif;font-weight:500;font-size:clamp(2.1rem,6.5vw,3rem);line-height:1.03;letter-spacing:-.01em}
+  h1 em{font-style:italic;color:var(--honey)}
+  .tagline{margin-top:11px;color:var(--plum-soft);font-size:1rem}
+
+  .panel{background:var(--plum);border-radius:18px;padding:22px 24px 20px;color:#F7ECEC;margin-bottom:14px}
+  .panel h2{font-family:"Fraunces",serif;font-weight:500;font-size:1.35rem;color:#fff;margin-bottom:13px}
+  .panel ul{list-style:none;display:grid;gap:9px}
+  .panel li{display:flex;gap:11px;font-size:.92rem;align-items:flex-start}
+  .panel li::before{content:"";flex:0 0 8px;height:8px;border-radius:50%;background:var(--honey);margin-top:8px;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .panel li b{color:#fff}
+
+  .warn{background:var(--rose-tint);border-radius:14px;padding:15px 18px;font-size:.89rem;color:#7A3B4E;margin-bottom:28px;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .warn b{color:#5E2A3A}
+
+  /* --- phase --- */
+  .phase{display:flex;align-items:center;gap:12px;margin:36px 0 6px}
+  .phase h2{font-family:"Fraunces",serif;font-weight:500;font-size:1.5rem;white-space:nowrap}
+  .phase .rule{flex:1;height:1px;background:var(--line)}
+  .phase .tag{font-size:.66rem;font-weight:800;letter-spacing:.05em;text-transform:uppercase;padding:3px 11px;border-radius:999px;
+    background:var(--honey-tint);color:#B67C22;white-space:nowrap;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .phase-goal{font-size:.9rem;color:var(--plum-soft);margin-bottom:16px;max-width:62ch}
+
+  /* --- semaine --- */
+  .wk{background:var(--card);border:1px solid var(--line);border-radius:17px;padding:19px 21px 18px;
+    box-shadow:var(--shadow);margin-bottom:15px;break-inside:avoid}
+  .wk-top{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;
+    padding-bottom:12px;margin-bottom:14px;border-bottom:1px solid var(--line)}
+  .wk-top h3{font-family:"Fraunces",serif;font-weight:500;font-size:1.3rem}
+  .wk-top .dates{font-size:.79rem;font-weight:700;color:var(--plum-soft);letter-spacing:.02em}
+  .wk-new{background:var(--honey-tint);border-radius:10px;padding:10px 14px;font-size:.87rem;color:#8A5E1E;margin-bottom:14px;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .wk-new b{color:#6E4A16}
+
+  .days{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-bottom:14px}
+  .day{border:1px solid var(--line);border-radius:12px;padding:11px 12px;text-align:center}
+  .day .d{font-size:.7rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--plum-soft)}
+  .day .s{font-family:"Fraunces",serif;font-weight:500;font-size:1.35rem;margin-top:2px}
+  .day.sa{background:#FEF8EE;print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .day.sa .s{color:#B67C22}
+  .day.sb{background:#F1F6F1;print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .day.sb .s{color:#4E6E57}
+
+  .prog{display:grid;grid-template-columns:1fr 1fr;gap:13px}
+  .blk{border:1px solid var(--line);border-radius:12px;padding:13px 14px 12px}
+  .blk.a{background:#FEFAF4;print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .blk.b{background:#F7FAF7;print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .blk h4{font-size:.7rem;font-weight:800;letter-spacing:.08em;text-transform:uppercase;margin-bottom:9px}
+  .blk.a h4{color:#B67C22}
+  .blk.b h4{color:#4E6E57}
+  .blk ol{list-style:none;counter-reset:x;display:grid;gap:6px}
+  .blk li{counter-increment:x;display:flex;gap:9px;font-size:.85rem;align-items:flex-start;color:var(--plum)}
+  .blk li::before{content:counter(x);flex:0 0 17px;height:17px;border-radius:50%;background:#fff;border:1px solid var(--line);
+    font-size:.64rem;font-weight:800;color:var(--plum-soft);display:flex;align-items:center;justify-content:center;margin-top:3px;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .blk li i{font-style:normal;color:var(--plum-soft);font-size:.8rem}
+  .blk li.fresh{font-weight:800}
+  .blk li.fresh::before{background:var(--honey);border-color:var(--honey);color:#fff}
+  .blk .sets{margin-top:10px;padding-top:9px;border-top:1px dashed var(--line);font-size:.79rem;color:var(--plum-soft)}
+  .blk .sets b{color:var(--plum)}
+
+  /* --- règle de charge --- */
+  .rule-card{background:linear-gradient(180deg,#FFF8EC,var(--card));border:1px solid var(--honey);border-radius:18px;
+    padding:22px 24px 20px;box-shadow:var(--shadow);margin-top:16px;break-inside:avoid;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .rule-card h3{font-family:"Fraunces",serif;font-weight:500;font-size:1.35rem;margin-bottom:10px}
+  .rule-card p{font-size:.91rem;color:var(--plum-soft)}
+  .rule-card p + p{margin-top:9px}
+  .rule-card b{color:var(--plum)}
+  .ladder{display:grid;gap:9px;margin-top:14px}
+  .rung{display:flex;gap:12px;align-items:flex-start;background:var(--card);border:1px solid var(--line);
+    border-radius:11px;padding:11px 13px}
+  .rung .q{flex:0 0 auto;font-size:.68rem;font-weight:800;letter-spacing:.04em;text-transform:uppercase;
+    padding:2px 9px;border-radius:999px;margin-top:2px;print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .rung .q.up{background:var(--sage-tint);color:#4E6E57}
+  .rung .q.hold{background:var(--honey-tint);color:#B67C22}
+  .rung .q.down{background:var(--rose-tint);color:#9E4E67}
+  .rung p{font-size:.86rem;color:var(--plum-soft)}
+
+  .recap{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px 22px 18px;
+    box-shadow:var(--shadow);margin-top:16px}
+  .recap h3{font-family:"Fraunces",serif;font-weight:500;font-size:1.3rem;margin-bottom:12px}
+  .recap ul{list-style:none;display:grid;gap:9px}
+  .recap li{display:flex;gap:11px;font-size:.9rem;color:var(--plum-soft);align-items:flex-start}
+  .recap li::before{content:"";flex:0 0 6px;height:6px;border-radius:50%;background:var(--honey);margin-top:8px;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .recap li b{color:var(--plum)}
+
+  footer{text-align:center;margin-top:34px;padding-top:20px;border-top:1px solid var(--line);
+    font-size:.78rem;color:var(--plum-soft)}
+
+  @media(max-width:600px){
+    body{padding:20px 12px 40px}
+    .prog{grid-template-columns:1fr}
+    .days{grid-template-columns:1fr}
+    .day{display:flex;align-items:baseline;justify-content:space-between;text-align:left}
+    .day .s{font-size:1.1rem}
+  }
+  @media print{
+    body{background:#fff;padding:0;font-size:12px}
+    .glow{display:none}
+    .panel,.wk,.rule-card,.recap{box-shadow:none;break-inside:avoid}
+    .panel{background:#fff;color:var(--plum);border:1px solid var(--line)}
+    .panel h2,.panel li b{color:var(--plum)}
+    header{padding:14px 0 6px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="glow"></div>
+    <div class="eyebrow">FitX Aachen · Débutant</div>
+    <h1>Planning <em>progressif</em></h1>
+    <p class="tagline">Huit semaines, une marche à la fois — du 17 août au 9 octobre.</p>
+  </header>
+
+  <section class="panel">
+    <h2>Comment ça marche</h2>
+    <ul>
+      <li><span><b>3 séances par semaine</b>, en alternant Séance A (haut du corps) et Séance B (bas du corps), avec un jour de repos entre deux.</span></li>
+      <li><span><b>On ajoute un exercice par semaine.</b> Tu commences à 4 par séance et tu arrives au programme complet en semaine 4. Rien n'est jeté d'un coup dans le grand bain.</span></li>
+      <li><span><b>Les semaines alternent</b> : une semaine A·B·A, la suivante B·A·B. Sur deux semaines, le haut et le bas du corps reçoivent exactement la même dose.</span></li>
+      <li><span><b>Les jours donnés sont lundi, mercredi et vendredi.</b> Décale-les selon tes shifts — ce qui compte, c'est trois séances et un jour de repos entre chacune.</span></li>
+      <li><span><b>Tout se note</b> dans le carnet, à chaque séance. Sans les chiffres de la fois d'avant, impossible de savoir quand monter.</span></li>
+      <li><span><b>🔁 Kegels tous les jours</b>, salle ou pas salle.</span></li>
+    </ul>
+  </section>
+
+  <div class="warn"><b>Une séance sautée ne se rattrape pas</b> — on ne double jamais. Tu reprends simplement à la séance suivante du planning. Et si une semaine ne se passe pas comme prévu, tu la refais à l'identique la semaine d'après : le planning t'attend, il n'avance pas sans toi.</div>
+
+  <!-- ════════ PHASE 1 ════════ -->
+  <div class="phase"><h2>Phase 1 — Prendre ses marques</h2><div class="rule"></div><span class="tag">Semaines 1–2</span></div>
+  <p class="phase-goal">Aucun objectif de performance. On cherche les bons réglages, on apprend le geste, on trouve les poids de départ. Tu dois finir chaque séance en te disant « j'aurais pu en faire plus » — c'est exactement ce qu'il faut.</p>
+
+  <div class="wk">
+    <div class="wk-top"><h3>Semaine 1</h3><span class="dates">17 · 19 · 21 août</span></div>
+    <div class="wk-new"><b>Cette semaine :</b> 4 exercices par séance, <b>2 séries de 12</b> en poids léger. Le but est de repérer les machines et de noter un premier chiffre pour chacune.</div>
+    <div class="days">
+      <div class="day sa"><div class="d">Lundi 17</div><div class="s">Séance A</div></div>
+      <div class="day sb"><div class="d">Mercredi 19</div><div class="s">Séance B</div></div>
+      <div class="day sa"><div class="d">Vendredi 21</div><div class="s">Séance A</div></div>
+    </div>
+    <div class="prog">
+      <div class="blk a">
+        <h4>Séance A · haut du corps</h4>
+        <ol>
+          <li>Cardio <i>· 12–15 min</i></li>
+          <li>Chest Press <i>· développé poitrine</i></li>
+          <li>Vertical Traction <i>· tirage vertical</i></li>
+          <li>Low Row <i>· rowing assis</i></li>
+          <li>Planche <i>· 3 × 20 s</i></li>
+        </ol>
+        <div class="sets"><b>2 séries de 12</b> · repos 60 s</div>
+      </div>
+      <div class="blk b">
+        <h4>Séance B · bas du corps</h4>
+        <ol>
+          <li>Cardio <i>· 12–15 min</i></li>
+          <li>Leg Press <i>· presse à cuisses</i></li>
+          <li>Leg Extension <i>· extension jambes</i></li>
+          <li>Leg Curl <i>· ischios</i></li>
+          <li>Gainage latéral <i>· 2 × 20 s</i></li>
+        </ol>
+        <div class="sets"><b>2 séries de 12</b> · repos 60 s</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="wk">
+    <div class="wk-top"><h3>Semaine 2</h3><span class="dates">24 · 26 · 28 août</span></div>
+    <div class="wk-new"><b>Cette semaine :</b> on passe à <b>3 séries</b> et on ajoute un exercice par séance. Les poids ne bougent pas — c'est le volume qui augmente, pas la charge.</div>
+    <div class="days">
+      <div class="day sb"><div class="d">Lundi 24</div><div class="s">Séance B</div></div>
+      <div class="day sa"><div class="d">Mercredi 26</div><div class="s">Séance A</div></div>
+      <div class="day sb"><div class="d">Vendredi 28</div><div class="s">Séance B</div></div>
+    </div>
+    <div class="prog">
+      <div class="blk a">
+        <h4>Séance A · haut du corps</h4>
+        <ol>
+          <li>Cardio <i>· 15 min</i></li>
+          <li>Chest Press</li>
+          <li>Vertical Traction</li>
+          <li>Low Row</li>
+          <li class="fresh">Shoulder Press <i>· développé épaules</i></li>
+          <li>Planche <i>· 3 × 20–30 s</i></li>
+        </ol>
+        <div class="sets"><b>3 séries de 12</b> · repos 60 s</div>
+      </div>
+      <div class="blk b">
+        <h4>Séance B · bas du corps</h4>
+        <ol>
+          <li>Cardio <i>· 15 min</i></li>
+          <li>Leg Press</li>
+          <li>Leg Extension</li>
+          <li>Leg Curl</li>
+          <li class="fresh">Abdominal Crunch <i>· abdos</i></li>
+          <li>Gainage latéral <i>· 2 × 20 s</i></li>
+        </ol>
+        <div class="sets"><b>3 séries de 12</b> · repos 60 s</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ════════ PHASE 2 ════════ -->
+  <div class="phase"><h2>Phase 2 — Compléter</h2><div class="rule"></div><span class="tag">Semaines 3–4</span></div>
+  <p class="phase-goal">Les deux derniers exercices entrent en jeu. À la fin de la semaine 4, tu fais le programme complet — celui de ta fiche <i>Programme Forme</i>. C'est aussi maintenant que les premières montées de charge arrivent.</p>
+
+  <div class="wk">
+    <div class="wk-top"><h3>Semaine 3</h3><span class="dates">31 août · 2 · 4 septembre</span></div>
+    <div class="wk-new"><b>Cette semaine :</b> un exercice de plus, et <b>la première montée de charge</b> — sur les machines où tes 3 × 12 passent sans difficulté, monte d'un cran.</div>
+    <div class="days">
+      <div class="day sa"><div class="d">Lundi 31</div><div class="s">Séance A</div></div>
+      <div class="day sb"><div class="d">Mercredi 2</div><div class="s">Séance B</div></div>
+      <div class="day sa"><div class="d">Vendredi 4</div><div class="s">Séance A</div></div>
+    </div>
+    <div class="prog">
+      <div class="blk a">
+        <h4>Séance A · haut du corps</h4>
+        <ol>
+          <li>Cardio <i>· 15–20 min</i></li>
+          <li>Chest Press</li>
+          <li>Vertical Traction</li>
+          <li>Low Row</li>
+          <li>Shoulder Press</li>
+          <li class="fresh">Arm Curl <i>· biceps</i></li>
+          <li>Planche</li>
+        </ol>
+        <div class="sets"><b>3 séries de 12</b> · biceps 2 × 12–15</div>
+      </div>
+      <div class="blk b">
+        <h4>Séance B · bas du corps</h4>
+        <ol>
+          <li>Cardio <i>· 15–20 min</i></li>
+          <li>Leg Press</li>
+          <li>Leg Extension</li>
+          <li>Leg Curl</li>
+          <li class="fresh">Calf Raise <i>· mollets</i></li>
+          <li>Abdominal Crunch</li>
+          <li>Gainage latéral</li>
+        </ol>
+        <div class="sets"><b>3 séries de 12</b> · mollets 3 × 15</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="wk">
+    <div class="wk-top"><h3>Semaine 4</h3><span class="dates">7 · 9 · 11 septembre</span></div>
+    <div class="wk-new"><b>Cette semaine :</b> le <b>programme complet</b> est en place. Et sur l'une des trois séances, allonge le cardio à <b>25 minutes</b> — c'est lui qui garde le corps sec.</div>
+    <div class="days">
+      <div class="day sb"><div class="d">Lundi 7</div><div class="s">Séance B</div></div>
+      <div class="day sa"><div class="d">Mercredi 9</div><div class="s">Séance A</div></div>
+      <div class="day sb"><div class="d">Vendredi 11</div><div class="s">Séance B</div></div>
+    </div>
+    <div class="prog">
+      <div class="blk a">
+        <h4>Séance A · haut du corps</h4>
+        <ol>
+          <li>Cardio <i>· 15 min</i></li>
+          <li>Chest Press</li>
+          <li>Vertical Traction</li>
+          <li>Low Row</li>
+          <li>Shoulder Press</li>
+          <li>Arm Curl</li>
+          <li class="fresh">Arm Extension <i>· triceps</i></li>
+          <li>Planche</li>
+        </ol>
+        <div class="sets"><b>3 × 12–15</b> · bras 2 × 12–15</div>
+      </div>
+      <div class="blk b">
+        <h4>Séance B · bas du corps</h4>
+        <ol>
+          <li>Cardio <i>· 15 min</i></li>
+          <li>Leg Press</li>
+          <li>Leg Extension</li>
+          <li>Leg Curl</li>
+          <li class="fresh">Hip thrust <i>· fessiers</i></li>
+          <li>Calf Raise</li>
+          <li>Abdominal Crunch</li>
+          <li>Gainage latéral</li>
+        </ol>
+        <div class="sets"><b>3 × 12–15</b> · mollets 3 × 15</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ════════ PHASE 3 ════════ -->
+  <div class="phase"><h2>Phase 3 — Charger</h2><div class="rule"></div><span class="tag">Semaines 5–6</span></div>
+  <p class="phase-goal">Le programme ne change plus. À partir d'ici, ce sont les <b>chiffres</b> qui bougent : chaque séance, tu regardes ton carnet et tu essaies de faire un peu mieux que la fois d'avant. C'est le cœur de la méthode, et c'est là que le corps commence à changer visiblement.</p>
+
+  <div class="wk">
+    <div class="wk-top"><h3>Semaine 5</h3><span class="dates">14 · 16 · 18 septembre</span></div>
+    <div class="wk-new"><b>Cette semaine :</b> programme complet, <b>3 × 12–15</b> partout. Applique la règle de montée de charge (ci-dessous) sur <b>chaque</b> machine, à chaque séance. Une séance avec cardio long, 25–30 min.</div>
+    <div class="days">
+      <div class="day sa"><div class="d">Lundi 14</div><div class="s">Séance A</div></div>
+      <div class="day sb"><div class="d">Mercredi 16</div><div class="s">Séance B</div></div>
+      <div class="day sa"><div class="d">Vendredi 18</div><div class="s">Séance A</div></div>
+    </div>
+  </div>
+
+  <div class="wk">
+    <div class="wk-top"><h3>Semaine 6</h3><span class="dates">21 · 23 · 25 septembre</span></div>
+    <div class="wk-new"><b>Cette semaine :</b> identique à la semaine 5. Ne cherche pas la nouveauté — c'est la <b>répétition</b> qui construit, et tes chiffres doivent maintenant grimper tout seuls.</div>
+    <div class="days">
+      <div class="day sb"><div class="d">Lundi 21</div><div class="s">Séance B</div></div>
+      <div class="day sa"><div class="d">Mercredi 23</div><div class="s">Séance A</div></div>
+      <div class="day sb"><div class="d">Vendredi 25</div><div class="s">Séance B</div></div>
+    </div>
+  </div>
+
+  <!-- ════════ PHASE 4 ════════ -->
+  <div class="phase"><h2>Phase 4 — Consolider</h2><div class="rule"></div><span class="tag">Semaines 7–8</span></div>
+  <p class="phase-goal">Une série de plus sur les deux gros mouvements, puis le bilan. À la fin de la semaine 8, tu ouvres ton carnet, tu compares avec la semaine 1, et tu décides de la suite.</p>
+
+  <div class="wk">
+    <div class="wk-top"><h3>Semaine 7</h3><span class="dates">28 · 30 septembre · 2 octobre</span></div>
+    <div class="wk-new"><b>Cette semaine :</b> passe à <b>4 séries</b> sur le Chest Press (séance A) et sur la Leg Press (séance B). Tout le reste ne bouge pas.</div>
+    <div class="days">
+      <div class="day sa"><div class="d">Lundi 28</div><div class="s">Séance A</div></div>
+      <div class="day sb"><div class="d">Mercredi 30</div><div class="s">Séance B</div></div>
+      <div class="day sa"><div class="d">Vendredi 2</div><div class="s">Séance A</div></div>
+    </div>
+  </div>
+
+  <div class="wk">
+    <div class="wk-top"><h3>Semaine 8</h3><span class="dates">5 · 7 · 9 octobre</span></div>
+    <div class="wk-new"><b>Cette semaine :</b> comme la semaine 7. Puis, le <b>vendredi 9 octobre</b>, fais le bilan — compare chaque poids avec celui de la semaine 1 et note ce que tu ressens dans le quotidien (escaliers, courses, fatigue, sommeil).</div>
+    <div class="days">
+      <div class="day sb"><div class="d">Lundi 5</div><div class="s">Séance B</div></div>
+      <div class="day sa"><div class="d">Mercredi 7</div><div class="s">Séance A</div></div>
+      <div class="day sb"><div class="d">Vendredi 9</div><div class="s">Séance B</div></div>
+    </div>
+  </div>
+
+  <!-- ════════ RÈGLE DE CHARGE ════════ -->
+  <div class="phase"><h2>Quand monter le poids</h2><div class="rule"></div></div>
+  <div class="rule-card">
+    <h3>La règle, une fois pour toutes</h3>
+    <p>À la fin de ta dernière série sur une machine, pose-toi une seule question : <b>« la dernière répétition, elle était comment ? »</b> La réponse décide de la fois suivante.</p>
+    <div class="ladder">
+      <div class="rung">
+        <span class="q up">Facile</span>
+        <p>Tu aurais pu en faire 3 ou 4 de plus. <b>Monte d'un cran</b> la prochaine séance, et redescends à 12 répétitions.</p>
+      </div>
+      <div class="rung">
+        <span class="q hold">Dure mais propre</span>
+        <p>C'est exactement là qu'il faut être. <b>Garde le même poids</b> et ajoute une répétition la prochaine fois, jusqu'à 15.</p>
+      </div>
+      <div class="rung">
+        <span class="q down">Le dos ou les épaules compensent</span>
+        <p>Tu triches pour finir la série. <b>Redescends d'un cran</b> : un mouvement propre à 20 kg vaut mieux qu'un mouvement bancal à 30.</p>
+      </div>
+    </div>
+    <p>Et une fois arrivé à <b>3 × 15 propres</b>, tu montes d'un cran et tu repars à 12. C'est la boucle, et elle ne s'arrête jamais.</p>
+    <p><b>Sur le cardio :</b> même logique. Quand 15 minutes deviennent confortables, passe à 18, puis 20, puis 25. Ou garde la durée et ajoute quatre accélérations d'une minute.</p>
+  </div>
+
+  <div class="recap">
+    <h3>À retenir</h3>
+    <ul>
+      <li><span><b>Un exercice de plus par semaine</b> jusqu'à la semaine 4, puis on ne touche plus au programme — on charge.</span></li>
+      <li><span><b>Les deux premières semaines sont volontairement trop faciles.</b> C'est un investissement : la technique apprise maintenant te servira pendant des années.</span></li>
+      <li><span><b>Trois séances tenues</b> valent mieux qu'une séance héroïque. La régularité passe avant l'intensité.</span></li>
+      <li><span><b>Le Zirkel</b> (13 min, 9 machines) remplace une séance les jours impossibles — et ça compte.</span></li>
+      <li><span><b>Rien n'est noté = rien n'est progressé.</b> Le carnet n'est pas une formalité, c'est l'outil.</span></li>
+      <li><span><b>Douleur vive dans une articulation :</b> tu arrêtes l'exercice et tu vois un entraîneur. Une brûlure dans le muscle, en revanche, c'est normal.</span></li>
+    </ul>
+  </div>
+
+  <footer>8 semaines · du 17 août au 9 octobre 2026 · FitX Aachen-Europaplatz</footer>
+
+</div>
+</body>
+</html>

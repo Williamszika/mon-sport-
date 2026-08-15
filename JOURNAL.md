@@ -160,6 +160,53 @@ introduction, et **le suivi structuré démarre le lundi 17 août**.
 Les huit documents sont réunis dans ce dépôt, les versions courantes séparées des
 archives, avec un sommaire (`index.html`) et ce journal.
 
+### Samedi 15 août — La salle est passée au crible, le planning devient progressif
+
+Recherches faites sur **FitX Aachen-Europaplatz** (Europaplatz 17 — le seul FitX
+de la ville) pour savoir exactement ce qui est disponible sur place :
+
+- **7 zones** : Cardio, Geräte (machines guidées), Zirkel (circuit), Freihantel (haltères libres), Functional, Lady Gym et salle de cours.
+- **Plus de 60 machines Technogym** en zone Geräte, plus les machines à disques **Hammer Strength** et les poulies côté haltères libres.
+- **Cardio** : tapis (*Laufband*), elliptiques (*Crosstrainer*), rameurs (*Rudergerät*), escaliers (*Stairclimber*) et vélos.
+- **Le Zirkel** : des machines en cercle, 1 minute chacune au feu vert, résistance réglable de −2 à +2 — **13 minutes pour tout le corps**. La trouvaille la plus utile pour un débutant. (FitX annonce 6 machines sur la page du studio d'Aachen et 9 sur sa page dédiée au Zirkel — à vérifier sur place.)
+- **Functional** : kettlebells, medicine balls, sandbags, battle ropes, tapis.
+- Ouvert **24 h/24, 365 jours par an** ; entraîneurs sur place de 9 h à 21 h, plan d'entraînement et appli compris dans l'abonnement.
+
+Trois documents en découlent :
+
+**Les machines** (`sport/machines-fitx.html`) — les 7 zones expliquées, puis deux
+tableaux qui donnent, pour chaque exercice du programme, la machine exacte à
+chercher avec son nom anglais (celui écrit sur l'appareil Technogym) et son nom
+allemand (celui qu'emploie le personnel) : *Chest Press / Brustpresse*,
+*Vertical Traction / Latzug*, *Low Row / Rudern sitzend*, *Leg Press /
+Beinpresse*, *Beinstrecker*, *Beinbeuger*, *Bauchmaschine*… Plus les cinq points
+de réglage d'une machine.
+
+**Le planning progressif** (`sport/planning-progressif.html`) — huit semaines,
+du **17 août au 9 octobre**, construites en marches successives :
+
+| Phase | Semaines | Ce qui se passe |
+|---|---|---|
+| Prendre ses marques | 1–2 | 4 puis 5 exercices ; 2 puis 3 séries ; poids volontairement légers |
+| Compléter | 3–4 | 6 puis 7 exercices ; premières montées de charge ; programme complet en S4 |
+| Charger | 5–6 | Le programme ne bouge plus, ce sont les chiffres qui montent |
+| Consolider | 7–8 | 4<sup>e</sup> série sur Chest Press et Leg Press, puis bilan le 9 octobre |
+
+Les semaines alternent A·B·A puis B·A·B, de sorte que le haut et le bas du corps
+reçoivent la même dose sur deux semaines. Chaque semaine indique ses dates, ses
+exercices et l'exercice ajouté. La règle de montée de charge est posée noir sur
+blanc : dernière répétition facile → on monte ; dure mais propre → on garde ;
+technique qui se casse → on redescend.
+
+**Le carnet** (`sport/carnet.html`) — un tableau par séance, une colonne par
+semaine, où noter le poids et le numéro de siège de chaque machine ; une fiche
+de séance détaillée à imprimer ; et des repères mensuels (poids soulevés, tour
+de taille, vêtements, quotidien) plutôt qu'une pesée quotidienne. La séance
+découverte du 10/08 y figure déjà.
+
+Le `journal-progression.html` part aux archives : le carnet le remplace et couvre
+les huit semaines.
+
 ---
 
 ## Où en est-on
@@ -170,9 +217,14 @@ Cleanser AHA + PHA, sérum Vitamine C, crème Niacinamide SPF 30, SunDance SPF 5
 sérum Collagène Rétinol, crème Aloe Vera, gommage corps, lait corps, huile Body
 Beauty, fluide shimmer.
 
-**Sport** — 1 séance réalisée (10/08, séance découverte). Programme et journal
-refaits pour viser un physique sec et dessiné. Prochaine étape : **lundi 17 août,
-Séance A — haut du corps**, premier point du suivi structuré.
+**Sport** — 1 séance réalisée (10/08, séance découverte). Programme, planning et
+carnet en place pour viser un physique sec et dessiné.
+
+Prochaine étape : **lundi 17 août, Séance A — haut du corps**, semaine 1 du
+planning progressif. Au programme : cardio 12–15 min, Chest Press, Vertical
+Traction, Low Row, planche — **2 séries de 12, en poids léger**. Le but de cette
+première semaine n'est pas la performance, c'est de trouver les réglages et de
+noter un premier chiffre pour chaque machine.
 
 **Kegels** — tous les jours, sans exception.
 
@@ -180,7 +232,8 @@ Séance A — haut du corps**, premier point du suivi structuré.
 
 ## Comment tenir ce journal à jour
 
-Après chaque séance, noter dans `sport/journal-progression.html` la durée du
-cardio et le poids utilisé sur chaque machine — c'est ce qui permet de savoir
-quand monter d'un cran. Et ajouter ici, en fin de mois, ce qui a changé dans le
+Après chaque séance, noter dans `sport/carnet.html` le poids et le numéro de
+siège de chaque machine — c'est ce qui permet de savoir quand monter d'un cran.
+Les repères (tour de taille, vêtements, ressenti) une fois par mois seulement,
+le 1<sup>er</sup>. Et ajouter ici, en fin de mois, ce qui a changé dans le
 programme ou dans la routine.
