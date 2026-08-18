@@ -4,7 +4,7 @@ Tout ce qui a été fait, dans l'ordre. Deux volets menés en parallèle : le **
 (Rituel Éclat, visage & corps) démarré en juillet 2026, et le **sport**
 (Programme Forme, FitX Aachen) démarré en août 2026.
 
-Dernière mise à jour : **15 août 2026**.
+Dernière mise à jour : **18 août 2026**.
 
 ---
 
@@ -227,6 +227,24 @@ annoncé. Les documents ont été corrigés en conséquence.
 **Premier poids inscrit au carnet : 20 kg.** C'est le point de départ chiffré qui
 manquait depuis la séance du 10/08.
 
+### Mardi 18 août — Première Séance A complète 🎉
+
+École le lundi : la semaine 1 est recalée sur **mardi · jeudi · samedi**. Séance
+faite le soir après les cours — et cette fois, **tous les chiffres sont notés** :
+
+| Exercice | Réalisé |
+|---|---|
+| Tapis | **15 min · 5,4 km/h** · pente 1,5 · cœur 105 moyen / 108 max |
+| Chest Press | **20 kg** · 2 × 12 |
+| Vertical Traction | **25 kg** · 2 × 12 |
+| Low Row | **20 kg** · 2 × 12 |
+| Planche | faite à la maison |
+
+Le dos (25 kg) tire plus fort que la poitrine (20 kg) — c'est le schéma attendu.
+La colonne S1 du carnet est remplie : la surcharge progressive a ses premiers
+chiffres de référence. En chemin, trois machines identifiées en photo (Chest
+Press, Vertical Traction, Low Row) et le tapis apprivoisé, réglages compris.
+
 ---
 
 ## Où en est-on
@@ -237,15 +255,15 @@ Cleanser AHA + PHA, sérum Vitamine C, crème Niacinamide SPF 30, SunDance SPF 5
 sérum Collagène Rétinol, crème Aloe Vera, gommage corps, lait corps, huile Body
 Beauty, fluide shimmer.
 
-**Sport** — 2 séances réalisées : la découverte du 10/08 et le Zirkel du 15/08
-(abdos à 20 kg). Programme, planning et carnet en place pour viser un physique
-sec et dessiné.
+**Sport** — 3 séances réalisées : la découverte du 10/08, le Zirkel du 15/08
+(abdos à 20 kg) et la **première Séance A complète du 18/08** — Chest Press
+20 kg, Vertical Traction 25 kg, Low Row 20 kg, tapis 15 min à 5,4 km/h.
+Programme, planning et carnet en place ; la colonne S1 est remplie.
 
-Prochaine étape : **lundi 17 août, Séance A — haut du corps**, semaine 1 du
-planning progressif. Au programme : cardio 12–15 min, Chest Press, Vertical
-Traction, Low Row, planche — **2 séries de 12, en poids léger**. Le but de cette
-première semaine n'est pas la performance, c'est de trouver les réglages et de
-noter un premier chiffre pour chaque machine.
+Prochaine étape : **jeudi 20 août, Séance B — bas du corps** (semaine recalée
+mardi · jeudi · samedi). Au programme : cardio 12–15 min, Leg Press, Leg
+Extension, Leg Curl, gainage latéral — 2 séries de 12, en poids léger, pour
+noter les premiers chiffres du bas du corps.
 
 **Kegels** — tous les jours, sans exception.
 
