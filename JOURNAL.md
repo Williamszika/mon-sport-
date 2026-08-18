@@ -238,7 +238,7 @@ faite le soir après les cours — et cette fois, **tous les chiffres sont noté
 | Chest Press | **20 kg** · 2 × 12 |
 | Vertical Traction | **25 kg** · 2 × 12 |
 | Low Row | **20 kg** · 2 × 12 |
-| Planche | faite à la maison |
+| Planche | **3 × ~25 s** à la maison (24,97 · 26,18 · 24,93 — chronométrée) |
 
 Le dos (25 kg) tire plus fort que la poitrine (20 kg) — c'est le schéma attendu.
 La colonne S1 du carnet est remplie : la surcharge progressive a ses premiers
