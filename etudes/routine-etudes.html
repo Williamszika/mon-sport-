@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Routine d'études · Réviser, apprendre, s'exercer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --porcelain:#FBF3EF;--card:#FFFDFB;--plum:#43222E;--plum-soft:#7A5561;
+    --line:#EBDDD6;--honey:#DBA043;--honey-tint:#FBEED6;
+    --rose:#C4718A;--rose-tint:#F6E1E7;--sage:#7B9A82;--sage-tint:#E1EBE1;
+    --shadow:0 1px 2px rgba(67,34,46,.04),0 12px 32px rgba(67,34,46,.06);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{font-family:"Nunito Sans",system-ui,sans-serif;color:var(--plum);background:var(--porcelain);
+    line-height:1.55;padding:32px 20px 56px}
+  .wrap{max-width:860px;margin:0 auto}
+
+  header{position:relative;text-align:center;padding:34px 16px 24px;overflow:hidden;margin-bottom:18px}
+  .glow{position:absolute;inset:auto 0 -60% 0;height:200%;
+    background:radial-gradient(60% 55% at 50% 22%,rgba(219,160,67,.32),rgba(196,113,138,.14) 45%,transparent 70%);
+    pointer-events:none;z-index:0}
+  header>*{position:relative;z-index:1}
+  .eyebrow{font-size:.72rem;letter-spacing:.32em;text-transform:uppercase;font-weight:700;color:var(--plum-soft);margin-bottom:13px}
+  h1{font-family:"Fraunces",serif;font-weight:500;font-size:clamp(2.1rem,6.5vw,3rem);line-height:1.03;letter-spacing:-.01em}
+  h1 em{font-style:italic;color:var(--honey)}
+  .tagline{margin-top:11px;color:var(--plum-soft);font-size:1rem}
+
+  .panel{background:var(--plum);border-radius:18px;padding:22px 24px 20px;color:#F7ECEC;margin-bottom:26px}
+  .panel h2{font-family:"Fraunces",serif;font-weight:500;font-size:1.35rem;color:#fff;margin-bottom:13px}
+  .panel ul{list-style:none;display:grid;gap:9px}
+  .panel li{display:flex;gap:11px;font-size:.92rem;align-items:flex-start}
+  .panel li::before{content:"";flex:0 0 8px;height:8px;border-radius:50%;background:var(--honey);margin-top:8px;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .panel li b{color:#fff}
+
+  .sec{display:flex;align-items:center;gap:12px;margin:34px 0 14px}
+  .sec h2{font-family:"Fraunces",serif;font-weight:500;font-size:1.5rem;white-space:nowrap}
+  .sec .rule{flex:1;height:1px;background:var(--line)}
+  .sec .tag{font-size:.66rem;font-weight:800;letter-spacing:.05em;text-transform:uppercase;padding:3px 11px;border-radius:999px;
+    background:var(--honey-tint);color:#B67C22;white-space:nowrap;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+
+  /* --- les 3 temps --- */
+  .steps{display:grid;gap:13px}
+  .step{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 20px 16px;
+    box-shadow:var(--shadow);display:flex;gap:16px;align-items:flex-start;break-inside:avoid}
+  .step .n{flex:0 0 44px;height:44px;border-radius:14px;background:var(--honey-tint);color:#B67C22;
+    display:flex;flex-direction:column;align-items:center;justify-content:center;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .step .n b{font-family:"Fraunces",serif;font-weight:500;font-size:1.25rem;line-height:1}
+  .step .n span{font-size:.56rem;font-weight:800;letter-spacing:.04em;text-transform:uppercase;margin-top:2px}
+  .step h3{font-family:"Fraunces",serif;font-weight:500;font-size:1.2rem;margin-bottom:5px}
+  .step h3 small{font-size:.72rem;font-weight:800;letter-spacing:.05em;text-transform:uppercase;color:#B67C22;
+    font-family:"Nunito Sans",sans-serif;margin-left:8px}
+  .step p{font-size:.89rem;color:var(--plum-soft)}
+  .step p + p{margin-top:7px}
+  .step b{color:var(--plum)}
+
+  /* --- lecture & dictée --- */
+  .duo{display:grid;grid-template-columns:1fr 1fr;gap:13px}
+  .mod{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 20px 16px;box-shadow:var(--shadow);break-inside:avoid}
+  .mod .k{font-size:.66rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:#B67C22;margin-bottom:6px}
+  .mod h3{font-family:"Fraunces",serif;font-weight:500;font-size:1.25rem;margin-bottom:7px}
+  .mod p{font-size:.88rem;color:var(--plum-soft)}
+  .mod p + p{margin-top:7px}
+  .mod b{color:var(--plum)}
+  .mod ol{margin:9px 0 0 0;padding-left:19px;display:grid;gap:5px}
+  .mod ol li{font-size:.86rem;color:var(--plum-soft)}
+
+  /* --- claude --- */
+  .claude{background:linear-gradient(180deg,#FFF8EC,var(--card));border:1px solid var(--honey);border-radius:18px;
+    padding:22px 24px 20px;box-shadow:var(--shadow);break-inside:avoid;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .claude .k{font-size:.66rem;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#B67C22;margin-bottom:8px}
+  .claude h3{font-family:"Fraunces",serif;font-weight:500;font-size:1.35rem;margin-bottom:9px}
+  .claude p{font-size:.91rem;color:var(--plum-soft)}
+  .claude p + p{margin-top:8px}
+  .claude b{color:var(--plum)}
+
+  /* --- rythme table --- */
+  .scroll{overflow-x:auto;border-radius:14px;box-shadow:var(--shadow);border:1px solid var(--line)}
+  table.rt{width:100%;border-collapse:collapse;background:var(--card);min-width:560px}
+  .rt th,.rt td{border-bottom:1px solid var(--line);padding:11px 13px;text-align:left;font-size:.86rem;vertical-align:top}
+  .rt tr:last-child td{border-bottom:none}
+  .rt thead th{background:#F5E9E2;font-weight:800;font-size:.72rem;letter-spacing:.04em;color:var(--plum-soft);
+    text-transform:uppercase;print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .rt .d{font-weight:700;color:var(--plum);white-space:nowrap}
+  .rt .d small{display:block;font-weight:600;font-size:.74rem;color:var(--plum-soft)}
+  .rt tbody tr.alt td{background:#FDF7F3;print-color-adjust:exact;-webkit-print-color-adjust:exact}
+
+  .recap{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px 22px 18px;
+    box-shadow:var(--shadow);margin-top:16px}
+  .recap h3{font-family:"Fraunces",serif;font-weight:500;font-size:1.3rem;margin-bottom:12px}
+  .recap ul{list-style:none;display:grid;gap:9px}
+  .recap li{display:flex;gap:11px;font-size:.9rem;color:var(--plum-soft);align-items:flex-start}
+  .recap li::before{content:"";flex:0 0 6px;height:6px;border-radius:50%;background:var(--honey);margin-top:8px;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .recap li b{color:var(--plum)}
+
+  footer{text-align:center;margin-top:34px;padding-top:20px;border-top:1px solid var(--line);
+    font-size:.78rem;color:var(--plum-soft)}
+
+  @media(max-width:600px){
+    body{padding:20px 12px 40px}
+    .duo{grid-template-columns:1fr}
+  }
+  @media print{
+    body{background:#fff;padding:0;font-size:12px}
+    .glow{display:none}
+    .panel,.step,.mod,.claude,.recap,.scroll{box-shadow:none;break-inside:avoid}
+    .panel{background:#fff;color:var(--plum);border:1px solid var(--line)}
+    .panel h2,.panel li b{color:var(--plum)}
+    header{padding:14px 0 6px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="glow"></div>
+    <div class="eyebrow">Luisenhospital · Chaque jour</div>
+    <h1>Mes <em>études</em></h1>
+    <p class="tagline">Réviser, apprendre, s'exercer — un peu chaque jour, beaucoup à l'arrivée.</p>
+  </header>
+
+  <section class="panel">
+    <h2>Le principe</h2>
+    <ul>
+      <li><span><b>45 à 60 minutes par jour suffisent</b> — si c'est tous les jours. Comme au sport : la régularité bat l'intensité.</span></li>
+      <li><span><b>Le jour même.</b> Ce qui est revu dans les 24 heures reste ; ce qui attend le week-end s'efface. Le bloc d'études se place le jour du cours, pas « plus tard ».</span></li>
+      <li><span><b>Se tester &gt; relire.</b> Relire donne l'impression de savoir ; répondre à des questions montre ce qu'on sait vraiment. D'où les exercices à chaque bloc.</span></li>
+      <li><span><b>Téléphone en mode avion</b> pendant le bloc — sauf pour envoyer les notes à Claude ou écouter la dictée.</span></li>
+    </ul>
+  </section>
+
+  <!-- ═══════ LES 3 TEMPS ═══════ -->
+  <div class="sec"><h2>Le bloc du jour</h2><div class="rule"></div><span class="tag">≈ 50 min</span></div>
+  <div class="steps">
+
+    <div class="step">
+      <div class="n"><b>1</b><span>15 min</span></div>
+      <div>
+        <h3>Réviser <small>ce qu'on a fait à l'école aujourd'hui</small></h3>
+        <p>Relis tes notes du jour, dans l'ordre du cours. Surligne ce qui est <b>flou</b> — pas ce qui est important : ce qui est flou. C'est ta liste de questions pour demain.</p>
+        <p><b>Astuce :</b> prends les notes en photo et envoie-les à Claude — tu recevras un résumé clair, en allemand simple, avec les mots difficiles expliqués.</p>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="n"><b>2</b><span>15 min</span></div>
+      <div>
+        <h3>Apprendre <small>transformer, pas relire</small></h3>
+        <p>Réécris l'essentiel du cours <b>avec tes mots</b>, de mémoire, sans regarder les notes — puis compare. Ce que tu n'as pas su réécrire, c'est ce qu'il faut retravailler.</p>
+        <p>Et chaque jour : <b>5 mots de vocabulaire</b> nouveaux, écrits sur une fiche ou dans le téléphone, relus à voix haute.</p>
+      </div>
+    </div>
+
+    <div class="step">
+      <div class="n"><b>3</b><span>20 min</span></div>
+      <div>
+        <h3>S'exercer <small>pour mieux comprendre</small></h3>
+        <p>Des exercices sur le sujet du jour : QCM, questions ouvertes, textes à trous, petits cas pratiques. C'est l'étape qui transforme « j'ai lu » en « j'ai compris ».</p>
+        <p><b>Claude te les prépare</b> à partir de tes notes — avec les corrections expliquées.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ═══════ LECTURE & DICTÉE ═══════ -->
+  <div class="sec"><h2>Lecture &amp; dictée</h2><div class="rule"></div><span class="tag">En plus du bloc</span></div>
+  <div class="duo">
+
+    <div class="mod">
+      <div class="k">📖 Chaque jour · 20 min</div>
+      <h3>La lecture</h3>
+      <p>Le soir, au lit, à la place du téléphone. En <b>allemand de préférence</b> — un livre simple, un article, ou tes textes de cours relus tranquillement.</p>
+      <p><b>La règle des mots inconnus :</b> ne t'arrête pas à chaque mot. Note-en 3 par soir maximum, cherche-les le lendemain — ils rejoignent tes 5 mots du jour.</p>
+      <p>Lire en allemand tous les jours est ce qui fera le plus progresser ta compréhension à l'école — et ça améliore le sommeil bien plus que l'écran.</p>
+    </div>
+
+    <div class="mod">
+      <div class="k">✍️ 3 fois par semaine · 10 min</div>
+      <h3>La dictée</h3>
+      <p>L'exercice qui muscle l'orthographe et l'oreille en même temps. Tu peux la faire <b>seul, avec ton téléphone</b> :</p>
+      <ol>
+        <li>Demande un texte de dictée à Claude (adapté à ton niveau et au cours du jour)</li>
+        <li>Fais-le <b>lire à voix haute par le téléphone</b> — sur iPhone : Réglages → Accessibilité → Contenu énoncé → « Énoncer la sélection »</li>
+        <li>Écris pendant que ça parle, mets pause quand il faut</li>
+        <li>Compare avec le texte, <b>compte les fautes, note le score</b></li>
+      </ol>
+      <p>Même erreur deux dictées de suite = un point à travailler. Le score qui baisse, c'est ta progression, noire sur blanc.</p>
+    </div>
+
+  </div>
+
+  <!-- ═══════ AVEC CLAUDE ═══════ -->
+  <div class="sec"><h2>Avec Claude</h2><div class="rule"></div></div>
+  <div class="claude">
+    <div class="k">Le circuit quotidien</div>
+    <h3>Tes notes entrent, tes exercices sortent</h3>
+    <p><b>Après les cours, envoie une photo de tes notes du jour</b> (ou dis simplement le sujet traité). En retour, tu reçois :</p>
+    <p>1️⃣ un <b>résumé clair</b> du cours, en allemand simple, avec les termes difficiles expliqués en français · 2️⃣ des <b>exercices</b> pour le temps 3 du bloc — QCM, questions, textes à trous — avec corrections · 3️⃣ une <b>dictée</b> tirée du vocabulaire du jour, les jours de dictée.</p>
+    <p>Et comme pour le sport : <b>tout se note au journal</b> — les sujets traités, les scores de dictée, ce qui reste flou. C'est ce qui permet de voir la progression et de savoir quoi réviser avant un contrôle.</p>
+  </div>
+
+  <!-- ═══════ LE RYTHME ═══════ -->
+  <div class="sec"><h2>Où placer le bloc, selon la journée</h2><div class="rule"></div></div>
+  <div class="scroll">
+    <table class="rt">
+      <thead><tr><th>Journée</th><th>Le bloc d'études</th><th>Lecture</th></tr></thead>
+      <tbody>
+        <tr>
+          <td class="d">École<small>07:30/08:00 – 15:00/15:30</small></td>
+          <td><b>16:30 – 17:30</b>, après le goûter. Les jours de salle : après la séance et le dîner, vers 19:30 — l'ordre importe peu, la régularité oui.</td>
+          <td>Le soir, au lit</td>
+        </tr>
+        <tr class="alt">
+          <td class="d">Shift F<small>06:30 – 14:30</small></td>
+          <td><b>Version courte 30 min</b> l'après-midi : révision + 5 mots + un exercice. Les jours de salle, après la séance.</td>
+          <td>Le soir, au lit</td>
+        </tr>
+        <tr>
+          <td class="d">Shift S<small>13:30 – 20:30</small></td>
+          <td><b>Le matin, vers 11 h</b> — avant le travail, la tête est fraîche. Version courte si le temps manque.</td>
+          <td>Le soir, au lit</td>
+        </tr>
+        <tr class="alt">
+          <td class="d">Repos</td>
+          <td><b>Bloc complet</b> + le quart d'heure de rattrapage : reprendre les surlignages « flous » de la semaine.</td>
+          <td>Le soir, au lit</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="recap">
+    <h3>À retenir</h3>
+    <ul>
+      <li><span><b>Un bloc par jour</b> — 50 minutes les jours d'école, 30 les jours chargés. Jamais zéro.</span></li>
+      <li><span><b>Le jour même</b> : réviser un cours 24 h après, c'est le retenir ; le réviser samedi, c'est le réapprendre.</span></li>
+      <li><span><b>5 mots par jour</b> = 150 mots par mois. C'est comme les poids à la salle : petit cran par petit cran.</span></li>
+      <li><span><b>La dictée se note</b> comme un poids : nombre de fautes, date. La courbe qui descend, c'est toi qui montes.</span></li>
+      <li><span><b>Envoie tes notes à Claude après les cours</b> — résumé, exercices et dictée arrivent prêts pour ton bloc.</span></li>
+    </ul>
+  </div>
+
+  <footer>Études · Luisenhospital · bloc quotidien de 30 à 60 min 📚</footer>
+
+</div>
+</body>
+</html>

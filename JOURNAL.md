@@ -1,10 +1,11 @@
 # Journal
 
-Tout ce qui a été fait, dans l'ordre. Deux volets menés en parallèle : le **soin**
-(Rituel Éclat, visage & corps) démarré en juillet 2026, et le **sport**
-(Programme Forme, FitX Aachen) démarré en août 2026.
+Tout ce qui a été fait, dans l'ordre. Trois volets menés en parallèle : le **soin**
+(Rituel Éclat, visage & corps) démarré en juillet 2026, le **sport**
+(Programme Forme, FitX Aachen) démarré en août 2026, et les **études**
+(Luisenhospital) suivies ici depuis le 19 août 2026.
 
-Dernière mise à jour : **18 août 2026**.
+Dernière mise à jour : **19 août 2026**.
 
 ---
 
@@ -245,6 +246,29 @@ La colonne S1 du carnet est remplie : la surcharge progressive a ses premiers
 chiffres de référence. En chemin, trois machines identifiées en photo (Chest
 Press, Vertical Traction, Low Row) et le tapis apprivoisé, réglages compris.
 
+### Mercredi 19 août — Le planning s'élargit : les études 📚
+
+Troisième pilier ajouté à côté du sport et du soin : **les études**, avec une
+routine quotidienne construite sur le même principe que la salle — la
+régularité avant l'intensité.
+
+- **Le bloc du jour (~50 min)** : Réviser (15 min, les notes du jour même) →
+  Apprendre (15 min, réécrire de mémoire + 5 mots de vocabulaire) → S'exercer
+  (20 min, QCM, questions, textes à trous).
+- **La lecture** : 20 min chaque soir, au lit, en allemand de préférence —
+  3 mots inconnus notés par soir, maximum.
+- **La dictée** : 3 fois par semaine, 10 min, faisable seul — le téléphone lit
+  le texte à voix haute (Réglages → Accessibilité → Contenu énoncé), on écrit,
+  on compare, **on note le score de fautes**. La courbe qui descend, c'est la
+  progression.
+- **Le circuit avec Claude** : photo des notes après les cours → résumé clair
+  en allemand simple, exercices corrigés, dictée du jour. Les sujets et les
+  scores se notent au journal, comme les poids au carnet.
+- Le bloc se place selon la journée : 16:30 les jours d'école, 30 min le matin
+  les shifts S, version complète les jours de repos.
+
+→ `etudes/routine-etudes.html` — **document de référence en cours**
+
 ---
 
 ## Où en est-on
@@ -264,6 +288,10 @@ Prochaine étape : **jeudi 20 août, Séance B — bas du corps** (semaine recal
 mardi · jeudi · samedi). Au programme : cardio 12–15 min, Leg Press, Leg
 Extension, Leg Curl, gainage latéral — 2 séries de 12, en poids léger, pour
 noter les premiers chiffres du bas du corps.
+
+**Études** — routine lancée le 19 août : un bloc par jour (réviser → apprendre
+→ s'exercer), lecture chaque soir, dictée trois fois par semaine avec score
+noté. Premier bloc : mercredi 19 août, sur les cours du jour.
 
 **Kegels** — tous les jours, sans exception.
 
