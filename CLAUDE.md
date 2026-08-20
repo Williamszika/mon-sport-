@@ -9,8 +9,11 @@ et clair.
 Avant de donner un planning, une routine du jour, ou tout conseil dépendant du
 moment (« ce soir », « demain », « cette semaine ») :
 
-1. **Date et heure réelles** : `TZ=Europe/Berlin date '+%A %d %B %Y · %H:%M %Z'`
-   — ne jamais déduire le jour du fil de la conversation, le vérifier.
+1. **Date et heure réelles d'Aachen** : `TZ=Europe/Berlin date '+%A %d %B %Y · %H:%M %Z'`
+   — Aachen est sur le fuseau de Berlin (Europe/Berlin, CET/CEST) ; c'est
+   l'heure locale de William, à Campus-Boulevard 62, 52074 Aachen. Ne jamais
+   déduire le jour ou l'heure du fil de la conversation : toujours exécuter la
+   commande. Afficher la date et l'heure vérifiées en tête de chaque planning.
 2. **Météo d'Aachen** : `curl -s "https://wttr.in/Aachen?format=j1"` — regarder
    surtout **l'indice UV** (dicte le SPF 30 vs SunDance 50), la température et
    la pluie (trajets en bus).
