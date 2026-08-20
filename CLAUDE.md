@@ -35,6 +35,25 @@ notable : mettre à jour `sport/carnet.html` (poids, n° de siège, chronos),
 `JOURNAL.md` **et** `journal.html`, puis **commit + push** sur la branche de
 travail. Les poids réels priment sur le plan ; ne jamais inventer un chiffre.
 
+## Règle n° 3 — Planifier comme un humain, pas comme une machine
+
+- **William a 32 ans** — parler d'adulte à adulte, sans sur-expliquer.
+- **Toujours une vraie pause (30–60 min)** entre l'école/le travail et tout
+  bloc planifié (études ou salle) : manger, souffler. Le bloc commence après,
+  pas à la descente du bus.
+- Plannings avec **des fourchettes et de l'air**, pas de minutage militaire.
+  Une journée a du temps libre non assigné ; le plan est un guide, pas une
+  prison.
+- **Études : William étudie depuis SON propre dépôt de sujets.** Claude
+  planifie les créneaux et tient le journal — résumés, exercices, corrections
+  et dictées **uniquement sur demande explicite**.
+- **Objectif langue : examen B2 l'année prochaine** (écrire, parler, écouter)
+  — voir `etudes/plan-allemand-b2.html`. Examen exact (Goethe / telc /
+  telc B2 Pflege) et date à confirmer par William.
+- **Photos : aucun besoin de photos de lui.** Les poids, chronos et sensations
+  suffisent au suivi. Les photos de machines ou d'écrans restent bienvenues
+  pour identifier ou régler quelque chose.
+
 ## Contexte fixe
 
 - **Domicile** : Campus-Boulevard 62, 52074 Aachen (Melaten).

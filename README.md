@@ -20,7 +20,8 @@ couleurs conservées).
 | [`sport/machines-fitx.html`](sport/machines-fitx.html) | Les machines de FitX Aachen — quelle machine pour quel exercice |
 | [`sport/programme-forme.html`](sport/programme-forme.html) | Le programme de fond — Séance A haut du corps / Séance B bas du corps |
 | [`soin/rituel-eclat-aout-2026.html`](soin/rituel-eclat-aout-2026.html) | Le rituel du mois — calendrier + mode d'emploi de chaque produit |
-| [`etudes/routine-etudes.html`](etudes/routine-etudes.html) | La routine d'études — réviser, apprendre, s'exercer + lecture et dictée |
+| [`etudes/routine-etudes.html`](etudes/routine-etudes.html) | La routine d'études — pause, puis réviser, apprendre, s'exercer + lecture et dictée |
+| [`etudes/plan-allemand-b2.html`](etudes/plan-allemand-b2.html) | Le plan allemand — objectif examen B2, en trois phases dans le quotidien |
 | `sport/archives/`, `soin/archives/` | Les versions précédentes, gardées telles quelles |
 
 ## L'essentiel, en bref

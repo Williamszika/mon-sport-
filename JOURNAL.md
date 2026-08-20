@@ -5,7 +5,7 @@ Tout ce qui a été fait, dans l'ordre. Trois volets menés en parallèle : le *
 (Programme Forme, FitX Aachen) démarré en août 2026, et les **études**
 (Luisenhospital) suivies ici depuis le 19 août 2026.
 
-Dernière mise à jour : **19 août 2026**.
+Dernière mise à jour : **20 août 2026**.
 
 ---
 
@@ -261,13 +261,38 @@ régularité avant l'intensité.
   le texte à voix haute (Réglages → Accessibilité → Contenu énoncé), on écrit,
   on compare, **on note le score de fautes**. La courbe qui descend, c'est la
   progression.
-- **Le circuit avec Claude** : photo des notes après les cours → résumé clair
-  en allemand simple, exercices corrigés, dictée du jour. Les sujets et les
-  scores se notent au journal, comme les poids au carnet.
+- **Les supports** : dans le dépôt d'études personnel de William — ici on
+  planifie les créneaux et on tient le journal (sujets, scores de dictée) ;
+  corrections et exercices sur demande.
 - Le bloc se place selon la journée : 16:30 les jours d'école, 30 min le matin
   les shifts S, version complète les jours de repos.
 
 → `etudes/routine-etudes.html` — **document de référence en cours**
+
+### Jeudi 20 août — Objectif B2, et un planning plus humain
+
+Deux ajustements importants, demandés par William :
+
+**Le plan allemand B2.** Examen l'année prochaine — écrire, parler, écouter
+sans problème. Le plan est construit **dans** le quotidien plutôt qu'en plus :
+l'écoute dans le bus (Nachrichtenleicht, Easy German), la parole à l'école et
+5 min de récit à voix haute par jour, la lecture du soir déjà en place
+(Sandmännchen → Eifel-Sturm → Grisham), et une seule vraie nouveauté —
+**un texte de 10–15 lignes par semaine, corrigé**. Trois phases jusqu'à
+l'examen : consolider (→ décembre), monter en B2 (janvier–avril, premier
+Modelltest), format examen (les 3 derniers mois, tests chronométrés). Reste à
+confirmer l'examen exact : Goethe, telc, ou telc B2 Pflege.
+
+**Le planning devient plus humain.** Une vraie pause de 30–60 min en rentrant
+de l'école avant tout bloc ; des fourchettes plutôt qu'un minutage serré ; les
+supports d'études restent dans le dépôt personnel de William — ici on planifie
+les créneaux et on tient le journal, les exercices ne se font que sur demande.
+Ces règles sont gravées dans `CLAUDE.md`. Par ailleurs : la Séance B est
+décalée à **vendredi 21 vers 20 h 30** (semaine : A mardi · B vendredi ·
+A dimanche), et aucun suivi ne demande de photos de soi — les chiffres et les
+sensations suffisent.
+
+→ `etudes/plan-allemand-b2.html` — **document de référence en cours**
 
 ---
 
@@ -290,9 +315,11 @@ Prochaine étape : **vendredi 21 août vers 20 h 30, Séance B — bas du corps*
 12, en poids léger, pour noter les premiers chiffres du bas du corps. Séance A
 suivante le dimanche 23.
 
-**Études** — routine lancée le 19 août : un bloc par jour (réviser → apprendre
-→ s'exercer), lecture chaque soir, dictée trois fois par semaine avec score
-noté. Premier bloc : mercredi 19 août, sur les cours du jour.
+**Études** — routine lancée le 19 août : une vraie pause en rentrant, puis un
+bloc par jour (réviser → apprendre → s'exercer) depuis le dépôt de sujets de
+William, lecture chaque soir, dictée trois fois par semaine avec score noté.
+Objectif : **examen B2 l'année prochaine** — plan en trois phases dans
+`etudes/plan-allemand-b2.html`, examen exact à confirmer.
 
 **Kegels** — tous les jours, sans exception.
 

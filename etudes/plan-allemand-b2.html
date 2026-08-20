@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Objectif B2 · Mon allemand</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --porcelain:#FBF3EF;--card:#FFFDFB;--plum:#43222E;--plum-soft:#7A5561;
+    --line:#EBDDD6;--honey:#DBA043;--honey-tint:#FBEED6;
+    --rose:#C4718A;--rose-tint:#F6E1E7;--sage:#7B9A82;--sage-tint:#E1EBE1;
+    --shadow:0 1px 2px rgba(67,34,46,.04),0 12px 32px rgba(67,34,46,.06);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{font-family:"Nunito Sans",system-ui,sans-serif;color:var(--plum);background:var(--porcelain);
+    line-height:1.55;padding:32px 20px 56px}
+  .wrap{max-width:860px;margin:0 auto}
+
+  header{position:relative;text-align:center;padding:34px 16px 24px;overflow:hidden;margin-bottom:18px}
+  .glow{position:absolute;inset:auto 0 -60% 0;height:200%;
+    background:radial-gradient(60% 55% at 50% 22%,rgba(219,160,67,.32),rgba(196,113,138,.14) 45%,transparent 70%);
+    pointer-events:none;z-index:0}
+  header>*{position:relative;z-index:1}
+  .eyebrow{font-size:.72rem;letter-spacing:.32em;text-transform:uppercase;font-weight:700;color:var(--plum-soft);margin-bottom:13px}
+  h1{font-family:"Fraunces",serif;font-weight:500;font-size:clamp(2.1rem,6.5vw,3rem);line-height:1.03;letter-spacing:-.01em}
+  h1 em{font-style:italic;color:var(--honey)}
+  .tagline{margin-top:11px;color:var(--plum-soft);font-size:1rem}
+
+  .panel{background:var(--plum);border-radius:18px;padding:22px 24px 20px;color:#F7ECEC;margin-bottom:26px}
+  .panel h2{font-family:"Fraunces",serif;font-weight:500;font-size:1.35rem;color:#fff;margin-bottom:13px}
+  .panel ul{list-style:none;display:grid;gap:9px}
+  .panel li{display:flex;gap:11px;font-size:.92rem;align-items:flex-start}
+  .panel li::before{content:"";flex:0 0 8px;height:8px;border-radius:50%;background:var(--honey);margin-top:8px;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .panel li b{color:#fff}
+
+  .sec{display:flex;align-items:center;gap:12px;margin:34px 0 14px}
+  .sec h2{font-family:"Fraunces",serif;font-weight:500;font-size:1.5rem;white-space:nowrap}
+  .sec .rule{flex:1;height:1px;background:var(--line)}
+  .sec .tag{font-size:.66rem;font-weight:800;letter-spacing:.05em;text-transform:uppercase;padding:3px 11px;border-radius:999px;
+    background:var(--honey-tint);color:#B67C22;white-space:nowrap;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+
+  .skills{display:grid;grid-template-columns:1fr 1fr;gap:13px}
+  .skill{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 20px 16px;box-shadow:var(--shadow);break-inside:avoid}
+  .skill .k{font-size:.66rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:#B67C22;margin-bottom:6px}
+  .skill h3{font-family:"Fraunces",serif;font-weight:500;font-size:1.25rem;margin-bottom:7px}
+  .skill p{font-size:.88rem;color:var(--plum-soft)}
+  .skill p + p{margin-top:7px}
+  .skill b{color:var(--plum)}
+
+  .scroll{overflow-x:auto;border-radius:14px;box-shadow:var(--shadow);border:1px solid var(--line)}
+  table.tl{width:100%;border-collapse:collapse;background:var(--card);min-width:560px}
+  .tl th,.tl td{border-bottom:1px solid var(--line);padding:12px 14px;text-align:left;font-size:.87rem;vertical-align:top}
+  .tl tr:last-child td{border-bottom:none}
+  .tl thead th{background:#F5E9E2;font-weight:800;font-size:.72rem;letter-spacing:.04em;color:var(--plum-soft);
+    text-transform:uppercase;print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .tl .ph{font-weight:700;color:var(--plum);white-space:nowrap}
+  .tl .ph small{display:block;font-weight:600;font-size:.74rem;color:var(--plum-soft)}
+  .tl tbody tr.alt td{background:#FDF7F3;print-color-adjust:exact;-webkit-print-color-adjust:exact}
+
+  .exam{background:linear-gradient(180deg,#FFF8EC,var(--card));border:1px solid var(--honey);border-radius:18px;
+    padding:22px 24px 20px;box-shadow:var(--shadow);break-inside:avoid;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .exam .k{font-size:.66rem;font-weight:800;letter-spacing:.16em;text-transform:uppercase;color:#B67C22;margin-bottom:8px}
+  .exam h3{font-family:"Fraunces",serif;font-weight:500;font-size:1.35rem;margin-bottom:9px}
+  .exam p{font-size:.91rem;color:var(--plum-soft)}
+  .exam p + p{margin-top:8px}
+  .exam b{color:var(--plum)}
+
+  .recap{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px 22px 18px;
+    box-shadow:var(--shadow);margin-top:16px}
+  .recap h3{font-family:"Fraunces",serif;font-weight:500;font-size:1.3rem;margin-bottom:12px}
+  .recap ul{list-style:none;display:grid;gap:9px}
+  .recap li{display:flex;gap:11px;font-size:.9rem;color:var(--plum-soft);align-items:flex-start}
+  .recap li::before{content:"";flex:0 0 6px;height:6px;border-radius:50%;background:var(--honey);margin-top:8px;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .recap li b{color:var(--plum)}
+
+  footer{text-align:center;margin-top:34px;padding-top:20px;border-top:1px solid var(--line);
+    font-size:.78rem;color:var(--plum-soft)}
+
+  @media(max-width:600px){
+    body{padding:20px 12px 40px}
+    .skills{grid-template-columns:1fr}
+  }
+  @media print{
+    body{background:#fff;padding:0;font-size:12px}
+    .glow{display:none}
+    .panel,.skill,.exam,.recap,.scroll{box-shadow:none;break-inside:avoid}
+    .panel{background:#fff;color:var(--plum);border:1px solid var(--line)}
+    .panel h2,.panel li b{color:var(--plum)}
+    header{padding:14px 0 6px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="glow"></div>
+    <div class="eyebrow">Examen B2 · l'année prochaine</div>
+    <h1>Mon <em>allemand</em></h1>
+    <p class="tagline">Écrire, parler, écouter — sans problème.</p>
+  </header>
+
+  <section class="panel">
+    <h2>Ce qui joue déjà pour toi</h2>
+    <ul>
+      <li><span><b>Tu vis en immersion.</b> L'école est en allemand du matin au soir, le travail aussi. Ce sont des heures d'écoute et de parole réelles que la plupart des candidats B2 n'ont pas — ton quotidien est déjà ton meilleur cours.</span></li>
+      <li><span><b>Le bus, c'est 40 à 60 minutes par jour</b> de temps d'écoute qui existe déjà. Rien à ajouter à la journée : juste des écouteurs.</span></li>
+      <li><span><b>Ta routine couvre déjà lire et écrire</b> — la lecture du soir et les dictées. Ce plan n'empile presque rien : il oriente ce qui est en place.</span></li>
+      <li><span><b>À 32 ans on n'apprend pas comme à 15 — on apprend mieux :</b> avec un objectif clair, un contexte réel, et de la régularité. Les trois, tu les as.</span></li>
+    </ul>
+  </section>
+
+  <!-- ═══════ LES 4 COMPÉTENCES ═══════ -->
+  <div class="sec"><h2>Les quatre compétences, dans ta journée</h2><div class="rule"></div></div>
+  <div class="skills">
+
+    <div class="skill">
+      <div class="k">👂 Hören · écouter</div>
+      <h3>Le bus est ta salle d'écoute</h3>
+      <p><b>Le trajet aller en allemand</b> : un podcast en langue simple — <i>Nachrichtenleicht</i> (l'actualité en allemand facile, du Deutschlandfunk) ou le <i>Easy German Podcast</i>. Le retour, tu écoutes ce que tu veux.</p>
+      <p>Quand ça devient confortable, passe aux infos normales (<i>Tagesschau in 100 Sekunden</i>). Le jour où tu suis les infos à vitesse réelle, ton oreille est au niveau B2.</p>
+    </div>
+
+    <div class="skill">
+      <div class="k">🗣️ Sprechen · parler</div>
+      <h3>L'école est ton terrain</h3>
+      <p>Chaque question posée en classe, chaque phrase de plus avec un collègue compte double : c'est de l'oral en conditions réelles. <b>Ose une phrase de plus par jour</b> — l'erreur est le prix normal, personne ne la retient contre toi.</p>
+      <p>Et 5 minutes par jour, seul : <b>raconte ta journée à voix haute en allemand</b> — sous la douche, en marchant. Ça délie plus que n'importe quel exercice écrit.</p>
+    </div>
+
+    <div class="skill">
+      <div class="k">📖 Lesen · lire</div>
+      <h3>Déjà en place</h3>
+      <p>Ta lecture du soir suit l'échelle : <b>Sandmännchen → Eifel-Sturm → Grisham</b>. Trois mots inconnus notés par soir, pas plus.</p>
+      <p>Le jour où le Grisham se lit sans effort, ta lecture est au niveau de l'examen. C'est un thermomètre gratuit.</p>
+    </div>
+
+    <div class="skill">
+      <div class="k">✍️ Schreiben · écrire</div>
+      <h3>La seule vraie nouveauté</h3>
+      <p>Les dictées (3×/semaine, score noté) travaillent l'orthographe. Pour l'examen il faut aussi rédiger : <b>un texte par semaine, 10 à 15 lignes</b> — ta journée, un avis, une lettre type.</p>
+      <p>Tu me l'envoies, je le corrige avec les explications, et l'erreur qui revient devient un point de travail. C'est exactement l'épreuve écrite du B2, en miniature.</p>
+    </div>
+
+  </div>
+
+  <!-- ═══════ LIGNE DE TEMPS ═══════ -->
+  <div class="sec"><h2>La route jusqu'à l'examen</h2><div class="rule"></div><span class="tag">3 phases</span></div>
+  <div class="scroll">
+    <table class="tl">
+      <thead><tr><th>Phase</th><th>Ce qu'on fait</th><th>Le repère de fin</th></tr></thead>
+      <tbody>
+        <tr>
+          <td class="ph">Consolider<small>maintenant → décembre</small></td>
+          <td>La routine, tenue : écoute dans le bus, 5 mots/jour, lecture du soir, dictées, 1 texte/semaine. Rien de spectaculaire — c'est la phase qui fait 80 % du résultat.</td>
+          <td>~750 mots de vocabulaire en plus, Eifel-Sturm commencé, textes qui viennent sans douleur.</td>
+        </tr>
+        <tr class="alt">
+          <td class="ph">Monter en B2<small>janvier → avril</small></td>
+          <td>Podcasts à vitesse normale, textes plus longs (20 lignes, argumenter pour/contre), et <b>un Modelltest B2</b> (test modèle gratuit, en ligne) pour voir où tu en es vraiment.</td>
+          <td>Le Modelltest te dit précisément quelle compétence traîne — on ajuste là-dessus.</td>
+        </tr>
+        <tr>
+          <td class="ph">Format examen<small>les 3 derniers mois</small></td>
+          <td>Un Modelltest complet <b>chronométré toutes les 2 semaines</b>, et on travaille les formats exacts des épreuves : la lettre, l'exposé oral, la compréhension audio à un seul passage.</td>
+          <td>Arriver le jour J en terrain connu — l'examen ne doit contenir aucune surprise de forme.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- ═══════ QUEL EXAMEN ═══════ -->
+  <div class="sec"><h2>Quel examen ?</h2><div class="rule"></div></div>
+  <div class="exam">
+    <div class="k">À confirmer — ça change la préparation</div>
+    <h3>Goethe, telc… ou telc B2 Pflege</h3>
+    <p>Il existe plusieurs certificats B2 reconnus : le <b>Goethe-Zertifikat B2</b>, le <b>telc Deutsch B2</b> — et, dans les métiers du soin, c'est souvent le <b>telc Deutsch B2 Pflege</b> qui est demandé : mêmes compétences, mais avec des situations de soin (transmissions, entretiens avec les patients, documentation).</p>
+    <p><b>Demande à l'école lequel est exigé</b> — les épreuves diffèrent assez pour que les trois derniers mois de préparation ne soient pas les mêmes. Dès que tu le sais, dis-le : la phase « format examen » sera taillée dessus.</p>
+  </div>
+
+  <div class="recap">
+    <h3>À retenir</h3>
+    <ul>
+      <li><span><b>Presque rien ne s'ajoute à tes journées</b> — le plan oriente l'existant : bus, école, lecture du soir, dictées.</span></li>
+      <li><span><b>La seule nouveauté : un texte par semaine</b>, corrigé et expliqué. C'est l'épreuve écrite en entraînement.</span></li>
+      <li><span><b>5 mots par jour tenus</b> valent mieux que 50 le dimanche — même logique que la salle.</span></li>
+      <li><span><b>L'immersion est ton avantage :</b> parle à l'école, trompe-toi, reparle. L'erreur dite aujourd'hui est le point gagné à l'examen.</span></li>
+      <li><span><b>Confirme l'examen visé</b> (Goethe / telc / telc B2 Pflege) et sa date dès que tu les connais.</span></li>
+    </ul>
+  </div>
+
+  <footer>Objectif B2 · préparé dans le quotidien, pas contre lui 🇩🇪</footer>
+
+</div>
+</body>
+</html>
