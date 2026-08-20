@@ -284,10 +284,11 @@ Beauty, fluide shimmer.
 20 kg, Vertical Traction 25 kg, Low Row 20 kg, tapis 15 min à 5,4 km/h.
 Programme, planning et carnet en place ; la colonne S1 est remplie.
 
-Prochaine étape : **jeudi 20 août, Séance B — bas du corps** (semaine recalée
-mardi · jeudi · samedi). Au programme : cardio 12–15 min, Leg Press, Leg
-Extension, Leg Curl, gainage latéral — 2 séries de 12, en poids léger, pour
-noter les premiers chiffres du bas du corps.
+Prochaine étape : **vendredi 21 août vers 20 h 30, Séance B — bas du corps**
+(semaine recalée mardi · vendredi soir · dimanche). Au programme : cardio
+12–15 min, Leg Press, Leg Extension, Leg Curl, gainage latéral — 2 séries de
+12, en poids léger, pour noter les premiers chiffres du bas du corps. Séance A
+suivante le dimanche 23.
 
 **Études** — routine lancée le 19 août : un bloc par jour (réviser → apprendre
 → s'exercer), lecture chaque soir, dictée trois fois par semaine avec score
