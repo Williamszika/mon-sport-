@@ -5,7 +5,7 @@ Tout ce qui a été fait, dans l'ordre. Trois volets menés en parallèle : le *
 (Programme Forme, FitX Aachen) démarré en août 2026, et les **études**
 (Luisenhospital) suivies ici depuis le 19 août 2026.
 
-Dernière mise à jour : **20 août 2026**.
+Dernière mise à jour : **21 août 2026**.
 
 ---
 
@@ -294,6 +294,25 @@ sensations suffisent.
 
 → `etudes/plan-allemand-b2.html` — **document de référence en cours**
 
+### Vendredi 21 août — Séance B du soir : les jambes ont leurs chiffres 🦵
+
+Créneau choisi par William : **20 h 30**, salle calme un vendredi soir. Pluie
+dehors, bus vérifié avant de partir.
+
+| Exercice | Réalisé |
+|---|---|
+| Tapis | **15 min · 5,6 km/h** · pente 1,5 · cœur 116 |
+| Leg Press | **30 kg · 3 × 12** — une série bonus |
+| Leg Curl (Beinbeugung) | **25 kg** · 2 × 12 |
+| Leg Extension (Beinstrecker) | **25 kg** · 2 × 12 |
+| Gainage latéral | reporté à la maison |
+
+Le cardio progresse déjà (5,6 km/h contre 5,4 mardi), et deux machines de plus
+ont été identifiées sur place, réglage de position de départ compris. La
+colonne S1 de la Séance B est remplie : **les deux moitiés du corps ont
+maintenant leurs chiffres de référence.** Semaine 1 bouclée à une séance près —
+Séance A dimanche.
+
 ---
 
 ## Où en est-on
@@ -304,16 +323,15 @@ Cleanser AHA + PHA, sérum Vitamine C, crème Niacinamide SPF 30, SunDance SPF 5
 sérum Collagène Rétinol, crème Aloe Vera, gommage corps, lait corps, huile Body
 Beauty, fluide shimmer.
 
-**Sport** — 3 séances réalisées : la découverte du 10/08, le Zirkel du 15/08
-(abdos à 20 kg) et la **première Séance A complète du 18/08** — Chest Press
-20 kg, Vertical Traction 25 kg, Low Row 20 kg, tapis 15 min à 5,4 km/h.
-Programme, planning et carnet en place ; la colonne S1 est remplie.
+**Sport** — 4 séances réalisées : la découverte du 10/08, le Zirkel du 15/08,
+la Séance A du 18/08 (Chest Press 20, Vertical Traction 25, Low Row 20) et la
+**Séance B du 21/08** (Leg Press 30 · 3 × 12, Leg Curl 25, Leg Extension 25,
+tapis 5,6 km/h). Les colonnes S1 des deux séances sont remplies : le haut et
+le bas du corps ont leurs chiffres de référence.
 
-Prochaine étape : **vendredi 21 août vers 20 h 30, Séance B — bas du corps**
-(semaine recalée mardi · vendredi soir · dimanche). Au programme : cardio
-12–15 min, Leg Press, Leg Extension, Leg Curl, gainage latéral — 2 séries de
-12, en poids léger, pour noter les premiers chiffres du bas du corps. Séance A
-suivante le dimanche 23.
+Prochaine étape : **dimanche 23 août, Séance A** — avec les premières montées
+possibles : Chest Press 20 → 25 kg si la 12ᵉ répétition de mardi était facile.
+Le soir même : peeling visage (séance en journée, peeling le soir).
 
 **Études** — routine lancée le 19 août : une vraie pause en rentrant, puis un
 bloc par jour (réviser → apprendre → s'exercer) depuis le dépôt de sujets de
