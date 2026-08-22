@@ -305,7 +305,7 @@ dehors, bus vérifié avant de partir.
 | Leg Press | **30 kg · 3 × 12** — une série bonus |
 | Leg Curl (Beinbeugung) | **25 kg** · 2 × 12 |
 | Leg Extension (Beinstrecker) | **25 kg** · 2 × 12 |
-| Gainage latéral | reporté à la maison |
+| Planches (gainage) | **3 × ~26 s** — faites samedi matin (26,37 · 26,60 · 25,16, chronométrées) |
 
 Le cardio progresse déjà (5,6 km/h contre 5,4 mardi), et deux machines de plus
 ont été identifiées sur place, réglage de position de départ compris. La
