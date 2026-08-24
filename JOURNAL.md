@@ -329,6 +329,13 @@ Au passage, une leçon pour Claude, gravée dans `CLAUDE.md` : une vérification
 de date **expire**. Entre deux messages, une nuit peut passer — la date se
 re-vérifie à chaque message lié au temps, jamais héritée du message précédent.
 
+### Lundi 24 août — Repos forcé
+
+William ne se sent pas bien ce matin. Séance A annulée, journée mise en pause —
+eau, sommeil, routine du soir réduite au minimum (Waschgel + Aloe). Le rétinol
+de mardi ne se fera que si ça va mieux. Aucune replanification aujourd'hui : le
+planning attend, il reprendra quand le corps sera prêt.
+
 ---
 
 ## Où en est-on
@@ -345,10 +352,10 @@ la Séance A du 18/08 (Chest Press 20, Vertical Traction 25, Low Row 20) et la
 tapis 5,6 km/h). Les colonnes S1 des deux séances sont remplies : le haut et
 le bas du corps ont leurs chiffres de référence.
 
-Prochaine étape : **lundi 24 août après l'école, Séance A** en format
-semaine 2 — 3 séries, Shoulder Press ajouté, et les premières montées
-possibles (Chest Press 20 → 25 si la 12ᵉ était facile). Peeling reporté au
-dimanche 30 ; gommage mercredi ; rétinol mardi 25.
+Prochaine étape : **du repos, jusqu'à ce que William aille mieux.** Ensuite,
+Séance A en format semaine 2 (3 séries, Shoulder Press ajouté, montées à
+tester). Peeling dimanche 30 ; gommage et rétinol seulement si la forme est
+revenue.
 
 **Études** — routine lancée le 19 août : une vraie pause en rentrant, puis un
 bloc par jour (réviser → apprendre → s'exercer) depuis le dépôt de sujets de
