@@ -14,6 +14,12 @@ moment (« ce soir », « demain », « cette semaine ») :
    l'heure locale de William, à Campus-Boulevard 62, 52074 Aachen. Ne jamais
    déduire le jour ou l'heure du fil de la conversation : toujours exécuter la
    commande. Afficher la date et l'heure vérifiées en tête de chaque planning.
+   ⚠️ **Une vérification EXPIRE** : entre deux messages de William, des heures
+   ou une nuit entière peuvent passer (erreur commise le 24/08 : répondu avec
+   la date de la veille). Re-exécuter la commande à CHAQUE message lié au
+   temps — « aujourd'hui », « hier », « ce soir », routine, planning — jamais
+   se fier au check du message précédent. Les « hier / demain » de William se
+   réfèrent à SA date au moment où il écrit, pas à celle du dernier check.
 2. **Météo d'Aachen** : `curl -s "https://wttr.in/Aachen?format=j1"` — regarder
    surtout **l'indice UV** (dicte le SPF 30 vs SunDance 50), la température et
    la pluie (trajets en bus).

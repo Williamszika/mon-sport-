@@ -5,7 +5,7 @@ Tout ce qui a été fait, dans l'ordre. Trois volets menés en parallèle : le *
 (Programme Forme, FitX Aachen) démarré en août 2026, et les **études**
 (Luisenhospital) suivies ici depuis le 19 août 2026.
 
-Dernière mise à jour : **21 août 2026**.
+Dernière mise à jour : **24 août 2026**.
 
 ---
 
@@ -313,6 +313,22 @@ colonne S1 de la Séance B est remplie : **les deux moitiés du corps ont
 maintenant leurs chiffres de référence.** Semaine 1 bouclée à une séance près —
 Séance A dimanche.
 
+### Dimanche 23 août — La séance qui n'a pas eu lieu
+
+La Séance A prévue dimanche n'a pas été faite, et la routine du soir (gommage +
+peeling) non plus. Ça arrive, ça se note, et ça se replanifie — sans doubler :
+
+- **Séance A → lundi 24, après l'école**, en format semaine 2 (3 séries,
+  Shoulder Press en plus). Elle sert de pont naturel entre les deux semaines.
+- **Peeling visage → dimanche 30**, son prochain créneau normal. Pas de
+  rattrapage lundi soir : le rétinol est mardi, et deux actifs forts deux soirs
+  de suite, jamais.
+- **Gommage corps → mercredi**, son jour habituel.
+
+Au passage, une leçon pour Claude, gravée dans `CLAUDE.md` : une vérification
+de date **expire**. Entre deux messages, une nuit peut passer — la date se
+re-vérifie à chaque message lié au temps, jamais héritée du message précédent.
+
 ---
 
 ## Où en est-on
@@ -329,9 +345,10 @@ la Séance A du 18/08 (Chest Press 20, Vertical Traction 25, Low Row 20) et la
 tapis 5,6 km/h). Les colonnes S1 des deux séances sont remplies : le haut et
 le bas du corps ont leurs chiffres de référence.
 
-Prochaine étape : **dimanche 23 août, Séance A** — avec les premières montées
-possibles : Chest Press 20 → 25 kg si la 12ᵉ répétition de mardi était facile.
-Le soir même : peeling visage (séance en journée, peeling le soir).
+Prochaine étape : **lundi 24 août après l'école, Séance A** en format
+semaine 2 — 3 séries, Shoulder Press ajouté, et les premières montées
+possibles (Chest Press 20 → 25 si la 12ᵉ était facile). Peeling reporté au
+dimanche 30 ; gommage mercredi ; rétinol mardi 25.
 
 **Études** — routine lancée le 19 août : une vraie pause en rentrant, puis un
 bloc par jour (réviser → apprendre → s'exercer) depuis le dépôt de sujets de
