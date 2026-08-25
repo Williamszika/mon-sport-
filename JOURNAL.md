@@ -336,6 +336,13 @@ eau, sommeil, routine du soir réduite au minimum (Waschgel + Aloe). Le rétinol
 de mardi ne se fera que si ça va mieux. Aucune replanification aujourd'hui : le
 planning attend, il reprendra quand le corps sera prêt.
 
+### Mardi 25 août — Les études passent devant
+
+Retour de forme, mais la Séance A du soir cède sa place aux études — un choix
+d'adulte, pas un abandon : l'examen B2 et l'école sont la priorité n° 1 du
+moment. La séance sera replacée dans la semaine (jeudi, vendredi soir ou
+samedi). Soir de rétinol maintenu.
+
 ---
 
 ## Où en est-on
@@ -352,10 +359,9 @@ la Séance A du 18/08 (Chest Press 20, Vertical Traction 25, Low Row 20) et la
 tapis 5,6 km/h). Les colonnes S1 des deux séances sont remplies : le haut et
 le bas du corps ont leurs chiffres de référence.
 
-Prochaine étape : **du repos, jusqu'à ce que William aille mieux.** Ensuite,
-Séance A en format semaine 2 (3 séries, Shoulder Press ajouté, montées à
-tester). Peeling dimanche 30 ; gommage et rétinol seulement si la forme est
-revenue.
+Prochaine étape : **replacer la Séance A cette semaine** (jeudi, vendredi soir
+ou samedi — au choix de William), en format semaine 2 : 3 séries, Shoulder
+Press ajouté, montées à tester. Gommage mercredi ; peeling dimanche 30.
 
 **Études** — routine lancée le 19 août : une vraie pause en rentrant, puis un
 bloc par jour (réviser → apprendre → s'exercer) depuis le dépôt de sujets de
