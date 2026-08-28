@@ -5,7 +5,7 @@ Tout ce qui a été fait, dans l'ordre. Trois volets menés en parallèle : le *
 (Programme Forme, FitX Aachen) démarré en août 2026, et les **études**
 (Luisenhospital) suivies ici depuis le 19 août 2026.
 
-Dernière mise à jour : **24 août 2026**.
+Dernière mise à jour : **28 août 2026**.
 
 ---
 
@@ -343,6 +343,31 @@ d'adulte, pas un abandon : l'examen B2 et l'école sont la priorité n° 1 du
 moment. La séance sera replacée dans la semaine (jeudi, vendredi soir ou
 samedi). Soir de rétinol maintenu.
 
+### Vendredi 28 août — La reprise 💪
+
+Une semaine sans séance (maladie le lundi, études le mardi) — et le fil est
+repris vendredi soir, au créneau de 20 h 30 qui marche bien.
+
+| Exercice | Réalisé |
+|---|---|
+| Vélo | **20 min · 9,25 km · 133 W · niveau 5** |
+| Cœur | **155 bpm moyen · 174 max** |
+| Chest Press | **20 kg** · 2 × 12 |
+| Vertical Traction | **25 kg** · 2 × 12 |
+| Low Row | **20 kg** · 2 × 12 |
+
+Choix assumé : **aucune montée de charge**, poids identiques à ceux du 18/08.
+Après une semaine d'arrêt, reprendre le fil compte plus que battre un record —
+et le Shoulder Press attendra une séance où le corps est frais.
+
+**Un enseignement sur le cardio.** 174 bpm en pic, c'est environ **93 % de la
+fréquence cardiaque maximale théorique** à 32 ans (~188), et 155 de moyenne en
+représente 82 % — très loin des 116 bpm du tapis le 18/08. Le cardio
+d'échauffement doit rester à **12 min autour de 120–130 bpm**, allure où l'on
+peut parler ; ce format long et intense a sa place, mais comme **séance cardio
+hebdomadaire**, pas en ouverture d'une séance de musculation. La suite de la
+séance a été allégée en conséquence (planche écartée).
+
 ---
 
 ## Où en est-on
@@ -353,15 +378,15 @@ Cleanser AHA + PHA, sérum Vitamine C, crème Niacinamide SPF 30, SunDance SPF 5
 sérum Collagène Rétinol, crème Aloe Vera, gommage corps, lait corps, huile Body
 Beauty, fluide shimmer.
 
-**Sport** — 4 séances réalisées : la découverte du 10/08, le Zirkel du 15/08,
-la Séance A du 18/08 (Chest Press 20, Vertical Traction 25, Low Row 20) et la
-**Séance B du 21/08** (Leg Press 30 · 3 × 12, Leg Curl 25, Leg Extension 25,
-tapis 5,6 km/h). Les colonnes S1 des deux séances sont remplies : le haut et
-le bas du corps ont leurs chiffres de référence.
+**Sport** — 5 séances réalisées : découverte (10/08), Zirkel (15/08), Séance A
+(18/08), Séance B (21/08) et la **reprise du 28/08** après une semaine
+d'interruption. Les colonnes S1 des deux séances sont remplies et la colonne S2
+de la Séance A est ouverte. Prochaine étape : les montées de charge, sur un
+corps frais.
 
-Prochaine étape : **replacer la Séance A cette semaine** (jeudi, vendredi soir
-ou samedi — au choix de William), en format semaine 2 : 3 séries, Shoulder
-Press ajouté, montées à tester. Gommage mercredi ; peeling dimanche 30.
+Prochaine étape : **Séance B (bas du corps)**, dimanche ou lundi — Leg Press
+30 kg, Leg Curl 25, Leg Extension 25, avec les montées enfin testables sur un
+corps reposé. Cardio d'échauffement : 12 min à 120–130 bpm. Peeling dimanche 30.
 
 **Études** — routine lancée le 19 août : une vraie pause en rentrant, puis un
 bloc par jour (réviser → apprendre → s'exercer) depuis le dépôt de sujets de
