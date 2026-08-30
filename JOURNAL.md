@@ -408,6 +408,35 @@ demain matin, SPF obligatoire (lendemain de peeling, UV annoncé à 5).
 
 ---
 
+### Dimanche 30 août, 21 h — la séance n'a pas eu lieu
+
+Réveil tardif, dimanche avalé. Pas de salle. **On ne double pas, on ne
+rattrape pas** — la Séance B glisse simplement à la prochaine occasion.
+
+La soirée est réaffectée : **études pour demain** (bloc de 40 min, révision
+seulement — pas de matière neuve à 21 h), puis la **routine du dimanche à 22 h**
+comme prévu, gommage corps et peeling visage compris.
+
+**Conséquence sur le sport.** La dernière séance est celle du 28/08 (Séance A) :
+la suivante est donc une **Séance B**, quel que soit le jour où elle tombe. Les
+jambes n'ont plus travaillé depuis le 21 août. Nouveau fil :
+
+| Jour | Séance |
+|---|---|
+| Lundi 31 août | **Séance B** — bas du corps |
+| Mercredi 2 septembre | Séance A |
+| Vendredi 4 septembre | Séance B |
+
+À décaler selon l'école et les shifts — le planning attend, il n'avance pas
+sans lui. La colonne **S2 de la Séance B** reste ouverte, en attente de ses
+chiffres.
+
+**Demain matin, SPF non négociable** : lendemain de peeling, et l'UV annoncé
+grimpe à **5** — le plus haut des deux jours. SPF 30 au minimum ; le
+SunDance 50 si la journée se passe dehors.
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours.
@@ -421,10 +450,11 @@ Beauty, fluide shimmer.
 d'interruption. Les colonnes S1 des deux séances sont remplies et la colonne S2
 de la Séance A est ouverte.
 
-Prochaine étape : **Séance B (bas du corps) le dimanche 30 août** — première vraie
-montée de charge sur un corps reposé (Leg Press 30 → 35 kg à tester), plus
-l'Abdominal Crunch qui entre au programme. Cardio d'échauffement : 12 min à
-120–130 bpm. La semaine 3 démarre ensuite le **mardi 1er septembre**.
+Prochaine étape : **Séance B (bas du corps)**, reportée au **lundi 31 août** — les
+jambes attendent depuis le 21/08. Leg Press 30 → 35 kg à tester, Leg Extension et
+Leg Curl à 25 kg en 3 × 12, plus l'Abdominal Crunch qui entre au programme.
+Cardio d'échauffement : 12 min à 120–130 bpm. Puis Séance A mercredi 2 et
+Séance B vendredi 4 septembre.
 
 **Études** — routine lancée le 19 août : une vraie pause en rentrant, puis un
 bloc par jour (réviser → apprendre → s'exercer) depuis le dépôt de sujets de
