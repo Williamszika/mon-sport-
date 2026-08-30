@@ -370,6 +370,44 @@ séance a été allégée en conséquence (planche écartée).
 
 ---
 
+### Dimanche 30 août — Séance B replacée, et la semaine 3 décale d'un jour
+
+Vérification faite avant de planifier : **dimanche 30 août 2026, 13 h 25 CEST** ·
+Aachen 17 °C, ciel couvert, averses éparses (14–21 % de risque selon l'heure),
+**UV maximum 3** — SPF 30 suffit, pas besoin du SunDance 50.
+
+Les jambes n'ont plus travaillé depuis le **21 août** : neuf jours. La Séance B
+de la semaine 2 n'a jamais eu lieu (maladie le lundi 24, études le mardi 25), et
+la semaine 2 se referme ce soir. Elle est donc replacée **aujourd'hui**, deux
+jours après la Séance A du 28 — le jour de repos est respecté.
+
+Conséquence sur le planning : la **semaine 3 décale d'un jour**. Au lieu du
+lundi 31 · mercredi 2 · vendredi 4, elle devient **mardi 1er · jeudi 3 ·
+samedi 5 septembre** (A · B · A), à ajuster selon l'école et les shifts. Le
+planning attend, il n'avance pas tout seul — c'est la règle depuis le début.
+
+**Ce qui est prévu ce soir**, en semaine 2 de Séance B (3 séries, un exercice de
+plus) :
+
+| Exercice | Consigne |
+|---|---|
+| Cardio | **12–15 min à 120–130 bpm** — allure où l'on peut parler |
+| Leg Press | **35 kg** à tester · 3 × 12 (30 kg passaient en 3 × 12 le 21/08) |
+| Leg Extension | **25 kg** · 3 × 12 — la 3ᵉ série est déjà la montée |
+| Leg Curl | **25 kg** · 3 × 12 — siège n° 15 |
+| Abdominal Crunch | nouveau — chercher le poids juste, 2 × 12 |
+| Gainage latéral | 2 × 20 s par côté, possible à la maison |
+
+Correction au carnet : les colonnes de la Séance B affichaient les dates
+**prévues** (19/08, 24 · 28/08) et non les dates réelles. Elles indiquent
+maintenant **S1 · 21/08** et **S2 · 30/08**.
+
+Le soir, c'est le programme du dimanche : **gommage corps + peeling visage
+AHA/PHA**. Pas de rétinol — les deux exfolient, ils ne se croisent jamais. Et
+demain matin, SPF obligatoire (lendemain de peeling, UV annoncé à 5).
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours.
@@ -381,12 +419,12 @@ Beauty, fluide shimmer.
 **Sport** — 5 séances réalisées : découverte (10/08), Zirkel (15/08), Séance A
 (18/08), Séance B (21/08) et la **reprise du 28/08** après une semaine
 d'interruption. Les colonnes S1 des deux séances sont remplies et la colonne S2
-de la Séance A est ouverte. Prochaine étape : les montées de charge, sur un
-corps frais.
+de la Séance A est ouverte.
 
-Prochaine étape : **Séance B (bas du corps)**, dimanche ou lundi — Leg Press
-30 kg, Leg Curl 25, Leg Extension 25, avec les montées enfin testables sur un
-corps reposé. Cardio d'échauffement : 12 min à 120–130 bpm. Peeling dimanche 30.
+Prochaine étape : **Séance B (bas du corps) le dimanche 30 août** — première vraie
+montée de charge sur un corps reposé (Leg Press 30 → 35 kg à tester), plus
+l'Abdominal Crunch qui entre au programme. Cardio d'échauffement : 12 min à
+120–130 bpm. La semaine 3 démarre ensuite le **mardi 1er septembre**.
 
 **Études** — routine lancée le 19 août : une vraie pause en rentrant, puis un
 bloc par jour (réviser → apprendre → s'exercer) depuis le dépôt de sujets de
