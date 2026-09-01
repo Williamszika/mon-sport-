@@ -446,6 +446,38 @@ SunDance 50 si la journée se passe dehors.
 
 ---
 
+### Mardi 1<sup>er</sup> septembre — Repos, et une nouvelle règle
+
+Vérification : **mardi 1<sup>er</sup> septembre 2026, 19 h 22 CEST** · Aachen 18 °C,
+averses éparses, UV 3.
+
+Trop fatigué pour la salle. **Repos complet** — pas de version allégée, pas de
+négociation : la fatigue est un signal, pas un obstacle à contourner.
+
+C'est le **troisième report** de la même Séance B : dimanche 30 (réveil tardif),
+lundi 31 (rendez-vous), mardi 1<sup>er</sup> (fatigue). Les faits, sans jugement :
+dernière séance jambes le **21 août**, dernière séance tout court le **28 août**.
+
+**Ce que ça change au programme.** Une nouvelle section entre dans
+`sport/planning-progressif.html` : **« Quand la séance est menacée »**. Avant
+d'annuler, il existe désormais un plancher officiel de **25 minutes** :
+
+| Séance | La version courte |
+|---|---|
+| A | Cardio 10 min · Chest Press 2 × 12 · Vertical Traction 2 × 12 |
+| B | Cardio 10 min · Leg Press 2 × 12 · Leg Curl 2 × 12 |
+| Encore plus court | Le Zirkel — un tour, 13 min, 9 machines |
+
+Elle se note au carnet comme une vraie séance. **Une demi-séance notée vaut
+mieux qu'un troisième report** : ce qui fait progresser, c'est la chaîne qui ne
+se casse pas. Seule exception — maladie ou nuit blanche : là c'est repos
+complet, et la version courte n'est pas une option. C'est le cas ce soir.
+
+**Séance B visée le jeudi 3 septembre.** Et si la fatigue est encore là : la
+version courte, pas le report.
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours.
@@ -459,11 +491,12 @@ Beauty, fluide shimmer.
 d'interruption. Les colonnes S1 des deux séances sont remplies et la colonne S2
 de la Séance A est ouverte.
 
-Prochaine étape : **Séance B (bas du corps)**, reportée au **mardi 1er septembre** —
-les jambes attendent depuis le 21/08. Leg Press 30 → 35 kg à tester, Leg Extension et
+Prochaine étape : **Séance B (bas du corps)**, reportée au **jeudi 3 septembre**
+(trois reports : 30/08 réveil tardif, 31/08 rendez-vous, 01/09 fatigue) — les
+jambes attendent depuis le 21/08. Si la fatigue tient : **version courte**, pas
+un quatrième report. Leg Press 30 → 35 kg à tester, Leg Extension et
 Leg Curl à 25 kg en 3 × 12, plus l'Abdominal Crunch qui entre au programme.
-Cardio d'échauffement : 12 min à 120–130 bpm. Puis Séance A jeudi 3 et
-Séance B samedi 5 septembre.
+Cardio d'échauffement : 12 min à 120–130 bpm. Puis Séance A samedi 5 septembre.
 
 **Études** — routine lancée le 19 août : une vraie pause en rentrant, puis un
 bloc par jour (réviser → apprendre → s'exercer) depuis le dépôt de sujets de
