@@ -478,6 +478,44 @@ version courte, pas le report.
 
 ---
 
+### Mercredi 2 septembre — Le vrai problème n'était pas la motivation
+
+Vérification : **mercredi 2 septembre 2026, 20 h 47 CEST** · Aachen 18 °C,
+éclaircies.
+
+Quatrième séance B reportée d'affilée : dimanche 30, lundi 31, mardi 1<sup>er</sup>,
+mercredi 2. Dernière séance jambes le **21 août**, dernière séance tout
+court le **28 août**.
+
+Avant de chercher une cause du côté de William, on regarde le carnet. Les
+séances qui ont **réellement eu lieu** et dont on connaît l'heure :
+
+| Date | Heure | Résultat |
+|---|---|---|
+| Samedi 15/08 | le soir, après un shift 13:30–20:30 | ✅ faite |
+| Vendredi 21/08 | **20 h 30** | ✅ faite |
+| Vendredi 28/08 | **20 h 30** | ✅ faite |
+| 30/08 → 02/09 | créneau **~16 h**, en sortant de l'école | ❌ 4 échecs |
+
+**Le créneau était le problème, pas la volonté.** « 16 h en sortant de
+l'école » paraît logique sur le papier — c'est même ce que le planning
+recommandait — mais après sept heures de cours, il ne reste rien à 16 h. Le
+seul créneau qui a jamais tenu, c'est **le soir vers 20 h 30**, une fois rentré,
+mangé, et vraiment reposé.
+
+**Ce qui change, définitivement :**
+
+- `sport/planning-progressif.html` — le créneau de référence devient
+  **~20 h 30** pour les jours d'école ; le créneau de 16 h est explicitement
+  déconseillé, avec la raison.
+- `CLAUDE.md` — inscrit dans le contexte fixe, pour ne plus jamais proposer
+  16 h un jour d'école.
+
+**Séance B : jeudi 3 septembre, ~20 h 30.** Départ vers 19 h 45–20 h après avoir
+mangé. Pluie annoncée en soirée (51 % vers 21 h) — veste, pas d'annulation.
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours.
@@ -491,10 +529,11 @@ Beauty, fluide shimmer.
 d'interruption. Les colonnes S1 des deux séances sont remplies et la colonne S2
 de la Séance A est ouverte.
 
-Prochaine étape : **Séance B (bas du corps)**, reportée au **jeudi 3 septembre**
-(trois reports : 30/08 réveil tardif, 31/08 rendez-vous, 01/09 fatigue) — les
-jambes attendent depuis le 21/08. Si la fatigue tient : **version courte**, pas
-un quatrième report. Leg Press 30 → 35 kg à tester, Leg Extension et
+Prochaine étape : **Séance B (bas du corps)**, jeudi 3 septembre **vers
+20 h 30** — le seul créneau qui ait jamais tenu. Quatre reports au compteur
+(30/08 réveil tardif, 31/08 rendez-vous, 01/09 fatigue, 02/09), tous sur des
+créneaux de fin d'après-midi. Les jambes attendent depuis le 21/08. Si la
+fatigue tient : **version courte**, jamais un report de plus. Leg Press 30 → 35 kg à tester, Leg Extension et
 Leg Curl à 25 kg en 3 × 12, plus l'Abdominal Crunch qui entre au programme.
 Cardio d'échauffement : 12 min à 120–130 bpm. Puis Séance A samedi 5 septembre.
 

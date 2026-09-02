@@ -69,6 +69,12 @@ travail. Les poids réels priment sur le plan ; ne jamais inventer un chiffre.
 - **Salle** : FitX Aachen-Europaplatz, Europaplatz 17 — ouverte 24 h/24, arrêt
   de bus **Wiesental** à 160 m. Il se déplace **en bus** : toujours penser au
   bus du retour.
+- **Créneau salle qui marche : ~20 h 30.** Les séances réellement faites ont
+  toutes eu lieu le soir (15/08 après un shift, 21/08 et 28/08 à 20 h 30). Le
+  créneau « 16 h en sortant de l'école » a échoué **quatre fois d'affilée**
+  (30/08 → 02/09) : après sept heures de cours, il ne reste rien à 16 h. Le
+  schéma qui tient : rentrer → manger → souffler une vraie heure → partir. Ne
+  jamais reproposer 16 h les jours d'école.
 - **Objectif sport** : physique sec et dessiné, pas massif — 12–15 répétitions,
   poids modérés, cardio à chaque séance.
 - **Peau** : marque facilement — douceur d'abord, jamais deux actifs forts le
