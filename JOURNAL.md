@@ -609,6 +609,47 @@ Détail rassurant : le Waschgel et la Tagescreme portent tous les deux
 
 ---
 
+### Jeudi 3 septembre — Le point de départ, en mots
+
+Vérification : **jeudi 3 septembre 2026, 07 h 02 CEST**.
+
+William a envoyé des photos de lui. **Elles ne sont pas conservées et
+n'entreront jamais dans ce dépôt** — un dépôt Git n'est pas un endroit pour ça.
+Ce qui est gardé, c'est la lecture, en mots.
+
+**La morphologie de départ : sèche.** Peu de masse grasse, ventre plat,
+structure osseuse visible aux épaules. Le volume musculaire, lui, est encore
+modeste — épaules, poitrine et bras fins. Les épaules sont légèrement enroulées
+vers l'avant, ce qu'on voit souvent chez quelqu'un qui étudie beaucoup.
+
+**Ce que ça change dans le programme.** L'objectif écrit depuis le début est
+« sec et dessiné, pas massif » — mais William est **déjà sec**. Il n'y a donc
+rien à perdre, tout à construire. Trois conséquences :
+
+| Levier | Avant | Maintenant |
+|---|---|---|
+| **Cardio** | à chaque séance, pour rester sec | **échauffement 12 min à 120–130 bpm**, plus une séance cardio par semaine pour le cœur |
+| **Charges** | montée quand c'est facile | **c'est le levier principal** — la règle de montée devient prioritaire |
+| **Alimentation** | non suivie | **assez de protéines** : ~1,6 g par kg de poids et par jour, réparti sur la journée |
+
+Sans manger assez, la musculation ne construit rien : elle fatigue. C'est le
+point le plus souvent négligé chez quelqu'un de naturellement mince. Le poids de
+William reste à noter pour chiffrer la ration exacte.
+
+**Un bénéfice inattendu de la Séance A** : le Low Row et le Vertical Traction
+travaillent précisément les muscles qui retiennent les épaules en arrière. Cette
+séance ne fait pas que dessiner le dos — elle redresse la posture.
+
+**Côté peau**, rien d'inquiétant sur les photos : teint homogène, aucune trace
+d'irritation malgré le rétinol et le peeling — rassurant pour une peau qui marque
+facilement. Une brillance sur le front et le nez, la zone T : c'est exactement ce
+que la niacinamide régule, et elle vient d'entrer en service ce matin.
+
+Les repères chiffrés du carnet (tour de taille, vêtements, ressenti) restent à
+remplir — ce sont eux qui mesureront le chemin, pas des photos.
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours
