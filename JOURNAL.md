@@ -650,6 +650,53 @@ remplir — ce sont eux qui mesureront le chemin, pas des photos.
 
 ---
 
+### Jeudi 3 septembre — Le cadrage : « un corps de rêve, un visage sans ride »
+
+Objectif posé clairement par William, photos à l'appui : silhouette et visage,
+avec les machines de FitX. Un nouveau document répond à la question — **`sport/silhouette.html`**.
+
+**Le constat qui commande tout le reste.** La silhouette « en V » est un
+rapport : largeur d'épaules ÷ tour de taille. La plupart des gens attaquent le
+dénominateur, en cherchant à perdre du ventre. **Chez William, le dénominateur
+est déjà petit.** Il ne reste qu'à agrandir le numérateur — donc les épaules.
+Un centimètre gagné à l'épaule change plus sa silhouette que trois kilos perdus.
+
+**L'ordre de priorité, réordonné pour sa morphologie :**
+
+| | Zone | Machines |
+|---|---|---|
+| 1 | **Épaules — deltoïdes** | Shoulder Press · élévations latérales · Butterfly Reverse |
+| 2 | **Dos — grand dorsal** | Vertical Traction · Low Row |
+| 3 | Poitrine | Chest Press · Butterfly |
+| 4 | Bras | Arm Curl · Arm Extension |
+| 5 | Jambes | Leg Press · Curl · Extension · Calf Raise |
+| 6 | Abdominaux | gainage — il est déjà sec, le reste ne se verrait pas |
+
+Changement concret : le **Shoulder Press**, qui attendait au fond de la Séance A
+depuis la semaine 2 sans jamais avoir été fait, **passe devant**. Et le
+**Butterfly Reverse** entre au programme — il élargit l'arrière d'épaule *et*
+corrige les épaules enroulées vers l'avant.
+
+**Les trois leviers** sont rappelés à égalité : la charge qui monte, ~1,6 g de
+protéines par kilo et par jour, et 7–8 h de sommeil. Le document dit aussi ce
+qui **ne marche pas** — le cardio ne construit pas de muscle, la perte de gras
+localisée n'existe pas, s'entraîner tous les jours ralentit, aucun complément ne
+remplace un repas.
+
+**Sur le visage**, la réponse honnête tient en trois lignes : à 32 ans il n'y a
+aucune ride installée, donc l'objectif est de retarder, pas d'effacer. Et le
+classement est sans appel — **le SPF quotidien pèse plus lourd que tous les
+sérums réunis** (l'UV est de très loin le premier facteur de vieillissement
+visible), puis le rétinol deux soirs par semaine, puis le sommeil. Les trois
+sont déjà en place depuis ce matin. Rien ne manque à la trousse.
+
+**Et le calendrier, sans enrobage** : 4 semaines sans rien de visible, 8–12
+semaines pour que les vêtements tombent autrement, 6 mois pour que les autres le
+remarquent, 12 mois pour que la silhouette ait changé. Le seul vrai risque reste
+l'arrêt — pas le mauvais exercice.
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours

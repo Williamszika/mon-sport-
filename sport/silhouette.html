@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ta silhouette · Ce qui change quoi</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --porcelain:#FBF3EF;--card:#FFFDFB;--plum:#43222E;--plum-soft:#7A5561;
+    --line:#EBDDD6;--honey:#DBA043;--honey-tint:#FBEED6;
+    --rose:#C4718A;--rose-tint:#F6E1E7;--sage:#7B9A82;--sage-tint:#E1EBE1;
+    --shadow:0 1px 2px rgba(67,34,46,.04),0 12px 32px rgba(67,34,46,.06);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{font-family:"Nunito Sans",system-ui,sans-serif;color:var(--plum);background:var(--porcelain);
+    line-height:1.55;padding:32px 20px 56px}
+  .wrap{max-width:860px;margin:0 auto}
+
+  header{position:relative;text-align:center;padding:34px 16px 24px;overflow:hidden;margin-bottom:18px}
+  .glow{position:absolute;inset:auto 0 -60% 0;height:200%;
+    background:radial-gradient(60% 55% at 50% 22%,rgba(219,160,67,.32),rgba(196,113,138,.14) 45%,transparent 70%);
+    pointer-events:none;z-index:0}
+  header>*{position:relative;z-index:1}
+  .eyebrow{font-size:.72rem;letter-spacing:.32em;text-transform:uppercase;font-weight:700;color:var(--plum-soft);margin-bottom:13px}
+  h1{font-family:"Fraunces",serif;font-weight:500;font-size:clamp(2.1rem,6.5vw,3rem);line-height:1.03;letter-spacing:-.01em}
+  h1 em{font-style:italic;color:var(--honey)}
+  .tagline{margin-top:11px;color:var(--plum-soft);font-size:1rem;max-width:52ch;margin-left:auto;margin-right:auto}
+
+  .panel{background:var(--plum);border-radius:18px;padding:22px 24px 20px;color:#F7ECEC;margin-bottom:26px}
+  .panel h2{font-family:"Fraunces",serif;font-weight:500;font-size:1.35rem;color:#fff;margin-bottom:13px}
+  .panel ul{list-style:none;display:grid;gap:9px}
+  .panel li{display:flex;gap:11px;font-size:.92rem;align-items:flex-start}
+  .panel li::before{content:"";flex:0 0 8px;height:8px;border-radius:50%;background:var(--honey);margin-top:8px;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .panel li b{color:#fff}
+
+  .sec{display:flex;align-items:center;gap:12px;margin:38px 0 8px}
+  .sec h2{font-family:"Fraunces",serif;font-weight:500;font-size:1.5rem;white-space:nowrap}
+  .sec .bar{flex:1;height:1px;background:var(--line)}
+  .sec .tag{font-size:.66rem;font-weight:800;letter-spacing:.05em;text-transform:uppercase;padding:3px 11px;border-radius:999px;
+    background:var(--honey-tint);color:#B67C22;white-space:nowrap;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .lede{font-size:.93rem;color:var(--plum-soft);margin-bottom:16px;max-width:64ch}
+  .lede b{color:var(--plum)}
+
+  .box{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:19px 21px 18px;
+    box-shadow:var(--shadow);margin-bottom:14px;break-inside:avoid}
+  .box h3{font-family:"Fraunces",serif;font-weight:500;font-size:1.22rem;margin-bottom:9px}
+  .box p{font-size:.92rem;color:var(--plum-soft)}
+  .box p + p{margin-top:9px}
+  .box b{color:var(--plum)}
+
+  .hi{background:linear-gradient(180deg,#FFF8EC,var(--card));border:1px solid var(--honey);
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+
+  /* --- classement des priorités --- */
+  .rank{display:grid;gap:10px;margin-top:6px}
+  .row{display:flex;gap:14px;align-items:flex-start;background:var(--card);border:1px solid var(--line);
+    border-radius:13px;padding:14px 16px;break-inside:avoid}
+  .row .num{flex:0 0 30px;height:30px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+    font-family:"Fraunces",serif;font-size:1.02rem;font-weight:600;background:var(--honey-tint);color:#B67C22;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .row.top .num{background:var(--honey);color:#fff}
+  .row.low .num{background:var(--sage-tint);color:#4E6E57}
+  .row .txt{flex:1}
+  .row h4{font-size:1rem;font-weight:800;margin-bottom:3px}
+  .row .mach{font-size:.8rem;font-weight:700;color:#B67C22;margin-bottom:5px}
+  .row.low .mach{color:#4E6E57}
+  .row p{font-size:.87rem;color:var(--plum-soft)}
+
+  /* --- tableau --- */
+  .scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;margin-bottom:14px}
+  table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);
+    border-radius:14px;overflow:hidden;font-size:.88rem;min-width:460px}
+  th{background:#F5E9E2;text-align:left;padding:11px 13px;font-size:.7rem;font-weight:800;letter-spacing:.06em;
+    text-transform:uppercase;color:var(--plum-soft);print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  td{padding:11px 13px;border-top:1px solid var(--line);color:var(--plum-soft);vertical-align:top}
+  td b{color:var(--plum)}
+  td.when{font-weight:800;color:var(--plum);white-space:nowrap}
+
+  /* --- vrai / faux --- */
+  .myths{display:grid;gap:10px;margin-top:6px}
+  .myth{display:flex;gap:12px;align-items:flex-start;background:var(--rose-tint);border-radius:12px;padding:13px 15px;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .myth .x{flex:0 0 auto;font-weight:800;color:#9E4E67;font-size:1rem;line-height:1.4}
+  .myth p{font-size:.88rem;color:#7A3B4E}
+  .myth p b{color:#5E2A3A}
+
+  .note{background:var(--sage-tint);border-radius:14px;padding:15px 18px;font-size:.89rem;color:#3F5A48;margin-top:14px;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .note b{color:#2F4636}
+
+  footer{text-align:center;margin-top:38px;padding-top:20px;border-top:1px solid var(--line);
+    font-size:.78rem;color:var(--plum-soft)}
+
+  @media(max-width:600px){
+    body{padding:20px 12px 40px}
+    .row{flex-direction:column;gap:8px}
+    .row .num{flex:0 0 auto}
+  }
+  @media print{
+    body{background:#fff;padding:0;font-size:12px}
+    .glow{display:none}
+    .panel,.box,.row{box-shadow:none;break-inside:avoid}
+    .panel{background:#fff;color:var(--plum);border:1px solid var(--line)}
+    .panel h2,.panel li b{color:var(--plum)}
+    header{padding:14px 0 6px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="glow"></div>
+    <div class="eyebrow">FitX Aachen · Objectif silhouette</div>
+    <h1>Ta <em>silhouette</em></h1>
+    <p class="tagline">Ce qui change quoi, dans quel ordre, et en combien de temps — pour ton corps précisément, pas pour un corps moyen.</p>
+  </header>
+
+  <div class="panel">
+    <h2>Le point de départ, sans flatterie</h2>
+    <ul>
+      <li><b>Tu es déjà sec.</b> Peu de masse grasse, ventre plat. La moitié du travail que la plupart des gens redoutent est déjà faite — et elle ne se refait pas, elle se garde.</li>
+      <li><b>Le volume manque en haut du corps.</b> Épaules, poitrine et bras sont fins. C'est là que tout se joue.</li>
+      <li><b>Les épaules sont étroites par rapport aux hanches</b>, ce qui donne une silhouette droite plutôt qu'en V.</li>
+      <li><b>Elles sont aussi légèrement enroulées vers l'avant</b> — classique chez quelqu'un qui étudie beaucoup. Ça se corrige, et le programme le fait déjà.</li>
+      <li><b>Les jambes sont proportionnellement mieux fournies</b> que le haut. Elles ne sont pas la priorité, mais elles restent au programme.</li>
+    </ul>
+  </div>
+
+  <!-- ════════ LE LEVIER PRINCIPAL ════════ -->
+  <div class="sec"><h2>Le levier n° 1</h2><div class="bar"></div><span class="tag">Les épaules</span></div>
+  <div class="box hi">
+    <h3>Ce qui crée le V, ce n'est pas la taille fine</h3>
+    <p>La silhouette « en V » vient d'un rapport : <b>largeur d'épaules ÷ tour de taille</b>. La plupart des gens attaquent le dénominateur — ils cherchent à perdre du ventre. <b>Toi, ton dénominateur est déjà petit.</b> Il ne te reste qu'à agrandir le numérateur.</p>
+    <p>Le muscle qui élargit visuellement, c'est le <b>deltoïde latéral</b> — le côté de l'épaule. Il ne se développe ni en courant, ni en faisant des abdos, ni en mangeant mieux. Il se développe en poussant et en soulevant sur le côté, et pas autrement.</p>
+    <p><b>Un centimètre gagné à l'épaule change plus ta silhouette que trois kilos perdus.</b> C'est la phrase à retenir de tout ce document.</p>
+  </div>
+
+  <!-- ════════ ORDRE DE PRIORITÉ ════════ -->
+  <div class="sec"><h2>L'ordre de priorité</h2><div class="bar"></div><span class="tag">Pour ton corps</span></div>
+  <p class="lede">Tous les muscles ne rendent pas la même chose à l'heure passée. Voici où mettre l'énergie <b>en premier</b>, compte tenu de ta morphologie — quand tu dois choisir, tu choisis dans cet ordre.</p>
+
+  <div class="rank">
+    <div class="row top">
+      <span class="num">1</span>
+      <div class="txt">
+        <h4>Épaules — deltoïdes</h4>
+        <p class="mach">Shoulder Press · élévations latérales (haltères légers) · Butterfly Reverse</p>
+        <p>Le meilleur rendement visuel de tout le programme, et de loin. Le Shoulder Press attendait au fond de la Séance A depuis la semaine 2 : il passe devant. Le Butterfly Reverse travaille l'arrière de l'épaule, ce qui élargit <b>et</b> corrige les épaules enroulées.</p>
+      </div>
+    </div>
+    <div class="row top">
+      <span class="num">2</span>
+      <div class="txt">
+        <h4>Dos — grand dorsal</h4>
+        <p class="mach">Vertical Traction (Latzug) · Low Row (Rudern)</p>
+        <p>Le deuxième muscle qui élargit, vu de face comme de dos. Déjà dans ta Séance A, déjà chargé à 25 kg — c'est ton point fort actuel, continue de le pousser. Bonus : il redresse le port d'épaules.</p>
+      </div>
+    </div>
+    <div class="row">
+      <span class="num">3</span>
+      <div class="txt">
+        <h4>Poitrine</h4>
+        <p class="mach">Chest Press (Brustpresse) · Butterfly</p>
+        <p>Remplit le devant et donne de l'épaisseur de profil. À 20 kg aujourd'hui, c'est ton exercice le plus en retard — c'est là que les montées de charge auront le plus d'effet visible.</p>
+      </div>
+    </div>
+    <div class="row">
+      <span class="num">4</span>
+      <div class="txt">
+        <h4>Bras — biceps &amp; triceps</h4>
+        <p class="mach">Arm Curl · Arm Extension</p>
+        <p>Le muscle qu'on voit en t-shirt, donc celui qui compte au quotidien. Il entre au programme en semaines 3 et 4 — c'est le bon moment, pas avant : des bras posés sur des épaules fines ne se voient pas.</p>
+      </div>
+    </div>
+    <div class="row low">
+      <span class="num">5</span>
+      <div class="txt">
+        <h4>Jambes</h4>
+        <p class="mach">Leg Press · Leg Curl · Leg Extension · Calf Raise</p>
+        <p>Déjà proportionnellement correctes chez toi. Elles restent au programme — elles portent tout le reste et elles comptent pour la santé générale — mais elles ne sont pas là où le miroir changera en premier.</p>
+      </div>
+    </div>
+    <div class="row low">
+      <span class="num">6</span>
+      <div class="txt">
+        <h4>Abdominaux</h4>
+        <p class="mach">Planche · gainage latéral · Abdominal Crunch</p>
+        <p>Des abdos se voient quand on est sec. <b>Tu es sec.</b> Le gainage suffit donc largement : il tient le dos droit et protège la colonne sous charge. En faire davantage ne donnerait rien de plus visible.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ════════ LES TROIS LEVIERS ════════ -->
+  <div class="sec"><h2>Les trois leviers</h2><div class="bar"></div><span class="tag">Aucun n'est optionnel</span></div>
+  <p class="lede">La salle n'est qu'un tiers du travail. Les deux autres tiers se jouent dans la cuisine et dans le lit — et c'est presque toujours là que ça bloque chez les gens minces.</p>
+
+  <div class="box">
+    <h3>1 · La charge qui monte</h3>
+    <p>Le muscle ne grossit que s'il reçoit un signal plus fort que la fois d'avant. C'est tout le sens du carnet : <b>sans les chiffres de la séance précédente, tu ne peux pas savoir s'il faut monter</b>. La règle est dans le planning progressif — dernière répétition facile, on monte d'un cran.</p>
+  </div>
+  <div class="box">
+    <h3>2 · Manger assez de protéines</h3>
+    <p>Environ <b>1,6 g de protéines par kilo de poids de corps et par jour</b>, réparti sur la journée plutôt qu'en un seul repas. Sans ça, l'entraînement fatigue sans construire — c'est le piège classique de la personne naturellement mince, qui s'entraîne dur et ne voit rien venir.</p>
+    <p>Sources simples et bon marché : œufs, skyr et quark, fromage blanc, lentilles, poulet, thon, lait. <b>Le poids de William reste à noter pour chiffrer la ration exacte.</b></p>
+  </div>
+  <div class="box">
+    <h3>3 · Dormir 7–8 h</h3>
+    <p>C'est pendant le sommeil que le muscle se répare — pas pendant la séance. Une nuit courte annule une bonne partie du bénéfice de la veille, et c'est aussi le premier facteur de fatigue qui fait annuler les séances suivantes. <b>C'est aujourd'hui le maillon faible.</b></p>
+  </div>
+
+  <!-- ════════ CE QUI NE MARCHE PAS ════════ -->
+  <div class="sec"><h2>Ce qui ne marche pas</h2><div class="bar"></div></div>
+  <div class="myths">
+    <div class="myth"><span class="x">✕</span><p><b>Le cardio ne construit pas de muscle.</b> Il entretient le cœur et il sèche — mais tu es déjà sec. En faire beaucoup ne t'apporte rien de plus et prend du temps aux charges. D'où l'échauffement court à 120–130 bpm, plus <b>une</b> vraie séance cardio par semaine.</p></div>
+    <div class="myth"><span class="x">✕</span><p><b>On ne perd pas du gras à un endroit choisi.</b> Faire des abdos ne fait pas fondre le ventre, faire des bras ne fait pas fondre les bras. Le corps puise partout à la fois, dans l'ordre qu'il décide.</p></div>
+    <div class="myth"><span class="x">✕</span><p><b>S'entraîner tous les jours ralentit la progression.</b> Le muscle se construit pendant le jour de repos. Trois séances tenues valent mieux que six séances entamées.</p></div>
+    <div class="myth"><span class="x">✕</span><p><b>Aucun complément ne remplace un repas.</b> La poudre de protéines est un dépannage pratique, pas un levier. Les œufs et le skyr font le même travail pour moins cher.</p></div>
+  </div>
+
+  <!-- ════════ LE VISAGE ════════ -->
+  <div class="sec"><h2>Le visage</h2><div class="bar"></div><span class="tag">Sans rides</span></div>
+  <p class="lede">Première chose, factuelle : <b>à 32 ans, il n'y a aucune ride installée</b>. L'objectif n'est donc pas d'en effacer — c'est d'en retarder l'apparition. Et là, tout ne se vaut pas : les trois gestes ci-dessous pèsent bien plus lourd que tous les sérums du rayon réunis.</p>
+
+  <div class="box hi">
+    <h3>1 · Le SPF, tous les jours</h3>
+    <p>L'exposition aux UV est <b>de très loin</b> le premier facteur du vieillissement visible du visage — rides, taches, perte de fermeté. Devant la génétique, devant l'alimentation, devant tous les soins. Une crème LSF 30 mise chaque matin, même par temps gris, est <b>le geste le plus rentable de toute ta routine</b>. Il est en place depuis le 3 septembre.</p>
+  </div>
+  <div class="box">
+    <h3>2 · Le rétinol, deux soirs par semaine</h3>
+    <p>C'est le seul actif en vente libre dont l'effet sur le collagène est solidement établi. Deux soirs par semaine, mardi et vendredi, c'est le bon rythme pour une peau qui marque facilement — <b>plus n'est pas mieux</b>, plus est irritant. Il est déjà à sa place dans le rituel.</p>
+  </div>
+  <div class="box">
+    <h3>3 · Le sommeil</h3>
+    <p>Le même levier que pour le muscle, et le même maillon faible. Le manque de sommeil se lit sur un visage avant de se lire ailleurs : teint terne, cernes, traits tirés. Sept à huit heures font plus pour ton visage qu'un produit de plus.</p>
+  </div>
+
+  <div class="note">
+    <b>Et le reste ?</b> Ce qui rend un visage agréable à 32 ans, c'est surtout : être sec — c'est fait — une peau lisse et régulière, un sommeil correct, et un port de tête droit. Ce dernier point vient du dos et des épaules : le travail de la salle change aussi le visage, indirectement, en redressant la posture. <b>Rien dans ta trousse ne manque</b> : ce que tu possèdes est ce qui existe de mieux en drogerie pour cet objectif.
+  </div>
+
+  <!-- ════════ COMBIEN DE TEMPS ════════ -->
+  <div class="sec"><h2>Combien de temps</h2><div class="bar"></div><span class="tag">Honnêtement</span></div>
+  <p class="lede">Personne ne dit ça assez clairement, alors autant l'écrire : <b>le corps change lentement, puis d'un coup.</b> Les premières semaines ne montrent presque rien, et c'est exactement là que la plupart des gens s'arrêtent.</p>
+
+  <div class="scroll">
+    <table>
+      <thead><tr><th>Quand</th><th>Ce qui se passe</th></tr></thead>
+      <tbody>
+        <tr><td class="when">4 semaines</td><td><b>Rien de visible</b>, et c'est normal. Les charges montent, le geste devient propre, la séance fatigue moins. Le corps apprend avant de changer.</td></tr>
+        <tr><td class="when">8–12 semaines</td><td><b>Les vêtements tombent différemment.</b> Les épaules commencent à s'élargir, le t-shirt tient autrement. C'est toi qui le vois en premier.</td></tr>
+        <tr><td class="when">6 mois</td><td><b>Les autres le remarquent</b> sans que tu aies rien dit. C'est le vrai seuil.</td></tr>
+        <tr><td class="when">12 mois</td><td><b>La silhouette a changé</b> — et à ce stade, les chiffres du carnet de la semaine 1 font sourire.</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="note">
+    <b>Le seul vrai risque, c'est l'arrêt.</b> Pas le mauvais exercice, pas le mauvais poids, pas le mauvais jour. Quatre reports d'affilée coûtent plus cher qu'une séance moyenne — d'où la version courte de 25 minutes dans le planning : quand la journée déborde, on réduit, on ne supprime pas.
+  </div>
+
+  <footer>Document de cadrage · 3 septembre 2026 · à relire au bilan des 8 semaines</footer>
+
+</div>
+</body>
+</html>
