@@ -79,6 +79,11 @@ travail. Les poids réels priment sur le plan ; ne jamais inventer un chiffre.
   poids modérés, cardio à chaque séance.
 - **Peau** : marque facilement — douceur d'abord, jamais deux actifs forts le
   même soir.
+- **La trousse est close — douze produits, vérifiés en photo le 3 septembre**
+  (section « Ta trousse » de `soin/rituel-eclat-aout-2026.html`). **Ne jamais
+  citer, prescrire ou supposer un produit qui n'y figure pas.** C'est William
+  qui annonce quand un produit se termine ou quand il en achète un nouveau ;
+  la liste n'est mise à jour que sur son signalement.
 - **Allemand** : apprenant (~B1) ; pour les études, résumés en allemand simple
   avec les termes durs expliqués en français ; dictées avec score de fautes.
 

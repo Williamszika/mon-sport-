@@ -599,9 +599,10 @@ ajoutées au rituel :
 - Les soirs de gommage, la peau est déjà nourrie par l'huile : la Bodycreme
   seulement là où ça tire.
 
-**Il ne manque plus qu'un produit** : le *fluide shimmer*. C'était le seul
-article purement décoratif de la liste — s'il n'existe pas, rien ne manque au
-quotidien.
+**Le *fluide shimmer* n'existe pas** — il figurait dans le rituel sans jamais
+avoir été acheté. La fiche a été supprimée. La trousse est désormais **close à
+douze produits** : le rituel ne mentionne plus rien que William ne possède, et
+c'est lui qui signalera quand l'un d'eux se termine.
 
 Détail rassurant : le Waschgel et la Tagescreme portent tous les deux
 *normale und Mischhaut*. Les produits correspondent au type de peau.
@@ -614,10 +615,13 @@ Détail rassurant : le Waschgel et la Tagescreme portent tous les deux
 (celui de septembre reste à faire). Depuis le 3 septembre, la **Crème
 Niacinamide LSF 30** est enfin la crème du matin ; la Tagescreme Aloe se termine
 le soir.
-Douze produits en rotation : Waschgel, eau micellaire Garnier Hyaluron, Peeling
-Cleanser AHA + PHA, sérum Vitamine C, crème Niacinamide SPF 30, SunDance SPF 50,
-sérum Collagène Rétinol, crème Aloe Vera, gommage corps, lait corps, huile Body
-Beauty, fluide shimmer.
+**La trousse, douze produits — vérifiée en photo le 3 septembre, et complète.**
+Visage : Waschgel · eau micellaire Garnier Hyaluron · Peeling Cleanser AHA + 3 %
+PHA · sérum Vitamine C · Niacinamide Tagescreme LSF 30 (matin) · Tagescreme Aloe
+LSF 15 (soir) · Beauty Collagen Retinol Serum. Corps &amp; soleil : Duschgel
+pH 5,5 · Öl-Peeling · Bodycreme Sheabutter &amp; Arganöl · 5in1 Beauty-Öl ·
+SunDance Matt Sonnenfluid LSF 50. Rien d'autre n'entre dans le rituel ; William
+signale quand un produit se termine.
 
 **Sport** — 5 séances réalisées : découverte (10/08), Zirkel (15/08), Séance A
 (18/08), Séance B (21/08) et la **reprise du 28/08** après une semaine
