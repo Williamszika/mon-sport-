@@ -697,6 +697,46 @@ l'arrêt — pas le mauvais exercice.
 
 ---
 
+### Jeudi 3 septembre — La forme du visage
+
+Deuxième question de William : améliorer la **forme** du visage, pas seulement
+la peau. Une section entière s'ajoute à `sport/silhouette.html`.
+
+**D'abord la séparation nette.** La largeur de la mâchoire, la hauteur des
+pommettes, la forme du crâne : c'est de l'os, c'est génétique, **rien ne le
+modifie**. Autant le dire tout de suite. Mais l'os n'est qu'une partie de ce
+qu'on voit — tout ce qui l'habille se travaille, et l'effet est bien plus grand
+qu'on ne le croit.
+
+**Les sept leviers réels, du plus rapide au plus lent :**
+
+| | Levier | Horizon |
+|---|---|---|
+| 1 | **La barbe** — ligne de mâchoire nette, ligne de cou deux doigts au-dessus de la pomme d'Adam | le jour même |
+| 2 | **La coupe de cheveux** — c'est le coiffeur qui juge, pas une photo | le jour même |
+| 3 | **Le cou et la posture** — Butterfly Reverse, Low Row, **shrugs** | quelques semaines |
+| 4 | **Le gonflement du matin** — sommeil, sel, alcool | 48 h |
+| 5 | Les sourcils — deux minutes par mois | immédiat |
+| 6 | La peau, la brillance — niacinamide, déjà en service | quelques semaines |
+| 7 | Rester sec — déjà acquis | à conserver |
+
+**Ajout au programme** : deux séries de **shrugs** (haussements d'épaules) en
+fin de Séance A. Un cou un peu plus épais rend la tête proportionnée, et c'est
+le lien le plus direct entre la salle et le visage — avec le redressement du
+haut du dos, qui rouvre l'angle mâchoire-cou que la tête portée en avant écrase.
+
+**Et ce qui ne marche pas**, dit franchement : le « face yoga » ne remodèle pas
+un visage, le *mewing* ne fonctionne pas chez l'adulte (les os de la face sont
+soudés depuis longtemps), et mâcher du chewing-gum toute la journée pour la
+mâchoire est une usure de l'articulation pour un gain négligeable.
+
+**Le classement à retenir** : la barbe et la coupe changent son visage
+*aujourd'hui* ; la posture, le cou et le sommeil le changent *en quelques
+semaines* ; le SPF et le rétinol le protègent *pour les vingt prochaines
+années*.
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours
