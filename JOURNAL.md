@@ -552,6 +552,45 @@ tube**, et **comment faire la transition sans jeter une crème entamée**.
 
 ---
 
+### Jeudi 3 septembre — La trousse, vérifiée en photo
+
+Dix produits photographiés, noms exacts relevés sur les tubes. C'est désormais
+cette liste qui fait foi, et le rituel a été réécrit pour lui correspondre.
+
+**Visage — 7**
+
+| Produit | Rôle |
+|---|---|
+| Balea *erfrischendes Waschgel* — normale und Mischhaut | nettoyant quotidien |
+| Garnier *Mizellen Reinigungswasser Hyaluron* | eau micellaire, retire le SPF le soir |
+| Balea *Beauty Expert Peeling Cleanser* — AHA + 3 % PHA, parfumfrei | dimanche soir |
+| Balea *Vitamin C Serum* | le matin, sur peau nue |
+| Balea *Niacinamide Tagescreme* **LSF 30** — parfumfrei | **crème du matin** |
+| Balea *Tagescreme Aloe Vera* **LSF 15** — Hydro-Komplex | **crème du soir** |
+| Balea *Beauty Collagen Retinol Serum* | mardi &amp; vendredi soir |
+
+**Corps &amp; soleil — 3** : Balea med *pH 5,5 hautneutral Duschgel* (Allantoin,
+peau sensible) · Balea *5in1 Beauty-Öl* · SunDance *Matt Sonnenfluid* **LSF 50**.
+
+**Deux enseignements.**
+
+D'abord, **la « crème Aloe Vera » du rituel n'a jamais existé**. Le document
+prévoyait une crème de nuit séparée que William n'a pas — d'où sa question du
+31 août, « je n'ai pas de crème de nuit ». Le rôle revient officiellement à la
+**Tagescreme Aloe LSF 15**, et toutes les mentions ont été renommées dans le
+rituel.
+
+Ensuite, **trois produits du rituel n'apparaissent pas** sur les photos : le
+**gommage corps** (prévu mercredi et dimanche), le **lait corps** et le
+**fluide shimmer**. À confirmer — s'ils n'existent pas, les soirs de gommage
+tombent et l'hydratation du corps repose entièrement sur le Beauty-Öl, à
+appliquer sur peau encore humide en sortant de la douche.
+
+Détail rassurant : le Waschgel et la Tagescreme portent tous les deux
+*normale und Mischhaut*. Les produits correspondent au type de peau.
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours
