@@ -526,19 +526,21 @@ mise en service. La crème utilisée le matin depuis le début, c'est une
 **Tagescreme Aloe Vera**, encore entamée — et le rituel, lui, comptait sur la
 Niacinamide comme protection solaire de base.
 
-**Ce que ça veut dire.** Une crème de jour ne protège que si elle porte
-« LSF 30 » ou plus. Beaucoup de Tagescremes n'ont aucun filtre, ou un LSF 6 qui
-ne compte pas. Or le **rétinol** (mardi, vendredi) et le **peeling** (dimanche)
-rendent la peau plus sensible au soleil : le SPF n'est pas un supplément dans ce
-rituel, c'est ce qui le rend sûr. Rien de dramatique — l'UV d'Aachen est resté
-entre 1 et 5 ces deux semaines — mais ça s'arrête ici.
+**Le tube, vérifié en photo** : *Balea feuchtigkeitsspendende Tagescreme, 10 %
+Aloe Vera, normale und Mischhaut* — **LSF 15**. Donc un vrai filtre, et non
+l'absence de protection qu'on pouvait craindre. Mais **LSF 15 laisse passer
+~7 % des UVB, LSF 30 environ ~3 %** : c'est deux fois plus. Sur une peau
+travaillée au **rétinol** deux soirs par semaine et au **peeling** le dimanche —
+deux actifs qui augmentent la photosensibilité — cet écart compte. Rien de
+dramatique, l'UV d'Aachen est resté entre 1 et 5 ces deux semaines, mais le
+LSF 30 devient la norme à partir d'aujourd'hui.
 
 **La décision, pour ne rien gaspiller :**
 
 | Moment | Avant | Maintenant |
 |---|---|---|
-| Matin | Tagescreme Aloe | **Crème Niacinamide LSF 30** |
-| Soir | crème Aloe | **Tagescreme Aloe**, jusqu'à ce qu'elle soit finie |
+| Matin | Tagescreme Aloe **LSF 15** | **Crème Niacinamide LSF 30** |
+| Soir | crème Aloe | **Tagescreme Aloe LSF 15**, jusqu'à ce qu'elle soit finie |
 
 Un hydratant de jour fait un très bon soin de nuit — la Tagescreme se termine
 donc le soir, et la Niacinamide prend le matin dès aujourd'hui. (Autre option
