@@ -516,9 +516,46 @@ mangé. Pluie annoncée en soirée (51 % vers 21 h) — veste, pas d'annulation.
 
 ---
 
+### Jeudi 3 septembre — La crème SPF n'était pas encore entamée
+
+Vérification : **jeudi 3 septembre 2026, 05 h 38 CEST** · Aachen 17 °C, journée
+pluvieuse (61 % à midi), **UV maximum 1**.
+
+Découverte importante ce matin : la **Crème Niacinamide LSF 30** n'a jamais été
+mise en service. La crème utilisée le matin depuis le début, c'est une
+**Tagescreme Aloe Vera**, encore entamée — et le rituel, lui, comptait sur la
+Niacinamide comme protection solaire de base.
+
+**Ce que ça veut dire.** Une crème de jour ne protège que si elle porte
+« LSF 30 » ou plus. Beaucoup de Tagescremes n'ont aucun filtre, ou un LSF 6 qui
+ne compte pas. Or le **rétinol** (mardi, vendredi) et le **peeling** (dimanche)
+rendent la peau plus sensible au soleil : le SPF n'est pas un supplément dans ce
+rituel, c'est ce qui le rend sûr. Rien de dramatique — l'UV d'Aachen est resté
+entre 1 et 5 ces deux semaines — mais ça s'arrête ici.
+
+**La décision, pour ne rien gaspiller :**
+
+| Moment | Avant | Maintenant |
+|---|---|---|
+| Matin | Tagescreme Aloe | **Crème Niacinamide LSF 30** |
+| Soir | crème Aloe | **Tagescreme Aloe**, jusqu'à ce qu'elle soit finie |
+
+Un hydratant de jour fait un très bon soin de nuit — la Tagescreme se termine
+donc le soir, et la Niacinamide prend le matin dès aujourd'hui. (Autre option
+gardée en note : Tagescreme le matin + SunDance SPF 50 par-dessus, mais c'est
+une couche de plus à renouveler toutes les 2 h.)
+
+Le rituel porte maintenant les deux consignes : **comment vérifier le LSF sur un
+tube**, et **comment faire la transition sans jeter une crème entamée**.
+
+---
+
 ## Où en est-on
 
-**Soin** — routine complète et stable depuis juillet, calendrier d'août en cours.
+**Soin** — routine complète et stable depuis juillet, calendrier d'août en cours
+(celui de septembre reste à faire). Depuis le 3 septembre, la **Crème
+Niacinamide LSF 30** est enfin la crème du matin ; la Tagescreme Aloe se termine
+le soir.
 Douze produits en rotation : Waschgel, eau micellaire Garnier Hyaluron, Peeling
 Cleanser AHA + PHA, sérum Vitamine C, crème Niacinamide SPF 30, SunDance SPF 50,
 sérum Collagène Rétinol, crème Aloe Vera, gommage corps, lait corps, huile Body
