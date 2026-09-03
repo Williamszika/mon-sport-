@@ -554,7 +554,7 @@ tube**, et **comment faire la transition sans jeter une crème entamée**.
 
 ### Jeudi 3 septembre — La trousse, vérifiée en photo
 
-Dix produits photographiés, noms exacts relevés sur les tubes. C'est désormais
+Douze produits photographiés, noms exacts relevés sur les tubes. C'est désormais
 cette liste qui fait foi, et le rituel a été réécrit pour lui correspondre.
 
 **Visage — 7**
@@ -569,8 +569,15 @@ cette liste qui fait foi, et le rituel a été réécrit pour lui correspondre.
 | Balea *Tagescreme Aloe Vera* **LSF 15** — Hydro-Komplex | **crème du soir** |
 | Balea *Beauty Collagen Retinol Serum* | mardi &amp; vendredi soir |
 
-**Corps &amp; soleil — 3** : Balea med *pH 5,5 hautneutral Duschgel* (Allantoin,
-peau sensible) · Balea *5in1 Beauty-Öl* · SunDance *Matt Sonnenfluid* **LSF 50**.
+**Corps &amp; soleil — 5**
+
+| Produit | Rôle |
+|---|---|
+| Balea med *pH 5,5 hautneutral Duschgel* — Allantoin, peau sensible | lavage quotidien |
+| Balea *reichhaltiges Öl-Peeling* — Mandelöl &amp; Totes-Meer-Salz | **gommage**, mer. &amp; dim. |
+| Balea *Sheabutter &amp; Arganöl Bodycreme* — trockene Haut | **crème corps**, chaque jour |
+| Balea *5in1 Beauty-Öl* | le glow |
+| SunDance *Matt Sonnenfluid* **LSF 50** | exposition prolongée |
 
 **Deux enseignements.**
 
@@ -580,11 +587,21 @@ prévoyait une crème de nuit séparée que William n'a pas — d'où sa questio
 **Tagescreme Aloe LSF 15**, et toutes les mentions ont été renommées dans le
 rituel.
 
-Ensuite, **trois produits du rituel n'apparaissent pas** sur les photos : le
-**gommage corps** (prévu mercredi et dimanche), le **lait corps** et le
-**fluide shimmer**. À confirmer — s'ils n'existent pas, les soirs de gommage
-tombent et l'hydratation du corps repose entièrement sur le Beauty-Öl, à
-appliquer sur peau encore humide en sortant de la douche.
+Ensuite, les produits corps manquants ont été photographiés dans la foulée :
+le gommage est un **Öl-Peeling à l'huile d'amande et au sel de la mer Morte**,
+et le « lait corps » est en réalité une **Bodycreme Sheabutter &amp; Arganöl
+pour peau sèche** — une crème riche, pas un lait léger. Deux précisions
+ajoutées au rituel :
+
+- Le gommage est **au sel**, donc mécanique et franc. Sur une peau qui marque
+  facilement : **cercles légers, aucun appui**, jamais sur peau irritée ou
+  fraîchement rasée. Et il rend le fond de douche glissant.
+- Les soirs de gommage, la peau est déjà nourrie par l'huile : la Bodycreme
+  seulement là où ça tire.
+
+**Il ne manque plus qu'un produit** : le *fluide shimmer*. C'était le seul
+article purement décoratif de la liste — s'il n'existe pas, rien ne manque au
+quotidien.
 
 Détail rassurant : le Waschgel et la Tagescreme portent tous les deux
 *normale und Mischhaut*. Les produits correspondent au type de peau.
