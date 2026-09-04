@@ -737,6 +737,57 @@ années*.
 
 ---
 
+### Vendredi 4 septembre — Reprise fixée au lundi, et le vrai obstacle nommé
+
+Vérification : **vendredi 4 septembre 2026, 04 h 43 CEST** · Aachen 18 °C, belle
+journée jusqu'à 15 h puis pluie (57 % à 18 h), UV max 4.
+
+La séance de jeudi soir n'a pas eu lieu. Les chiffres, sans commentaire :
+
+| | |
+|---|---|
+| Dernière séance | **28 août** — 7 jours |
+| Dernières jambes | **21 août** — 14 jours |
+| Reports consécutifs de la Séance B | **5** (30/08 → 03/09) |
+| Séances en septembre | **0** |
+
+**William fixe la reprise au lundi 7 septembre.** Coïncidence utile : c'est
+exactement la date que le planning progressif prévoyait pour la **semaine 4 —
+lundi 7, Séance B**. Le planning l'attendait, il n'a pas bougé sans lui.
+
+**Le vrai obstacle, nommé enfin.** Cinq reports, et à chaque fois j'ai corrigé
+autre chose : l'heure, puis le format court. Ça n'a rien changé, donc ce n'était
+pas ça. Ce qui n'avait jamais été regardé en face, c'est le **trajet** :
+domicile → FitX, c'est **6,8 km et 30 à 40 min de bus porte à porte**. Aller et
+retour, plus d'une heure de transport pour une heure d'entraînement. Certains
+soirs, ce n'est pas la salle qu'on refuse — c'est le bus.
+
+**Deux ajouts au planning, qui attaquent ça directement :**
+
+**1 · Le plan C — à la maison, zéro trajet.** Une séance de 20 minutes sans
+matériel, qui travaille précisément les deux priorités de sa silhouette :
+
+| Zone | Exercice |
+|---|---|
+| **Épaules** | Élévations latérales, 3 × 15 — une bouteille d'eau pleine par main |
+| **Haut du dos** | Superman au sol, 3 × 12 — le même travail que le Butterfly Reverse |
+| Poitrine · bras | Pompes, 3 séries au max propre (mains sur le lit si trop dur) |
+| Jambes | Squats 3 × 15 · fentes 2 × 10 par jambe |
+| Gainage | Planche 3 × 30 s · gainage latéral 2 × 20 s |
+
+Elle ne remplace pas les machines et ne prétend pas le faire. Mais **deux
+séances maison valent infiniment mieux que zéro séance et un planning intact sur
+le papier**.
+
+**2 · La règle d'une seule machine.** Le moment difficile n'est pas
+l'entraînement, c'est la décision de partir. Donc on supprime la décision :
+s'engager à aller à la salle et faire **un seul exercice**, avec le droit
+explicite de repartir aussitôt après. Presque personne ne repart — mais c'est la
+permission de repartir qui rend le départ facile. Et le sac se prépare **le
+matin**, jamais le soir.
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours
@@ -756,11 +807,11 @@ signale quand un produit se termine.
 d'interruption. Les colonnes S1 des deux séances sont remplies et la colonne S2
 de la Séance A est ouverte.
 
-Prochaine étape : **Séance B (bas du corps)**, jeudi 3 septembre **vers
-20 h 30** — le seul créneau qui ait jamais tenu. Quatre reports au compteur
-(30/08 réveil tardif, 31/08 rendez-vous, 01/09 fatigue, 02/09), tous sur des
-créneaux de fin d'après-midi. Les jambes attendent depuis le 21/08. Si la
-fatigue tient : **version courte**, jamais un report de plus. Leg Press 30 → 35 kg à tester, Leg Extension et
+Prochaine étape : **Séance B, lundi 7 septembre** — date choisie par William, et
+qui tombe exactement sur la semaine 4 du planning. Cinq reports au compteur
+(30/08 → 03/09), zéro séance en septembre, 14 jours sans jambes. Le vrai
+obstacle est identifié : **le trajet**, pas la motivation. D'où le plan C
+(20 min à la maison, zéro bus) et la règle d'une seule machine. Leg Press 30 → 35 kg à tester, Leg Extension et
 Leg Curl à 25 kg en 3 × 12, plus l'Abdominal Crunch qui entre au programme.
 Cardio d'échauffement : 12 min à 120–130 bpm. Puis Séance A samedi 5 septembre.
 
