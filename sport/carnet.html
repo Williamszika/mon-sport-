@@ -63,6 +63,20 @@
   .done p{font-size:.87rem;color:var(--plum-soft);margin-top:11px}
 
   /* --- tableau de suivi --- */
+  /* --- la chaîne --- */
+  .chain{display:grid;grid-template-columns:repeat(2,1fr);gap:11px;margin-bottom:14px}
+  .ch-wk{display:flex;gap:11px;align-items:center;background:var(--card);border:1px solid var(--line);
+    border-radius:13px;padding:11px 13px;box-shadow:var(--shadow);break-inside:avoid}
+  .ch-n{flex:0 0 34px;height:34px;border-radius:50%;display:flex;align-items:center;justify-content:center;
+    font-family:"Fraunces",serif;font-size:.95rem;font-weight:600;background:var(--honey-tint);color:#B67C22;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .ch-days{flex:1;display:grid;grid-template-columns:repeat(3,1fr);gap:7px}
+  .ch-box{border:1px solid var(--line);border-radius:9px;padding:6px 4px 5px;text-align:center;background:#FEFBF8;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .ch-d{display:block;font-size:.6rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--plum-soft)}
+  .ch-dt{display:block;font-size:.66rem;color:#B49C90;margin-bottom:4px}
+  .ch-tick{display:block;height:19px;border:1.5px dashed var(--line);border-radius:5px;margin:0 auto;width:76%}
+
   .scroll{overflow-x:auto;border-radius:14px;box-shadow:var(--shadow);border:1px solid var(--line)}
   table.trk{width:100%;border-collapse:collapse;background:var(--card);min-width:720px}
   .trk th,.trk td{border-bottom:1px solid var(--line);border-right:1px solid var(--line);padding:10px 8px;
@@ -213,6 +227,116 @@
       <tr><td>Planche</td><td class="na">écartée — cardio déjà très chargé</td></tr>
     </table>
     <p>Reprise réussie après une semaine d'interruption (maladie lundi, études mardi). Poids tenus à l'identique, sans montée — le bon choix pour une reprise. <b>Le cardio a été bien plus intense que prévu</b> : 20 min à 155 bpm de moyenne et 174 en pic, soit ~93 % de la FC max théorique à 32 ans, contre 116 bpm sur le tapis le 18/08. Le programme prévoit 12 min à ~120–130 bpm pour l'échauffement ; ce format long et intense sera réservé à la séance cardio hebdomadaire.</p>
+  </div>
+
+  <!-- ════════ LA CHAÎNE ════════ -->
+  <div class="sec"><h2>La chaîne</h2><div class="rule"></div><span class="tag ta">Régularité</span></div>
+  <p class="sec-note">À partir du <b>lundi 7 septembre</b> : trois séances par semaine, <b>lundi · mercredi · vendredi</b>, vers 20 h 30. Les jours sont décidés une fois pour toutes — on ne se demande plus chaque soir si on y va. Une case cochée = une séance faite. <b>Une séance à la maison compte</b>, une version courte de 25 min aussi. Ce qui se mesure ici, ce n'est pas la performance : c'est la chaîne qui ne se casse pas.</p>
+  <div class="chain">
+      <div class="ch-wk">
+        <span class="ch-n">S1</span>
+        <div class="ch-days">
+          <div class="ch-box"><span class="ch-d">Lun</span><span class="ch-dt">7 sept.</span><span class="ch-tick"></span></div>
+          <div class="ch-box"><span class="ch-d">Mer</span><span class="ch-dt">9 sept.</span><span class="ch-tick"></span></div>
+          <div class="ch-box"><span class="ch-d">Ven</span><span class="ch-dt">11 sept.</span><span class="ch-tick"></span></div>
+        </div>
+      </div>
+      <div class="ch-wk">
+        <span class="ch-n">S2</span>
+        <div class="ch-days">
+          <div class="ch-box"><span class="ch-d">Lun</span><span class="ch-dt">14 sept.</span><span class="ch-tick"></span></div>
+          <div class="ch-box"><span class="ch-d">Mer</span><span class="ch-dt">16 sept.</span><span class="ch-tick"></span></div>
+          <div class="ch-box"><span class="ch-d">Ven</span><span class="ch-dt">18 sept.</span><span class="ch-tick"></span></div>
+        </div>
+      </div>
+      <div class="ch-wk">
+        <span class="ch-n">S3</span>
+        <div class="ch-days">
+          <div class="ch-box"><span class="ch-d">Lun</span><span class="ch-dt">21 sept.</span><span class="ch-tick"></span></div>
+          <div class="ch-box"><span class="ch-d">Mer</span><span class="ch-dt">23 sept.</span><span class="ch-tick"></span></div>
+          <div class="ch-box"><span class="ch-d">Ven</span><span class="ch-dt">25 sept.</span><span class="ch-tick"></span></div>
+        </div>
+      </div>
+      <div class="ch-wk">
+        <span class="ch-n">S4</span>
+        <div class="ch-days">
+          <div class="ch-box"><span class="ch-d">Lun</span><span class="ch-dt">28 sept.</span><span class="ch-tick"></span></div>
+          <div class="ch-box"><span class="ch-d">Mer</span><span class="ch-dt">30 sept.</span><span class="ch-tick"></span></div>
+          <div class="ch-box"><span class="ch-d">Ven</span><span class="ch-dt">2 oct.</span><span class="ch-tick"></span></div>
+        </div>
+      </div>
+      <div class="ch-wk">
+        <span class="ch-n">S5</span>
+        <div class="ch-days">
+          <div class="ch-box"><span class="ch-d">Lun</span><span class="ch-dt">5 oct.</span><span class="ch-tick"></span></div>
+          <div class="ch-box"><span class="ch-d">Mer</span><span class="ch-dt">7 oct.</span><span class="ch-tick"></span></div>
+          <div class="ch-box"><span class="ch-d">Ven</span><span class="ch-dt">9 oct.</span><span class="ch-tick"></span></div>
+        </div>
+      </div>
+      <div class="ch-wk">
+        <span class="ch-n">S6</span>
+        <div class="ch-days">
+          <div class="ch-box"><span class="ch-d">Lun</span><span class="ch-dt">12 oct.</span><span class="ch-tick"></span></div>
+          <div class="ch-box"><span class="ch-d">Mer</span><span class="ch-dt">14 oct.</span><span class="ch-tick"></span></div>
+          <div class="ch-box"><span class="ch-d">Ven</span><span class="ch-dt">16 oct.</span><span class="ch-tick"></span></div>
+        </div>
+      </div>
+      <div class="ch-wk">
+        <span class="ch-n">S7</span>
+        <div class="ch-days">
+          <div class="ch-box"><span class="ch-d">Lun</span><span class="ch-dt">19 oct.</span><span class="ch-tick"></span></div>
+          <div class="ch-box"><span class="ch-d">Mer</span><span class="ch-dt">21 oct.</span><span class="ch-tick"></span></div>
+          <div class="ch-box"><span class="ch-d">Ven</span><span class="ch-dt">23 oct.</span><span class="ch-tick"></span></div>
+        </div>
+      </div>
+      <div class="ch-wk">
+        <span class="ch-n">S8</span>
+        <div class="ch-days">
+          <div class="ch-box"><span class="ch-d">Lun</span><span class="ch-dt">26 oct.</span><span class="ch-tick"></span></div>
+          <div class="ch-box"><span class="ch-d">Mer</span><span class="ch-dt">28 oct.</span><span class="ch-tick"></span></div>
+          <div class="ch-box"><span class="ch-d">Ven</span><span class="ch-dt">30 oct.</span><span class="ch-tick"></span></div>
+        </div>
+      </div>
+      <div class="ch-wk">
+        <span class="ch-n">S9</span>
+        <div class="ch-days">
+          <div class="ch-box"><span class="ch-d">Lun</span><span class="ch-dt">2 nov.</span><span class="ch-tick"></span></div>
+          <div class="ch-box"><span class="ch-d">Mer</span><span class="ch-dt">4 nov.</span><span class="ch-tick"></span></div>
+          <div class="ch-box"><span class="ch-d">Ven</span><span class="ch-dt">6 nov.</span><span class="ch-tick"></span></div>
+        </div>
+      </div>
+      <div class="ch-wk">
+        <span class="ch-n">S10</span>
+        <div class="ch-days">
+          <div class="ch-box"><span class="ch-d">Lun</span><span class="ch-dt">9 nov.</span><span class="ch-tick"></span></div>
+          <div class="ch-box"><span class="ch-d">Mer</span><span class="ch-dt">11 nov.</span><span class="ch-tick"></span></div>
+          <div class="ch-box"><span class="ch-d">Ven</span><span class="ch-dt">13 nov.</span><span class="ch-tick"></span></div>
+        </div>
+      </div>
+      <div class="ch-wk">
+        <span class="ch-n">S11</span>
+        <div class="ch-days">
+          <div class="ch-box"><span class="ch-d">Lun</span><span class="ch-dt">16 nov.</span><span class="ch-tick"></span></div>
+          <div class="ch-box"><span class="ch-d">Mer</span><span class="ch-dt">18 nov.</span><span class="ch-tick"></span></div>
+          <div class="ch-box"><span class="ch-d">Ven</span><span class="ch-dt">20 nov.</span><span class="ch-tick"></span></div>
+        </div>
+      </div>
+      <div class="ch-wk">
+        <span class="ch-n">S12</span>
+        <div class="ch-days">
+          <div class="ch-box"><span class="ch-d">Lun</span><span class="ch-dt">23 nov.</span><span class="ch-tick"></span></div>
+          <div class="ch-box"><span class="ch-d">Mer</span><span class="ch-dt">25 nov.</span><span class="ch-tick"></span></div>
+          <div class="ch-box"><span class="ch-d">Ven</span><span class="ch-dt">27 nov.</span><span class="ch-tick"></span></div>
+        </div>
+      </div>
+  </div>
+  <div class="recap">
+    <h3>Les trois règles de la régularité</h3>
+    <ul>
+      <li><span><b>Les jours ne se discutent pas.</b> Lundi, mercredi, vendredi. Décidés une fois, plus jamais remis en question — la décision du soir est ce qui a fait échouer les cinq dernières fois.</span></li>
+      <li><span><b>Le sac se prépare le matin.</b> Jamais le soir. Le soir on ne décide plus rien, on part.</span></li>
+      <li><span><b>Un mauvais jour ne donne jamais zéro.</b> Version courte de 25 min, ou séance maison sans trajet. La case se coche quand même — c'est tout l'intérêt.</span></li>
+    </ul>
   </div>
 
   <!-- ════════ SÉANCE A ════════ -->

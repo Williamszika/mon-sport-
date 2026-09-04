@@ -788,6 +788,39 @@ matin**, jamais le soir.
 
 ---
 
+### Vendredi 4 septembre — « À partir de lundi, régulièrement »
+
+Vérification : **vendredi 4 septembre 2026, 14 h 53 CEST**.
+
+Engagement pris par William. Pour qu'il tienne, « régulièrement » devait
+devenir quelque chose de vérifiable — sinon c'est une intention, pas un plan.
+
+**Le rythme, fixé une fois pour toutes :** trois séances par semaine, **lundi ·
+mercredi · vendredi**, vers **20 h 30**, à partir du lundi 7 septembre. Ce sont
+les jours du planning d'origine et le créneau du soir qui a fait ses preuves.
+Les jours ne se rediscutent plus — c'est justement la décision du soir qui a
+fait échouer les cinq dernières fois.
+
+**Nouvelle section du carnet : « La chaîne ».** Douze semaines, du 7 septembre
+au 27 novembre, trois cases par semaine. Une case cochée = une séance faite.
+**Une séance maison compte, une version courte de 25 min aussi.** Ce qui se
+mesure là n'est pas la performance — c'est la chaîne qui ne se casse pas. La
+grille est imprimable et se remplit à la main.
+
+**Les trois règles inscrites sous la grille :**
+
+1. **Les jours ne se discutent pas** — lundi, mercredi, vendredi, décidés une
+   fois.
+2. **Le sac se prépare le matin**, jamais le soir. Le soir, on ne décide plus
+   rien : on part.
+3. **Un mauvais jour ne donne jamais zéro** — version courte ou séance maison,
+   et la case se coche quand même.
+
+Consigne ajoutée à `CLAUDE.md` : les jours de séance, demander le résultat et
+cocher la case. Aucune séance ne doit rester non renseignée.
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours

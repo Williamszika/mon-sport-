@@ -69,6 +69,13 @@ travail. Les poids réels priment sur le plan ; ne jamais inventer un chiffre.
 - **Salle** : FitX Aachen-Europaplatz, Europaplatz 17 — ouverte 24 h/24, arrêt
   de bus **Wiesental** à 160 m. Il se déplace **en bus** : toujours penser au
   bus du retour.
+- **Régularité — engagement pris le 4 septembre.** À partir du **lundi
+  7 septembre**, trois séances par semaine à jours fixes : **lundi · mercredi ·
+  vendredi**, vers 20 h 30. Les jours ne se rediscutent pas. Le suivi est la
+  section **« La chaîne »** de `sport/carnet.html` (12 semaines, jusqu'au
+  27 novembre). Une case cochée = une séance faite, **maison et version courte
+  comprises**. Les jours de séance, demander le résultat et cocher la case ;
+  ne jamais laisser une séance non renseignée.
 - **Créneau salle qui marche : ~20 h 30.** Les séances réellement faites ont
   toutes eu lieu le soir (15/08 après un shift, 21/08 et 28/08 à 20 h 30). Le
   créneau « 16 h en sortant de l'école » a échoué **quatre fois d'affilée**
