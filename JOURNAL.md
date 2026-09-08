@@ -861,6 +861,52 @@ vise à côté.
 
 ---
 
+### Mardi 8 septembre — La chaîne est lancée 💪
+
+Vérification : **mardi 8 septembre 2026, 22 h 19 CEST**.
+
+Quelques heures après le constat d'échec écrit plus haut, William a pris son
+sac et envoyé une photo d'un arrêt de bus. **La séance a eu lieu.**
+
+| Exercice | Réalisé | Ressenti |
+|---|---|---|
+| **Poids du corps** | **88,2 kg** — premier chiffre noté | — |
+| Vélo | **22 min · 8,09 km · niveau 3 · 71 W** | — |
+| Cœur | **103 bpm moyen · 125 max** | la bonne zone |
+| Cadence | **75 tr/min** | pile la cible |
+| Leg Press | **30 kg** · 3 × 12 | **facile** |
+| Leg Extension | **25 kg** · 3 × 12 | dure mais propre |
+| Leg Curl | **25 kg** · 3 × 12 | dure mais propre |
+| Abdominal Crunch | écarté | machine neuve, reprise après 11 jours |
+
+**Le cardio est la vraie réussite.** 103 bpm de moyenne et 125 en pic, contre
+**155 et 174 le 28 août**. La leçon écrite au journal il y a dix jours a été
+appliquée à la lettre — et cette fois les jambes ont trouvé un corps frais au
+lieu d'un corps déjà vidé. C'est la première fois qu'un enseignement du carnet
+change une séance réelle.
+
+**Ce qui a déclenché la séance : aucun des cinq dispositifs.** Ni le créneau, ni
+la version courte, ni le plan C, ni la règle d'une machine, ni la chaîne. Le sac
+est sorti, et l'arrêt de bus a suivi. À retenir sans en tirer de théorie :
+parfois le mécanisme n'était pas le sujet, et il fallait juste que le jour
+arrive.
+
+**Deux décisions prises pendant la séance :**
+- **Leg Press → 35 kg** la prochaine fois (« facile » = on monte d'un cran).
+- **Leg Extension et Leg Curl restent à 25 kg**, objectif 3 × 13 puis 14, 15
+  avant de passer à 30.
+
+**Et la ration est calculée** : 88,2 × 1,6 = **141 g de protéines par jour**.
+C'est nettement plus que ce qui est mangé aujourd'hui, et c'est le prochain
+chantier.
+
+**Note sur la chaîne** : la séance tombe un mardi, alors que la grille prévoit
+lundi/mercredi/vendredi. La case du lundi 7 reste vide, mais **la semaine
+compte une séance**. Ce qui se mesure, c'est trois séances dans la semaine —
+pas la conformité au jour exact.
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours
@@ -875,17 +921,16 @@ pH 5,5 · Öl-Peeling · Bodycreme Sheabutter &amp; Arganöl · 5in1 Beauty-Öl 
 SunDance Matt Sonnenfluid LSF 50. Rien d'autre n'entre dans le rituel ; William
 signale quand un produit se termine.
 
-**Sport** — 5 séances réalisées : découverte (10/08), Zirkel (15/08), Séance A
-(18/08), Séance B (21/08) et la **reprise du 28/08** après une semaine
-d'interruption. Les colonnes S1 des deux séances sont remplies et la colonne S2
-de la Séance A est ouverte.
+**Sport** — 6 séances réalisées : découverte (10/08), Zirkel (15/08), Séance A
+(18/08), Séance B (21/08), Séance A (28/08) et **Séance B le 08/09**. Les
+colonnes S1 et S2 des deux séances sont remplies. Premier poids du corps noté :
+**88,2 kg**.
 
-Prochaine étape : **aucune séance en salle planifiée.** Cinq dispositifs
-successifs (créneau, version courte, plan C, règle d'une machine, chaîne) n'ont
-produit aucune séance ; en produire un sixième serait refaire la même erreur.
-Le seul geste proposé est celui qui ne demande ni bus ni sac ni décision : les
-**20 minutes du plan C**, à la maison. Question ouverte posée à William le
-8 septembre : **qu'est-ce qui l'arrête vraiment ?** Leg Press 30 → 35 kg à tester, Leg Extension et
+**Séance B faite le mardi 8 septembre** — la première de septembre, après
+onze jours d'arrêt. Poids du corps : **88,2 kg** (ration : 141 g de protéines
+par jour). Cardio enfin dans la bonne zone (103 bpm moyen contre 155 le 28/08).
+Prochaine étape : **Séance A**, avec le **Shoulder Press** qui entre enfin au
+programme — et la Leg Press à **35 kg** à la prochaine Séance B. Leg Press 30 → 35 kg à tester, Leg Extension et
 Leg Curl à 25 kg en 3 × 12, plus l'Abdominal Crunch qui entre au programme.
 Cardio d'échauffement : 12 min à 120–130 bpm. Puis Séance A samedi 5 septembre.
 
