@@ -821,6 +821,46 @@ cocher la case. Aucune séance ne doit rester non renseignée.
 
 ---
 
+### Mardi 8 septembre — La première case n'a pas été cochée
+
+Vérification : **mardi 8 septembre 2026, 20 h 10 CEST**.
+
+La reprise du lundi 7 n'a pas eu lieu. C'était la première case de la chaîne,
+et elle reste vide. **11 jours depuis la dernière séance** (28 août), 18 jours
+sans jambes, **zéro séance en septembre**.
+
+**Le constat qui compte, et il est sur moi.** Depuis le 30 août, j'ai changé
+cinq fois quelque chose au dispositif :
+
+| | Correction apportée | Résultat |
+|---|---|---|
+| 1 | Le créneau : 16 h → 20 h 30 | aucune séance |
+| 2 | La version courte, 25 min | aucune séance |
+| 3 | Le plan C : 20 min à la maison, zéro trajet | aucune séance |
+| 4 | La règle d'une seule machine | aucune séance |
+| 5 | La chaîne, jours fixes lundi/mercredi/vendredi | aucune séance |
+
+Cinq dispositifs, zéro séance. **Ce n'est donc pas le dispositif.** Continuer à
+en produire un sixième serait refaire la même erreur en plus élaboré.
+
+**Ce que les faits disent aussi** : sur ces dix jours, William a demandé un
+planning une quinzaine de fois, envoyé des photos, posé des questions sur sa
+silhouette, son visage, ses dents. L'engagement est total — **du côté de la
+préparation**. Et nul du côté de l'exécution. Un plan qui rassure peut finir
+par remplacer la chose qu'il devait déclencher.
+
+**Changement d'approche.** On arrête de planifier la salle. Le seul geste
+proposé désormais est celui qui ne demande **ni bus, ni sac, ni décision** :
+les 20 minutes du plan C, dans sa chambre. Rien d'autre tant qu'une case n'est
+pas cochée.
+
+Et une question posée à William, honnêtement, parce que je devine depuis dix
+jours et que lui sait : **qu'est-ce qui l'arrête vraiment ?** Fatigue, trajet,
+envie, autre chose. Tant que la réponse est inconnue, tout ce que je construis
+vise à côté.
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours
@@ -840,11 +880,12 @@ signale quand un produit se termine.
 d'interruption. Les colonnes S1 des deux séances sont remplies et la colonne S2
 de la Séance A est ouverte.
 
-Prochaine étape : **Séance B, lundi 7 septembre** — date choisie par William, et
-qui tombe exactement sur la semaine 4 du planning. Cinq reports au compteur
-(30/08 → 03/09), zéro séance en septembre, 14 jours sans jambes. Le vrai
-obstacle est identifié : **le trajet**, pas la motivation. D'où le plan C
-(20 min à la maison, zéro bus) et la règle d'une seule machine. Leg Press 30 → 35 kg à tester, Leg Extension et
+Prochaine étape : **aucune séance en salle planifiée.** Cinq dispositifs
+successifs (créneau, version courte, plan C, règle d'une machine, chaîne) n'ont
+produit aucune séance ; en produire un sixième serait refaire la même erreur.
+Le seul geste proposé est celui qui ne demande ni bus ni sac ni décision : les
+**20 minutes du plan C**, à la maison. Question ouverte posée à William le
+8 septembre : **qu'est-ce qui l'arrête vraiment ?** Leg Press 30 → 35 kg à tester, Leg Extension et
 Leg Curl à 25 kg en 3 × 12, plus l'Abdominal Crunch qui entre au programme.
 Cardio d'échauffement : 12 min à 120–130 bpm. Puis Séance A samedi 5 septembre.
 
