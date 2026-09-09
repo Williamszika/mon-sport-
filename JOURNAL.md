@@ -920,13 +920,13 @@ averses éparses.
 | Chest Press | **20 kg** · 3 × 12 | dure mais propre |
 | Vertical Traction | **25 kg** · 3 × 12 | **facile** |
 | Low Row | **20 kg** · 3 × 12 | dure mais propre |
-| **Shoulder Press** | **25 kg · 2 × 13** | **première fois** ⭐ |
+| **Shoulder Press** | **15 kg · 2 × 13** | **première fois** ⭐ |
 
 **Le Shoulder Press entre enfin au programme.** Il attendait depuis la
 semaine 2, repoussé de séance en séance — et c'est l'exercice n° 1 de la
 silhouette, celui qui élargit les épaules. William l'a trouvé seul dans la
-salle et démarré à **25 kg**, nettement au-dessus des 10–15 kg conseillés pour
-une découverte, mais mené proprement en 2 × 13.
+salle et démarré à **15 kg** — exactement la fourchette conseillée pour une
+première fois — mené en **2 × 13**, soit une répétition de plus que prévu.
 
 **Deux séances en deux jours — du jamais vu depuis le début du carnet.** Et
 c'est sain : mardi les jambes, mercredi le haut du corps. C'est exactement à
