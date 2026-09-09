@@ -907,6 +907,51 @@ pas la conformité au jour exact.
 
 ---
 
+### Mercredi 9 septembre — Deux séances en deux jours, et le Shoulder Press enfin ⭐
+
+Vérification : **mercredi 9 septembre 2026, 21 h 49 CEST** · Aachen 14 °C,
+averses éparses.
+
+| Exercice | Réalisé | Ressenti |
+|---|---|---|
+| Vélo | **20 min · 6,85 km · niveau 3 · 86 W** | — |
+| Cœur | **118 bpm moyen · 127 max** | pile dans la cible |
+| Cadence | **90 tr/min** | — |
+| Chest Press | **20 kg** · 3 × 12 | dure mais propre |
+| Vertical Traction | **25 kg** · 3 × 12 | **facile** |
+| Low Row | **20 kg** · 3 × 12 | dure mais propre |
+| **Shoulder Press** | **25 kg · 2 × 13** | **première fois** ⭐ |
+
+**Le Shoulder Press entre enfin au programme.** Il attendait depuis la
+semaine 2, repoussé de séance en séance — et c'est l'exercice n° 1 de la
+silhouette, celui qui élargit les épaules. William l'a trouvé seul dans la
+salle et démarré à **25 kg**, nettement au-dessus des 10–15 kg conseillés pour
+une découverte, mais mené proprement en 2 × 13.
+
+**Deux séances en deux jours — du jamais vu depuis le début du carnet.** Et
+c'est sain : mardi les jambes, mercredi le haut du corps. C'est exactement à
+cela que sert l'alternance A / B — les jambes récupèrent pendant que les épaules
+travaillent.
+
+**Le cardio se cale, séance après séance :**
+
+| | 28/08 | 08/09 | 09/09 |
+|---|---|---|---|
+| FC moyenne | 155 | 103 | **118** |
+| FC max | 174 | 125 | **127** |
+| Watts moyens | 133 | 71 | **86** |
+
+La cible de 120–130 est atteinte sans jamais dépasser 127. En trois séances, le
+cardio est passé d'un format qui vidait le corps avant les machines à un
+échauffement qui le prépare.
+
+**Montées validées :** Vertical Traction à **30 kg** la prochaine fois. Chest
+Press et Low Row restent à 20 kg, objectif 3 × 13. Détail qui compte pour le
+Chest Press : le poids n'a pas bougé depuis le 18 août, mais on est passé de
+2 × 12 à 3 × 12 — **50 % de volume en plus**. La progression précède le chiffre.
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours
@@ -921,16 +966,16 @@ pH 5,5 · Öl-Peeling · Bodycreme Sheabutter &amp; Arganöl · 5in1 Beauty-Öl 
 SunDance Matt Sonnenfluid LSF 50. Rien d'autre n'entre dans le rituel ; William
 signale quand un produit se termine.
 
-**Sport** — 6 séances réalisées : découverte (10/08), Zirkel (15/08), Séance A
-(18/08), Séance B (21/08), Séance A (28/08) et **Séance B le 08/09**. Les
-colonnes S1 et S2 des deux séances sont remplies. Premier poids du corps noté :
-**88,2 kg**.
+**Sport** — 7 séances réalisées : découverte (10/08), Zirkel (15/08), Séance A
+(18/08), Séance B (21/08), Séance A (28/08), **Séance B (08/09)** et
+**Séance A (09/09)**. Six exercices sont maintenant chiffrés au carnet, dont le
+Shoulder Press. Premier poids du corps noté : **88,2 kg**.
 
-**Séance B faite le mardi 8 septembre** — la première de septembre, après
-onze jours d'arrêt. Poids du corps : **88,2 kg** (ration : 141 g de protéines
-par jour). Cardio enfin dans la bonne zone (103 bpm moyen contre 155 le 28/08).
-Prochaine étape : **Séance A**, avec le **Shoulder Press** qui entre enfin au
-programme — et la Leg Press à **35 kg** à la prochaine Séance B. Leg Press 30 → 35 kg à tester, Leg Extension et
+**Deux séances en deux jours** — Séance B le mardi 8 (reprise après onze jours)
+et Séance A le mercredi 9, avec le **Shoulder Press** enfin au programme.
+Poids du corps : **88,2 kg** (ration : 141 g de protéines par jour). Le cardio
+est calé à 118 bpm de moyenne, la cible. Prochaines montées : **Leg Press
+35 kg** et **Vertical Traction 30 kg**. Prochaine séance : **vendredi 11**. Leg Press 30 → 35 kg à tester, Leg Extension et
 Leg Curl à 25 kg en 3 × 12, plus l'Abdominal Crunch qui entre au programme.
 Cardio d'échauffement : 12 min à 120–130 bpm. Puis Séance A samedi 5 septembre.
 
