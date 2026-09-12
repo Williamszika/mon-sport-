@@ -971,10 +971,16 @@ couvert, 14 % de pluie.
 après dix jours sans la moindre séance. Celle de ce soir s'est faite en fin
 d'une journée commencée à **04 h 45**, avec huit heures de travail avant.
 
-**La Leg Press bondit de 30 à 40 kg**, soit **+33 %** — bien au-delà des 35 kg
-programmés. La marge était donc plus grande qu'on ne le pensait : les jambes
-étaient sous-chargées depuis le début. Les deux machines d'isolation passent de
-3 × 12 à **3 × 13**, exactement l'objectif fixé la semaine précédente.
+**La Leg Press passe de 30 à 40 kg**, soit **+33 %**. Les 35 kg programmés
+n'existaient pas : **la pile de cette machine avance par paliers de 10 kg**
+(30, 40, 50), là où les autres montent de 5 en 5. Le seul cran disponible était
+donc 40 — et il est passé en 3 × 12. Les jambes étaient sous-chargées depuis le
+début. Les deux machines d'isolation passent de 3 × 12 à **3 × 13**, exactement
+l'objectif fixé la semaine précédente.
+
+**Règle ajoutée au planning** : quand un cran est trop gros — 10 kg sur la Leg
+Press, soit +33 % — **les répétitions servent de marche intermédiaire**. On reste
+au même poids jusqu'à 3 × 15 propres avant de sauter au cran suivant.
 
 **Un enseignement sur le cardio.** 90 bpm de moyenne sur le tapis, contre 118 sur
 le vélo trois jours plus tôt : la marche chauffe nettement moins, et le capteur
