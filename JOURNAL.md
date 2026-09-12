@@ -952,6 +952,49 @@ Chest Press : le poids n'a pas bougé depuis le 18 août, mais on est passé de
 
 ---
 
+### Samedi 12 septembre — La première semaine complète 🔗
+
+Vérification : **samedi 12 septembre 2026, 22 h 14 CEST** · Aachen 19 °C,
+couvert, 14 % de pluie.
+
+| Exercice | Réalisé |
+|---|---|
+| Tapis | **17 min · 1,46 km · 5,1 km/h · pente 1,8 %** |
+| Cœur | 90 bpm moyen · 94 max |
+| **Leg Press** | **40 kg · 3 × 12** ⬆️ |
+| Leg Extension | **25 kg · 3 × 13** |
+| Leg Curl | **25 kg · 3 × 13** |
+| Abdominal Crunch | écarté — 22 h 15, journée depuis 04 h 45 |
+
+**Trois séances dans la semaine : mardi 8, mercredi 9, samedi 12.** C'est la
+**première semaine complète depuis le début du carnet** — et elle arrive juste
+après dix jours sans la moindre séance. Celle de ce soir s'est faite en fin
+d'une journée commencée à **04 h 45**, avec huit heures de travail avant.
+
+**La Leg Press bondit de 30 à 40 kg**, soit **+33 %** — bien au-delà des 35 kg
+programmés. La marge était donc plus grande qu'on ne le pensait : les jambes
+étaient sous-chargées depuis le début. Les deux machines d'isolation passent de
+3 × 12 à **3 × 13**, exactement l'objectif fixé la semaine précédente.
+
+**Un enseignement sur le cardio.** 90 bpm de moyenne sur le tapis, contre 118 sur
+le vélo trois jours plus tôt : la marche chauffe nettement moins, et le capteur
+de poignées sous-évalue quand on ne les tient pas en continu. À retenir — **le
+vélo niveau 3 est la machine d'échauffement de référence** ; sur tapis, monter
+la **pente à 3–4 %** plutôt que la vitesse, c'est plus efficace et plus doux
+pour les genoux.
+
+**La progression, en une semaine :**
+
+| Exercice | Avant | Maintenant |
+|---|---|---|
+| Leg Press | 30 kg | **40 kg** |
+| Vertical Traction | 25 kg | 25 kg (facile → **30** la prochaine) |
+| Chest Press | 2 × 12 à 20 kg | **3 × 12** à 20 kg |
+| Shoulder Press | absent du carnet | **15 kg · 2 × 13** |
+| Leg Extension / Curl | 3 × 12 | **3 × 13** |
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours
@@ -966,16 +1009,16 @@ pH 5,5 · Öl-Peeling · Bodycreme Sheabutter &amp; Arganöl · 5in1 Beauty-Öl 
 SunDance Matt Sonnenfluid LSF 50. Rien d'autre n'entre dans le rituel ; William
 signale quand un produit se termine.
 
-**Sport** — 7 séances réalisées : découverte (10/08), Zirkel (15/08), Séance A
-(18/08), Séance B (21/08), Séance A (28/08), **Séance B (08/09)** et
-**Séance A (09/09)**. Six exercices sont maintenant chiffrés au carnet, dont le
-Shoulder Press. Premier poids du corps noté : **88,2 kg**.
+**Sport** — 8 séances réalisées : découverte (10/08), Zirkel (15/08), Séance A
+(18/08), Séance B (21/08), Séance A (28/08), **Séance B (08/09)**, **Séance A
+(09/09)** et **Séance B (12/09)**. Sept exercices sont chiffrés au carnet, dont
+le Shoulder Press. Poids du corps : **88,2 kg**.
 
-**Deux séances en deux jours** — Séance B le mardi 8 (reprise après onze jours)
-et Séance A le mercredi 9, avec le **Shoulder Press** enfin au programme.
-Poids du corps : **88,2 kg** (ration : 141 g de protéines par jour). Le cardio
-est calé à 118 bpm de moyenne, la cible. Prochaines montées : **Leg Press
-35 kg** et **Vertical Traction 30 kg**. Prochaine séance : **vendredi 11**. Leg Press 30 → 35 kg à tester, Leg Extension et
+**Première semaine complète** — trois séances : B le mardi 8, A le mercredi 9,
+B le samedi 12. Poids du corps : **88,2 kg** (ration : 141 g de protéines par
+jour). La **Leg Press est passée de 30 à 40 kg**, les isolations à 3 × 13, et le
+Shoulder Press est entré au programme à 15 kg. Prochaine montée : **Vertical
+Traction 30 kg**. Prochaine séance : **lundi 14**, Séance A. Leg Press 30 → 35 kg à tester, Leg Extension et
 Leg Curl à 25 kg en 3 × 12, plus l'Abdominal Crunch qui entre au programme.
 Cardio d'échauffement : 12 min à 120–130 bpm. Puis Séance A samedi 5 septembre.
 
