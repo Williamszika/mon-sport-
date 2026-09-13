@@ -1001,6 +1001,37 @@ pour les genoux.
 
 ---
 
+### Dimanche 13 septembre — Aucune machine pour le plancher pelvien 🫁
+
+**La question :** quelle machine renforce les muscles pelviens comme les Kegels ?
+
+**La réponse : aucune.** Le plancher pelvien est un muscle interne, qui ne se
+contracte que **volontairement**. Aucune pile de poids ne l'atteint — ni
+l'abduction, ni l'adduction, ni la presse. Les machines d'abduction travaillent
+le moyen fessier, à l'extérieur de la hanche ; c'est un muscle différent. Les
+**Kegels quotidiens restent le seul entraînement**, et ils n'ont pas de
+substitut à la salle.
+
+**Mais la salle peut lui nuire** — et c'est le vrai sujet maintenant que les
+charges montent. Retenir son souffle en poussant fait monter la pression dans
+l'abdomen, qui **appuie vers le bas sur le plancher pelvien**. À 30 kg, ça
+n'avait pas d'importance. À 40, et bientôt 50 à la Leg Press, ça en a.
+
+**Règle ajoutée au planning** (`sport/planning-progressif.html`, section « La
+respiration sous charge ») :
+
+| Moment | Ce qu'on fait |
+|---|---|
+| Pendant l'effort — on pousse, on tire | **Expirer** |
+| Au retour — la charge redescend | **Inspirer** |
+| Jamais | **Bloquer sa respiration** |
+
+**Le test, en série :** pouvoir prononcer un mot. Pas une phrase — un mot. Si
+c'est impossible, c'est qu'on bloque : le poids est trop lourd, on redescend
+d'un cran.
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours
@@ -1024,9 +1055,16 @@ le Shoulder Press. Poids du corps : **88,2 kg**.
 B le samedi 12. Poids du corps : **88,2 kg** (ration : 141 g de protéines par
 jour). La **Leg Press est passée de 30 à 40 kg**, les isolations à 3 × 13, et le
 Shoulder Press est entré au programme à 15 kg. Prochaine montée : **Vertical
-Traction 30 kg**. Prochaine séance : **lundi 14**, Séance A. Leg Press 30 → 35 kg à tester, Leg Extension et
-Leg Curl à 25 kg en 3 × 12, plus l'Abdominal Crunch qui entre au programme.
-Cardio d'échauffement : 12 min à 120–130 bpm. Puis Séance A samedi 5 septembre.
+Traction 30 kg**. **Prochaine séance : lundi 14, Séance A** — Vertical Traction
+à 30 kg, Chest Press et Low Row maintenus à 20 kg en visant 3 × 13, Shoulder
+Press 15 → 20 kg si les 15 passent facilement. Cardio d'échauffement :
+**vélo niveau 3, 12 min à 120–130 bpm**. La Leg Press reste à 40 kg et monte en
+répétitions (3 × 13 → 14 → 15) avant de sauter à 50. Toujours en attente :
+l'**Abdominal Crunch**, écarté trois séances de suite, et les **élévations
+latérales** (4 kg, 3 × 15) — une nouveauté à la fois.
+
+**La respiration** — depuis le 13 septembre : expirer pendant l'effort, inspirer
+au retour, ne jamais bloquer.
 
 **Études** — routine lancée le 19 août : une vraie pause en rentrant, puis un
 bloc par jour (réviser → apprendre → s'exercer) depuis le dépôt de sujets de
