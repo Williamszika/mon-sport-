@@ -76,6 +76,23 @@ travail. Les poids réels priment sur le plan ; ne jamais inventer un chiffre.
   27 novembre). Une case cochée = une séance faite, **maison et version courte
   comprises**. Les jours de séance, demander le résultat et cocher la case ;
   ne jamais laisser une séance non renseignée.
+- **Le matériel de la salle n'est PAS connu** — seulement ce que William a
+  utilisé ou photographié. Confirmé : Leg Press (pile de **10 en 10**), Leg
+  Extension, Leg Curl, Chest Press, Vertical Traction, Low Row, Shoulder Press,
+  Abdominal Crunch (repérée), machines d'abduction, haltères, vélo, tapis,
+  elliptique, rameur, Turnecke. **Ne jamais supposer qu'une autre machine
+  existe.** Pacte du 13 septembre : quand une machine non confirmée entre au
+  programme, **la nommer dans le message qui PRÉCÈDE la séance** (nom allemand,
+  allure, muscle travaillé) — William va la chercher tranquillement, jamais
+  pendant la séance. Si elle n'est pas trouvée en deux minutes : séance sans
+  elle. Ordre prévu : **poulie (Kabelzug)** → Butterfly/Pec Deck → biceps &
+  triceps. Rien ne viendra sur rack à squat, barres libres, kettlebells, TRX ni
+  Hip Thrust. Voir `sport/planning-progressif.html`, section « Les machines
+  qu'on n'a pas encore ».
+- **Respiration sous charge** : expirer pendant l'effort, inspirer au retour,
+  **ne jamais bloquer** (pression sur le plancher pelvien). Le test : pouvoir
+  dire un mot en série. Aucune machine ne travaille le plancher pelvien — les
+  Kegels quotidiens sont le seul entraînement.
 - **Créneau salle qui marche : ~20 h 30.** Les séances réellement faites ont
   toutes eu lieu le soir (15/08 après un shift, 21/08 et 28/08 à 20 h 30). Le
   créneau « 16 h en sortant de l'école » a échoué **quatre fois d'affilée**

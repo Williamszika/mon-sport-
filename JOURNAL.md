@@ -1032,6 +1032,47 @@ d'un cran.
 
 ---
 
+### Dimanche 13 septembre — Le pacte du matériel 🔎
+
+**Dit clairement :** il n'existe pas de liste des machines de FitX Europaplatz
+de ce côté-ci. Les seules connues sont celles que William a **utilisées ou
+photographiées**. Tout le reste était une supposition — et les suppositions
+coûtent des séances : les 35 kg de Leg Press qui n'existaient pas en sont la
+preuve.
+
+**Ce qui est confirmé :**
+
+| Catégorie | Confirmé |
+|---|---|
+| Chiffré au carnet | Leg Press · Leg Extension · Leg Curl · Chest Press · Vertical Traction · Low Row · Shoulder Press |
+| Vu, pas encore fait | Abdominal Crunch · machines d'abduction · haltères · Turnecke |
+| Cardio | Vélo · tapis · elliptique · rameur |
+
+**L'accord de William :** « lorsque les programmes arriveront dessus, tu me dis
+et je vais chercher ». Adopté, et rendu opérationnel :
+
+1. La machine est **nommée dans le message qui PRÉCÈDE la séance** — nom
+   allemand, allure, muscle travaillé, pas de la pile.
+2. William la repère tranquillement. **Jamais de recherche en pleine séance :**
+   si elle n'est pas trouvée en deux minutes, la séance se fait sans elle.
+3. Une fois trouvée : photo de l'étiquette et du réglage de siège, puis elle
+   entre au carnet comme les sept autres.
+
+**L'ordre d'arrivée :**
+
+| Quand | Machine | Pourquoi |
+|---|---|---|
+| Déjà là | Haltères 4 kg · Abdominal Crunch · abduction | Entrent au programme, un à la fois |
+| **Courant octobre** | **La poulie — _Kabelzug_ / _Seilzug_** | Ouvre les **face pulls** : épaules arrière et posture, le levier n° 1 |
+| Novembre | Butterfly / Pec Deck (_Brustheber_), puis Pull-over si elle existe | Complète le Chest Press |
+| Plus tard | Curl biceps · extension triceps | Priorité n° 4 — grossissent déjà indirectement |
+| Jamais dans ce programme | Rack à squat, barres libres, kettlebells, TRX, Hip Thrust, presse à mollets | Pas la voie d'un physique sec et dessiné en 12–15 reps |
+
+Règle inscrite dans `CLAUDE.md` et dans `sport/planning-progressif.html`,
+section « Les machines qu'on n'a pas encore ».
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours
