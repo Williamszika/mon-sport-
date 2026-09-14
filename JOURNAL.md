@@ -1139,6 +1139,47 @@ Nouveau document : `soin/parfum.html`.
 
 ---
 
+### Lundi 14 septembre — Pas de déodorant du tout 🧴
+
+**Révélé en une phrase, et ça réordonne tout :** William n'a **aucun
+déodorant**. Trois séances de sport par semaine, des trajets en bus, des
+shifts — et rien. **C'est le vrai manque, et il passe devant le parfum.** Du
+parfum posé sur une odeur de transpiration ne la couvre pas : il crée deux
+odeurs.
+
+**Priorités inversées :**
+
+| Quand | Quoi | Combien |
+|---|---|---|
+| **Aujourd'hui**, en rentrant des cours | Deux déodorants chez dm | ≈ 6 € |
+| Dans quelques semaines, après essai | Un parfum | 70–120 € |
+
+**Deux produits, pas un :**
+
+- **Un normal** — cours, sport, week-end
+- **Un `ohne Parfüm`** — jours d'hôpital, où le zéro odeur est la règle
+
+**Viser un `Antitranspirant`**, pas un simple `Deo` : le premier réduit la
+transpiration, le second se contente de la masquer. Avec trois séances par
+semaine et des shifts, c'est le bon choix.
+
+**Le geste que personne ne fait :** un antitranspirant se met **le soir, sur
+peau propre et sèche** — pas le matin. Les sels d'aluminium ont besoin de
+plusieurs heures pour former le bouchon qui freine la sueur, et on transpire
+peu la nuit. Appliqué le soir, il tient toute la journée du lendemain, **même
+après la douche du matin**.
+
+**Sur l'aluminium** — la question revient toujours : le BfR allemand a revu son
+avis en 2020, l'exposition par les antitranspirants est bien plus faible
+qu'estimé auparavant et ne présente pas de risque à usage normal. Un
+`Deo ohne Aluminium` reste possible s'il préfère — moins efficace, mais pas
+rien.
+
+Document mis à jour : `soin/parfum.html`, nouvelle section « D'abord le
+déodorant » placée avant tout le reste.
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours

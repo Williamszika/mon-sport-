@@ -109,6 +109,15 @@ travail. Les poids réels priment sur le plan ; ne jamais inventer un chiffre.
   citer, prescrire ou supposer un produit qui n'y figure pas.** C'est William
   qui annonce quand un produit se termine ou quand il en achète un nouveau ;
   la liste n'est mise à jour que sur son signalement.
+- **Parfum & déodorant — hors trousse, en cours de mise en place.** William
+  **n'a aucun déodorant** (signalé le 14 septembre) et aucun parfum. Priorité :
+  **le déodorant d'abord** — deux à acheter chez dm (~6 €), un normal et un
+  **sans parfum pour les jours d'hôpital**, à appliquer **le soir sur peau
+  sèche**. Le parfum vient ensuite : un seul flacon, 70–120 €, choisi après
+  essai sur la peau. **Zéro parfum à l'hôpital, autorisé en cours.** Lendemains
+  d'actifs (lundi, mercredi, samedi) : parfum sur les vêtements seulement.
+  Voir `soin/parfum.html`. Ces produits ne font PAS partie des douze de la
+  trousse — ne jamais les y compter.
 - **Allemand** : apprenant (~B1) ; pour les études, résumés en allemand simple
   avec les termes durs expliqués en français ; dictées avec score de fautes.
 
