@@ -1073,6 +1073,34 @@ section « Les machines qu'on n'a pas encore ».
 
 ---
 
+### Lundi 14 septembre — Le Treppensteiger, première machine du pacte 🪜
+
+**Le lendemain du pacte, la première prise.** William signale que la salle a un
+**Treppensteiger** — l'escalier sans fin, des marches qui descendent en boucle.
+
+**Pourquoi c'est une bonne nouvelle :** c'est la meilleure machine cardio de la
+salle pour un objectif *sec et dessiné*. Le cœur monte vite sans courir, les
+genoux ne prennent rien, les fessiers travaillent au passage. Et elle règle le
+problème constaté le 12 septembre — **90 bpm sur le tapis, c'était trop peu**.
+
+**Sa place, décidée tout de suite :**
+
+| | |
+|---|---|
+| **À la fin de la Séance A** | 5 à 10 min — le haut du corps a travaillé, les jambes sont fraîches |
+| Jamais en échauffement | Elle fatigue les jambes avant les séries — l'échauffement reste le **vélo niveau 3** |
+| Jamais en Séance B | Le jour des jambes, elles ont déjà donné à la Leg Press |
+
+**Montée en charge :** 5 min → 7 → 9 → 10, une séance à la fois. **La faute à
+éviter :** s'appuyer sur les barres — le poids passe dans les bras au lieu des
+jambes, et la moitié du travail disparaît. Les mains se posent, elles ne
+portent pas.
+
+**Entrée au programme : vendredi 18 septembre**, fin de Séance A. Aujourd'hui,
+une seule nouveauté — la Vertical Traction à 30 kg.
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours

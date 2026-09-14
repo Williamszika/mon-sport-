@@ -80,7 +80,8 @@ travail. Les poids réels priment sur le plan ; ne jamais inventer un chiffre.
   utilisé ou photographié. Confirmé : Leg Press (pile de **10 en 10**), Leg
   Extension, Leg Curl, Chest Press, Vertical Traction, Low Row, Shoulder Press,
   Abdominal Crunch (repérée), machines d'abduction, haltères, vélo, tapis,
-  elliptique, rameur, Turnecke. **Ne jamais supposer qu'une autre machine
+  elliptique, rameur, **Treppensteiger** (escalier sans fin — signalé le
+  14 septembre), Turnecke. **Ne jamais supposer qu'une autre machine
   existe.** Pacte du 13 septembre : quand une machine non confirmée entre au
   programme, **la nommer dans le message qui PRÉCÈDE la séance** (nom allemand,
   allure, muscle travaillé) — William va la chercher tranquillement, jamais
