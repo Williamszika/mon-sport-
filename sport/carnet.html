@@ -76,6 +76,10 @@
   .ch-d{display:block;font-size:.6rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--plum-soft)}
   .ch-dt{display:block;font-size:.66rem;color:#B49C90;margin-bottom:4px}
   .ch-tick{display:block;height:19px;border:1.5px dashed var(--line);border-radius:5px;margin:0 auto;width:76%}
+  .ch-tick.ok{border:1.5px solid var(--sage);background:var(--sage-tint);color:#3F5A48;font-size:.8rem;
+    font-weight:800;line-height:17px;border-style:solid;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .ch-mv{display:block;font-size:.55rem;font-weight:700;color:#7B9A82;margin-top:2px;letter-spacing:.02em}
 
   .scroll{overflow-x:auto;border-radius:14px;box-shadow:var(--shadow);border:1px solid var(--line)}
   table.trk{width:100%;border-collapse:collapse;background:var(--card);min-width:720px}
@@ -266,6 +270,23 @@
   </div>
 
   <div class="done">
+    <div class="k">Séance A — les quatre objectifs atteints</div>
+    <h3>Lundi 14 septembre 2026</h3>
+    <table>
+      <tr><td>Vélo <small>(niveau 3)</small></td><td class="ok">12 min · 4,14 km · 95 tr/min · 90 W moyen</td></tr>
+      <tr><td>Cœur</td><td>110 moyen — un peu sous la cible 120–130. <b>168 max : artefact du capteur</b></td></tr>
+      <tr><td>Chest Press <small>(Brustpresse)</small></td><td class="ok">20 kg · <b>3 × 13</b></td></tr>
+      <tr><td><b>Vertical Traction</b> <small>(Latzug)</small></td><td class="ok"><b>30 kg · 3 × 12</b> ⬆️ — 25 → 30 kg</td></tr>
+      <tr><td>Low Row <small>(Rudern)</small></td><td class="ok">20 kg · <b>3 × 13</b></td></tr>
+      <tr><td>Shoulder Press <small>(Schulterpresse)</small></td><td class="ok">15 kg · <b>3 × 12</b> — 3 séries, contre 2 le 09/09</td></tr>
+    </table>
+    <p><b>Les quatre machines au programme, les quatre objectifs atteints.</b> C'est la première Séance A complète du carnet : jusqu'ici il manquait toujours une série ou un exercice. Et elle tombe un lundi, le jour prévu, après sept heures de cours — le schéma « rentrer, manger, souffler une vraie heure, partir » tient.</p>
+    <p><b>La Vertical Traction passe de 25 à 30 kg</b>, soit +20 % sur le plus gros muscle du dos. Le <b>Shoulder Press</b> boucle enfin ses trois séries à 15 kg : si vendredi elles passent encore sans forcer, il monte à 20 kg — c'est l'exercice qui change le plus la silhouette.</p>
+    <p><b>Le cardio, enseignement du soir :</b> 110 bpm de moyenne pour <b>95 tours/minute</b>. Pédaler vite sur un niveau bas ne fait pas monter le cœur — c'est la résistance qui compte. <b>Prochaine séance : niveau 4</b>, même durée. Quant aux 168 de maximum affichés, ils sont incompatibles avec 90 watts de moyenne : c'est le capteur de poignées qui a sauté.</p>
+    <p><b>Première séance avec la règle de respiration</b> — expirer pendant l'effort, ne jamais bloquer.</p>
+  </div>
+
+  <div class="done">
     <div class="k">Séance B — la première semaine complète</div>
     <h3>Samedi 12 septembre 2026</h3>
     <table>
@@ -288,15 +309,15 @@
       <div class="ch-wk">
         <span class="ch-n">S1</span>
         <div class="ch-days">
-          <div class="ch-box"><span class="ch-d">Lun</span><span class="ch-dt">7 sept.</span><span class="ch-tick"></span></div>
-          <div class="ch-box"><span class="ch-d">Mer</span><span class="ch-dt">9 sept.</span><span class="ch-tick"></span></div>
-          <div class="ch-box"><span class="ch-d">Ven</span><span class="ch-dt">11 sept.</span><span class="ch-tick"></span></div>
+          <div class="ch-box"><span class="ch-d">Lun</span><span class="ch-dt">7 sept.</span><span class="ch-tick ok">✓</span><span class="ch-mv">fait mar. 8</span></div>
+          <div class="ch-box"><span class="ch-d">Mer</span><span class="ch-dt">9 sept.</span><span class="ch-tick ok">✓</span></div>
+          <div class="ch-box"><span class="ch-d">Ven</span><span class="ch-dt">11 sept.</span><span class="ch-tick ok">✓</span><span class="ch-mv">fait sam. 12</span></div>
         </div>
       </div>
       <div class="ch-wk">
         <span class="ch-n">S2</span>
         <div class="ch-days">
-          <div class="ch-box"><span class="ch-d">Lun</span><span class="ch-dt">14 sept.</span><span class="ch-tick"></span></div>
+          <div class="ch-box"><span class="ch-d">Lun</span><span class="ch-dt">14 sept.</span><span class="ch-tick ok">✓</span></div>
           <div class="ch-box"><span class="ch-d">Mer</span><span class="ch-dt">16 sept.</span><span class="ch-tick"></span></div>
           <div class="ch-box"><span class="ch-d">Ven</span><span class="ch-dt">18 sept.</span><span class="ch-tick"></span></div>
         </div>
@@ -399,27 +420,27 @@
       <thead>
         <tr>
           <th class="ex" style="text-align:left">Exercice</th>
-          <th class="head-a">S1<br>17 · 21/08</th>
-          <th class="head-a">S2<br>26/08</th>
+          <th class="head-a">S1<br>18/08</th>
+          <th class="head-a">S2<br>28/08</th>
           <th class="head-a">S3<br>09/09</th>
-          <th class="head-a">S4<br>09/09</th>
-          <th class="head-a">S5<br>14 · 18/09</th>
+          <th class="head-a">S4<br>14/09</th>
+          <th class="head-a">S5<br>18/09</th>
           <th class="head-a">S6<br>23/09</th>
-          <th class="head-a">S7<br>28/09 · 2/10</th>
-          <th class="head-a">S8<br>07/10</th>
+          <th class="head-a">S7<br>28/09</th>
+          <th class="head-a">S8<br>02/10</th>
         </tr>
       </thead>
       <tbody>
         <tr class="cardio"><td class="ex">Cardio <small>durée · niveau</small></td>
-          <td style="font-size:.72rem"><b>15 min</b><br>5,4 km/h</td><td style="font-size:.72rem"><b>20 min</b><br>vélo niv 5</td><td style="font-size:.72rem"><b>20 min</b><br>vélo niv 3</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td></tr>
+          <td style="font-size:.72rem"><b>15 min</b><br>5,4 km/h</td><td style="font-size:.72rem"><b>20 min</b><br>vélo niv 5</td><td style="font-size:.72rem"><b>20 min</b><br>vélo niv 3</td><td style="font-size:.72rem"><b>12 min</b><br>vélo niv 3</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td></tr>
         <tr><td class="ex">Chest Press <small>développé poitrine</small></td>
-          <td><b>20 kg</b></td><td><b>20 kg</b></td><td><b>20 kg</b></td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td></tr>
+          <td><b>20 kg</b></td><td><b>20 kg</b></td><td><b>20 kg</b></td><td><b>20 kg</b></td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td></tr>
         <tr><td class="ex">Vertical Traction <small>tirage vertical</small></td>
-          <td><b>25 kg</b></td><td><b>25 kg</b></td><td><b>25 kg</b></td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td></tr>
+          <td><b>25 kg</b></td><td><b>25 kg</b></td><td><b>25 kg</b></td><td><b>30 kg</b></td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td></tr>
         <tr><td class="ex">Low Row <small>rowing assis</small></td>
-          <td><b>20 kg</b></td><td><b>20 kg</b></td><td><b>20 kg</b></td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td></tr>
+          <td><b>20 kg</b></td><td><b>20 kg</b></td><td><b>20 kg</b></td><td><b>20 kg</b></td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td></tr>
         <tr class="late"><td class="ex">Shoulder Press <small>épaules · dès S2</small></td>
-          <td></td><td class="fill">·</td><td><b>15 kg</b></td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td></tr>
+          <td></td><td class="fill">·</td><td><b>15 kg</b></td><td><b>15 kg</b></td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td></tr>
         <tr class="late"><td class="ex">Arm Curl <small>biceps · dès S3</small></td>
           <td></td><td></td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td><td class="fill">·</td></tr>
         <tr class="late"><td class="ex">Arm Extension <small>triceps · dès S4</small></td>

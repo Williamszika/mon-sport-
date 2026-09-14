@@ -1222,6 +1222,44 @@ une machine inconnue.
 
 ---
 
+### Lundi 14 septembre — La première Séance A complète 🎯
+
+| Exercice | Réalisé |
+|---|---|
+| Vélo niveau 3 | **12 min · 4,14 km · 95 tr/min · 90 W** |
+| Cœur | 110 bpm moyen · 168 max *(artefact du capteur)* |
+| Chest Press | 20 kg · **3 × 13** |
+| **Vertical Traction** | **30 kg · 3 × 12** ⬆️ |
+| Low Row | 20 kg · **3 × 13** |
+| Shoulder Press | 15 kg · **3 × 12** — trois séries, contre deux le 09/09 |
+
+**Quatre machines au programme, quatre objectifs atteints.** C'est la
+**première Séance A complète du carnet** — jusqu'ici il manquait toujours une
+série ou un exercice. Et elle tombe un **lundi, le jour prévu**, après sept
+heures de cours : le schéma « rentrer, manger, souffler une vraie heure,
+partir » tient.
+
+**La Vertical Traction passe de 25 à 30 kg**, soit +20 % sur le plus gros
+muscle du dos. Le **Shoulder Press boucle enfin ses trois séries** à 15 kg :
+si elles passent encore sans forcer vendredi, il monte à **20 kg** — c'est
+l'exercice qui change le plus la silhouette.
+
+**Enseignement sur le cardio.** 110 bpm de moyenne pour **95 tours par
+minute** : pédaler vite sur un niveau bas ne fait pas monter le cœur, c'est la
+**résistance** qui compte. Prochaine séance : **niveau 4**, même durée. Quant
+aux 168 de maximum affichés, ils sont incompatibles avec 90 W de moyenne —
+c'est le capteur de poignées qui a sauté, pas le cœur.
+
+**Première séance avec la règle de respiration** : expirer pendant l'effort,
+ne jamais bloquer.
+
+**La chaîne — quatre cases cochées.** Les trois de la semaine 1 (lundi reporté
+au mardi 8, mercredi 9 à l'heure, vendredi reporté au samedi 12) et **le lundi
+14 fait au jour dit**. Prochaines : mercredi 16 (Séance B) et vendredi 18
+(Séance A).
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours
