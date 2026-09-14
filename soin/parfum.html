@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sentir bon · Ton premier parfum</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --porcelain:#FBF3EF;--card:#FFFDFB;--plum:#43222E;--plum-soft:#7A5561;
+    --line:#EBDDD6;--honey:#DBA043;--honey-tint:#FBEED6;
+    --rose:#C4718A;--rose-tint:#F6E1E7;--sage:#7B9A82;--sage-tint:#E1EBE1;
+    --shadow:0 1px 2px rgba(67,34,46,.04),0 12px 32px rgba(67,34,46,.06);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{font-family:"Nunito Sans",system-ui,sans-serif;color:var(--plum);background:var(--porcelain);
+    line-height:1.55;padding:32px 20px 56px}
+  .wrap{max-width:860px;margin:0 auto}
+
+  header{position:relative;text-align:center;padding:34px 16px 24px;overflow:hidden;margin-bottom:18px}
+  .glow{position:absolute;inset:auto 0 -60% 0;height:200%;
+    background:radial-gradient(60% 55% at 50% 22%,rgba(219,160,67,.32),rgba(196,113,138,.14) 45%,transparent 70%);
+    pointer-events:none;z-index:0}
+  header>*{position:relative;z-index:1}
+  .eyebrow{font-size:.72rem;letter-spacing:.32em;text-transform:uppercase;font-weight:700;color:var(--plum-soft);margin-bottom:13px}
+  h1{font-family:"Fraunces",serif;font-weight:500;font-size:clamp(2.1rem,6.5vw,3rem);line-height:1.03;letter-spacing:-.01em}
+  h1 em{font-style:italic;color:var(--honey)}
+  .tagline{margin-top:11px;color:var(--plum-soft);font-size:1rem;max-width:52ch;margin-left:auto;margin-right:auto}
+
+  .panel{background:var(--plum);border-radius:18px;padding:22px 24px 20px;color:#F7ECEC;margin-bottom:26px}
+  .panel h2{font-family:"Fraunces",serif;font-weight:500;font-size:1.35rem;color:#fff;margin-bottom:13px}
+  .panel ul{list-style:none;display:grid;gap:9px}
+  .panel li{display:flex;gap:11px;font-size:.92rem;align-items:flex-start}
+  .panel li::before{content:"";flex:0 0 8px;height:8px;border-radius:50%;background:var(--honey);margin-top:8px;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .panel li b{color:#fff}
+
+  .sec{display:flex;align-items:center;gap:12px;margin:38px 0 8px}
+  .sec h2{font-family:"Fraunces",serif;font-weight:500;font-size:1.5rem;white-space:nowrap}
+  .sec .bar{flex:1;height:1px;background:var(--line)}
+  .sec .tag{font-size:.66rem;font-weight:800;letter-spacing:.05em;text-transform:uppercase;padding:3px 11px;border-radius:999px;
+    background:var(--honey-tint);color:#B67C22;white-space:nowrap;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .lede{font-size:.93rem;color:var(--plum-soft);margin-bottom:16px;max-width:64ch}
+  .lede b{color:var(--plum)}
+
+  .box{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:19px 21px 18px;
+    box-shadow:var(--shadow);margin-bottom:14px;break-inside:avoid}
+  .box h3{font-family:"Fraunces",serif;font-weight:500;font-size:1.22rem;margin-bottom:9px}
+  .box p{font-size:.92rem;color:var(--plum-soft)}
+  .box p + p{margin-top:9px}
+  .box b{color:var(--plum)}
+
+  .hi{background:linear-gradient(180deg,#FFF8EC,var(--card));border:1px solid var(--honey);
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+
+  /* --- tableau --- */
+  .scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;margin-bottom:14px}
+  table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);
+    border-radius:14px;overflow:hidden;font-size:.88rem;min-width:460px}
+  th{background:#F5E9E2;text-align:left;padding:11px 13px;font-size:.7rem;font-weight:800;letter-spacing:.06em;
+    text-transform:uppercase;color:var(--plum-soft);print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  td{padding:11px 13px;border-top:1px solid var(--line);color:var(--plum-soft);vertical-align:top}
+  td b{color:var(--plum)}
+  td.when{font-weight:800;color:var(--plum);white-space:nowrap}
+
+  /* --- vrai / faux --- */
+  .myths{display:grid;gap:10px;margin-top:6px}
+  .myth{display:flex;gap:12px;align-items:flex-start;background:var(--rose-tint);border-radius:12px;padding:13px 15px;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .myth .x{flex:0 0 auto;font-weight:800;color:#9E4E67;font-size:1rem;line-height:1.4}
+  .myth p{font-size:.88rem;color:#7A3B4E}
+  .myth p b{color:#5E2A3A}
+
+  .note{background:var(--sage-tint);border-radius:14px;padding:15px 18px;font-size:.89rem;color:#3F5A48;margin-top:14px;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .note b{color:#2F4636}
+
+  footer{text-align:center;margin-top:38px;padding-top:20px;border-top:1px solid var(--line);
+    font-size:.78rem;color:var(--plum-soft)}
+
+  @media(max-width:600px){
+    body{padding:20px 12px 40px}
+  }
+  @media print{
+    body{background:#fff;padding:0;font-size:12px}
+    .glow{display:none}
+    .panel,.box{box-shadow:none;break-inside:avoid}
+    .panel{background:#fff;color:var(--plum);border:1px solid var(--line)}
+    .panel h2,.panel li b{color:var(--plum)}
+    header{padding:14px 0 6px}
+  }
+
+  /* --- candidats à sentir --- */
+  .cand{display:grid;gap:11px;margin-top:6px}
+  .fl{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:15px 17px;break-inside:avoid}
+  .fl .fam{font-size:.66rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:#B67C22;margin-bottom:5px}
+  .fl h4{font-family:"Fraunces",serif;font-weight:500;font-size:1.1rem;margin-bottom:4px}
+  .fl .px{font-size:.78rem;font-weight:800;color:var(--plum-soft);margin-bottom:7px}
+  .fl p{font-size:.88rem;color:var(--plum-soft)}
+  .fl.pick{border-color:var(--honey);background:linear-gradient(180deg,#FFF8EC,var(--card));
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .fl.pick .fam{color:#96631A}
+
+  /* --- étapes --- */
+  .steps{display:grid;gap:10px;margin-top:6px;counter-reset:st}
+  .st{display:flex;gap:13px;align-items:flex-start;background:var(--card);border:1px solid var(--line);
+    border-radius:13px;padding:14px 16px;break-inside:avoid}
+  .st::before{counter-increment:st;content:counter(st);flex:0 0 27px;height:27px;border-radius:50%;
+    display:flex;align-items:center;justify-content:center;font-family:"Fraunces",serif;font-size:.95rem;
+    font-weight:600;background:var(--honey-tint);color:#B67C22;
+    print-color-adjust:exact;-webkit-print-color-adjust:exact}
+  .st div{flex:1}
+  .st h4{font-size:.97rem;font-weight:800;margin-bottom:3px}
+  .st p{font-size:.87rem;color:var(--plum-soft)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="glow"></div>
+    <div class="eyebrow">Rituel Éclat · Septembre 2026</div>
+    <h1>Sentir bon,<br><em>sans en faire trop</em></h1>
+    <p class="tagline">Un seul flacon, bien choisi, mis au bon endroit aux bons jours. Le parfum est la dernière couche — celle qu'on remarque en premier.</p>
+  </header>
+
+  <section class="panel">
+    <h2>Les quatre règles, avant tout le reste</h2>
+    <ul>
+      <li><span><b>À l'hôpital, c'est zéro.</b> Jamais de parfum au contact des patients. Les jours de stage et de shift, déodorant sans parfum, et rien d'autre. Ce n'est pas négociable, et c'est la règle qui prime sur toutes les autres.</span></li>
+      <li><span><b>Le parfum vient après la crème.</b> Il tient sur une peau grasse, pas sur une peau sèche — sur peau nue il s'évapore en deux heures. Waschgel → Vitamine C → Niacinamide LSF 30 → <b>puis</b> parfum.</span></li>
+      <li><span><b>Deux à trois pulvérisations. Jamais plus.</b> Ton nez s'habitue à ton propre parfum en un quart d'heure : tu ne le sens plus, les autres si. C'est l'erreur numéro un, et elle transforme « il sent bon » en « il sent fort ».</span></li>
+      <li><span><b>Jamais sur une zone au soleil.</b> Les parfums aux agrumes peuvent tacher la peau exposée. Avec une peau qui marque facilement, le torse sous le t-shirt est le seul endroit vraiment sûr en journée.</span></li>
+    </ul>
+  </section>
+
+  <div class="sec"><h2>Un seul flacon</h2><div class="bar"></div><span class="tag">La stratégie</span></div>
+  <p class="lede">Tu as coché les quatre familles d'odeurs. C'est la réponse normale de quelqu'un qui part de zéro : <b>on ne choisit pas un parfum sur une description, on le choisit au nez.</b> Donc pas quatre flacons — <b>un seul</b>, le plus polyvalent possible, et on verra plus tard si tu veux en ajouter un pour le soir.</p>
+
+  <div class="box hi">
+    <h3>Pourquoi un seul, et lequel</h3>
+    <p>Avec 70 à 120 €, tu achètes <b>un flacon de 100 ml qui durera plus d'un an</b> à deux pulvérisations par jour. Ce n'est pas un achat qu'on répète : autant que ce soit le bon.</p>
+    <p>Le premier parfum doit être celui que tu peux porter <b>partout</b> — en cours, le soir, un dimanche, un rendez-vous. Ça élimine les gourmands très sucrés (magnifiques le soir, écœurants à 9 h du matin) et les boisés lourds (superbes en décembre, insupportables en juin). <b>La zone qui marche tout le temps, c'est le frais adossé à un fond boisé</b> : propre au premier abord, chaud en dessous.</p>
+    <p>Les trois autres familles ne sont pas abandonnées. Elles attendent le <b>deuxième</b> flacon, quand tu sauras ce que tu aimes vraiment — et ça, seul ton nez peut te le dire.</p>
+  </div>
+
+  <div class="sec"><h2>Les quatre à sentir</h2><div class="bar"></div><span class="tag">Douglas, centre-ville</span></div>
+  <p class="lede">Un candidat par famille, tous largement disponibles en Allemagne, tous dans ton budget. <b>Les prix bougent selon la taille du flacon et les promotions</b> — à vérifier sur place. Ne les regarde pas : sens-les.</p>
+
+  <div class="cand">
+    <div class="fl pick">
+      <div class="fam">Frais + boisé · le plus polyvalent</div>
+      <h4>Bleu de Chanel</h4>
+      <div class="px">≈ 100–130 € · 100 ml</div>
+      <p>Agrumes au départ, bois et encens en dessous. C'est le parfum masculin le plus consensuel qui existe : il marche en cours, le soir, l'été comme l'hiver, et il ne fait ni trop jeune ni trop vieux à 32 ans. <b>Si tu ne veux pas te tromper, c'est celui-là.</b> Sens la version <i>Eau de Parfum</i>, qui tient plus longtemps que l'<i>Eau de Toilette</i>.</p>
+    </div>
+    <div class="fl">
+      <div class="fam">Frais · marin</div>
+      <h4>Armani Acqua di Giò Profondo</h4>
+      <div class="px">≈ 80–110 € · 100 ml</div>
+      <p>Le frais marin, en version moderne et plus sombre que l'original. Très propre, très facile à porter, jamais envahissant. Le choix le plus discret de la liste — un bon point si tu crains d'en faire trop.</p>
+    </div>
+    <div class="fl">
+      <div class="fam">Boisé · chaud · épicé</div>
+      <h4>YSL La Nuit de l'Homme</h4>
+      <div class="px">≈ 80–105 € · 100 ml</div>
+      <p>Cardamome et bois, chaud et enveloppant. <b>C'est un parfum du soir</b> — magnifique après 18 h et en hiver, trop lourd pour huit heures de cours. Garde-le en tête pour le deuxième flacon plutôt que pour le premier.</p>
+    </div>
+    <div class="fl">
+      <div class="fam">Sucré · gourmand</div>
+      <h4>YSL Y Eau de Parfum</h4>
+      <div class="px">≈ 90–115 € · 100 ml</div>
+      <p>Frais au départ, puis une base douce et légèrement sucrée. C'est le plus remarqué des quatre : on te demandera ce que tu portes. C'est aussi le plus risqué — trop sucré pour certains nez, et impardonnable si tu en mets trop.</p>
+    </div>
+  </div>
+
+  <div class="note"><b>Une remarque honnête :</b> tu verras partout du <b>Dior Sauvage</b>, et il sent très bien. Le problème est qu'il est porté par énormément de monde — tu ne sentiras pas <i>toi</i>, tu sentiras comme tout le monde. À 32 ans et pour un premier flacon, c'est dommage.</div>
+
+  <div class="sec"><h2>Comment l'essayer</h2><div class="bar"></div><span class="tag">Un samedi, pas un lundi</span></div>
+  <p class="lede">La faute qui coûte 100 € : <b>acheter le jour où on sent</b>. Un parfum change complètement en six heures — celui que tu sens dans le magasin n'est pas celui que tu porteras l'après-midi. Voilà le protocole.</p>
+
+  <div class="steps">
+    <div class="st"><div>
+      <h4>Peau propre, sans crème parfumée</h4>
+      <p>Tu pars au magasin après une douche simple. Pas de gommage le matin même : sur une peau irritée, tout pique.</p>
+    </div></div>
+    <div class="st"><div>
+      <h4>Deux candidats maximum, sur la peau</h4>
+      <p>Un sur chaque avant-bras. <b>Pas sur les bandelettes de papier</b> — le papier n'a pas ta chaleur ni ta peau, il ment. Et pas quatre d'un coup : au troisième, ton nez ne distingue plus rien.</p>
+    </div></div>
+    <div class="st"><div>
+      <h4>Tu sors, et tu attends quatre heures</h4>
+      <p>Tu fais autre chose. Les vingt premières minutes sont les <i>notes de tête</i> : elles disparaissent. Ce que tu portes vraiment toute la journée, c'est ce qui reste après deux heures.</p>
+    </div></div>
+    <div class="st"><div>
+      <h4>Le vrai test, à la fin de la journée</h4>
+      <p>Le soir, renifle ton poignet. <b>Si tu as envie de le sentir encore, c'est le bon.</b> Si tu as oublié qu'il était là, c'est qu'il ne te marque pas — reviens un autre samedi avec deux autres.</p>
+    </div></div>
+    <div class="st"><div>
+      <h4>Tu achètes le week-end suivant</h4>
+      <p>Jamais le même jour. Si l'envie a tenu une semaine, elle tiendra un an.</p>
+    </div></div>
+  </div>
+
+  <div class="sec"><h2>Où le mettre</h2><div class="bar"></div><span class="tag">Trois points, pas dix</span></div>
+
+  <div class="box">
+    <h3>Le geste, une fois pour toutes</h3>
+    <p><b>Deux pulvérisations sur le torse</b>, sous le t-shirt, à une quinzaine de centimètres. C'est le meilleur endroit : la chaleur du corps diffuse le parfum toute la journée, et il reste sous le tissu — donc à l'abri du soleil. <b>Une troisième à la base du cou</b> si tu sors le soir, jamais en journée ensoleillée.</p>
+    <p><b>Ne frotte pas tes poignets l'un contre l'autre.</b> La chaleur du frottement fait partir les notes du départ plus vite. Tu pulvérises, et tu laisses sécher.</p>
+    <p><b>Le col d'un pull tient mieux que la peau.</b> Un nuage à trente centimètres sur une veste tient toute la journée, et ça contourne complètement le problème du soleil et des actifs. Vérifie juste sur un textile foncé la première fois : certains jus tachent le clair.</p>
+    <p><b>Rien sur le visage, rien sur les mains.</b> Le visage a déjà sa routine, et les mains serrent celles des autres.</p>
+  </div>
+
+  <div class="sec"><h2>Ton calendrier</h2><div class="bar"></div><span class="tag">Croisé avec ta peau</span></div>
+  <p class="lede">Tes actifs forts — rétinol le mardi et le vendredi soir, peeling AHA/PHA le dimanche soir — laissent la peau fragile le lendemain. <b>Un parfum, c'est environ 80 % d'alcool</b> : sur une peau fraîchement exfoliée, ça pique et ça irrite.</p>
+
+  <div class="scroll">
+  <table>
+    <tr><th>Quand</th><th>Parfum ?</th><th>Comment</th></tr>
+    <tr><td class="when">Jour de cours</td><td><b>Oui</b></td><td>2 pulvérisations sur le torse, sous le t-shirt. Discret : personne ne doit le sentir à deux mètres.</td></tr>
+    <tr><td class="when">Stage · shift à l'hôpital</td><td><b>Zéro</b></td><td>Rien du tout, même léger. Déodorant sans parfum, et affaires propres. La règle qui prime sur toutes les autres.</td></tr>
+    <tr><td class="when">Lundi · mercredi · samedi</td><td><b>Sur les vêtements</b></td><td>Lendemains de peeling ou de rétinol. Rien sur le cou ni le torse — le col du pull suffit.</td></tr>
+    <tr><td class="when">Avant la salle</td><td><b>Non</b></td><td>Sueur + parfum, l'odeur tourne. Déodorant avant, parfum après la douche si tu ressors.</td></tr>
+    <tr><td class="when">Soir · week-end · sorties</td><td><b>Oui, libre</b></td><td>3 pulvérisations, dont une à la base du cou. C'est là que ça compte le plus.</td></tr>
+  </table>
+  </div>
+
+  <div class="sec"><h2>Ce qui ne marche pas</h2><div class="bar"></div></div>
+  <div class="myths">
+    <div class="myth"><span class="x">✕</span><p><b>« Plus j'en mets, plus ça tient. »</b> Non — ça ne tient pas plus longtemps, ça devient seulement oppressant pour ceux qui sont près de toi. La tenue dépend de la concentration du jus et de l'hydratation de ta peau, pas du nombre de pulvérisations.</p></div>
+    <div class="myth"><span class="x">✕</span><p><b>Choisir un parfum sur une bandelette de papier.</b> Le papier n'a ni ta chaleur ni ta peau. Deux personnes qui portent le même parfum ne sentent pas pareil — c'est pour ça qu'on essaie sur soi, et qu'on attend.</p></div>
+    <div class="myth"><span class="x">✕</span><p><b>Le garder dans la salle de bain.</b> Chaleur, vapeur et lumière abîment un parfum en quelques mois. Il vit dans sa boîte, dans une chambre, à l'abri du soleil.</p></div>
+    <div class="myth"><span class="x">✕</span><p><b>Croire que le parfum remplace le reste.</b> Il se pose sur une base propre, il ne la corrige pas. Du parfum sur une chemise portée deux jours ne donne pas une bonne odeur : ça donne deux odeurs.</p></div>
+  </div>
+
+  <div class="sec"><h2>La base, avant le parfum</h2><div class="bar"></div><span class="tag">Le vrai 80 %</span></div>
+  <div class="box">
+    <h3>Sentir bon commence par ne pas sentir</h3>
+    <p><b>Les affaires de sport se lavent à 40° minimum.</b> Le coton et le synthétique gardent les bactéries de la transpiration même après un lavage à froid — c'est de là que vient l'odeur qui revient dès qu'on transpire à nouveau. Et le sac ne reste jamais fermé sur des affaires humides.</p>
+    <p><b>Le déodorant est la vraie fondation</b>, pas le parfum. Il en faut deux : un normal pour le quotidien, et <b>un sans parfum pour les jours d'hôpital</b>.</p>
+    <p><b>Les cheveux et la barbe retiennent les odeurs</b> — la cuisine, la fumée, les transports. C'est souvent la source d'une odeur qu'on ne s'explique pas.</p>
+  </div>
+
+  <div class="note"><b>Ce document ne prescrit aucun produit de ta trousse.</b> Le parfum et le déodorant sont à part : rien n'est acheté tant que tu n'as pas senti, et la liste ci-dessus est une liste de candidats, pas une ordonnance. Quand tu auras choisi, dis-le-moi — il entrera dans ta routine du matin, après la crème.</div>
+
+  <footer>Rituel Éclat · Septembre 2026 · Le parfum est la dernière couche, jamais la première ✨</footer>
+
+</div>
+</body>
+</html>

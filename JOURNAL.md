@@ -1101,6 +1101,44 @@ une seule nouveauté — la Vertical Traction à 30 kg.
 
 ---
 
+### Lundi 14 septembre — Le parfum entre dans le rituel ✨
+
+**Demande de William :** ajouter les parfums au quotidien — « je veux aussi
+sentir bon ». Aucun parfum dans la trousse close, donc rien à prescrire :
+quatre questions posées avant toute réponse.
+
+**Ce qu'il a répondu :**
+
+| Question | Réponse |
+|---|---|
+| Ce qu'il a | **Rien** — il part de zéro |
+| Familles d'odeurs | **Les quatre** — réponse normale quand on n'a jamais exploré |
+| Hôpital | **Zéro à l'hôpital, autorisé en cours** |
+| Budget | **70 à 120 €** |
+
+**La stratégie : un seul flacon**, le plus polyvalent possible — frais adossé à
+un fond boisé, la zone qui marche en cours comme le soir. Les trois autres
+familles attendent un deuxième flacon, quand il saura ce qu'il aime. Quatre
+candidats à sentir, un par famille, dans son budget.
+
+**Le protocole d'essai, en cinq étapes** — parce que la faute qui coûte 100 €,
+c'est d'acheter le jour où on sent : sur la peau et jamais sur papier, deux
+candidats maximum, quatre heures d'attente, et l'achat le week-end suivant.
+
+**Croisé avec sa peau.** Un parfum, c'est ~80 % d'alcool : les lendemains
+d'actifs — **lundi** (peeling du dimanche), **mercredi** et **samedi** (rétinol
+du mardi et du vendredi) — il va sur les vêtements, pas sur le cou. Et jamais
+sur une zone exposée au soleil : les agrumes peuvent tacher une peau qui marque
+facilement.
+
+**Deux points restés ouverts :** quel déodorant il utilise (il en faudra un
+**sans parfum** pour les jours d'hôpital), et le choix du flacon, qui ne se
+fera qu'après l'essai.
+
+Nouveau document : `soin/parfum.html`.
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours
