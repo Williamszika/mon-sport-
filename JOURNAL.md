@@ -1260,6 +1260,48 @@ au mardi 8, mercredi 9 à l'heure, vendredi reporté au samedi 12) et **le lundi
 
 ---
 
+### Lundi 14 septembre — Le tour complet de la salle 📸
+
+**Après sa séance, William a photographié toute la salle** — dix-sept photos,
+zone par zone, en une soirée. Le pacte du matériel signé la veille est rempli
+d'un coup. Inventaire complet dans `sport/machines-fitx.html`, section
+« L'inventaire ».
+
+**Trois trouvailles qui entrent au programme :**
+
+| Machine | Ce qu'elle apporte |
+|---|---|
+| **Multi Hip** | `99 Abduktion · 100 Adduktion` — et surtout le mouvement **vers l'arrière** : grand fessier, la ligne de profil |
+| **Bancs à abdos** ×3 | Inclinaison réglable, **jamais de file d'attente** |
+| Klimmzug / Dip assisté | Machine à contrepoids — dos, poitrine, triceps. Pour plus tard |
+
+**Les bancs à abdos règlent un problème réel.** L'Abdominal Crunch a été écarté
+**trois séances de suite** — machine occupée, ou heure trop tardive. Les bancs
+n'ont ni file d'attente ni réglage à chercher, et c'est l'inclinaison qui fait
+la difficulté. **Mercredi 16 : 2 × 12 sur le banc le moins incliné**, mains
+croisées sur la poitrine, expirer en montant.
+
+**Le reste du cardio confirmé :** vélo droit à écran (celui de l'échauffement),
+tapis, Stairclimber, Crosstrainer, rameurs **Concept2 RowERG**, ergomètre bras,
+et des vélos de spinning — ces derniers **à éviter** : molette de résistance,
+pas d'écran, donc pas de fréquence cardiaque à suivre.
+
+**La zone Hammer Strength est vaste** — racks à squat, plateformes, barres
+olympiques, barre hexagonale, machines à disques. **Rien n'y viendra** : ce ne
+sont pas les outils d'un physique sec et dessiné travaillé en 12–15
+répétitions. C'est un choix, pas une absence.
+
+**Toujours pas vu : le Kabelturm** (les poulies), priorité d'octobre pour les
+face pulls. Ni de Butterfly / Pec Deck.
+
+**Méthode corrigée pour les piles de poids.** Les photos ne donneront jamais
+les chiffres — trop loin, trop sombre. Ils se relèvent **en direct**, au moment
+de mettre la broche : si le cran au-dessus de 20 est 25, la pile monte de 5 ;
+si c'est 30, elle monte de 10. C'est exactement comme ça qu'on a découvert les
+paliers de 10 kg de la Leg Press.
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours

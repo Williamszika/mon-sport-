@@ -84,8 +84,14 @@ travail. Les poids réels priment sur le plan ; ne jamais inventer un chiffre.
   tapis, Crosstrainer, rameurs, **Stairclimber**, vélos. ⚠️ Erreur commise le
   13 septembre : avoir affirmé qu'aucune liste n'existait, sans avoir lu ce
   fichier. **Toujours le consulter avant de dire qu'une machine est inconnue.**
-  Ce qui manque vraiment, c'est le détail des machines de la zone *Geräte* :
-  quel modèle, quel pas de pile, quel numéro de siège. Chiffré au carnet : Leg Press (pile de **10 en 10**), Leg
+  **Inventaire vérifié en photo le 14 septembre** (section « L'inventaire » du
+  même fichier) : tout le cardio, les 8 machines du programme, plus le
+  **Multi Hip** (99 Abduktion / 100 Adduktion), une machine **Klimmzug/Dip
+  assisté**, trois **bancs à abdos** (Bauchbank), les rameurs Concept2 et la
+  zone Hammer Strength. **Toujours pas vus : le Kabelturm (poulies) et un
+  éventuel Butterfly/Pec Deck.** Ce qui manque encore partout : **le pas des
+  piles et les numéros de siège** — ils se relèvent en direct devant la
+  machine, jamais en photo. Chiffré au carnet : Leg Press (pile de **10 en 10**), Leg
   Extension, Leg Curl, Chest Press, Vertical Traction, Low Row, Shoulder Press,
   Abdominal Crunch (repérée), machines d'abduction, haltères, vélo, tapis,
   elliptique, rameur, **Treppensteiger** (= le Stairclimber, déjà décrit le
