@@ -1180,6 +1180,48 @@ déodorant » placée avant tout le reste.
 
 ---
 
+### Lundi 14 septembre — La liste des machines existait depuis le 16 août ⚠️
+
+**Erreur à corriger, et elle est de taille.** Le 13 septembre, j'ai affirmé à
+William qu'il n'existait aucune liste du matériel de FitX Europaplatz, et j'ai
+bâti tout un « pacte du matériel » sur cette affirmation. **C'était faux.**
+
+`sport/machines-fitx.html`, écrit le **16 août**, décrit les sept zones de la
+salle :
+
+| Zone | Ce qu'elle contient |
+|---|---|
+| Cardio | Tapis, Crosstrainer, rameurs, **Stairclimber**, vélos |
+| Geräte | Les machines guidées à sélection de poids — la zone principale |
+| Zirkel | Le circuit, 13 min pour tout le corps |
+| **Freihantel** | **Poulies (Kabelturm)**, haltères jusqu'à 60 kg, barres, bancs, Hammer Strength |
+| Functional | Kettlebells, medicine balls, sandbags, battle ropes, tapis |
+| Lady Gym | Espace fermé |
+| Kursraum | 37 cours par semaine, inclus |
+
+Plus de **60 machines Technogym** au total.
+
+**Deux conséquences concrètes :**
+
+1. La **poulie** que j'ai demandé à William de « chercher courant octobre » est
+   documentée depuis un mois — elle est dans la zone *Freihantel*. Il n'y a
+   rien à chercher, il faut y aller.
+2. Le **Treppensteiger** qu'il a « signalé » ce matin était déjà écrit noir sur
+   blanc : c'est le *Stairclimber* de la zone cardio. Sa remarque était juste,
+   la surprise était de mon côté.
+
+**Ce que le pacte garde malgré tout.** Le document d'août décrit des *zones*,
+pas des machines une à une. Il ne dit pas quel modèle se trouve dans la zone
+Geräte, ni quel pas de pile, ni quel numéro de siège — et c'est précisément ce
+détail qui a coûté les « 35 kg » inexistants à la Leg Press. La règle « je
+préviens, tu regardes » reste donc valable, mais pour le **réglage**, pas pour
+l'**existence**.
+
+**Règle ajoutée à `CLAUDE.md` :** lire `machines-fitx.html` avant de déclarer
+une machine inconnue.
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours

@@ -76,14 +76,21 @@ travail. Les poids réels priment sur le plan ; ne jamais inventer un chiffre.
   27 novembre). Une case cochée = une séance faite, **maison et version courte
   comprises**. Les jours de séance, demander le résultat et cocher la case ;
   ne jamais laisser une séance non renseignée.
-- **Le matériel de la salle n'est PAS connu** — seulement ce que William a
-  utilisé ou photographié. Confirmé : Leg Press (pile de **10 en 10**), Leg
+- **Le matériel de la salle : LIRE `sport/machines-fitx.html` EN PREMIER.** Ce
+  document (16 août) décrit les **7 zones** et l'équipement de FitX Europaplatz
+  — 60+ machines Technogym, Hammer Strength, zone *Freihantel* (poulies
+  **Kabelturm**, haltères jusqu'à 60 kg, barres, bancs), zone *Functional*
+  (kettlebells, medicine balls, tapis), *Zirkel*, *Kursraum*, et au cardio :
+  tapis, Crosstrainer, rameurs, **Stairclimber**, vélos. ⚠️ Erreur commise le
+  13 septembre : avoir affirmé qu'aucune liste n'existait, sans avoir lu ce
+  fichier. **Toujours le consulter avant de dire qu'une machine est inconnue.**
+  Ce qui manque vraiment, c'est le détail des machines de la zone *Geräte* :
+  quel modèle, quel pas de pile, quel numéro de siège. Chiffré au carnet : Leg Press (pile de **10 en 10**), Leg
   Extension, Leg Curl, Chest Press, Vertical Traction, Low Row, Shoulder Press,
   Abdominal Crunch (repérée), machines d'abduction, haltères, vélo, tapis,
-  elliptique, rameur, **Treppensteiger** (escalier sans fin — signalé le
-  14 septembre), Turnecke. **Ne jamais supposer qu'une autre machine
-  existe.** Pacte du 13 septembre : quand une machine non confirmée entre au
-  programme, **la nommer dans le message qui PRÉCÈDE la séance** (nom allemand,
+  elliptique, rameur, **Treppensteiger** (= le Stairclimber, déjà décrit le
+  16 août), Turnecke. **Ne jamais inventer un pas de pile ni un réglage.**
+  Pacte du 13 septembre : quand une machine non chiffrée entre au programme, **la nommer dans le message qui PRÉCÈDE la séance** (nom allemand,
   allure, muscle travaillé) — William va la chercher tranquillement, jamais
   pendant la séance. Si elle n'est pas trouvée en deux minutes : séance sans
   elle. Ordre prévu : **poulie (Kabelzug)** → Butterfly/Pec Deck → biceps &
