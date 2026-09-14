@@ -1302,6 +1302,33 @@ paliers de 10 kg de la Leg Press.
 
 ---
 
+### Lundi 14 septembre — L'antitranspirant est pour les pieds 🦶
+
+**Photo à l'appui, et ça corrige ce qui a été écrit ce matin.** Le produit que
+William avait à la maison est un **Perspirex Foot Lotion** (Riemann A/S,
+Danemark · 100 ml · Alcohol Denat., Aluminum Chloride, PEG-12 Dimethicone).
+
+C'est un vrai antitranspirant, et un bon — **mais pour les pieds**. Il ne
+remplace rien sous les bras, et **il ne doit pas y être appliqué** : la formule
+est pensée pour la peau plantaire, épaisse et résistante ; celle des aisselles
+est fine, et celle de William marque facilement.
+
+**Donc rien ne change au plan :** il n'a toujours **aucun produit pour les
+aisselles**. Les deux achats restent à faire — un normal, un `ohne Parfüm` pour
+les jours d'hôpital, ≈ 6 € chez dm.
+
+**Mais le flacon a sa place.** Chaussures fermées de 8 h à 15 h 30 à l'hôpital,
+plus les baskets trois soirs par semaine à la salle : les pieds sont une source
+d'odeur réelle, et personne n'y pense. Tenue annoncée **jusqu'à 3 jours** —
+deux applications par semaine suffisent.
+
+**Détail qui fait plaisir :** le mode d'emploi imprimé sur l'étiquette est mot
+pour mot la règle donnée ce matin — *« Appliquer le soir sur une peau totalement
+sèche et saine. Laver le matin. »* La méthode était déjà la bonne ; elle
+s'appliquait simplement au mauvais endroit du corps.
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours

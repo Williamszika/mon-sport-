@@ -122,11 +122,17 @@ travail. Les poids réels priment sur le plan ; ne jamais inventer un chiffre.
   citer, prescrire ou supposer un produit qui n'y figure pas.** C'est William
   qui annonce quand un produit se termine ou quand il en achète un nouveau ;
   la liste n'est mise à jour que sur son signalement.
-- **Parfum & déodorant — hors trousse, en cours de mise en place.** William
-  **n'a aucun déodorant** (signalé le 14 septembre) et aucun parfum. Priorité :
-  **le déodorant d'abord** — deux à acheter chez dm (~6 €), un normal et un
-  **sans parfum pour les jours d'hôpital**, à appliquer **le soir sur peau
-  sèche**. Le parfum vient ensuite : un seul flacon, 70–120 €, choisi après
+- **Parfum & déodorant — hors trousse, en cours de mise en place.** William a
+  un **Perspirex Foot Lotion** (Riemann, 100 ml — Alcohol Denat., Aluminum
+  Chloride, PEG-12 Dimethicone), vérifié en photo le 14 septembre : c'est un
+  antitranspirant **pour les PIEDS uniquement**. **Ne jamais le conseiller sous
+  les bras** — formule concentrée pour peau plantaire épaisse, et la peau de
+  William marque facilement. Pour les pieds : le soir sur peau sèche et saine,
+  laver le matin, tient jusqu'à 3 jours (2×/semaine suffisent) — utile, il
+  porte des chaussures fermées toute la journée à l'hôpital et à la salle.
+  **Aucun produit aisselles, et aucun parfum.** Priorité : **le déodorant
+  aisselles d'abord** — deux à acheter chez dm (~6 €), un normal et un **sans
+  parfum pour les jours d'hôpital**, à appliquer **le soir sur peau sèche**. Le parfum vient ensuite : un seul flacon, 70–120 €, choisi après
   essai sur la peau. **Zéro parfum à l'hôpital, autorisé en cours.** Lendemains
   d'actifs (lundi, mercredi, samedi) : parfum sur les vêtements seulement.
   Voir `soin/parfum.html`. Ces produits ne font PAS partie des douze de la
