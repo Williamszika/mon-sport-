@@ -1329,6 +1329,49 @@ s'appliquait simplement au mauvais endroit du corps.
 
 ---
 
+### Mercredi 16 septembre — Le cardio enfin dosé 🎯
+
+| Exercice | Réalisé |
+|---|---|
+| **Vélo niveau 4** | **12 min · 4,70 km · 111 W moyen · 97 tr/min** |
+| **Cœur** | **127 bpm moyen** · 144 max — en plein dans la cible |
+| Leg Press | 40 kg · **3 × 13** |
+| Leg Extension | 25 kg · **3 × 14** |
+| Leg Curl | 25 kg · **3 × 14** |
+| **Banc à abdos** 🆕 | **2 × 12**, à plat |
+
+**Le cardio est réglé, et la démonstration est nette.** Un seul cran de
+résistance, tout le reste identique :
+
+| | Lundi 14 (niv 3) | Mercredi 16 (niv 4) |
+|---|---|---|
+| Durée | 12 min | 12 min |
+| Cadence | 95 tr/min | 97 tr/min |
+| **Fréquence cardiaque** | 110 bpm | **127 bpm** |
+| Puissance moyenne | 90 W | **111 W** |
+| Distance | 4,14 km | **4,70 km** |
+
+Ce n'était pas la vitesse qui manquait, c'était la **résistance**. **Le vélo
+niveau 4, 12 minutes, devient l'échauffement de référence** — on n'y touche
+plus. Et le maximum de 144 bpm est crédible, contrairement aux 168 affichés
+lundi (artefact du capteur de poignées).
+
+**Les abdos entrent au programme après trois reports.** L'Abdominal Crunch
+avait été écarté trois séances de suite — machine occupée, ou heure trop
+tardive. Les **bancs à abdos** repérés en photo lundi règlent le problème :
+aucune file d'attente, aucun réglage à chercher, et c'est l'inclinaison qui
+fait la difficulté. Premier passage **à plat**, mains croisées sur la
+poitrine, montée à mi-chemin. On inclinera dans deux semaines.
+
+**Les jambes continuent de monter en répétitions.** Encore une séance et les
+3 × 15 tombent — c'est seulement là que le poids bougera : 50 kg à la presse,
+30 kg aux isolations.
+
+**Séance faite à 19 h 30**, plus tôt que d'habitude, après sept heures de
+cours. **La chaîne : cinq cases**, dont les deux de la semaine 2 au jour dit.
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours
