@@ -23,6 +23,12 @@ moment (« ce soir », « demain », « cette semaine ») :
 2. **Météo d'Aachen** : `curl -s "https://wttr.in/Aachen?format=j1"` — regarder
    surtout **l'indice UV** (dicte le SPF 30 vs SunDance 50), la température et
    la pluie (trajets en bus).
+   ⚠️ **Si wttr.in échoue** (certificat expiré le 16/09/2026, erreur
+   `SSL certificate problem: certificate has expired` — ne jamais désactiver la
+   vérification TLS), utiliser **Open-Meteo**, qui donne les mêmes champs :
+   `curl -s "https://api.open-meteo.com/v1/forecast?latitude=50.7753&longitude=6.0839&hourly=temperature_2m,precipitation_probability,uv_index,weathercode&daily=temperature_2m_min,temperature_2m_max,uv_index_max&timezone=Europe%2FBerlin&forecast_days=1"`
+   (50.7753 N / 6.0839 E = Aachen). Toujours dire à William quelle source a
+   servi si ce n'est pas la source habituelle.
 3. **Croiser avec les calendriers** avant de prescrire :
    - Soin (rituel d'août) : rétinol **mardi & vendredi** soir · gommage corps
      **mercredi & dimanche** · peeling visage AHA/PHA **dimanche** soir ·
