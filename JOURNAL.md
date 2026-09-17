@@ -1372,6 +1372,40 @@ cours. **La chaîne : cinq cases**, dont les deux de la semaine 2 au jour dit.
 
 ---
 
+### Jeudi 17 septembre — Deux flacons rapportés de dm 🛒
+
+**L'achat est fait.** Deux produits, vérifiés en photo.
+
+| Produit | Ce que c'est vraiment |
+|---|---|
+| **Balea MEN Fresh Anti-Transpirant** · 200 ml | **Vrai antitranspirant** (*Aluminum Chlorohydrate*), **0 % alcool**, 48 h. Le bon produit du quotidien |
+| **bruno banani Loyal Man** · 150 ml | **Spray corporel parfumé** — gingembre, géranium, ambre. Ni antitranspirant, ni parfum |
+
+**Le Balea est le bon choix.** Le 0 % d'alcool est un vrai plus pour une peau
+qui marque. Mode d'emploi : bien secouer, **à 15 cm**, **le soir sur aisselles
+sèches**.
+
+⚠️ **Une réserve.** Il contient **menthol, huile de menthe, camphre et
+romarin** — le « complexe rafraîchissant ». Ça pique sur peau irritée, et le
+flacon le dit lui-même : *nicht auf gereizter Haut anwenden*. **Jamais juste
+après un rasage des aisselles** — attendre le lendemain.
+
+**Le bruno banani, il faut savoir ce que c'est.** Pas de sels d'aluminium :
+il ne réduit pas la transpiration. Et malgré les « 48 h » annoncés sur la
+boîte, la tenue réelle d'un spray corporel sur la peau est de **2 à 4 heures**.
+Sa place : le **torse ou les vêtements**, jamais superposé au Balea sous les
+bras — deux parfums qui se battent ne sentent bon ni l'un ni l'autre.
+
+**Le bon côté :** c'est la famille *boisé · chaud · épicé*, une des quatre que
+William avait cochées. Le porter quelques semaines lui dira **gratuitement**
+si cette famille lui plaît, avant de mettre 100 € dans un flacon.
+
+**Il manque encore une chose, et une seule :** un antitranspirant
+**`ohne Parfüm`**, 2 à 3 € chez dm. Les deux produits achetés sont parfumés —
+**aucun n'est utilisable les jours d'hôpital**, où la règle reste zéro odeur.
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours

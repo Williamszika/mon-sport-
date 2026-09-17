@@ -136,10 +136,22 @@ travail. Les poids réels priment sur le plan ; ne jamais inventer un chiffre.
   William marque facilement. Pour les pieds : le soir sur peau sèche et saine,
   laver le matin, tient jusqu'à 3 jours (2×/semaine suffisent) — utile, il
   porte des chaussures fermées toute la journée à l'hôpital et à la salle.
-  **Aucun produit aisselles, et aucun parfum.** Priorité : **le déodorant
-  aisselles d'abord** — deux à acheter chez dm (~6 €), un normal et un **sans
-  parfum pour les jours d'hôpital**, à appliquer **le soir sur peau sèche**. Le parfum vient ensuite : un seul flacon, 70–120 €, choisi après
-  essai sur la peau. **Zéro parfum à l'hôpital, autorisé en cours.** Lendemains
+  **Achetés le 17 septembre, vérifiés en photo :**
+  (1) **Balea MEN Fresh Anti-Transpirant**, 200 ml spray — *Aluminum
+  Chlorohydrate*, **0 % alcool**, 48 h, parfumé (Duftkapsel + **menthol, huile
+  de menthe, camphre, romarin**). C'est bien un antitranspirant et c'est le bon
+  produit du quotidien : **le soir, à 15 cm, sur aisselles sèches**. ⚠️ Le
+  menthol et le camphre piquent sur peau irritée — **jamais juste après un
+  rasage des aisselles** (l'étiquette le dit : *nicht auf gereizter Haut*).
+  (2) **bruno banani Loyal Man**, 150 ml — spray corporel **parfumé** (gingembre,
+  géranium, ambre), base alcool, **sans sels d'aluminium** : ce n'est ni un
+  antitranspirant ni un vrai parfum. À porter sur le torse ou les vêtements,
+  **jamais superposé au Balea sous les bras**. Famille boisé/épicé — utile pour
+  savoir gratuitement si cette famille lui plaît avant le flacon à 70–120 €.
+  **IL MANQUE TOUJOURS un antitranspirant `ohne Parfüm`** (~2–3 € chez dm) :
+  les deux produits achetés sont parfumés, donc **aucun n'est utilisable les
+  jours d'hôpital**. Le parfum vient ensuite : un seul flacon, 70–120 €, choisi
+  après essai sur la peau. **Zéro parfum à l'hôpital, autorisé en cours.** Lendemains
   d'actifs (lundi, mercredi, samedi) : parfum sur les vêtements seulement.
   Voir `soin/parfum.html`. Ces produits ne font PAS partie des douze de la
   trousse — ne jamais les y compter.
