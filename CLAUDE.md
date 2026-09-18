@@ -39,6 +39,24 @@ moment (« ce soir », « demain », « cette semaine ») :
      et l'état réel dans `sport/carnet.html`.
    - Études : un bloc par jour (réviser → apprendre → s'exercer), lecture le
      soir, dictée 3×/semaine — voir `etudes/routine-etudes.html`.
+   - **Déo & parfum — À INCLURE DANS CHAQUE PLANNING QUOTIDIEN** (demandé par
+     William le 18 septembre). Trois produits, trois zones, jamais superposés ;
+     donner à chaque fois **lequel, où et quand** pour CE jour-là :
+     · **bruno banani** (spray parfumé) — **le matin**, 2 pulvérisations **sur
+       le torse**. Mais **lundi, mercredi et samedi** (lendemains de peeling et
+       de rétinol) : **sur les vêtements seulement**, jamais sur le cou.
+     · **Balea MEN Fresh** (antitranspirant) — **le soir**, à 15 cm, sur
+       **aisselles propres et sèches**, après la douche. Bien secouer. Jamais
+       le matin, jamais sur des aisselles fraîchement rasées.
+     · **Perspirex Foot Lotion** — **jeudi et dimanche soir** en entretien
+       (chaque soir s'il est en semaine de lancement), plante des pieds, peau
+       sèche, laisser sécher à l'air, **laver le matin**.
+     · **Jour d'hôpital / stage = ZÉRO des deux parfumés**, ni la veille au soir
+       pour le Balea. Ne restent que : douche juste avant de partir, chemise
+       lavée à 40°, Perspirex aux pieds. Toujours demander si la journée est
+       école (parfum autorisé) ou hôpital (zéro).
+     Détail complet : `soin/parfum.html`, sections « Le planning des trois
+     produits » et « La semaine, jour par jour ».
 
 ## Règle n° 2 — Tout noter au journal
 
