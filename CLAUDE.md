@@ -133,9 +133,13 @@ travail. Les poids réels priment sur le plan ; ne jamais inventer un chiffre.
   Chloride, PEG-12 Dimethicone), vérifié en photo le 14 septembre : c'est un
   antitranspirant **pour les PIEDS uniquement**. **Ne jamais le conseiller sous
   les bras** — formule concentrée pour peau plantaire épaisse, et la peau de
-  William marque facilement. Pour les pieds : le soir sur peau sèche et saine,
-  laver le matin, tient jusqu'à 3 jours (2×/semaine suffisent) — utile, il
-  porte des chaussures fermées toute la journée à l'hôpital et à la salle.
+  William marque facilement. Pour les pieds, **protocole du fabricant**
+  (vérifié le 18/09) : le soir sur peau sèche et saine, laisser sécher à l'air,
+  **laver le matin** ; **chaque soir la première semaine**, puis **2 à 3 fois
+  par semaine** — une application tient **3 à 5 jours**. Si ça irrite, sauter
+  la semaine de lancement. Utile : il porte des chaussures fermées toute la
+  journée à l'hôpital et à la salle. ⚠️ **William l'utilisait sous les bras**
+  (signalé le 17/09) — corrigé, c'est le Balea qui prend cette place.
   **Achetés le 17 septembre, vérifiés en photo :**
   (1) **Balea MEN Fresh Anti-Transpirant**, 200 ml spray — *Aluminum
   Chlorohydrate*, **0 % alcool**, 48 h, parfumé (Duftkapsel + **menthol, huile
@@ -148,9 +152,12 @@ travail. Les poids réels priment sur le plan ; ne jamais inventer un chiffre.
   antitranspirant ni un vrai parfum. À porter sur le torse ou les vêtements,
   **jamais superposé au Balea sous les bras**. Famille boisé/épicé — utile pour
   savoir gratuitement si cette famille lui plaît avant le flacon à 70–120 €.
-  **IL MANQUE TOUJOURS un antitranspirant `ohne Parfüm`** (~2–3 € chez dm) :
-  les deux produits achetés sont parfumés, donc **aucun n'est utilisable les
-  jours d'hôpital**. Le parfum vient ensuite : un seul flacon, 70–120 €, choisi
+  **IL MANQUE TOUJOURS un produit sans parfum** : les deux achats sont
+  parfumés, donc **aucun n'est utilisable les jours d'hôpital**. Produit
+  identifié chez dm : **sebamed Deo Roll-on Balsam parfumfrei** (les Balea
+  « Sensitive » sont sans aluminium mais pas garantis sans parfum). **Planning
+  d'utilisation des trois produits** : sections « Le planning des trois
+  produits » et « La semaine, jour par jour » de `soin/parfum.html`. Le parfum vient ensuite : un seul flacon, 70–120 €, choisi
   après essai sur la peau. **Zéro parfum à l'hôpital, autorisé en cours.** Lendemains
   d'actifs (lundi, mercredi, samedi) : parfum sur les vêtements seulement.
   Voir `soin/parfum.html`. Ces produits ne font PAS partie des douze de la

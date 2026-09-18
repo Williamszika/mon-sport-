@@ -1406,6 +1406,38 @@ si cette famille lui plaît, avant de mettre 100 € dans un flacon.
 
 ---
 
+### Vendredi 18 septembre — Le planning des trois produits 🗓️
+
+**Trois produits, trois zones, trois rythmes.** Ils ne se remplacent pas et ne
+se superposent jamais.
+
+| Produit | Où | Quand |
+|---|---|---|
+| **Balea MEN Fresh** | Aisselles | **Chaque soir**, peau sèche, à 15 cm — sauf la veille d'un jour d'hôpital |
+| **bruno banani** | Torse ou vêtements | **Le matin** des jours de cours, et les sorties |
+| **Perspirex Foot** | Plante des pieds | **Le soir**, laver le matin — jeudi et dimanche en entretien |
+
+Planning complet jour par jour dans `soin/parfum.html`, croisé avec la salle
+(lundi · mercredi · vendredi) et les actifs forts.
+
+**Correction sur le Perspirex.** Recherche faite chez le fabricant : le rythme
+annoncé le 14 septembre — « deux fois par semaine » — n'était pas le bon. Le
+protocole est **chaque soir la première semaine**, puis **2 à 3 fois par
+semaine** en entretien. Une application freine la transpiration **3 à 5
+jours**. La réserve tient : si la semaine de lancement irrite, sauter
+directement à l'entretien.
+
+**La pièce manquante est identifiée.** Aucun des deux produits parfumés ne peut
+aller à l'hôpital. Chez dm : **sebamed Deo Roll-on Balsam parfumfrei** —
+explicitement sans parfum. Les Balea « Sensitive » sont sans aluminium, mais
+rien ne garantit qu'ils soient sans parfum.
+
+**Les quatre fautes, écrites noir sur blanc** dans le document : le Balea le
+matin, le Balea sur des aisselles fraîchement rasées, le bruno banani par-dessus
+le Balea sous les bras, et le Perspirex Foot sous les bras.
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours
