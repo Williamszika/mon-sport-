@@ -1438,6 +1438,30 @@ le Balea sous les bras, et le Perspirex Foot sous les bras.
 
 ---
 
+### Vendredi 18 septembre — Vendredi sauté
+
+**Séance A non faite.** La semaine 2 se termine à **deux séances sur trois** :
+lundi 14 et mercredi 16 faits aux jours dits, vendredi 18 sauté. La chaîne
+reste à **5 cases sur 36**.
+
+| Semaine | Séances | Jours |
+|---|---|---|
+| S1 (7–13 sept.) | 3 | Décalés — mardi 8, mercredi 9, samedi 12 |
+| **S2 (14–20 sept.)** | **2** | **Aux jours dits — lundi 14, mercredi 16** |
+
+**Ce qui distingue cet échec des précédents.** Les quatre ratés de fin août
+(30/08 → 02/09) suivaient tous sept heures de cours ; le diagnostic était la
+fatigue de fin de journée, et le créneau de 20 h 30 l'a réglé. Aujourd'hui,
+**William est resté à la maison toute la journée** — ni cours, ni shift, ni
+trajet. **La fatigue n'explique pas celui-ci.** La raison n'a pas été
+demandée avec insistance ; elle reste à établir.
+
+**Pas de dispositif nouveau.** Cinq mécanismes avaient déjà été inventés en
+août-septembre pour zéro séance — ce n'est pas le dispositif qui manque. Le
+plan ne bouge pas : **lundi 21, Séance B**.
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours
