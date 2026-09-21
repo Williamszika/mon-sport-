@@ -1462,6 +1462,45 @@ plan ne bouge pas : **lundi 21, Séance B**.
 
 ---
 
+### Lundi 21 septembre — La Leg Press touche 15 ⭐
+
+| Exercice | Réalisé |
+|---|---|
+| Vélo niveau 4 | **12 min · 4,78 km · 111 W · 97 tr/min** |
+| Cœur | **121 bpm moyen** · 142 max — dans la cible |
+| **Leg Press** | **40 kg · 15 répétitions** ⭐ |
+| Leg Extension | 25 kg · 13 |
+| **Leg Curl** | **30 kg · 13** ⬆️ |
+| Banc à abdos | 2 × 12, à plat |
+
+**Le palier est atteint.** La Leg Press tient 40 kg sur 15 répétitions —
+l'objectif fixé le 12 septembre. Sa pile montant de 10 en 10, la prochaine
+Séance B se fera à **50 kg**, en repartant à 12 répétitions. **+25 % d'un
+coup** : ce sera la plus grosse marche du programme.
+
+**Et le Leg Curl est passé à 30 kg sans consigne.** Le programme disait 25 en
+visant 15 ; William a monté d'un cran de lui-même et sorti 13 répétitions.
+C'est la bonne décision, et **la première qu'il prend seul sur une charge**.
+
+Leçon pour le programme : la règle « 3 × 15 propres avant de monter » était
+**trop prudente pour les isolations**. La vraie règle reste celle de la
+dernière répétition — facile / dure mais propre / je compense — et elle se
+juge devant la machine, pas dans un tableau.
+
+**Le Leg Extension redescend à 13** (contre 14 le 16/09). Rien d'inquiétant :
+le Leg Curl plus lourd est passé avant. Il reste à 25 kg, objectif 15.
+
+**Troisième cardio de suite dans la cible** depuis le passage au niveau 4 :
+110 → 127 → 121 bpm. Le réglage est acquis, on n'y touche plus.
+
+**Une friction à noter.** Pas de réseau à la salle : les poids ont été
+transmis une fois rentré. Parade simple : **capture d'écran du bloc Séance
+avant de partir**, pour l'avoir hors ligne.
+
+**La chaîne : 6 cases.** Semaine 3 ouverte au jour dit.
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours
