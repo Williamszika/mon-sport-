@@ -1501,6 +1501,43 @@ avant de partir**, pour l'avoir hors ligne.
 
 ---
 
+### Mercredi 23 septembre — Endormi pendant la pause
+
+**Séance A non faite.** Après les cours (08 h 00 → 15 h 30), William s'est
+allongé pour se reposer et s'est endormi ; réveillé vers 22 h 30, trop tard
+pour la salle. La chaîne reste à **6 cases sur 36** — la semaine 3 peut
+encore finir à deux sur trois, comme la semaine 2.
+
+**Cette fois, la cause est claire.** Le vendredi 18 était resté sans
+explication ; celui-ci en a une : **la pause a été prise allongé**, et elle
+est devenue une nuit. Trois réveils avant 7 h cette semaine (lundi, mardi,
+mercredi), sept heures et demie de cours : le corps a pris le sommeil qui
+lui manquait. C'est une information sur la récupération, pas sur la
+motivation.
+
+**Conseil du soir : repos, pas de plan C.** La séance maison aurait coché la
+case, mais à 22 h 35 elle aurait repoussé le coucher — et c'est vendredi qui
+aurait payé. Le planning le prévoit : *« le repos aussi est une décision
+d'entraînement »*.
+
+**Une parade, pas un dispositif.** La vraie pause se prend **hors du lit** —
+canapé, table, repas. S'il faut s'allonger : **réveil à 25 minutes**.
+
+**Changement de programme : vendredi 25 devient Séance A.** Le haut du corps
+n'a pas travaillé depuis le 14 septembre — onze jours vendredi. La Séance B,
+avec la Leg Press à 50 kg, passe au lundi 28. L'alternance reprend :
+
+| Séance A | Séance B |
+|---|---|
+| ven. 25/09 | lun. 28/09 |
+| mer. 30/09 | ven. 02/10 |
+| lun. 05/10 | mer. 07/10 |
+
+Vendredi reprend telle quelle la Séance A prévue ce soir : Shoulder Press en
+série test à 20 kg, et le Treppensteiger pour finir.
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours
