@@ -1538,6 +1538,32 @@ série test à 20 kg, et le Treppensteiger pour finir.
 
 ---
 
+### Vendredi 25 septembre — Des rendez-vous à la place de la séance
+
+**Séance A non faite** : plusieurs rendez-vous à honorer dans la journée
+(signalé le samedi 26 à 06 h 58). La chaîne reste à **6 cases sur 36** ; la
+semaine 3 est à **une sur trois**.
+
+**La case de vendredi peut encore se cocher.** Précédent de la semaine 1 :
+la séance du vendredi 11, faite le samedi 12, a été cochée « fait sam. 12 ».
+Une Séance A le samedi 26 cocherait de la même façon « fait sam. 26 ».
+
+**Trois Séances A manquées de suite**, trois causes différentes : le 18 sans
+explication, le 23 la sieste, le 25 des rendez-vous. Le haut du corps n'a pas
+travaillé depuis le **14 septembre** — douze jours au samedi 26. Le vendredi
+est à **0 sur 2** depuis le pacte : à surveiller, pas encore une conclusion.
+
+**Règle posée : la prochaine séance, quel que soit le jour, est la Séance A.**
+Samedi si la journée le permet ; sinon lundi 28, et la Séance B (Leg Press à
+50 kg) suit.
+
+**Parade.** Les rendez-vous se connaissent souvent dès le matin. Les dire au
+moment de demander le planning permet de déplacer ou de raccourcir la séance
+avant que la soirée ne décide : la version courte prévoit précisément le cas
+du *« rendez-vous qui déborde »*.
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours
