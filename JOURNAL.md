@@ -1564,6 +1564,40 @@ du *« rendez-vous qui déborde »*.
 
 ---
 
+### Dimanche 27 septembre — Une semaine de travail posté
+
+**Nouveau rythme annoncé à 21 h 25 :** du lundi 28 septembre au vendredi
+2 octobre, **travail de 07 h 00 à 15 h 00** ; samedi 3 et dimanche 4, **travail
+le soir** (horaires à préciser).
+
+**Ce que ça change, proposé le soir même :**
+
+| | Semaine d'école | Cette semaine |
+|---|---|---|
+| Réveil | ~06 h 15 | ~05 h 45 – 06 h 00 |
+| Salle (lun · mer · ven) | ~20 h 30 | **~17 h 30** — rentrer, manger, pause assis, partir à 17 h |
+| Coucher | ~23 h | **~22 h** |
+
+À 20 h 30, la séance finirait vers 22 h 15 avec le bus : moins de sept heures
+de sommeil avant un réveil à 6 h, trois soirs par semaine, avec un travail
+physique. **Les jours ne bougent pas, seule l'heure change** — et le créneau
+de 16 h qui a échoué en août suivait sept heures de cours sans pause ; celui-ci
+laisse une heure et demie pour manger et souffler.
+
+**Parfum : règle de l'hôpital appliquée par défaut** (lieu du travail à
+confirmer). Zéro bruno banani, et **pas de Balea MEN la veille au soir** —
+donc pas de Balea dès ce dimanche soir. Restent : douche juste avant de
+partir, chemise lavée à 40°, Perspirex aux pieds. **Le produit sans parfum
+manque toujours** : sebamed Deo Roll-on Balsam parfumfrei, à acheter chez dm
+lundi en sortant du travail.
+
+**Lundi 28 : Séance A**, aux poids du 14 septembre — après quatorze jours sans
+haut du corps, on reprend avant de progresser ; la série test du Shoulder
+Press à 20 kg passe au vendredi 2. Version courte autorisée si le premier
+jour de travail a été rude : la case se coche quand même.
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours
