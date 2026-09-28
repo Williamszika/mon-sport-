@@ -51,10 +51,13 @@ moment (« ce soir », « demain », « cette semaine ») :
      · **Perspirex Foot Lotion** — **jeudi et dimanche soir** en entretien
        (chaque soir s'il est en semaine de lancement), plante des pieds, peau
        sèche, laisser sécher à l'air, **laver le matin**.
-     · **Jour d'hôpital / stage = ZÉRO des deux parfumés**, ni la veille au soir
-       pour le Balea. Ne restent que : douche juste avant de partir, chemise
-       lavée à 40°, Perspirex aux pieds. Toujours demander si la journée est
-       école (parfum autorisé) ou hôpital (zéro).
+     · **Jour d'hôpital / stage / ambulante Pflege = ZÉRO des deux parfumés**,
+       ni la veille au soir pour le Balea. Ne restent que : douche juste avant
+       de partir, chemise lavée à 40°, Perspirex aux pieds — et le **sebamed
+       parfumfrei** une fois acheté. L'ambulante Pflege (soins à domicile)
+       suit la même règle que l'hôpital : contact direct avec des patients
+       (appliqué le 28/09). Toujours demander si la journée est école (parfum
+       autorisé) ou hôpital / ambulante Pflege (zéro).
      Détail complet : `soin/parfum.html`, sections « Le planning des trois
      produits » et « La semaine, jour par jour ».
 
@@ -89,7 +92,10 @@ travail. Les poids réels priment sur le plan ; ne jamais inventer un chiffre.
 - **Domicile** : Campus-Boulevard 62, 52074 Aachen (Melaten).
 - **École** : Luisenhospital, Boxgraben 99 — horaires variables (~07:30/08:00 → 15:00/15:30).
 - **Travail posté** : shift F 06:30–14:30 · shift S 13:30–20:30/21:00 — demander
-  l'emploi du temps du jour, il change.
+  l'emploi du temps du jour, il change. **Depuis le 28/09 : ambulante Pflege**
+  (soins à domicile) — du 28/09 au 02/10 de 07:00 à 15:00, samedi 3 et
+  dimanche 4 le soir. Semaine de travail : salle vers **17 h 30** (pas 20 h 30,
+  pour dormir avant un lever à 6 h), version courte d'office.
 - **Salle** : FitX Aachen-Europaplatz, Europaplatz 17 — ouverte 24 h/24, arrêt
   de bus **Wiesental** à 160 m. Il se déplace **en bus** : toujours penser au
   bus du retour.
@@ -172,8 +178,13 @@ travail. Les poids réels priment sur le plan ; ne jamais inventer un chiffre.
   savoir gratuitement si cette famille lui plaît avant le flacon à 70–120 €.
   **IL MANQUE TOUJOURS un produit sans parfum** : les deux achats sont
   parfumés, donc **aucun n'est utilisable les jours d'hôpital**. Produit
-  identifié chez dm : **sebamed Deo Roll-on Balsam parfumfrei** (les Balea
-  « Sensitive » sont sans aluminium mais pas garantis sans parfum). **Planning
+  identifié chez dm : **sebamed Deo Roll-on Balsam parfumfrei**, 50 ml (les
+  Balea « Sensitive » sont sans aluminium mais pas garantis sans parfum).
+  Vérifié sur dm.de le 28/09 : **déodorant, pas antitranspirant** — sans sels
+  d'aluminium, sans alcool, **sans parfum**, pH 5,5, bisabolol, 48 h contre les
+  odeurs, toléré après rasage. Il ne coupe pas la transpiration, il neutralise
+  l'odeur : le matin sur aisselles sèches, à reprendre dans la journée si
+  besoin. Pas encore acheté au 28/09. **Planning
   d'utilisation des trois produits** : sections « Le planning des trois
   produits » et « La semaine, jour par jour » de `soin/parfum.html`. Le parfum vient ensuite : un seul flacon, 70–120 €, choisi
   après essai sur la peau. **Zéro parfum à l'hôpital, autorisé en cours.** Lendemains

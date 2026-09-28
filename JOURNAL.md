@@ -1619,6 +1619,29 @@ fatigue »* — pas un dispositif nouveau. En attente de l'accord de William.
 
 ---
 
+### Lundi 28 septembre, 20 h 44 — Ambulante Pflege, et une séance mardi
+
+**Le travail de la semaine, c'est l'ambulante Pflege** — des soins à domicile,
+pas l'hôpital. La règle du parfum suit quand même celle de l'hôpital : contact
+direct avec des patients, souvent âgés, chez eux. **Zéro bruno banani, pas de
+Balea la veille** — appliqué par défaut, William peut trancher autrement.
+
+**Le sebamed, vérifié sur dm.de :** *Deo Roll-on Balsam parfumfrei*, 50 ml.
+C'est un **déodorant, pas un antitranspirant** : sans sels d'aluminium, sans
+alcool, sans parfum, pH 5,5. Il neutralise l'odeur jusqu'à 48 h mais ne coupe
+pas la transpiration. Le matin sur aisselles sèches, à reprendre dans la
+journée si besoin ; toléré après rasage. À acheter chez dm mardi en sortant du
+travail.
+
+**Mardi 29 : Séance A, de sa propre initiative.** Elle cochera la case de
+lundi, « fait mar. 29 » — comme le « fait mar. 8 » de la semaine 1. Contrat :
+la version courte (vélo 10 min · Chest Press 2 × 12 · Vertical Traction
+2 × 12), le reste en bonus, aux poids du 14 septembre. Mercredi repos — deux
+soirs de salle d'affilée après le travail, c'est trop cette semaine ; la
+Séance B passe au **jeudi 1er octobre**.
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours
