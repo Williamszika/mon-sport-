@@ -1598,6 +1598,27 @@ jour de travail a été rude : la case se coche quand même.
 
 ---
 
+### Lundi 28 septembre — Premier jour de travail, pas de séance
+
+**Séance A non faite** : trop fatigué après le premier jour de travail
+(07 h 00 → 15 h 00, lever vers 6 h). Signalé à 20 h 33 — trop tard pour le
+plan C, le coucher de 22 h passe avant. La chaîne reste à **6 cases sur 36** ;
+la semaine 4 commence à zéro.
+
+**Quatre séances de suite sans case** : vendredi 18 (sans explication),
+mercredi 23 (sieste), vendredi 25 (rendez-vous), lundi 28 (fatigue). Dernière
+séance faite : lundi 21. Le haut du corps attend depuis le 14 septembre.
+
+**Proposition pour la semaine de travail : la version courte d'office.**
+Trois séances complètes, c'est plus de deux heures chacune avec le bus —
+trop haut pour une semaine de lever à 6 h. Mercredi 30 : **Séance A courte**
+(vélo 10 min · Chest Press 2 × 12 · Vertical Traction 2 × 12, 25 minutes),
+décidée à l'avance. Si l'énergie est là sur place, la séance complète est un
+bonus. C'est le plancher que le planning prévoit pour *« journée trop longue,
+fatigue »* — pas un dispositif nouveau. En attente de l'accord de William.
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours
