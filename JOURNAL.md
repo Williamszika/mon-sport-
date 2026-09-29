@@ -1688,6 +1688,28 @@ Mis à jour : `sport/planning-progressif.html` (section « Le corps entier »),
 
 ---
 
+### Mardi 29 septembre, 19 h 43 — 30 kg sur le dos, départ le 5 octobre
+
+**Pas de séance ce soir.** William a porté **30 kg sur le dos et 20 kg à la
+main pendant deux heures** : *« je suis très cassé »*. La case de lundi, qui
+devait se cocher ce soir, reste vide. Il demande un bon planning pour
+**commencer la semaine prochaine**.
+
+**La semaine 4 se ferme donc à zéro séance** — travail physique toute la
+semaine (ambulante Pflege, 7 h – 15 h) et deux heures de charge ce mardi.
+Jusqu'au dimanche 4 : repos de la salle, **étirements doux chaque soir** et
+**Kegels trois fois par jour** — le fil qu'on ne coupe pas.
+
+**Départ du corps entier : lundi 5 octobre.** Séances les lundi 5, mercredi 7
+et vendredi 9 ; 17 h 30 après un travail qui finit à 15 h, 20 h 30 après les
+cours. Les dates du tableau « Corps entier » du carnet partent du 5/10.
+
+**La semaine en une page** (publiée) : les trois séances, le soin et le parfum
+jour par jour, les étirements, les Kegels, et ce qu'il faut envoyer après
+chaque séance — https://claude.ai/artifact/XcJggXvWpvEar7NDkXF9yb
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours

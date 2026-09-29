@@ -34,14 +34,16 @@ moment (« ce soir », « demain », « cette semaine ») :
      **mercredi & dimanche** · peeling visage AHA/PHA **dimanche** soir ·
      Vitamine C + SPF 30 chaque matin · lendemain de rétinol ou de peeling =
      SPF obligatoire même temps gris.
-   - Sport : **corps entier depuis le 29 septembre** (fin de l'alternance
-     A/B) — 3 séances/semaine (lundi · mercredi · vendredi), un jour de repos
+   - Sport : **corps entier** — adopté le 29 septembre, **première séance le
+     lundi 5 octobre** (fin de l'alternance A/B) — 3 séances/semaine (lundi · mercredi · vendredi), un jour de repos
      entre deux. Ordre : vélo 8 min → **Shoulder Press** → Vertical Traction →
      Leg Press → Chest Press → Low Row → Seitheben (élévations latérales,
      haltères) → Leg Curl → planche. **Version courte** = les quatre premières
      lignes, 2 × 12. Voir la section « Le corps entier » de
      `sport/planning-progressif.html` et le tableau « Corps entier » de
-     `sport/carnet.html`.
+     `sport/carnet.html`. Vue d'ensemble de la semaine (page publiée) :
+     https://claude.ai/artifact/XcJggXvWpvEar7NDkXF9yb — la page du jour reste
+     https://claude.ai/artifact/Ucbs5BkTi3abNpVMQXAtqG.
    - **Souplesse & Kegels — chaque jour** : 7 min d'étirements le soir (6
      postures : pectoraux, fente basse, ischio-jambiers, fessiers, posture de
      l'enfant, mollets) · **Kegels 3 fois par jour** (matin, midi, soir :
