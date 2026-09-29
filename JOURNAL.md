@@ -1642,6 +1642,52 @@ Séance B passe au **jeudi 1er octobre**.
 
 ---
 
+### Mardi 29 septembre — Le corps entier
+
+**La question de William (09 h 36) :** peut-il faire tout le corps à chaque
+séance, tous les deux jours, avec des étirements ? *« Dis-moi ce qui est bon
+pour moi, pas ce que je veux. »* **Accepté à 09 h 55.**
+
+**La décision : corps entier, trois fois par semaine, lundi · mercredi ·
+vendredi.** Avec l'alternance A/B, une séance ratée laissait une moitié du
+corps de côté — le haut du corps n'a rien fait du 14 au 29 septembre. En
+corps entier, même une semaine à deux séances fait travailler chaque muscle
+deux fois. Le « tous les deux jours » est gardé en semaine ; un rythme
+roulant (3 à 4 séances, des jours qui changent) attendra qu'on ait tenu trois.
+
+| | Exercice | Séries | Départ |
+|---|---|---|---|
+| 1 | Vélo, niveau 4 | 8 min | 120–130 bpm |
+| 2 | **Shoulder Press** — en premier | 3 × 12–15 | 15 kg |
+| 3 | Vertical Traction | 3 × 12–15 | 30 kg |
+| 4 | Leg Press | 3 × 12–15 | 50 kg |
+| 5 | Chest Press | 2 × 12–15 | 20 kg |
+| 6 | Low Row | 2 × 12–15 | 20 kg |
+| 7 | **Seitheben mit Kurzhanteln** — nouveau | 2 × 15 | ~4 kg |
+| 8 | Leg Curl | 2 × 12–15 | 30 kg |
+| 9 | Planche | 2 × 30 s | — |
+
+**≈ 50 minutes sur place**, environ 2 h avec le bus. **Version courte** : les
+quatre premières lignes en 2 × 12, ≈ 25 minutes. L'ordre suit le document
+silhouette — il est déjà sec, les épaules d'abord. **Sortent** : la Leg
+Extension. **Facultatif** : le Treppensteiger.
+
+**La souplesse : 7 minutes chaque soir**, six postures (pectoraux, fente
+basse, ischio-jambiers, fessiers, posture de l'enfant, mollets).
+
+**Les Kegels, remis à la bonne dose.** William : *« je les fais toujours,
+mais j'ai l'impression que rien n'arrive »*. Le protocole de départ était
+2 à 3 séries par jour ; les plannings du soir n'en rappelaient plus qu'une.
+Nouveau protocole : **3 fois par jour, 10 contractions tenues 5 s + 10
+rapides**, avec le test du bon muscle et un délai honnête — six à douze
+semaines. Pour un problème précis : le médecin, qui peut prescrire du
+Beckenbodentraining chez un kinésithérapeute.
+
+Mis à jour : `sport/planning-progressif.html` (section « Le corps entier »),
+`sport/carnet.html` (tableau « Corps entier »), `CLAUDE.md`.
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours

@@ -34,9 +34,18 @@ moment (« ce soir », « demain », « cette semaine ») :
      **mercredi & dimanche** · peeling visage AHA/PHA **dimanche** soir ·
      Vitamine C + SPF 30 chaque matin · lendemain de rétinol ou de peeling =
      SPF obligatoire même temps gris.
-   - Sport : 3 séances/semaine en alternance A (haut du corps) / B (bas du
-     corps), un jour de repos entre deux — voir `sport/planning-progressif.html`
-     et l'état réel dans `sport/carnet.html`.
+   - Sport : **corps entier depuis le 29 septembre** (fin de l'alternance
+     A/B) — 3 séances/semaine (lundi · mercredi · vendredi), un jour de repos
+     entre deux. Ordre : vélo 8 min → **Shoulder Press** → Vertical Traction →
+     Leg Press → Chest Press → Low Row → Seitheben (élévations latérales,
+     haltères) → Leg Curl → planche. **Version courte** = les quatre premières
+     lignes, 2 × 12. Voir la section « Le corps entier » de
+     `sport/planning-progressif.html` et le tableau « Corps entier » de
+     `sport/carnet.html`.
+   - **Souplesse & Kegels — chaque jour** : 7 min d'étirements le soir (6
+     postures : pectoraux, fente basse, ischio-jambiers, fessiers, posture de
+     l'enfant, mollets) · **Kegels 3 fois par jour** (matin, midi, soir :
+     10 contractions tenues 5 s + 10 rapides). À inclure dans le planning.
    - Études : un bloc par jour (réviser → apprendre → s'exercer), lecture le
      soir, dictée 3×/semaine — voir `etudes/routine-etudes.html`.
    - **Déo & parfum — À INCLURE DANS CHAQUE PLANNING QUOTIDIEN** (demandé par
@@ -144,7 +153,11 @@ travail. Les poids réels priment sur le plan ; ne jamais inventer un chiffre.
   schéma qui tient : rentrer → manger → souffler une vraie heure → partir. Ne
   jamais reproposer 16 h les jours d'école.
 - **Objectif sport** : physique sec et dessiné, pas massif — 12–15 répétitions,
-  poids modérés, cardio à chaque séance.
+  poids modérés. Il est **déjà sec** (photos du 3/09, `sport/silhouette.html`) :
+  épaules étroites par rapport aux hanches, un peu enroulées, jambes déjà bien
+  fournies. **Priorité : élargir les épaules** (Shoulder Press en premier,
+  élévations latérales), puis le dos. Cardio = l'échauffement au vélo ; le
+  Treppensteiger devient facultatif.
 - **Peau** : marque facilement — douceur d'abord, jamais deux actifs forts le
   même soir.
 - **La trousse est close — douze produits, vérifiés en photo le 3 septembre**
