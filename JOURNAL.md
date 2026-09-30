@@ -1793,6 +1793,20 @@ le site a disparu (Vaalser Straße 272) et un dentiste en cabinet privé.
 
 ---
 
+### Mercredi 30 septembre — La carte AOK confirmée
+
+William a envoyé une photo de sa carte : c'est bien l'**AOK Rheinland/Hamburg**.
+Tout le travail du jour (droits, bonus, cabinets) s'applique donc tel quel.
+
+Ajoutés à la page carte AOK : le **service AOK** (0211 8195-0000) et la
+**hotline médicale gratuite** (0800 1 265 265), imprimés au dos de la carte, et
+la carte européenne d'assurance maladie, valable jusqu'en septembre 2029.
+
+La photo n'est pas conservée : ni le numéro d'assuré, ni la date de naissance,
+ni la photo de William n'entrent dans le dépôt.
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours

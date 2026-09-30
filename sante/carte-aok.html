@@ -53,6 +53,7 @@
   .lede{margin:2px 0 0; color:var(--plum-soft); font-size:.95rem; max-width:56ch}
   .lede b{color:var(--plum)}
   .note{font-size:.8rem; color:var(--rose-ink); background:var(--rose-tint); border-radius:12px; padding:9px 12px; margin:4px 0 0}
+  .note.ok-note{color:var(--sage-ink); background:var(--sage-tint)}
 
   h2{font-family:var(--display); font-weight:500; font-size:1.3rem; margin:0; text-wrap:balance}
   .sec{display:flex; flex-direction:column; gap:12px}
@@ -118,6 +119,7 @@
   .no p{margin:0; font-size:.85rem; color:var(--plum-soft)}
 
   .tools{display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px}
+  .sec .tools + p{margin:0; font-size:.86rem; color:var(--plum-soft); max-width:60ch}
   .tool{background:var(--card); border:1px solid var(--line); border-radius:14px; padding:12px 14px; display:flex; flex-direction:column; gap:3px}
   .tool b{font-size:.92rem}
   .tool span{font-size:.8rem; color:var(--plum-soft)}
@@ -143,7 +145,7 @@
     <div class="eyebrow">AOK Rheinland/Hamburg · vérifié le 30 septembre 2026</div>
     <h1>Ta carte AOK,<br><em>ce qui est pour toi</em></h1>
     <p class="lede">Tout ce qui suit est <b>gratuit ou remboursé</b> pour toi, à 32 ans, d'après le règlement de ta caisse (la <i>Satzung</i>, version en vigueur depuis le 1er juillet 2026). Classé par ce qui compte le plus.</p>
-    <p class="note">Aachen dépend de l'AOK Rheinland/Hamburg. Vérifie que c'est bien le nom écrit sur ta carte : chaque AOK régionale a ses propres extras.</p>
+    <p class="note ok-note">✓ Confirmé sur ta carte le 30 septembre : tu es bien à l'AOK Rheinland/Hamburg. Tout ce qui suit s'applique à toi.</p>
   </header>
 
   <section class="first" aria-label="À faire d'abord">
@@ -329,7 +331,10 @@
     <div class="tools">
       <div class="tool"><b>App Meine AOK</b><span>Bonus, justificatifs, bon pour les cours. Il faut d'abord créer ton accès en ligne.</span></div>
       <div class="tool"><b>Service de rendez-vous</b><span class="big">116 117</span><span>Pour trouver un médecin qui prend de nouveaux patients.</span></div>
+      <div class="tool"><b>Service AOK</b><span class="big">0211 8195-0000</span><span>Pour le bonus, le bon des cours, toute question sur tes droits.</span></div>
+      <div class="tool"><b>Hotline médicale AOK</b><span class="big">0800 1 265 265</span><span>Gratuite, pour une question de santé. Les deux numéros sont au dos de ta carte.</span></div>
     </div>
+    <p>Au dos de ta carte, il y a aussi la <b>carte européenne d'assurance maladie</b>, valable jusqu'en septembre 2029 : elle couvre les soins nécessaires pendant un séjour dans un autre pays de l'Union européenne. Emporte ta carte à chaque rendez-vous : le cabinet la lit à ta première visite du trimestre.</p>
   </section>
 
   <section class="sources" aria-label="Sources">

@@ -117,8 +117,10 @@ travail. Les poids réels priment sur le plan ; ne jamais inventer un chiffre.
 ## Contexte fixe
 
 - **Domicile** : Campus-Boulevard 62, 52074 Aachen (Melaten).
-- **Assurance santé** : AOK — Aachen dépend de l'**AOK Rheinland/Hamburg**
-  (nom sur la carte à confirmer par William). Droits vérifiés le 30/09 dans la
+- **Assurance santé** : **AOK Rheinland/Hamburg** — confirmé sur la carte
+  (photo du 30/09, non conservée : aucun numéro d'assuré ni photo de lui dans
+  le dépôt). Service AOK 0211 8195-0000 · hotline médicale gratuite
+  0800 1 265 265 · carte européenne au dos, valable jusqu'en 09/2029. Droits vérifiés le 30/09 dans la
   Satzung en vigueur au 01/07/2026 : Check-up 1× entre 18 et 34 ans ·
   dépistage peau **tous les 2 ans de 18 à 34 ans** (contrat AOK – KV Nordrhein)
   · dentiste 2×/an + détartrage 1×/an · vaccins STIKO (grippe chaque automne,
