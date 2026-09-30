@@ -1768,6 +1768,31 @@ allemand pour le téléphone) et aux jours d'appel de la semaine du 5 octobre.
 
 ---
 
+### Mercredi 30 septembre, 11 h 40 — Les cabinets près de chez lui
+
+**William :** *« Je vis à Campus-Boulevard 62. Je veux près de moi. »* La
+première liste était trop large (centre-ville, Lütticher Straße).
+
+**Méthode :** tous les médecins et dentistes à moins de 2 km relevés sur
+OpenStreetMap, puis le **temps de marche réel** calculé sur les rues depuis
+Campus-Boulevard.
+
+| | Cabinet | À pied | Téléphone |
+|---|---|---|---|
+| Hausarzt | Fritz König, Auf der Hörn 125 | 16 min | 0241 81080 (annuaires) |
+| Hausarzt | **Praxis Steppenberg**, Steppenbergallee 12 — Doctolib | 20 min | 0241 / 89 40 40 4 |
+| Hausarzt | Dr. Henne et Dr. Ries, Schurzelter Straße 571 | 22 min | 0241 82623 (annuaires) |
+| Zahnarzt | **MH Dental — Miriam Heinz**, Steppenbergallee 14 — Doctolib | 20 min | 0241 87 77 81 |
+| Zahnarzt | Zahnärzte am Westpark, Vaalser Straße 142 | 32 min | 0241 85599 |
+| Hautarzt | Aucun conventionné à pied : Dr. Harst ou Dr. Alberty, au centre | bus | — |
+
+**Le bon plan :** Steppenberg et MH Dental sont voisins (n° 12 et 14) — les
+deux rendez-vous peuvent se faire le même après-midi. Le dermatologue se prend
+en ville, un jour de cours, près du Luisenhospital. Écartés : un cabinet dont
+le site a disparu (Vaalser Straße 272) et un dentiste en cabinet privé.
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours

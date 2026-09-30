@@ -59,11 +59,13 @@ moment (« ce soir », « demain », « cette semaine ») :
      vaccin grippe en octobre → Check-up → dentiste et dépistage peau →
      deux cours gratuits par an (Rückenschule, yoga ou Pilates). Les appels se
      placent les jours sans salle, après la pause.
-     **Cabinets vérifiés le 30/09** (section « Les cabinets » de la page) :
-     Hausarzt Praxis Steppenberg, Steppenbergallee 12, 0241 / 89 40 40 4 ·
-     Hautarzt Dr. Alberty, Komphausbadstr. 7, 0241 / 44 67 30 (Doctolib, motif
-     « Hautkrebsscreening ») · Zahnarzt am Westpark, Vaalser Str. 142,
-     0241 85599 — chacun avec deux autres cabinets en réserve.
+     **Cabinets près de chez lui** (30/09, temps de marche depuis
+     Campus-Boulevard calculé sur OpenStreetMap — section « Les cabinets » de
+     la page) : Hausarzt **Praxis Steppenberg**, Steppenbergallee 12, 20 min,
+     Doctolib, 0241 / 89 40 40 4 (ou Fritz König, Auf der Hörn 125, 16 min,
+     0241 81080) · Zahnarzt **MH Dental**, Steppenbergallee 14, 20 min,
+     Doctolib, 0241 87 77 81 · Hautarzt : aucun conventionné à pied — en ville
+     un jour de cours, Dr. Harst (Doctolib) ou Dr. Alberty, 0241 / 44 67 30.
    - **Déo & parfum — À INCLURE DANS CHAQUE PLANNING QUOTIDIEN** (demandé par
      William le 18 septembre). Trois produits, trois zones, jamais superposés ;
      donner à chaque fois **lequel, où et quand** pour CE jour-là :
