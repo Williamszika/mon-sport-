@@ -102,6 +102,15 @@
   .when-row .w{font-size:.74rem; font-weight:800; letter-spacing:.04em; color:var(--honey-ink); font-variant-numeric:tabular-nums}
   .when-row p{margin:0; font-size:.87rem; color:var(--plum)}
 
+  /* cabinets */
+  .sub{font-size:.74rem; font-weight:800; letter-spacing:.1em; text-transform:uppercase; color:var(--plum-soft); margin:6px 0 -2px}
+  .tel{font-variant-numeric:tabular-nums; white-space:nowrap; user-select:all; color:var(--plum)}
+  .flag{font-size:.78rem; color:var(--rose-ink)}
+  .say{display:flex; flex-direction:column; gap:10px}
+  .say div{display:flex; flex-direction:column; gap:2px}
+  .say b{font-size:.78rem; letter-spacing:.04em; text-transform:uppercase; color:var(--honey-ink)}
+  .say q{font-size:.92rem; color:var(--plum); quotes:"« " " »"}
+
   /* pas pour toi */
   .no{display:flex; flex-direction:column; gap:8px}
   .no div{border-left:3px solid var(--rose); background:var(--card); border-radius:0 12px 12px 0; padding:10px 14px}
@@ -237,12 +246,77 @@
     <h2>Ton calendrier santé</h2>
     <div class="cal">
       <div class="when-row"><div class="w">Cette semaine</div><p>Inscription au bonus <b>Vital+</b> dans l'app Meine AOK. Choisir un cours (Rückenschule ou yoga).</p></div>
-      <div class="when-row"><div class="w">Semaine du 5 oct.</div><p>Les trois coups de fil : Hausarzt, Hautarzt, Zahnarzt. Les jours sans salle, après la pause.</p></div>
+      <div class="when-row"><div class="w">Semaine du 5 oct.</div><p>Les trois rendez-vous, en ligne ou par téléphone : Hausarzt, Hautarzt, Zahnarzt — les cabinets sont listés plus bas. Les jours sans salle, après la pause.</p></div>
       <div class="when-row"><div class="w">Octobre</div><p>Le vaccin contre la grippe.</p></div>
       <div class="when-row"><div class="w">Oct. → nov.</div><p>Le Check-up, avec ton carnet de vaccins. Demander le certificat pour la médecine du sport.</p></div>
       <div class="when-row"><div class="w">Nov. → déc.</div><p>Le dentiste et le dépistage de la peau, dès qu'il y a une place.</p></div>
       <div class="when-row"><div class="w">Janvier 2027</div><p>Deux nouveaux cours gratuits, et le choix du bonus pour l'année.</p></div>
     </div>
+  </section>
+
+  <section class="sec" aria-label="Les cabinets">
+    <h2>Les cabinets, vérifiés pour toi</h2>
+    <p>Adresses et numéros relevés sur le site de chaque cabinet le 30 septembre. <b>Quand la réservation en ligne existe, c'est le plus simple</b> : pas besoin de téléphoner. Appelle entre 15 h 30 et 17 h, après ta pause : c'est l'heure où la plupart des lignes sont encore ouvertes.</p>
+
+    <p class="sub">Hausarzt · Check-up et vaccin contre la grippe</p>
+    <div class="list">
+      <div class="item">
+        <div class="item-top"><h3>Praxis Steppenberg</h3><span class="freq">ton quartier · 52074</span></div>
+        <p>Dr. Elke Adhami et Olivier Schmetz. Vaccins recommandés et vaccins de voyage. Consultations aussi le lundi de 15 h à 17 h et le jeudi de 17 h à 19 h, après le travail.</p>
+        <p class="where">Steppenbergallee 12, 52074 Aachen <span>·</span> <span class="tel">0241 / 89 40 40 4</span> <span>· réservation en ligne sur Doctolib, via <a href="http://www.praxis-steppenberg.de/">praxis-steppenberg.de</a></span></p>
+      </div>
+      <div class="item">
+        <div class="item-top"><h3>Dr. Kroner et Dr. Werners</h3><span class="freq">réservation en ligne</span></div>
+        <p>Cabinet de médecine générale avec plusieurs médecins. Téléphone du lundi au jeudi de 8 h à 12 h et de 15 h à 17 h, le mercredi et le vendredi de 8 h à 12 h.</p>
+        <p class="where">Lütticher Str. 9, 52064 Aachen <span>·</span> <span class="tel">0241 31180</span> <span>· <a href="https://terminbuchung.allgemeinmedizin-aachen.de/">terminbuchung.allgemeinmedizin-aachen.de</a></span></p>
+      </div>
+      <div class="item">
+        <div class="item-top"><h3>Dr. Barkhausen et Dr. Grütter</h3><span class="freq">ton quartier · 52074</span></div>
+        <p>Médecine générale. Ouvert le lundi de 16 h à 19 h. <span class="flag">Numéro trouvé dans l'annuaire Das Örtliche : le site du cabinet ne répond plus.</span></p>
+        <p class="where">Vaalser Str. 124, 52074 Aachen <span>·</span> <span class="tel">0241 47 58 66 55</span></p>
+      </div>
+    </div>
+
+    <p class="sub">Hautarzt · dépistage de la peau</p>
+    <div class="list">
+      <div class="item">
+        <div class="item-top"><h3>Dr. Uta Alberty</h3><span class="freq">en ligne · motif prévu</span></div>
+        <p>Dermatologue. Sur Doctolib, choisis le motif « Hautkrebsscreening ». Téléphone lundi, mardi, jeudi et vendredi de 9 h à 11 h et de 15 h à 17 h, le mercredi de 13 h à 15 h.</p>
+        <p class="where">Komphausbadstr. 7, 52062 Aachen <span>·</span> <span class="tel">0241 / 44 67 30</span> <span>· <a href="https://www.hautarzt-aachen-alberty.de/">hautarzt-aachen-alberty.de</a></span></p>
+      </div>
+      <div class="item">
+        <div class="item-top"><h3>Dr. Anita Harst</h3><span class="freq">réservation en ligne</span></div>
+        <p>Dermatologue et allergologue, réservation sur Doctolib depuis son site.</p>
+        <p class="where">Großkölnstraße 22–28, 52062 Aachen <span>·</span> <span class="tel">(0241) 9 29 14 00</span> <span>· <a href="https://www.hautaerztin-dr-harst.de/">hautaerztin-dr-harst.de</a></span></p>
+      </div>
+      <div class="item">
+        <div class="item-top"><h3>MVZ Dermatologie Aachen</h3><span class="freq">par téléphone</span></div>
+        <p>Dr. Britta Heindl et deux dermatologues. La réservation en ligne est réservée aux patients privés : pour toi, c'est par téléphone.</p>
+        <p class="where">Harscampstr. 51, 52062 Aachen <span>·</span> <span class="tel">0241 / 37064</span> <span>· <a href="https://www.dermatologie-im-zentrum.de/">dermatologie-im-zentrum.de</a></span></p>
+      </div>
+    </div>
+
+    <p class="sub">Zahnarzt · contrôle et détartrage</p>
+    <div class="list">
+      <div class="item">
+        <div class="item-top"><h3>Zahnärzte am Westpark</h3><span class="freq">ton quartier · en ligne</span></div>
+        <p>Dr. Elias Refghi et ses collègues. Ouvert lundi, mardi et jeudi de 8 h à 12 h 30 et de 13 h 30 à 17 h 30, mercredi de 8 h à 13 h 30, vendredi de 8 h à 12 h 30.</p>
+        <p class="where">Vaalser Straße 142, 52074 Aachen <span>·</span> <span class="tel">0241 85599</span> <span>· réservation en ligne sur <a href="https://amwestpark.de/">amwestpark.de</a></span></p>
+      </div>
+      <div class="item">
+        <div class="item-top"><h3>Dr. Noethlichs</h3><span class="freq">ton quartier · après-midi</span></div>
+        <p>Ouvert l'après-midi : lundi de 13 h 30 à 18 h, mardi et jeudi de 13 h à 18 h. Le cabinet passe à la Zahnarztpraxis König en 2027.</p>
+        <p class="where">Vaalser Straße 516, 52074 Aachen <span>·</span> <span class="tel">0241 / 87 97 00-0</span> <span>· <a href="https://www.dr-noethlichs.de/kontakt/">dr-noethlichs.de</a></span></p>
+      </div>
+    </div>
+
+    <div class="pick say">
+      <h3>Au téléphone, trois phrases suffisent</h3>
+      <div><b>Hausarzt</b><q>Guten Tag, ich bin bei der AOK versichert und suche eine Hausarztpraxis. Nehmen Sie neue Patienten auf? Ich hätte gern einen Termin für den Check-up und die Grippeimpfung.</q></div>
+      <div><b>Hautarzt</b><q>Guten Tag, ich bin 32 und bei der AOK Rheinland/Hamburg versichert. Die AOK bezahlt das Hautkrebs-Screening schon ab 18. Machen Sie das bei Ihnen? Ich hätte gern einen Termin.</q></div>
+      <div><b>Zahnarzt</b><q>Guten Tag, ich bin bei der AOK versichert. Ich hätte gern einen Termin für eine Kontrolle mit Zahnsteinentfernung. Nehmen Sie neue Patienten auf?</q></div>
+    </div>
+    <p>Aucun ne prend de nouveaux patients ? L'<a href="https://www.aok.de/pk/facharzt-in-der-naehe/hautarzt/aachen/">annuaire des médecins de l'AOK</a> en propose d'autres, et le <b>116 117</b> trouve un rendez-vous pour toi.</p>
   </section>
 
   <section class="sec" aria-label="Ce qui ne te concerne pas">
@@ -270,6 +344,7 @@
       <li><a href="https://www.aok.de/pk/gesundheitskurse/infos/teilnahme-gutschein/">AOK : le bon pour deux cours par an</a></li>
       <li><a href="https://www.aok.de/pk/bonus-praemienprogramme/punkte-sammeln-client-rh/">AOK Rheinland/Hamburg : les programmes bonus</a></li>
       <li><a href="https://www.g-ba.de/themen/methodenbewertung/erwachsene/gesundheitsuntersuchungen/">G-BA : le Check-up</a></li>
+      <li>Cabinets : sites de chaque cabinet cités ci-dessus, et <a href="https://www.dasoertliche.de/Themen/Hausarzt/Aachen.html">Das Örtliche</a> pour le cabinet Barkhausen–Grütter</li>
       <li><a href="https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Berufliche-Indikation/Berufliche-Indikation-Download.pdf?__blob=publicationFile&amp;v=4">STIKO : vaccins recommandés pour le travail</a></li>
     </ul>
   </section>

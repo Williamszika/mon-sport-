@@ -59,6 +59,11 @@ moment (« ce soir », « demain », « cette semaine ») :
      vaccin grippe en octobre → Check-up → dentiste et dépistage peau →
      deux cours gratuits par an (Rückenschule, yoga ou Pilates). Les appels se
      placent les jours sans salle, après la pause.
+     **Cabinets vérifiés le 30/09** (section « Les cabinets » de la page) :
+     Hausarzt Praxis Steppenberg, Steppenbergallee 12, 0241 / 89 40 40 4 ·
+     Hautarzt Dr. Alberty, Komphausbadstr. 7, 0241 / 44 67 30 (Doctolib, motif
+     « Hautkrebsscreening ») · Zahnarzt am Westpark, Vaalser Str. 142,
+     0241 85599 — chacun avec deux autres cabinets en réserve.
    - **Déo & parfum — À INCLURE DANS CHAQUE PLANNING QUOTIDIEN** (demandé par
      William le 18 septembre). Trois produits, trois zones, jamais superposés ;
      donner à chaque fois **lequel, où et quand** pour CE jour-là :

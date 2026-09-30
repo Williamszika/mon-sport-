@@ -1748,6 +1748,26 @@ chaque planning.
 
 ---
 
+### Mercredi 30 septembre, 11 h 25 — Les cabinets, vérifiés
+
+**Demande :** trouver les cabinets, avec leurs numéros et leurs adresses. Chaque
+adresse et chaque numéro vient **du site du cabinet lui-même** ; un seul vient
+d'un annuaire, et c'est signalé.
+
+| | Premier choix | En réserve |
+|---|---|---|
+| **Hausarzt** | Praxis Steppenberg — Steppenbergallee 12, 52074 · 0241 / 89 40 40 4 · Doctolib | Dr. Kroner et Dr. Werners, Lütticher Str. 9 · 0241 31180 — Dr. Barkhausen et Dr. Grütter, Vaalser Str. 124 · 0241 47 58 66 55 (annuaire) |
+| **Hautarzt** | Dr. Uta Alberty — Komphausbadstr. 7, 52062 · 0241 / 44 67 30 · Doctolib, motif « Hautkrebsscreening » | Dr. Anita Harst, Großkölnstraße 22–28 · (0241) 9 29 14 00 — MVZ Dermatologie Aachen, Harscampstr. 51 · 0241 / 37064 |
+| **Zahnarzt** | Zahnärzte am Westpark — Vaalser Straße 142, 52074 · 0241 85599 · en ligne | Dr. Noethlichs, Vaalser Straße 516 · 0241 / 87 97 00-0 |
+
+**Écarté :** la Praxisklinik für Dermatologie (Boxgraben 95), qui se présente
+comme un cabinet privé.
+
+Ajoutés à la page carte AOK (section « Les cabinets », avec trois phrases en
+allemand pour le téléphone) et aux jours d'appel de la semaine du 5 octobre.
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours
