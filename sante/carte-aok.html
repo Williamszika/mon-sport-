@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ta carte AOK</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400&family=Nunito+Sans:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+  /* Layout : une colonne de lecture — d'abord ce qu'il faut faire, puis ce qui est gratuit, puis l'argent, puis les sources. */
+  :root{
+    --porcelain:#FBF3EF; --card:#FFFDFB; --plum:#43222E; --plum-soft:#7A5561;
+    --line:#EBDDD6; --honey:#DBA043; --honey-tint:#FBEED6; --honey-ink:#8A5D14;
+    --sage:#7B9A82; --sage-tint:#E1EBE1; --sage-ink:#3F5A48;
+    --rose:#C4718A; --rose-tint:#F6E1E7; --rose-ink:#8E4761;
+    --deep:#43222E; --deep-ink:#F7ECEC; --deep-soft:#C7A6AE; --deep-line:#5E3A45; --deep-hi:#FFFFFF;
+    --shadow:0 1px 2px rgba(67,34,46,.05), 0 14px 34px rgba(67,34,46,.07);
+    --display:"Fraunces",Georgia,serif; --body:"Nunito Sans",system-ui,-apple-system,sans-serif;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --porcelain:#241119; --card:#311A22; --plum:#F6E9E6; --plum-soft:#C3A2AC;
+      --line:#4A2C36; --honey:#E8B25E; --honey-tint:#4A3319; --honey-ink:#F0C687;
+      --sage:#8FB098; --sage-tint:#2A3B2E; --sage-ink:#A9C7B1;
+      --rose:#D68CA3; --rose-tint:#442430; --rose-ink:#EEA9BE;
+      --deep:#150910; --deep-ink:#F7ECEC; --deep-soft:#B18E98; --deep-line:#3B222B; --deep-hi:#FFFFFF;
+      --shadow:0 1px 2px rgba(0,0,0,.3), 0 14px 34px rgba(0,0,0,.35);
+      color-scheme:dark;
+    }
+  }
+  :root[data-theme="dark"]{
+    --porcelain:#241119; --card:#311A22; --plum:#F6E9E6; --plum-soft:#C3A2AC;
+    --line:#4A2C36; --honey:#E8B25E; --honey-tint:#4A3319; --honey-ink:#F0C687;
+    --sage:#8FB098; --sage-tint:#2A3B2E; --sage-ink:#A9C7B1;
+    --rose:#D68CA3; --rose-tint:#442430; --rose-ink:#EEA9BE;
+    --deep:#150910; --deep-ink:#F7ECEC; --deep-soft:#B18E98; --deep-line:#3B222B; --deep-hi:#FFFFFF;
+    --shadow:0 1px 2px rgba(0,0,0,.3), 0 14px 34px rgba(0,0,0,.35);
+    color-scheme:dark;
+  }
+
+  *{box-sizing:border-box}
+  body{font-family:var(--body); background:var(--porcelain); color:var(--plum); line-height:1.55;
+    padding-block:26px 44px; padding-inline:18px; -webkit-font-smoothing:antialiased}
+  .wrap{max-width:640px; margin:0 auto; display:flex; flex-direction:column; gap:26px; min-width:0; overflow-wrap:break-word}
+  a{color:var(--honey-ink); text-underline-offset:2px}
+  a:focus-visible{outline:2px solid var(--honey); outline-offset:2px; border-radius:3px}
+
+  header{display:flex; flex-direction:column; gap:9px}
+  .eyebrow{font-size:.68rem; font-weight:800; letter-spacing:.24em; text-transform:uppercase; color:var(--plum-soft)}
+  h1{font-family:var(--display); font-weight:500; font-size:clamp(1.8rem,7.6vw,2.7rem); line-height:1.02; letter-spacing:-.015em; text-wrap:balance; margin:0}
+  h1 em{font-style:italic; color:var(--honey)}
+  .lede{margin:2px 0 0; color:var(--plum-soft); font-size:.95rem; max-width:56ch}
+  .lede b{color:var(--plum)}
+  .note{font-size:.8rem; color:var(--rose-ink); background:var(--rose-tint); border-radius:12px; padding:9px 12px; margin:4px 0 0}
+
+  h2{font-family:var(--display); font-weight:500; font-size:1.3rem; margin:0; text-wrap:balance}
+  .sec{display:flex; flex-direction:column; gap:12px}
+  .sec > p{margin:0; font-size:.9rem; color:var(--plum-soft); max-width:60ch}
+  .sec > p b{color:var(--plum)}
+
+  /* d'abord */
+  .first{background:var(--deep); color:var(--deep-ink); border-radius:22px; padding:20px 20px 18px; box-shadow:var(--shadow);
+    display:flex; flex-direction:column; gap:12px}
+  .first h2{color:var(--deep-hi)}
+  .step{display:grid; grid-template-columns:32px minmax(0,1fr); gap:12px; padding-top:12px; border-top:1px solid var(--deep-line)}
+  .step:first-of-type{border-top:none; padding-top:0}
+  .step .n{width:30px; height:30px; border-radius:50%; background:var(--honey); color:var(--deep); font-weight:900;
+    display:flex; align-items:center; justify-content:center; font-variant-numeric:tabular-nums}
+  .step h3{margin:0 0 2px; font-size:1rem; font-weight:800; color:var(--deep-hi)}
+  .step p{margin:0; font-size:.86rem; color:var(--deep-soft)}
+  .step p b{color:var(--deep-hi)}
+
+  /* examens */
+  .list{display:flex; flex-direction:column; background:var(--card); border:1px solid var(--line); border-radius:18px; box-shadow:var(--shadow)}
+  .item{padding:14px 18px; border-top:1px solid var(--line); display:flex; flex-direction:column; gap:4px}
+  .item:first-child{border-top:none}
+  .item-top{display:flex; justify-content:space-between; align-items:baseline; gap:10px; flex-wrap:wrap}
+  .item h3{margin:0; font-size:1rem; font-weight:800; min-width:0}
+  .freq{font-size:.7rem; font-weight:800; letter-spacing:.06em; text-transform:uppercase; color:var(--sage-ink);
+    background:var(--sage-tint); padding:3px 9px; border-radius:999px; white-space:nowrap}
+  .item p{margin:0; font-size:.86rem; color:var(--plum-soft)}
+  .item p b{color:var(--plum)}
+  .where{font-size:.8rem; font-weight:700; color:var(--plum)}
+  .where span{color:var(--plum-soft); font-weight:600}
+
+  /* bonus */
+  .scroll{overflow-x:auto; border:1px solid var(--line); border-radius:16px; background:var(--card)}
+  table{border-collapse:collapse; width:100%; min-width:300px; font-size:.86rem}
+  th, td{padding:10px 12px; text-align:left; border-top:1px solid var(--line); vertical-align:top}
+  thead th{border-top:none; font-size:.7rem; font-weight:800; letter-spacing:.06em; text-transform:uppercase; color:var(--plum-soft)}
+  td.num{font-family:var(--display); font-weight:600; font-size:1.02rem; white-space:nowrap; font-variant-numeric:tabular-nums}
+  td.best{color:var(--honey-ink)}
+  .pick{background:var(--honey-tint); border-radius:16px; padding:15px 17px; display:flex; flex-direction:column; gap:6px}
+  .pick h3{margin:0; font-size:1rem; font-weight:800; color:var(--honey-ink)}
+  .pick p{margin:0; font-size:.87rem; color:var(--plum)}
+
+  /* calendrier */
+  .cal{display:flex; flex-direction:column; gap:0; background:var(--card); border:1px solid var(--line); border-radius:18px; box-shadow:var(--shadow)}
+  .when-row{display:grid; grid-template-columns:118px minmax(0,1fr); gap:12px; padding:12px 18px; border-top:1px solid var(--line)}
+  .when-row:first-child{border-top:none}
+  .when-row .w{font-size:.74rem; font-weight:800; letter-spacing:.04em; color:var(--honey-ink); font-variant-numeric:tabular-nums}
+  .when-row p{margin:0; font-size:.87rem; color:var(--plum)}
+
+  /* pas pour toi */
+  .no{display:flex; flex-direction:column; gap:8px}
+  .no div{border-left:3px solid var(--rose); background:var(--card); border-radius:0 12px 12px 0; padding:10px 14px}
+  .no h3{margin:0 0 2px; font-size:.92rem; font-weight:800}
+  .no p{margin:0; font-size:.85rem; color:var(--plum-soft)}
+
+  .tools{display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px}
+  .tool{background:var(--card); border:1px solid var(--line); border-radius:14px; padding:12px 14px; display:flex; flex-direction:column; gap:3px}
+  .tool b{font-size:.92rem}
+  .tool span{font-size:.8rem; color:var(--plum-soft)}
+  .tool .big{font-family:var(--display); font-size:1.3rem; font-weight:600; color:var(--plum); user-select:all; font-variant-numeric:tabular-nums}
+
+  .sources{font-size:.78rem; color:var(--plum-soft); display:flex; flex-direction:column; gap:4px}
+  .sources ul{margin:0; padding-left:18px; display:flex; flex-direction:column; gap:3px}
+  footer{text-align:center; font-size:.78rem; color:var(--plum-soft); padding-top:16px; border-top:1px solid var(--line)}
+
+  @media (max-width:420px){
+    body{padding-inline:16px}
+    .tools{grid-template-columns:minmax(0,1fr)}
+    .when-row{grid-template-columns:minmax(0,1fr); gap:2px}
+  }
+  @media (prefers-reduced-motion: reduce){ *{scroll-behavior:auto} }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+  <header>
+    <div class="eyebrow">AOK Rheinland/Hamburg · vérifié le 30 septembre 2026</div>
+    <h1>Ta carte AOK,<br><em>ce qui est pour toi</em></h1>
+    <p class="lede">Tout ce qui suit est <b>gratuit ou remboursé</b> pour toi, à 32 ans, d'après le règlement de ta caisse (la <i>Satzung</i>, version en vigueur depuis le 1er juillet 2026). Classé par ce qui compte le plus.</p>
+    <p class="note">Aachen dépend de l'AOK Rheinland/Hamburg. Vérifie que c'est bien le nom écrit sur ta carte : chaque AOK régionale a ses propres extras.</p>
+  </header>
+
+  <section class="first" aria-label="À faire d'abord">
+    <h2>À faire d'abord</h2>
+    <div class="step">
+      <div class="n">1</div>
+      <div><h3>T'inscrire au programme bonus</h3>
+        <p>Dans l'app <b>Meine AOK</b>, dix minutes. Les points ne comptent qu'à partir du jour de l'inscription : chaque examen fait avant est perdu pour le bonus.</p></div>
+    </div>
+    <div class="step">
+      <div class="n">2</div>
+      <div><h3>Le vaccin contre la grippe, en octobre</h3>
+        <p>Recommandé chaque automne pour le personnel soignant, et pris en charge. Chez le Hausarzt, en pharmacie ou chez le médecin du travail (Betriebsarzt).</p></div>
+    </div>
+    <div class="step">
+      <div class="n">3</div>
+      <div><h3>Trois coups de fil</h3>
+        <p><b>Hausarzt</b> pour le Check-up, <b>Hautarzt</b> pour le dépistage de la peau, <b>Zahnarzt</b> pour le contrôle et le détartrage. Chez le dermatologue, l'attente dépasse souvent plusieurs semaines : appelle tôt.</p></div>
+    </div>
+  </section>
+
+  <section class="sec" aria-label="Les examens gratuits">
+    <h2>Les examens gratuits</h2>
+    <div class="list">
+      <div class="item">
+        <div class="item-top"><h3>Check-up santé</h3><span class="freq">1 fois entre 18 et 34 ans</span></div>
+        <p>Entretien, examen, tension, point sur tes vaccins. La prise de sang seulement si le médecin voit un risque. <b>Profites-en pour demander le certificat</b> qui ouvre le remboursement de l'examen de médecine du sport (plus bas).</p>
+        <p class="where">Hausarzt <span>· « Gesundheits-Check-up »</span></p>
+      </div>
+      <div class="item">
+        <div class="item-top"><h3>Dépistage de la peau</h3><span class="freq">tous les 2 ans · 18–34 ans</span></div>
+        <p>La loi ne le paie qu'à partir de 35 ans. <b>L'AOK Rheinland/Hamburg l'offre dès 18 ans</b>, par un contrat avec les dermatologues du Nordrhein. Pour ta peau qui marque et tout le SPF du rituel, c'est l'examen le plus logique.</p>
+        <p class="where">Hautarzt <span>· « Hautkrebsvorsorge, AOK-Vertrag 18 bis 34 »</span></p>
+      </div>
+      <div class="item">
+        <div class="item-top"><h3>Contrôle dentaire</h3><span class="freq">2 fois par an</span></div>
+        <p>Un contrôle par semestre, <b>le détartrage une fois par an</b>, et un tampon dans le <i>Bonusheft</i> à chaque visite : après cinq ans sans trou, la caisse paie davantage le jour où il faudra une couronne.</p>
+        <p class="where">Zahnarzt <span>· « Kontrolluntersuchung und Zahnsteinentfernung »</span></p>
+      </div>
+      <div class="item">
+        <div class="item-top"><h3>Les vaccins recommandés</h3><span class="freq">selon ton carnet</span></div>
+        <p>La grippe chaque automne. Le rappel tétanos, diphtérie et coqueluche tous les dix ans. Et pour le travail en soins (hépatite B, rougeole), c'est le médecin du travail qui s'en charge. Apporte ton <i>Impfpass</i> au Check-up.</p>
+        <p class="where">Hausarzt, pharmacie, Betriebsarzt</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" aria-label="Les cours gratuits">
+    <h2>Deux cours gratuits par an</h2>
+    <p>Avec le <b>bon AOK</b> (Gutschein), deux cours certifiés par an sont gratuits, à condition d'assister à <b>80 % des séances</b>. Le prestataire facture directement l'AOK. Les cours certifiés en ligne comptent aussi.</p>
+    <div class="list">
+      <div class="item">
+        <div class="item-top"><h3>Rückenschule</h3><span class="freq">le dos</span></div>
+        <p>Apprendre à porter et à se pencher sans abîmer le dos : exactement ce que l'ambulante Pflege te demande chaque jour, et ce que tes 30 kg de mardi t'ont rappelé.</p>
+      </div>
+      <div class="item">
+        <div class="item-top"><h3>Yoga ou Pilates</h3><span class="freq">la souplesse</span></div>
+        <p>La souplesse que tu voulais, avec quelqu'un qui corrige tes positions. Complète les sept minutes du soir.</p>
+      </div>
+    </div>
+    <p>Pour trouver un cours près de chez toi : la recherche de cours sur aok.de, avec ton code postal <b>52074</b>.</p>
+  </section>
+
+  <section class="sec" aria-label="Les remboursements">
+    <h2>Les remboursements</h2>
+    <div class="list">
+      <div class="item">
+        <div class="item-top"><h3>Examen de médecine du sport</h3><span class="freq">jusqu'à 70 € par an</span></div>
+        <p>Remboursé à 100 %, dans la limite de 70 € par an. Deux conditions : un certificat d'un médecin disant que l'examen est utile pour prévenir un problème de cœur ou d'articulations, et un médecin qui porte le titre de <i>Sportmediziner</i>. Utile au moment où tu démarres le corps entier.</p>
+      </div>
+      <div class="item">
+        <div class="item-top"><h3>Vaccins de voyage</h3><span class="freq">jusqu'à 120 € par an</span></div>
+        <p>Pour un voyage privé hors d'Europe, les vaccins recommandés sont pris en charge jusqu'à 120 € par an. Le traitement contre le paludisme peut aussi être aidé par le bonus Vital+.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec" aria-label="Le programme bonus">
+    <h2>Le programme bonus : Fit+ ou Vital+</h2>
+    <p>Chaque examen, vaccin ou cours rapporte des points. Il faut choisir <b>un</b> des deux programmes pour l'année civile.</p>
+    <div class="scroll">
+      <table>
+        <thead><tr><th>Ce que tu fais</th><th>AOK-Fit+ <br>argent</th><th>AOK-Vital+ <br>aide santé</th></tr></thead>
+        <tbody>
+          <tr><td>Check-up · chaque vaccin complet</td><td class="num best">30 €</td><td class="num">20 €</td></tr>
+          <tr><td>Dentiste (par semestre) · dépistage de la peau · chaque cours (2 par an) · médecine du sport · nettoyage dentaire pro</td><td class="num">10 €</td><td class="num best">20 €</td></tr>
+          <tr><td>La salle, si FitX est certifié <i>DIN 33961</i> (au moins 2 fois par mois)</td><td class="num">10 €</td><td class="num best">20 €</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="pick">
+      <h3>Mon conseil : Vital+</h3>
+      <p>Presque tout ce que tu vas faire rapporte deux fois plus en Vital+. Et l'aide Vital+ peut payer <b>une partie de ton abonnement FitX</b>, un nettoyage dentaire professionnel, de l'ostéopathie, des massages, des lunettes (tous les trois ans) ou une montre de sport (tous les cinq ans). Avec l'abonnement que tu paies déjà, c'est de l'argent qui revient.</p>
+      <p>Demande à l'accueil de FitX si la salle est certifiée <i>DIN 33961</i> : sinon la salle ne rapporte pas de points, mais les points gagnés ailleurs paient quand même l'abonnement.</p>
+    </div>
+    <p>Les justificatifs se déposent dans l'app Meine AOK, au plus tard le 31 décembre de l'année suivante. Garde les originaux douze mois.</p>
+  </section>
+
+  <section class="sec" aria-label="Ton calendrier santé">
+    <h2>Ton calendrier santé</h2>
+    <div class="cal">
+      <div class="when-row"><div class="w">Cette semaine</div><p>Inscription au bonus <b>Vital+</b> dans l'app Meine AOK. Choisir un cours (Rückenschule ou yoga).</p></div>
+      <div class="when-row"><div class="w">Semaine du 5 oct.</div><p>Les trois coups de fil : Hausarzt, Hautarzt, Zahnarzt. Les jours sans salle, après la pause.</p></div>
+      <div class="when-row"><div class="w">Octobre</div><p>Le vaccin contre la grippe.</p></div>
+      <div class="when-row"><div class="w">Oct. → nov.</div><p>Le Check-up, avec ton carnet de vaccins. Demander le certificat pour la médecine du sport.</p></div>
+      <div class="when-row"><div class="w">Nov. → déc.</div><p>Le dentiste et le dépistage de la peau, dès qu'il y a une place.</p></div>
+      <div class="when-row"><div class="w">Janvier 2027</div><p>Deux nouveaux cours gratuits, et le choix du bonus pour l'année.</p></div>
+    </div>
+  </section>
+
+  <section class="sec" aria-label="Ce qui ne te concerne pas">
+    <h2>Ce qui ne te concerne pas, et pourquoi</h2>
+    <div class="no">
+      <div><h3>Le nettoyage dentaire pro remboursé 35 €</h3><p>Réservé aux assurés de 16 à 25 ans. À 32 ans, c'est le bonus Vital+ qui peut le payer.</p></div>
+      <div><h3>L'ostéopathie remboursée jusqu'à 200 €</h3><p>Seulement pour ceux qui ont choisi le remboursement sur facture (<i>Kostenerstattung</i>). Pour toi, là aussi, c'est Vital+.</p></div>
+      <div><h3>La kiné du plancher pelvien</h3><p>Seulement sur ordonnance, pour un problème précis, avec une petite participation. À voir avec le médecin si le besoin est là.</p></div>
+    </div>
+  </section>
+
+  <section class="sec" aria-label="Les outils">
+    <h2>Les outils</h2>
+    <div class="tools">
+      <div class="tool"><b>App Meine AOK</b><span>Bonus, justificatifs, bon pour les cours. Il faut d'abord créer ton accès en ligne.</span></div>
+      <div class="tool"><b>Service de rendez-vous</b><span class="big">116 117</span><span>Pour trouver un médecin qui prend de nouveaux patients.</span></div>
+    </div>
+  </section>
+
+  <section class="sources" aria-label="Sources">
+    <b>Sources vérifiées le 30 septembre 2026</b>
+    <ul>
+      <li><a href="https://www.aok.de/pk/magazin/cms/fileadmin/pk/rheinland-hamburg/pdf/satzung.pdf">Satzung de l'AOK Rheinland/Hamburg, 18e avenant, en vigueur au 1er juillet 2026</a> : § 7 (prévention, vaccins), § 12 b, § 12 f, § 12 h, § 38 et annexe 3 (bonus)</li>
+      <li><a href="https://www.kvno.de/fileadmin/shared/pdf/online/vertraege/hautkrebs/hks_aok.pdf">Contrat de dépistage cutané AOK Rheinland/Hamburg – KV Nordrhein (18 à 34 ans)</a></li>
+      <li><a href="https://www.aok.de/pk/gesundheitskurse/infos/teilnahme-gutschein/">AOK : le bon pour deux cours par an</a></li>
+      <li><a href="https://www.aok.de/pk/bonus-praemienprogramme/punkte-sammeln-client-rh/">AOK Rheinland/Hamburg : les programmes bonus</a></li>
+      <li><a href="https://www.g-ba.de/themen/methodenbewertung/erwachsene/gesundheitsuntersuchungen/">G-BA : le Check-up</a></li>
+      <li><a href="https://www.rki.de/DE/Themen/Infektionskrankheiten/Impfen/Staendige-Impfkommission/Berufliche-Indikation/Berufliche-Indikation-Download.pdf?__blob=publicationFile&amp;v=4">STIKO : vaccins recommandés pour le travail</a></li>
+    </ul>
+  </section>
+
+  <footer>Montants et règles valables pour 2026 ; ta caisse peut les modifier par un nouvel avenant.</footer>
+
+</div>
+
+</body>
+</html>

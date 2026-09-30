@@ -1710,6 +1710,44 @@ chaque séance — https://claude.ai/artifact/XcJggXvWpvEar7NDkXF9yb
 
 ---
 
+### Mercredi 30 septembre — Ta carte AOK
+
+**La demande de William :** mettre dans le planning les soins auxquels sa
+carte AOK donne droit, après des recherches approfondies.
+
+**La source qui fait foi :** la *Satzung* de l'AOK Rheinland/Hamburg — la caisse
+d'Aachen — dans sa version en vigueur au 1er juillet 2026 (18e avenant), lue
+paragraphe par paragraphe, plus le contrat de dépistage cutané AOK – KV
+Nordrhein, les pages AOK des cours et du bonus, le G-BA et la STIKO.
+
+| Pour lui, à 32 ans | Fréquence | Où |
+|---|---|---|
+| **Check-up** | 1 fois entre 18 et 34 ans | Hausarzt |
+| **Dépistage de la peau** — extra AOK, la loi commence à 35 ans | tous les 2 ans, 18–34 ans | Hautarzt |
+| **Contrôle dentaire + détartrage** | 2 fois par an + 1 détartrage | Zahnarzt |
+| **Vaccins STIKO** — grippe chaque automne pour les soignants | selon le carnet | Hausarzt, pharmacie, Betriebsarzt |
+| **2 cours gratuits par an** — bon AOK, 80 % de présence | Rückenschule, yoga ou Pilates | prestataire certifié |
+| **Médecine du sport** — 100 % jusqu'à 70 € | 1 fois par an | Sportmediziner, avec certificat |
+| **Vaccins de voyage** — jusqu'à 120 € par an | voyages privés | — |
+
+**Ce qui ne le concerne pas :** le nettoyage dentaire pro à 35 € (16–25 ans) et
+l'ostéopathie à 200 € (réservée à la *Kostenerstattung*).
+
+**Le bonus : Vital+ conseillé.** 20 € d'aide par mesure contre 10 € en argent
+pour presque tout ce qu'il fera, et l'aide peut payer une partie de
+l'abonnement FitX, un nettoyage dentaire pro ou de l'ostéopathie. Les points ne
+comptent qu'à partir de l'inscription : à faire cette semaine.
+
+**Dans le planning :** inscription au bonus d'ici dimanche ; appels mardi 6
+(Hausarzt : Check-up et grippe) et jeudi 8 octobre (Hautarzt, Zahnarzt) ; vaccin
+en octobre ; Check-up en octobre–novembre ; dentiste et peau en novembre–décembre ;
+deux cours en janvier 2027. `CLAUDE.md` rappelle la prochaine démarche dans
+chaque planning.
+
+→ `sante/carte-aok.html` · page publiée https://claude.ai/artifact/S1onjqBpXr7WJWFEFEKtA2
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours

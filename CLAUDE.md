@@ -50,6 +50,15 @@ moment (« ce soir », « demain », « cette semaine ») :
      10 contractions tenues 5 s + 10 rapides). À inclure dans le planning.
    - Études : un bloc par jour (réviser → apprendre → s'exercer), lecture le
      soir, dictée 3×/semaine — voir `etudes/routine-etudes.html`.
+   - **Santé AOK — la prochaine démarche dans chaque planning**, jusqu'à ce que
+     William confirme qu'elle est faite. Ordre (voir `sante/carte-aok.html`,
+     section « Ton calendrier santé », page publiée
+     https://claude.ai/artifact/S1onjqBpXr7WJWFEFEKtA2) : inscription au bonus
+     **Vital+** dans l'app Meine AOK → appels Hausarzt (Check-up + vaccin
+     grippe), Hautarzt (dépistage peau), Zahnarzt (contrôle + détartrage) →
+     vaccin grippe en octobre → Check-up → dentiste et dépistage peau →
+     deux cours gratuits par an (Rückenschule, yoga ou Pilates). Les appels se
+     placent les jours sans salle, après la pause.
    - **Déo & parfum — À INCLURE DANS CHAQUE PLANNING QUOTIDIEN** (demandé par
      William le 18 septembre). Trois produits, trois zones, jamais superposés ;
      donner à chaque fois **lequel, où et quand** pour CE jour-là :
@@ -101,6 +110,17 @@ travail. Les poids réels priment sur le plan ; ne jamais inventer un chiffre.
 ## Contexte fixe
 
 - **Domicile** : Campus-Boulevard 62, 52074 Aachen (Melaten).
+- **Assurance santé** : AOK — Aachen dépend de l'**AOK Rheinland/Hamburg**
+  (nom sur la carte à confirmer par William). Droits vérifiés le 30/09 dans la
+  Satzung en vigueur au 01/07/2026 : Check-up 1× entre 18 et 34 ans ·
+  dépistage peau **tous les 2 ans de 18 à 34 ans** (contrat AOK – KV Nordrhein)
+  · dentiste 2×/an + détartrage 1×/an · vaccins STIKO (grippe chaque automne,
+  soignant) · **2 cours gratuits/an** (bon AOK, 80 % de présence) · médecine
+  du sport 100 % jusqu'à 70 €/an (certificat + Sportmediziner) · vaccins de
+  voyage jusqu'à 120 €/an. **Pas pour lui** : PZR à 35 € (16–25 ans seulement),
+  ostéopathie à 200 € (Kostenerstattung seulement) — les deux passent par le
+  bonus Vital+ (20 € par mesure, utilisable aussi pour l'abonnement FitX).
+  Détail et sources : `sante/carte-aok.html`.
 - **École** : Luisenhospital, Boxgraben 99 — horaires variables (~07:30/08:00 → 15:00/15:30).
 - **Travail posté** : shift F 06:30–14:30 · shift S 13:30–20:30/21:00 — demander
   l'emploi du temps du jour, il change. **Depuis le 28/09 : ambulante Pflege**

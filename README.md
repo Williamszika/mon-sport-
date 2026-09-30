@@ -24,6 +24,7 @@ couleurs conservées).
 | [`soin/parfum.html`](soin/parfum.html) | **Sentir bon** — choisir un premier parfum, l'essayer, et les jours où c'est zéro |
 | [`etudes/routine-etudes.html`](etudes/routine-etudes.html) | La routine d'études — pause, puis réviser, apprendre, s'exercer + lecture et dictée |
 | [`etudes/plan-allemand-b2.html`](etudes/plan-allemand-b2.html) | Le plan allemand — objectif examen B2, en trois phases dans le quotidien |
+| [`sante/carte-aok.html`](sante/carte-aok.html) | **Ta carte AOK** — ce que l'AOK Rheinland/Hamburg paie à 32 ans, vérifié dans la Satzung de juillet 2026, et le calendrier |
 | `sport/archives/`, `soin/archives/` | Les versions précédentes, gardées telles quelles |
 
 ## L'essentiel, en bref
