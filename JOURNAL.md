@@ -1843,6 +1843,39 @@ parfum toute la semaine, pluie annoncée de mercredi soir à samedi).
 
 ---
 
+### Lundi 5 octobre, 22 h 03 — Corps entier n° 1 : la reprise, coupée en route
+
+**Première séance du programme corps entier, et la chaîne repart** après deux
+semaines sans salle (dernière séance : lundi 21 septembre). Arrivé vers
+20 h 30 au lieu de 19 h 30 ; avec le travail à 06 h 30 le lendemain, le
+programme du soir passe à 2 séries partout.
+
+| Exercice | Ce soir |
+|---|---|
+| Vélo, niveau 5 | 10 min · 3,96 km · 111 W moyen · 115 bpm moyen, 128 max |
+| **Shoulder Press** (machine 06) | **15 kg · 2 × 15**, dernière série compensée |
+| Vertical Traction | 30 kg · 2 séries de 12 à 15 (nombre exact non donné) |
+
+**Le guidage en direct a coupé** après la Vertical Traction : la réponse de
+Claude n'est pas arrivée, et William s'est arrêté là. Rentré à la maison vers
+22 h. **La case se coche** : épaules et dos, les deux priorités, sont faits.
+La chaîne passe à **7 sur 36**.
+
+**Shoulder Press :** la limite du jour est atteinte (« j'ai compensé »).
+Mercredi, même poids, et la série s'arrête dès que le geste casse. Repérés sur
+les photos : machine n° 06, pile de 5 en 5, et un bouton jaune « 2.5 » en haut
+de la pile, probablement un appoint de 2,5 kg, à tester pour passer à 17,5 kg
+au lieu de 20. La plaque de la machine corrige un conseil donné ce soir : les
+poignées se placent **un peu au-dessus** des épaules, pas à leur hauteur.
+
+**Vélo :** même puissance moyenne que le 21 septembre (111 W), un niveau plus
+haut, et un cœur plus calme (115 contre 121).
+
+**Mercredi 7, 19 h 30 :** la séance complète, dans l'ordre. Leg Press, Chest
+Press, Low Row, Seitheben, Leg Curl et planche n'ont pas été faits ce soir.
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours

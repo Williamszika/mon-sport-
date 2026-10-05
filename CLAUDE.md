@@ -170,7 +170,8 @@ travail. Les poids réels priment sur le plan ; ne jamais inventer un chiffre.
   éventuel Butterfly/Pec Deck.** Ce qui manque encore partout : **le pas des
   piles et les numéros de siège** — ils se relèvent en direct devant la
   machine, jamais en photo. Chiffré au carnet : Leg Press (pile de **10 en 10**), Leg
-  Extension, Leg Curl, Chest Press, Vertical Traction, Low Row, Shoulder Press,
+  Extension, Leg Curl, Chest Press, Vertical Traction, Low Row, Shoulder Press (**machine 06**, pile de 5 en 5,
+  bouton jaune « 2.5 » en haut de pile : appoint de 2,5 kg à tester),
   Abdominal Crunch (repérée), machines d'abduction, haltères, vélo, tapis,
   elliptique, rameur, **Treppensteiger** (= le Stairclimber, déjà décrit le
   16 août), Turnecke. **Ne jamais inventer un pas de pile ni un réglage.**
