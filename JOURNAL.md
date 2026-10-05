@@ -1807,6 +1807,39 @@ ni la photo de William n'entrent dans le dépôt.
 
 ---
 
+### Lundi 5 octobre — Une semaine en shift F, la salle à 19 h 30
+
+**Annoncé à 06 h 30 :** travail de **06 h 30 à 14 h 30** toute la semaine, et
+la salle **à partir de 19 h 30**, l'heure choisie par William.
+
+| | Semaine du 28 septembre | Cette semaine |
+|---|---|---|
+| Travail | 07 h 00 → 15 h 00 | **06 h 30 → 14 h 30** |
+| Salle (lun · mer · ven) | ~17 h 30 | **19 h 30**, départ vers 18 h 50, retour vers 21 h |
+| Coucher | ~22 h | **22 h – 22 h 30** |
+
+Cinq heures entre la fin du travail et la salle : manger, une vraie pause hors
+du lit (sieste de 25 minutes au maximum, réveil réglé), 30 minutes d'études,
+dix minutes pour le bonus Vital+, du temps libre, une collation vers 18 h. La
+**séance complète** est prévue (≈ 50 minutes sur place) ; le drapeau après la
+Leg Press reste le point d'arrêt possible, case cochée.
+
+**Parfum :** cinq jours de travail, donc zéro bruno banani, et pas de Balea
+avant vendredi soir, seulement si samedi est libre. Le sebamed parfumfrei
+n'est toujours pas confirmé. Aucun dm n'est à pied de Campus-Boulevard : ceux
+du centre ferment à 20 h, celui de l'Adalbertstraße 100 à 20 h 30 (vérifié le
+5 octobre sur OpenStreetMap et dans la recherche de magasins de dm).
+
+**Seitheben :** le pas à pas est ajouté au planning progressif, et la Lady Gym
+corrigée dans le document de la salle : elle est réservée aux femmes, les
+haltères de William sont dans la zone Freihantel.
+
+Pages publiées mises à jour : la journée et la semaine (salle à 19 h 30, zéro
+parfum du lundi au vendredi, pluie annoncée de mercredi soir à samedi).
+Week-end : travail ou non, à confirmer.
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours

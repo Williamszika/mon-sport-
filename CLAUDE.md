@@ -134,8 +134,14 @@ travail. Les poids réels priment sur le plan ; ne jamais inventer un chiffre.
 - **Travail posté** : shift F 06:30–14:30 · shift S 13:30–20:30/21:00 — demander
   l'emploi du temps du jour, il change. **Depuis le 28/09 : ambulante Pflege**
   (soins à domicile) — du 28/09 au 02/10 de 07:00 à 15:00, samedi 3 et
-  dimanche 4 le soir. Semaine de travail : salle vers **17 h 30** (pas 20 h 30,
-  pour dormir avant un lever à 6 h), version courte d'office.
+  dimanche 4 le soir. **Semaine du 5 au 9 octobre : 06:30–14:30 tous les
+  jours, salle à 19 h 30** (choix de William, annoncé le 5/10) : rentrer,
+  manger, vraie pause hors du lit, 30 min d'études, départ vers 18 h 50, retour
+  vers 21 h, au lit 22 h–22 h 30. Zéro parfum du lundi au vendredi, donc pas de
+  Balea avant vendredi soir. Week-end : à confirmer. Règle d'une semaine de
+  travail : la salle après une vraie pause et assez tôt pour dormir sept heures
+  (17 h 30 quand le travail finissait à 15 h, la semaine du 28/09) ; la séance
+  complète est prévue, la version courte reste le plancher.
 - **Salle** : FitX Aachen-Europaplatz, Europaplatz 17 — ouverte 24 h/24, arrêt
   de bus **Wiesental** à 160 m. Il se déplace **en bus** : toujours penser au
   bus du retour.
