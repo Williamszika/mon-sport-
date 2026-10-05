@@ -1814,7 +1814,7 @@ la salle **à partir de 19 h 30**, l'heure choisie par William.
 
 | | Semaine du 28 septembre | Cette semaine |
 |---|---|---|
-| Travail | 07 h 00 → 15 h 00 | **06 h 30 → 14 h 30** |
+| Travail | 07 h 00 → 15 h 00 | **06 h 30 → 14 h 30, sept jours sur sept** |
 | Salle (lun · mer · ven) | ~17 h 30 | **19 h 30**, départ vers 18 h 50, retour vers 21 h |
 | Coucher | ~22 h | **22 h – 22 h 30** |
 
@@ -1824,9 +1824,9 @@ dix minutes pour le bonus Vital+, du temps libre, une collation vers 18 h. La
 **séance complète** est prévue (≈ 50 minutes sur place) ; le drapeau après la
 Leg Press reste le point d'arrêt possible, case cochée.
 
-**Parfum :** cinq jours de travail, donc zéro bruno banani, et pas de Balea
-avant vendredi soir, seulement si samedi est libre. Le sebamed parfumfrei
-n'est toujours pas confirmé. Aucun dm n'est à pied de Campus-Boulevard : ceux
+**Parfum :** sept jours de travail, donc zéro bruno banani et zéro Balea
+toute la semaine. Le sebamed parfumfrei devient le seul déo possible, et il
+n'est toujours pas acheté. Aucun dm n'est à pied de Campus-Boulevard : ceux
 du centre ferment à 20 h, celui de l'Adalbertstraße 100 à 20 h 30 (vérifié le
 5 octobre sur OpenStreetMap et dans la recherche de magasins de dm).
 
@@ -1834,9 +1834,12 @@ du centre ferment à 20 h, celui de l'Adalbertstraße 100 à 20 h 30 (vérifié 
 corrigée dans le document de la salle : elle est réservée aux femmes, les
 haltères de William sont dans la zone Freihantel.
 
+**Le week-end aussi** (confirmé à 06 h 49) : sept jours de travail
+d'affilée, horaires supposés identiques. Vendredi, cinquième jour de travail,
+la version courte est autorisée d'avance.
+
 Pages publiées mises à jour : la journée et la semaine (salle à 19 h 30, zéro
-parfum du lundi au vendredi, pluie annoncée de mercredi soir à samedi).
-Week-end : travail ou non, à confirmer.
+parfum toute la semaine, pluie annoncée de mercredi soir à samedi).
 
 ---
 
