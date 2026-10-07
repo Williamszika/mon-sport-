@@ -1876,6 +1876,29 @@ Press, Low Row, Seitheben, Leg Curl et planche n'ont pas été faits ce soir.
 
 ---
 
+### Mercredi 7 octobre — Le sebamed, enfin
+
+**Acheté chez dm vers 11 h 20, vérifié en photo en rayon** : **sebamed Balsam
+Deo *Parfümfrei***, roll-on 50 ml — 48 h, 0 % sels d'aluminium, 0 % alcool,
+pH 5,5. Le produit attendu depuis le 18 septembre : c'est le seul déo des
+jours d'hôpital, de stage et d'ambulante Pflege, et il arrive en pleine
+semaine de sept jours de travail.
+
+William a hésité entre trois flacons presque identiques, photos à l'appui :
+
+| En rayon | Verdict |
+|---|---|
+| **Balsam Deo *Parfümfrei*** | ✅ le bon : sans parfum, sans alcool, sans aluminium |
+| Balsam Deo *Sensitive* | non : pas marqué *Parfümfrei* |
+| Frische Deo *Frisch* | non : parfumé, sans mention « 0 % alcool » |
+
+**Mode d'emploi :** le matin, après la douche, sur aisselles propres et sèches,
+2 ou 3 passages, une minute pour sécher ; à reprendre à la pause si besoin. Il
+ne coupe pas la transpiration, il supprime l'odeur. Toléré après rasage.
+Première utilisation : jeudi 8 au matin.
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours

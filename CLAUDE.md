@@ -81,7 +81,7 @@ moment (« ce soir », « demain », « cette semaine ») :
      · **Jour d'hôpital / stage / ambulante Pflege = ZÉRO des deux parfumés**,
        ni la veille au soir pour le Balea. Ne restent que : douche juste avant
        de partir, chemise lavée à 40°, Perspirex aux pieds — et le **sebamed
-       parfumfrei** une fois acheté. L'ambulante Pflege (soins à domicile)
+       Parfümfrei** (acheté le 7/10) le matin sous les bras. L'ambulante Pflege (soins à domicile)
        suit la même règle que l'hôpital : contact direct avec des patients
        (appliqué le 28/09). Toujours demander si la journée est école (parfum
        autorisé) ou hôpital / ambulante Pflege (zéro).
@@ -140,7 +140,7 @@ travail. Les poids réels priment sur le plan ; ne jamais inventer un chiffre.
   manger, vraie pause hors du lit, 30 min d'études, départ vers 18 h 50, retour
   vers 21 h, au lit 22 h–22 h 30. **Zéro parfum les sept jours** : ni bruno
   banani ni Balea de toute la semaine, le sebamed est le seul déo possible
-  (pas encore acheté au 5/10). Règle d'une semaine de
+  (acheté le 7/10). Règle d'une semaine de
   travail : la salle après une vraie pause et assez tôt pour dormir sept heures
   (17 h 30 quand le travail finissait à 15 h, la semaine du 28/09) ; la séance
   complète est prévue, la version courte reste le plancher.
@@ -229,15 +229,19 @@ travail. Les poids réels priment sur le plan ; ne jamais inventer un chiffre.
   antitranspirant ni un vrai parfum. À porter sur le torse ou les vêtements,
   **jamais superposé au Balea sous les bras**. Famille boisé/épicé — utile pour
   savoir gratuitement si cette famille lui plaît avant le flacon à 70–120 €.
-  **IL MANQUE TOUJOURS un produit sans parfum** : les deux achats sont
-  parfumés, donc **aucun n'est utilisable les jours d'hôpital**. Produit
-  identifié chez dm : **sebamed Deo Roll-on Balsam parfumfrei**, 50 ml (les
-  Balea « Sensitive » sont sans aluminium mais pas garantis sans parfum).
+  **Le produit sans parfum est acheté — 7 octobre, vérifié en photo en
+  rayon** : **sebamed Balsam Deo Parfümfrei**, roll-on 50 ml (étiquette :
+  Parfümfrei, 48 h, 0 % Aluminiumsalze, 0 % Alkohol, pH 5,5 klinisch geprüft).
+  C'est le seul déo des jours d'hôpital, de stage et d'ambulante Pflege. En
+  rayon, deux voisins presque identiques à **ne pas** prendre : **Balsam Deo
+  Sensitive** (pas marqué Parfümfrei) et **Frische Deo « Frisch »** (parfumé,
+  sans mention 0 % alcool). Les Balea « Sensitive » sont sans aluminium mais
+  pas garantis sans parfum.
   Vérifié sur dm.de le 28/09 : **déodorant, pas antitranspirant** — sans sels
   d'aluminium, sans alcool, **sans parfum**, pH 5,5, bisabolol, 48 h contre les
   odeurs, toléré après rasage. Il ne coupe pas la transpiration, il neutralise
   l'odeur : le matin sur aisselles sèches, à reprendre dans la journée si
-  besoin. Pas encore acheté au 28/09. **Planning
+  besoin. **Planning
   d'utilisation des trois produits** : sections « Le planning des trois
   produits » et « La semaine, jour par jour » de `soin/parfum.html`. Le parfum vient ensuite : un seul flacon, 70–120 €, choisi
   après essai sur la peau. **Zéro parfum à l'hôpital, autorisé en cours.** Lendemains
