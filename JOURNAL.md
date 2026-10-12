@@ -1899,6 +1899,38 @@ Première utilisation : jeudi 8 au matin.
 
 ---
 
+### Lundi 12 octobre — Corps entier n° 2, la complète, et une épaule à surveiller
+
+**Séance complète, guidée machine par machine** (20 h 05 → ~21 h 35). Mercredi 7
+et vendredi 9 : non renseignés, cases laissées vides.
+
+| Exercice | Ce soir |
+|---|---|
+| Vélo, niveau 5 | 8 min · 122 W · 144 bpm moyen (trop vite : 90 tr/min) |
+| **Shoulder Press** (machine 06) | **15 kg · 3 × 12**, propre |
+| Vertical Traction | 30 kg · 3 séries de 12 à 15 (chiffres exacts non donnés) |
+| **Leg Press** | **40 kg · 3 × 15** → 50 kg la prochaine fois |
+| Chest Press | 20 kg · 2 × 15 → 25 kg |
+| Low Row (machine 03) | 20 kg · 2 × 15 → 25 kg |
+| Seitheben | 3 kg · 2 × 15 (pas de 4 kg trouvés) |
+| Leg Curl | fait, chiffres non donnés |
+| Planche | sautée |
+
+**Douleur à l'avant de l'épaule** après les Seitheben : brûlure, un peu au repos,
+bras levable avec un peu de douleur. Probablement l'avant d'épaule surmené.
+Planche supprimée, glace. Test demain matin ; mercredi sans épaules si ça
+persiste, Hausarzt si ça s'aggrave. Élévations à reprendre bras un peu en avant,
+pouces vers le haut.
+
+Aussi le 12/10 : conseils pour progresser sans s'abîmer (sommeil d'abord, deux
+séances par semaine = réussite, version courte = plancher, monter seulement quand
+c'est propre, ~140 g de protéines, un vrai jour de repos) — en attente de
+l'accord de William pour les inscrire au planning.
+
+La chaîne : **8 sur 36**.
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours
