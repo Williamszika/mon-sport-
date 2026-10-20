@@ -34,6 +34,16 @@ moment (« ce soir », « demain », « cette semaine ») :
      **mercredi & dimanche** · peeling visage AHA/PHA **dimanche** soir ·
      Vitamine C + SPF 30 chaque matin · lendemain de rétinol ou de peeling =
      SPF obligatoire même temps gris.
+   - **Sport — programme souple depuis le 20 octobre** (période chargée en
+     rendez-vous, aucune séance du 13 au 20/10) : **2 séances par semaine
+     minimum, n'importe quels jours non consécutifs**, une 3ᵉ en bonus. Deux
+     formats qui cochent tous les deux la case : **salle « essentiel »
+     ≈ 40 min** (vélo 5 min, Shoulder Press, Vertical Traction, Leg Press,
+     Chest Press, Low Row, Seitheben bras à 30° pouces vers le haut si
+     l'épaule va, planche ; Leg Curl en bonus) et **maison ≈ 20 min** les jours
+     de rendez-vous (squats, pont fessier, pompes inclinées si l'épaule va,
+     superman, planche). Chaque matin, demander si la journée permet la salle,
+     la maison ou rien. Base ci-dessous :
    - Sport : **corps entier** — adopté le 29 septembre, **première séance le
      lundi 5 octobre** (fin de l'alternance A/B) — 3 séances/semaine (lundi · mercredi · vendredi), un jour de repos
      entre deux. Ordre : vélo 8 min → **Shoulder Press** → Vertical Traction →

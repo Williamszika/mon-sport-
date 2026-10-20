@@ -1931,6 +1931,26 @@ La chaîne : **8 sur 36**.
 
 ---
 
+### Mardi 20 octobre — Le programme devient souple
+
+**Aucune séance depuis le lundi 12** : beaucoup de rendez-vous, et un appel
+aujourd'hui à 17 h. William demande de refaire le programme.
+
+**Nouvelle règle :** 2 séances par semaine minimum, n'importe quels jours non
+consécutifs (le lundi · mercredi · vendredi fixe ne tient pas avec les
+rendez-vous). Deux formats, qui cochent tous les deux la case :
+
+| Format | Durée | Contenu |
+|---|---|---|
+| Salle « essentiel » | ≈ 40 min | vélo 5 min · Shoulder Press 15 kg 3 × 12 · Vertical Traction 30 kg 3 × 12 · Leg Press 50 kg 3 × 10–12 · Chest Press 25 kg 2 × 12 · Low Row 25 kg 2 × 12 · Seitheben 3 kg 2 × 12 (si l'épaule va) · planche 2 × 30 s |
+| Maison | ≈ 20 min | squats 3 × 15 · pont fessier 3 × 15 · pompes inclinées 3 × 10 (si l'épaule va) · superman 3 × 10 · planche 2 × 30 s |
+
+Les montées du 12/10 sont appliquées (Leg Press 50, Chest Press et Low Row 25),
+première série en test. Huit jours d'arrêt ne font pas perdre de force.
+Épaule : état à confirmer.
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours
