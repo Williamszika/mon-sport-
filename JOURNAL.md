@@ -1951,6 +1951,17 @@ première série en test. Huit jours d'arrêt ne font pas perdre de force.
 
 ---
 
+### Mercredi 21 octobre — Le mode chargé
+
+William est très pris : il construit un site et enchaîne les rendez-vous avec
+des managers d'artistes (interview d'un artiste la veille au soir). Accord :
+**mode chargé** jusqu'à ce que ça se calme — 2 × 15 min à la maison par semaine
+(squats, pont fessier, superman, planche), salle seulement en bonus, marche,
+Kegels, 7 h de sommeil. Peut-être une séance salle jeudi 22 : séance normale,
+pas de « rattrapage ».
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours

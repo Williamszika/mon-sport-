@@ -43,7 +43,12 @@ moment (« ce soir », « demain », « cette semaine ») :
      l'épaule va, planche ; Leg Curl en bonus) et **maison ≈ 20 min** les jours
      de rendez-vous (squats, pont fessier, pompes inclinées si l'épaule va,
      superman, planche). Chaque matin, demander si la journée permet la salle,
-     la maison ou rien. Base ci-dessous :
+     la maison ou rien. **Depuis le 21/10 : « mode chargé »** (site web en
+     construction, rendez-vous et interviews avec des managers d'artistes) —
+     2 × 15 min maison par semaine, salle seulement en bonus, marche, Kegels et
+     7 h de sommeil. On reprend le programme salle quand William dit que c'est
+     plus calme. Ne jamais « compenser » une absence par une séance plus
+     lourde. Base ci-dessous :
    - Sport : **corps entier** — adopté le 29 septembre, **première séance le
      lundi 5 octobre** (fin de l'alternance A/B) — 3 séances/semaine (lundi · mercredi · vendredi), un jour de repos
      entre deux. Ordre : vélo 8 min → **Shoulder Press** → Vertical Traction →
