@@ -79,7 +79,10 @@ moment (« ce soir », « demain », « cette semaine ») :
      la page) : Hausarzt **Praxis Steppenberg**, Steppenbergallee 12, 20 min,
      Doctolib, 0241 / 89 40 40 4 (ou Fritz König, Auf der Hörn 125, 16 min,
      0241 81080) · Zahnarzt **MH Dental**, Steppenbergallee 14, 20 min,
-     Doctolib, 0241 87 77 81 · Hautarzt : aucun conventionné à pied — en ville
+     Doctolib, 0241 87 77 81 — **RENDEZ-VOUS PRIS : mardi 24 novembre 2026 à
+     12 h 00** (contrôle + détartrage, pris le 22/10 ; carte AOK ; horaires du
+     cabinet : lun 8–14, mar 8–12 h 30 + 14–19, mer 8–14, jeu 8–12 h 30 +
+     14–18, ven 8–14) · Hautarzt : aucun conventionné à pied — en ville
      un jour de cours, Dr. Harst (Doctolib) ou Dr. Alberty, 0241 / 44 67 30.
    - **Déo & parfum — À INCLURE DANS CHAQUE PLANNING QUOTIDIEN** (demandé par
      William le 18 septembre). Trois produits, trois zones, jamais superposés ;

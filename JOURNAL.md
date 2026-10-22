@@ -1962,6 +1962,15 @@ pas de « rattrapage ».
 
 ---
 
+### Jeudi 22 octobre — Rendez-vous chez le dentiste
+
+**Pris par William** chez MH Dental (Zahnarztpraxis Miriam Heinz, Steppenbergallee
+14) : **mardi 24 novembre 2026 à 12 h 00** — contrôle et détartrage, gratuits
+avec l'AOK. Apporter la carte AOK. Prochaine démarche santé : le Hausarzt
+(Praxis Steppenberg, au n° 12) pour le Check-up et le vaccin contre la grippe.
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours
