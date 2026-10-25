@@ -210,7 +210,20 @@ travail. Les poids réels priment sur le plan ; ne jamais inventer un chiffre.
   (30/08 → 02/09) : après sept heures de cours, il ne reste rien à 16 h. Le
   schéma qui tient : rentrer → manger → souffler une vraie heure → partir. Ne
   jamais reproposer 16 h les jours d'école.
-- **Objectif sport** : physique sec et dessiné, pas massif — 12–15 répétitions,
+- **NOUVEL OBJECTIF (25/10, confirmé par William) : construire du muscle**,
+  physique type « fitness » (épaules larges, pectoraux, bras, abdos visibles).
+  Bilan photo du 25/10 (photos non conservées) : jambes déjà fortes, dos en V
+  correct, peu de gras ; **retard du haut du corps** — épaules étroites,
+  pectoraux plats, bras à développer ; abdos pas encore visibles. Quand la
+  période chargée se calme : 3 séances/semaine, plus de volume haut du corps,
+  exercices bras (biceps/triceps), jambes en entretien, surcharge progressive.
+  **Protéines : ~160 g/jour** (88 kg), en 4 prises de ~40 g, léger surplus
+  calorique. **Chaque planning quotidien inclut « Ton assiette du jour »** :
+  quoi manger à chaque repas, avec les grammes de protéines (demandé le 25/10).
+  Demander une fois ce qu'il ne mange pas (allergies, religion, goûts).
+  Photos de suivi : 1×/mois, téléphone à hauteur de poitrine, matin, face /
+  profil / dos — jamais conservées dans le dépôt.
+- **Ancien objectif sport (avant le 25/10)** : physique sec et dessiné, pas massif — 12–15 répétitions,
   poids modérés. Il est **déjà sec** (photos du 3/09, `sport/silhouette.html`) :
   épaules étroites par rapport aux hanches, un peu enroulées, jambes déjà bien
   fournies. **Priorité : élargir les épaules** (Shoulder Press en premier,

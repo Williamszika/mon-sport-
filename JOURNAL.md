@@ -1971,6 +1971,20 @@ avec l'AOK. Apporter la carte AOK. Prochaine démarche santé : le Hausarzt
 
 ---
 
+### Dimanche 25 octobre — Nouvel objectif : construire du muscle
+
+William vise un physique « fitness » musclé (référence : un influenceur
+fitness). Bilan photo (non conservé) : jambes déjà fortes, dos en V correct,
+peu de gras ; le retard est dans le haut du corps — épaules, pectoraux, bras.
+Abdos pas encore visibles.
+
+Décisions : priorité haut du corps et bras quand la période chargée se calme ;
+**~160 g de protéines par jour** en 4 prises ; léger surplus calorique ;
+« Ton assiette du jour » dans chaque planning ; photos de suivi une fois par
+mois, prises à hauteur de poitrine.
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours
