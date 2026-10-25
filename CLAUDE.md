@@ -220,7 +220,10 @@ travail. Les poids réels priment sur le plan ; ne jamais inventer un chiffre.
   **Protéines : ~160 g/jour** (88 kg), en 4 prises de ~40 g, léger surplus
   calorique. **Chaque planning quotidien inclut « Ton assiette du jour »** :
   quoi manger à chaque repas, avec les grammes de protéines (demandé le 25/10).
-  Demander une fois ce qu'il ne mange pas (allergies, religion, goûts).
+  Préférences (25/10) : **mange de tout**, cuisine mais mange souvent rapide,
+  mange le plus souvent **à la cantine** (peut apporter) — donc : midi =
+  choisir la portion de viande/poisson/œufs à la cantine, + collations
+  protéinées à emporter (Skyr, Quark, œufs durs, thon).
   Photos de suivi : 1×/mois, téléphone à hauteur de poitrine, matin, face /
   profil / dos — jamais conservées dans le dépôt.
 - **Ancien objectif sport (avant le 25/10)** : physique sec et dessiné, pas massif — 12–15 répétitions,
