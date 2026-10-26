@@ -34,6 +34,22 @@ moment (« ce soir », « demain », « cette semaine ») :
      **mercredi & dimanche** · peeling visage AHA/PHA **dimanche** soir ·
      Vitamine C + SPF 30 chaque matin · lendemain de rétinol ou de peeling =
      SPF obligatoire même temps gris.
+   - **Sport — PROGRAMME EXIGEANT A / B / C depuis le 26 octobre** (demandé
+     par William : « sois un coach vraiment exigeant, varie, toutes les
+     machines »). 3 séances/semaine visées (2 minimum), en rotation A → B → C,
+     objectif muscle, haut du corps prioritaire. **Cardio d'échauffement
+     varié, 8 min** : A = Laufband en pente · B = rameur Concept2 · C =
+     Crosstrainer ; **finisher Treppensteiger 5–8 min** une fois par semaine (C).
+     A = Shoulder Press 06, Vertical Traction, Leg Press, Chest Press, Low Row 03,
+     Seitheben, Leg Curl, planche. B = Klimmzug assisté, Chest Press,
+     Breites Rudern 3A, Leg Extension, Leg Curl, Seitheben, Bizeps-Curl
+     haltères, Bauchbank. C = Shoulder Press, Low Row, Leg Press, Vertical
+     Traction, Seitheben, Trizeps haltère au-dessus de la tête, Abdominal Crunch,
+     Treppensteiger. Exigence : dernière série à 1–2 répétitions de l'échec,
+     repos chronométrés (60–90 s, 2 min jambes), monter dès que la fourchette
+     haute passe propre. Dip assisté seulement quand l'épaule est sans douleur.
+     Ancien cadre (souple / mode chargé) ci-dessous, pour les semaines
+     surchargées :
    - **Sport — programme souple depuis le 20 octobre** (période chargée en
      rendez-vous, aucune séance du 13 au 20/10) : **2 séances par semaine
      minimum, n'importe quels jours non consécutifs**, une 3ᵉ en bonus. Deux

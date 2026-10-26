@@ -1985,6 +1985,24 @@ mois, prises à hauteur de poitrine.
 
 ---
 
+### Lundi 26 octobre — Reprise, et un programme exigeant A / B / C
+
+William reprend la salle ce soir et demande un coach « vraiment exigeant », qui
+varie le cardio et utilise toutes les machines. Inventaire relu
+(`sport/machines-fitx.html`). Nouveau programme en trois séances qui tournent :
+
+| | Cardio (8 min) | Musculation |
+|---|---|---|
+| **A** | Laufband en pente | Shoulder Press · Vertical Traction · Leg Press · Chest Press · Low Row · Seitheben · Leg Curl · planche |
+| **B** | Rameur Concept2 | Klimmzug assisté · Chest Press · Breites Rudern 3A · Leg Extension · Leg Curl · Seitheben · Bizeps-Curl haltères · Bauchbank |
+| **C** | Crosstrainer | Shoulder Press · Low Row · Leg Press · Vertical Traction · Seitheben · Trizeps haltère · Abdominal Crunch · Treppensteiger 5–8 min |
+
+Règles d'exigence : dernière série à 1–2 répétitions de l'échec, repos
+chronométrés, montée dès que la fourchette haute passe propre. Dip assisté
+seulement quand l'épaule est sans douleur. Ce soir : A.
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours
