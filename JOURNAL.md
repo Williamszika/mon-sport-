@@ -2003,6 +2003,16 @@ seulement quand l'épaule est sans douleur. Ce soir : A.
 
 ---
 
+### Mercredi 28 octobre — Reprise repoussée après les courses
+
+Séance A du lundi 26 non faite, pas de salle le 28 non plus (travaux). William
+veut d'abord faire ses courses protéinées (`maison/liste-de-base.md`) : ce
+week-end, ou au plus tard lundi–mercredi de la semaine prochaine. Proposition :
+courses samedi 31, **reprise salle lundi 2 novembre, séance A** ; d'ici là,
+15 min à la maison une ou deux fois.
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours
