@@ -2015,7 +2015,7 @@ courses samedi 31, **reprise salle lundi 2 novembre, séance A** ; d'ici là,
 
 ### Courses en trois jours, puis la salle
 
-Samedi 31 : travail le soir, courses non faites. Nouveau plan de William :
+Samedi 31 : William travaille le soir, pas de courses possibles. Nouveau plan :
 **lundi 2 novembre** nourriture · **mardi 3** cosmétiques (produits finis à
 racheter — liste à donner par William) · **mercredi 4** maison. Il signale la
 fin des courses, puis reprise de la salle (séance A), visée **jeudi 5 ou
