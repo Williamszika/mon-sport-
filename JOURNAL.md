@@ -2032,6 +2032,18 @@ placard et compléments, non mentionnés).
 
 ---
 
+### Vendredi 30 octobre — Nouvelle crème corps
+
+La **Balea Bodycreme Sheabutter & Arganöl est finie**. William a comparé trois
+Nivea en rayon (Creamy Kakao Dream, Reichhaltige Body Creme, Repair & Care) et
+a pris la **NIVEA Repair & Care** : urée + 18 % glycérine + provitamine B5,
+pour peau très sèche, rugueuse et irrégulière. Elle remplace la Balea dans la
+trousse (toujours douze produits). Matin : couche fine ; soir : couche
+généreuse + 5in1 Beauty-Öl, double couche coudes, genoux, talons. Parfum à
+vérifier au dos.
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours

@@ -255,6 +255,10 @@ travail. Les poids réels priment sur le plan ; ne jamais inventer un chiffre.
   citer, prescrire ou supposer un produit qui n'y figure pas.** C'est William
   qui annonce quand un produit se termine ou quand il en achète un nouveau ;
   la liste n'est mise à jour que sur son signalement.
+  **30/10 : la Balea Bodycreme Sheabutter & Arganöl est finie, remplacée par
+  NIVEA Repair & Care** (urée + 18 % glycérine + provitamine B5, peau très
+  sèche/rugueuse/irrégulière) — crème corps matin (couche fine) et soir (+ 5in1
+  Beauty-Öl), corps et mains seulement ; parfum à vérifier (« parfümfrei »).
 - **Parfum & déodorant — hors trousse, en cours de mise en place.** William a
   un **Perspirex Foot Lotion** (Riemann, 100 ml — Alcohol Denat., Aluminum
   Chloride, PEG-12 Dimethicone), vérifié en photo le 14 septembre : c'est un
