@@ -2023,6 +2023,15 @@ vendredi 6 novembre**.
 
 ---
 
+### Courses de nourriture, presque terminées
+
+Achetés : rayon frais (Skyr, œufs, cottage cheese, lait), viande et poisson
+(poulet, bœuf haché, thon), pâtes, pain complet, pommes de terre ; riz déjà à
+la maison. **Reste à acheter : Magerquark et Haferflocken** (+ fruits, légumes,
+placard et compléments, non mentionnés).
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours
