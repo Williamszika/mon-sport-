@@ -2044,6 +2044,12 @@ vérifier au dos.
 
 ---
 
+### Lundi 2 novembre — Reprise manquée
+
+Pas de salle : très fatigué, repos. Séance A reportée au mardi 3.
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours
