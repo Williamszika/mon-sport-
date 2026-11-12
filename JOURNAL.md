@@ -2050,6 +2050,12 @@ Pas de salle : très fatigué, repos. Séance A reportée au mardi 3.
 
 ---
 
+### Jeudi 12 novembre — Un mois sans salle
+
+Aucune séance depuis le 12 octobre. Reprise proposée : version courte de la séance A (25 min) après le travail, ou 15 min à la maison.
+
+---
+
 ## Où en est-on
 
 **Soin** — routine complète et stable depuis juillet, calendrier d'août en cours
